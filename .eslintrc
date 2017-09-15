@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+        "ecmaVersion": 6
+  },
+  "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "commonjs": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+      "react/display-name": 0
+  },
+  "extends": ["plugin:react/recommended"]
+}
