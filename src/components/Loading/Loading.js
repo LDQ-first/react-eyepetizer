@@ -5,11 +5,13 @@ export default class Loading extends Component {
     render() {
         return (
             <LoadingDiv> 
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+                <div className="loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </LoadingDiv>
         )
     }

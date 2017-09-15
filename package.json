@@ -86,6 +86,7 @@
     "immutable": "^3.8.1",
     "material-ui": "^1.0.0-beta.8",
     "material-ui-icons": "^1.0.0-beta.5",
+    "moment": "^2.18.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -100,5 +101,5 @@
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1",
     "styled-components": "^2.1.2"
-  } 
+  }
 }

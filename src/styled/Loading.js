@@ -2,16 +2,18 @@ import styled from 'styled-components'
 
 const LoadingDiv = styled.div`
     display: inline-block;
-    height: 50px;
-    margin: 20px auto;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    .loading {
+        height: 100px;
+    }
     span {
         display: inline-block;
         width: 8px;
-        height: 100%;
+        height: 50%;
         border-radius: 4px;
         margin: 0 10px;
         background: lightgreen;

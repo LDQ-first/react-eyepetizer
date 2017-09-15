@@ -14,18 +14,12 @@ export default injectGlobal`
         box-sizing: border-box;
     }
     html {
-        height: 100vh;
         overflow: auto;
     }
     body {
-        height: 100vh;
         line-height: 1.6;
         min-width: 320px;
         color: #2c3e50;
-        /*background: linear-gradient(135deg, 
-            rgba(78, 167, 224, 1) , 
-            rgba(182, 173, 230, 1) 70%,
-            rgba(165, 153, 224, 0.6) );*/
         background: linear-gradient(135deg, ${bgBlue}, ${bgPurple});
         background-attachment: fixed;
         font-family: "Helvetica Neue", "Arial", " Segoe UI",

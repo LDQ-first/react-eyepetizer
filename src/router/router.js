@@ -7,18 +7,18 @@ import { ConnectedRouter } from 'react-router-redux'
 import Bundle from './bundle'
 import Loading from '../components/Loading/Loading'
 
-import Counter from 'bundle-loader?lazy&name=counter!../views/Counter/Counter'
 import NotFound from 'bundle-loader?lazy&name=notFound!../views/NotFound/NotFound'
+import Home from 'bundle-loader?lazy&name=Home!../views/Home/Home'
+import Detail from 'bundle-loader?lazy&name=Detail!../views/Detail/Detail'
 
 
-
-import NavMenu from './nav'
+/*import NavMenu from './nav'*/
 
 
 import createHistory from 'history/createHashHistory'
 
 
-import {counter} from './link.js'
+import {home, detail} from './link.js'
 
 const createComponent = (component) => () => (
     <Bundle load={component}>
@@ -34,13 +34,14 @@ let open = false
 const getRouter = () => (
     <ConnectedRouter history={createHistory()}>  
         <div>
-            <NavMenu></NavMenu>  
-            <Switch>             
-                <Route exact path={counter} component={createComponent(Counter)}/>
+           { /*<NavMenu></NavMenu>  */}
+            <Switch>  
+                <Route exact path={home} component={createComponent(Home)}/>
+                <Route path={`${detail}/:id`} component={createComponent(Detail)}/>  
+                <Route path={detail} component={createComponent(Detail)}/>         
                 <Route component={createComponent(NotFound)}/>
             </Switch>
         </div>
-         
     </ConnectedRouter>
 )
 export default getRouter

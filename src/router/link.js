@@ -1,4 +1,4 @@
-let counter
+let home, detail
 
 
 /*process.env.NODE_ENV === 'production' 
@@ -10,9 +10,10 @@ let counter
      : (home =  '/', page1 = '/page1', counter = '/counter', userinfo = '/userinfo', github = '/github' )*/
 
 
-counter = '/'
-
+home = '/'
+detail = '/detail'
 
 export {
-    counter
+    home,
+    detail
 }
