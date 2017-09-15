@@ -24,7 +24,6 @@ export const getIndex = (IndexData) => {
 
 const filterIndexData = (data) => {
     const TYPE = 'video'
-    console.log(data.date)
     console.log(data.itemList)
     const newItemList = []
     for(let item of data.itemList) {
@@ -34,14 +33,13 @@ const filterIndexData = (data) => {
             break
         }
     }
-    console.log(newItemList)
-    console.log(newItemList.length)
-
+    
 
     const newData = {
         itemList: newItemList,
         date: data.date
     }
+    console.log(newData)
     return newData
 }
 
@@ -63,10 +61,37 @@ export const getIndexData = () => async (dispatch) => {
 
 
 
-export const getRelated = () => { 
+
+export const getRelated = (videoList) => { 
     return {
-        type: GET_RELATED
+        type: GET_RELATED,
+        videoList: videoList
     }
+}
+
+
+
+const filterRelatedData = (data) => {
+   
+
+    const newData = {
+        videoList: data.videoList
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getRelatedData = (id) => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.related(id))
+       console.log('res.data: ', res.data)
+       await dispatch(getIndex(filterRelatedData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
 }
 
 
@@ -74,26 +99,69 @@ export const getRelated = () => {
 
 
 
-
-
-
-export const getReplies = () => { 
+export const getReplies = (replyList) => { 
     return {
-        type: GET_REPLIES
+        type: GET_REPLIES,
+        replyList: replyList
     }
 }
 
 
 
+const filterRepliesData = (data) => {
+   
+
+    const newData = {
+        replyList: data.replyList
+    }
+    console.log(newData)
+    return newData
+}
 
 
 
 
+export const getRepliesData = (id) => async (dispatch) => {
+   
+   try {
+       let res = await axios.get(eyeApi.replies(id))
+       console.log('res.data: ', res.data)
+       await dispatch(getIndex(filterRepliesData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
 
-export const getDetail = () => { 
+
+
+
+export const getDetail = (data) => { 
     return {
-        type: GET_DETAIL
+        type: GET_DETAIL,
+        detail: data
     }
 }
 
 
+const filterDetailData = (data) => {
+   
+
+    const newData = {
+        detail: data
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getDetailData = (id) => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.detail(id))
+       console.log('res.data: ', res.data)
+       await dispatch(getIndex(filterDetailData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}

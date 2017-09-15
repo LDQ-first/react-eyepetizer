@@ -7,7 +7,7 @@ import {
     IndexDataSelector
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
-
+import Button from '../../styled/button'
 
 
 
@@ -28,16 +28,27 @@ class Home extends Component {
         getIndexData()
     }
     
+    switchRoute(path) {
+         const {history} = this.props
+        history.push(path)
+    }
 
 
     render() {
-        const {history} = this.props
+       
 
 
         return (
             <div>
                 home
-
+                <div>
+                    <Button  className="btn" onClick={() => {
+                        this.switchRoute('/detail')
+                    }}>跳转到 /detail</Button >
+                    <Button  className="btn" onClick={() => {
+                        this.switchRoute('/detail/48921')
+                    }}>跳转到 /detai/48921</Button >
+                </div>
             </div>
         )
     }

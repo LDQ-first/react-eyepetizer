@@ -15,7 +15,8 @@ const initState = fromJS({
         date: 0,
     },
     videoList: [],
-    replyList: []
+    replyList: [],
+    detail: {}
 })
 
 export default (state = initState, action) => {
@@ -23,11 +24,11 @@ export default (state = initState, action) => {
         case GET_INDEX:
             return state.set('IndexData', action.IndexData)
         case GET_RELATED:
-            return 
+            return state.set('videoList', action.videoList)
         case GET_REPLIES:
-            return 
+            return state.set('replyList', action.replyList)
         case GET_DETAIL:
-            return 
+            return state.set('detail', action.detail)
         default:
             return state
     }

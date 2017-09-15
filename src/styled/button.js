@@ -17,6 +17,7 @@ const Buttons = styled(Button)`
                     0 1px 4px rgba(0,0,0,.2);
         margin: 10px;
         padding: 0 10px;
+        text-transform: lowercase;
         &:hover {
             background: #7e57c2;
         }
