@@ -8,6 +8,9 @@ import moment from 'moment'
 import {detail} from '../../router/link.js'
 import {formatDuration} from '../../utils'
 import {defaultWidth} from '../../styled/Carousel.js'
+import KeyboardArrowLeftIcon from 'material-ui-icons/KeyboardArrowLeft'
+import KeyboardArrowRightIcon from 'material-ui-icons/KeyboardArrowRight'
+
 
 
 export default class Carousel extends Component {
@@ -59,7 +62,8 @@ export default class Carousel extends Component {
             itemLists = itemList.map((list, index) => {
                 return  (
                     <li key={index} className={classNames('itemList', {active: activeIndex === index})}
-                    ref={itemList => this.itemList = itemList}>
+                    ref={itemList => this.itemList = itemList}
+                    style={{left: `${defaultWidth * index}`}}>
                         <div className="title">{list.title}</div>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
@@ -72,13 +76,17 @@ export default class Carousel extends Component {
 
         return (
           <CarouselDiv>
-             <a href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}></a>
+             <Button href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
+                <KeyboardArrowLeftIcon className="controlBtn-icon"/>
+             </Button>
              <ul className="itemLists" style={{left: `${left}`}}>
                 {itemLists ? itemLists[itemLists.length - 1] : null}
                 {itemLists ? itemLists: null }
                 {itemLists ? itemLists[0] : null}
              </ul>
-              <a href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}></a>
+              <Button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
+                <KeyboardArrowRightIcon className="controlBtn-icon"/>
+              </Button>
 
           </CarouselDiv>
         )

@@ -3,7 +3,7 @@ import {mediaQuery} from './index.js'
 import {eyeApi} from '../api/api.js' 
 
 const VideoListsDiv = styled.div`
-    height: 500px;
+    height: 600px;
     text-align: center;
     .date {
         background: #FFF;

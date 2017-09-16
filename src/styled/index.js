@@ -85,9 +85,9 @@ export default injectGlobal`
         fill: currentColor;
         overflow: hidden;
     }
-    svg {
+   /* svg {
         fill: ${svgBlue} !important;
-    }
+    }*/
     .fade-enter {
         opacity: 0.01;
         transform: translateY(-100%);
