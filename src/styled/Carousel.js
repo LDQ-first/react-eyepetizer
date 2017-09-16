@@ -9,10 +9,10 @@ const CarouselDiv = styled.div`
    overflow: hidden;
    .controlBtn {
        width: calc(100vw / 4);
-       height: 300px;
+       height: 270px;
        background: rgba(0 ,0, 0, 0.3);
        position: absolute;
-       bottom: 0;
+       bottom: 30px;
        z-index: 100;
        &.pre {
            left: 0;
@@ -40,12 +40,6 @@ const CarouselDiv = styled.div`
                visibility: hidden;
                height: 0;
            }
-           /*&.active {
-               height: 350px;
-               margin-top: -50px;
-               position: absolute;
-               left: calc(100vw / 4);
-           }*/
            &::before {
 
            }
@@ -76,6 +70,30 @@ const CarouselDiv = styled.div`
               height: 350px;
            }
       }
+   }
+   .bullets {
+       position: absolute;
+       bottom: 0px;
+       width: 100vw;
+       height: 30px;
+       background: rgba(255, 255, 255, 0.1);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       z-index: 50;
+       .bullet {
+          width: 6px;
+          height: 6px;
+          border-radius: 3px;
+          background: #CCC;
+          margin: 0 5px;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+          &.active {
+              background: #3399FF;
+              width: 20px;
+          }
+       }
    }
 
 `

@@ -96,6 +96,7 @@ export default class Carousel extends Component {
 
         let itemLists = null
         let activeItemLists = null
+        let bullets = null
         if(itemList) {
           //  console.log('itemList: ', itemList)
             itemLists = itemList.map((list, index) => {
@@ -118,6 +119,11 @@ export default class Carousel extends Component {
                 )
             })
 
+            bullets = itemList.map((list, index) => {
+                return  (
+                    <li key={index} className={classNames('bullet', {active: activeIndex === index})}></li>
+                )
+            })
         }
 
        // console.log(itemLists)
@@ -138,7 +144,9 @@ export default class Carousel extends Component {
               <Button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
                 <KeyboardArrowRightIcon className="controlBtn-icon"/>
               </Button>
-
+              <ul className="bullets">
+                  {bullets}
+              </ul>
           </CarouselDiv>
         )
     }
