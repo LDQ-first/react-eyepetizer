@@ -194,7 +194,12 @@ const filterDetailData = (data) => {
        consumption: data.consumption,
        description: data.description,
        playUrl: data.playUrl,
-       tags: newTags
+       tags: newTags,
+       title: data.title,
+       id: data.id,
+       category: data.category,
+       duration: data.duration,
+       coverForFeed: data.coverForFeed
    }
 
 
