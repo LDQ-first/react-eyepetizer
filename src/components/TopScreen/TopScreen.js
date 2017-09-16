@@ -94,8 +94,8 @@ export default class TopScreen extends Component {
                     <div className="logo"></div>
                     <div className="intro"></div>
                     <div className="download-button-list">
-                        <Button className="ios btn"></Button>
-                        <Button className="android btn"></Button>
+                        <Button className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></Button>
+                        <Button className="android btn" onClick={() => {this._showQRCode(contact.android)}}></Button>
                     </div>
                     <div className="entry-button">
                         <a href={author} target="_blank">

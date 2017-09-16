@@ -16,11 +16,16 @@ const weibo = `http://weibo.com/eyepetizer`
 
 const email = `mailto:bd@eyepetizer.net`
 
+const ios = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/landing_scan_qr_ios.e13aaceb.png`
+
+const android = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/landing_scan_qr_android.8915ce9c.png`
 
 const contact = {
     wechat,
     weibo,
-    email
+    email,
+    ios,
+    android
 }
 
 

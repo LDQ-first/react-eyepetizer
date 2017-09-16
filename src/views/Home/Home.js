@@ -65,6 +65,7 @@ class Home extends Component {
                     }}>跳转到 /detai/48921</Button >
                 </div>*/}
                 <TopScreenDiv />
+                
             </div>
         )
     }

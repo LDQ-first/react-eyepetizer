@@ -19,6 +19,17 @@ const ShowQRCodeDiv = styled.div`
         padding-bottom: 20px;
         background: #fff;
         text-align: center;
+        animation: show 1s ease-in-out;
+        @keyframes show {
+            0% {
+                opacity: 0;
+                transform: translateY(30%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
         .qrImg {
             width: 300px;
         }
