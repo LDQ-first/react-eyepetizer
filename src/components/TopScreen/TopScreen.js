@@ -3,7 +3,7 @@ import TopScreenDiv from '../../styled/topscreen.js'
 import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
-
+import classNames from 'classnames'
 
 
 export default class TopScreen extends Component {
@@ -11,9 +11,17 @@ export default class TopScreen extends Component {
     constructor (props) {
         super(props)
         this.state = {
-            isShowQR: false
+            isShowQR: false,
+            imgIndex: 0
         }
     }
+
+
+    
+    componentWillMount() {
+        this._showBgImg()
+    }
+    
 
 
     _showQRCode(QRCodeUrl) {
@@ -35,10 +43,36 @@ export default class TopScreen extends Component {
         }
     }
 
+    _showBgImg() {
+        const {imglists} = eyeApi
+        console.log(imglists.length)
+        let i = 0
+        setInterval(() => {
+            i = i < imglists.length - 1 ? i + 1 : 0 
+            this.setState({
+                imgIndex: i
+            })
+        }, 10000)
+    }
+
 
     render() {
-        const {QRCodeUrl, isShowQR} = this.state
-        const {contact, home} = eyeApi
+        const {QRCodeUrl, isShowQR, imgIndex} = this.state
+        const {contact, home, imglists} = eyeApi
+
+        console.log(imgIndex)
+
+       
+
+
+        const Imglists = imglists.map((imglist, index) => {
+            return (
+                <img key={index} src={imglist} className={classNames({hide: index === imgIndex})}/>
+            )
+        })
+
+        console.log(Imglists)
+
 
         return (
             <TopScreenDiv>
@@ -58,6 +92,9 @@ export default class TopScreen extends Component {
                         poster={home.homePoster}
                         src={home.homeVideo}
                     ></video>
+                </div>
+                <div className="bgImg-list">
+                    
                 </div>
 
                 {

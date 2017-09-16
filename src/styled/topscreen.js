@@ -35,7 +35,7 @@ const TopScreenDiv = styled.div`
         }
     }
     .video-wrap {
-        position: relative;
+        position: absolute;
         z-index: -100;
         height: 100%;
         width: 100%;
@@ -50,6 +50,17 @@ const TopScreenDiv = styled.div`
             min-height: 100vh;
             min-width: 100vw;    
         }
+    }
+    .bgImg-list {
+        display: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -200;
+        ${mediaQuery()} {
+            display: block;
+        }
+        
     }
 
 
