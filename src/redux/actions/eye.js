@@ -55,7 +55,7 @@ const filterIndexData = (data) => {
         itemList: newItemList,
         date: data.date
     }
-    console.log(newData)
+ //   console.log(newData)
     return newData
 }
 
@@ -65,7 +65,7 @@ export const getIndexData = () => async (dispatch) => {
    try {
        
        let res = await axios.get(eyeApi.index)
-       console.log('res.data: ', res.data)
+    //   console.log('res.data: ', res.data)
        await dispatch(getIndex(filterIndexData(res.data)))
    } catch (err) {
        console.log('err:', err)

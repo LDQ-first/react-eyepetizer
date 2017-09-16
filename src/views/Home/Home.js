@@ -37,9 +37,15 @@ class Home extends Component {
     render() {
        
         const {IndexData} = this.props
-
-        console.log('IndexData: ', IndexData)
-
+        const {date, itemList} = IndexData
+        if(date) {
+            console.log('date: ', date)
+        }
+        if(itemList) {
+            console.log('itemList: ', itemList)
+        }
+        
+    
 
         return (
             <div>
