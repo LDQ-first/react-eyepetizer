@@ -39,50 +39,51 @@ export default class Carousel extends Component {
     componentWillReceiveProps(nextProps) {
 
     }
-    
+
+    /*changeActiveIndex(state, props) {
+        return {activeIndex: }
+    }*/
+        
+
+    _setContent(index) {
+        const {itemList} = this.props
+        const {activeIndex, left} = this.state
+        const width = this.itemList.offsetWidth
+
+        if(index === activeIndex) {
+            return
+        } else if(index === itemList.length - 1) {
+            this.setState({
+                activeIndex: index ,
+                left: - (itemList.length - 2) * width
+            })
+        }  else {
+            this.setState({
+                activeIndex: index ,
+                left:  - index * width 
+            })
+        }  
+    }
+
+
+   
     
     _toggleContent(dir) {
         console.log(dir)
-    //    console.log(this.itemList)
-       const {itemList} = this.props
-        const {activeIndex, left} = this.state
-        const width = this.itemList.offsetWidth
-        console.log(activeIndex, width)
-       
-        
-
-        if(dir === 'next' && activeIndex === itemList.length - 2) {
-            this.setState({
-                activeIndex: activeIndex + 1,
-                left: left
-            })
-        } else if(dir === 'next' && activeIndex === itemList.length - 1) {
-            this.setState({
-                activeIndex: 0,
-                left: 0
-            })
-        }  else if (dir === 'next') {
-             this.setState({
-                  activeIndex: activeIndex + 1,
-                  left: left - width
-            })
-        }  else if(dir === 'pre' && activeIndex === itemList.length - 1) {
-             this.setState({
-                activeIndex: activeIndex - 1,
-                left: left
-            })
-        } else if(dir === 'pre' && activeIndex === 0) {
-             this.setState({
-                activeIndex: itemList.length - 1,
-                left: - (itemList.length - 2 ) * width
-            })
-        } else if(dir === 'pre') {
-            this.setState({
-                activeIndex: activeIndex - 1,
-                left: left + width
-            })
+        const {itemList} = this.props
+        const {activeIndex} = this.state
+        let index = 0
+        if(dir === 'next' && activeIndex === itemList.length - 1) {
+            index = 0
+        } else if (dir === 'next') {
+            index = activeIndex + 1
+        } else if (dir === 'pre' && activeIndex === 0) {
+            index = itemList.length - 1
+        } else if (dir === 'pre') {
+            index = activeIndex - 1
         }
-        
+        this._setContent(index)
+          
     }
 
 
@@ -121,7 +122,8 @@ export default class Carousel extends Component {
 
             bullets = itemList.map((list, index) => {
                 return  (
-                    <li key={index} className={classNames('bullet', {active: activeIndex === index})}></li>
+                    <li key={index} className={classNames('bullet', {active: activeIndex === index})}
+                    onClick={() => {this._setContent(index)}}></li>
                 )
             })
         }

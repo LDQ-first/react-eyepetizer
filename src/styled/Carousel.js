@@ -82,16 +82,16 @@ const CarouselDiv = styled.div`
        align-items: center;
        z-index: 50;
        .bullet {
-          width: 6px;
-          height: 6px;
-          border-radius: 3px;
+          width: 12px;
+          height: 12px;
+          border-radius: 6px;
           background: #CCC;
           margin: 0 5px;
           transition: all 0.5s ease-in-out;
           cursor: pointer;
           &.active {
               background: #3399FF;
-              width: 20px;
+              width: 30px;
           }
        }
    }
