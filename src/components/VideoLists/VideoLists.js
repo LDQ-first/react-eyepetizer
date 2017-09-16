@@ -46,7 +46,7 @@ class VideoLists extends Component {
         if(date) {
             console.log('date: ', date)
         }
-        console.log(location, history, match)
+    //    console.log(location, history, match)
 
 
 
