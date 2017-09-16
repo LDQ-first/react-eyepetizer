@@ -1,5 +1,5 @@
 {
-  "name": "react-family",
+  "name": "react-eyepetizer",
   "version": "1.0.0",
   "description": "a scaffold of react family",
   "main": "index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LDQ-first/react-family.git"
+    "url": "git+https://github.com/LDQ-first/react-eyepetizer.git"
   },
   "keywords": [
     "react",
@@ -36,9 +36,9 @@
   "author": "LDQ-first",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LDQ-first/react-family/issues"
+    "url": "https://github.com/LDQ-first/react-eyepetizer/issues"
   },
-  "homepage": "https://github.com/LDQ-first/react-family#readme",
+  "homepage": "https://github.com/LDQ-first/react-eyepetizer#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.3",
     "babel-cli": "^6.26.0",
