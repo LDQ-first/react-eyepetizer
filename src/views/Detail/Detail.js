@@ -19,6 +19,7 @@ class Detail extends Component {
             location: PropTypes.obj.isRequired,
             history: PropTypes.obj.isRequired,
             match: PropTypes.obj.isRequired,
+            itemList: PropTypes.array,
             videoLists: PropTypes.array,
             replyLists: PropTypes.array,
             details: PropTypes.object,
@@ -61,7 +62,7 @@ class Detail extends Component {
 
     render() {
        
-        const {match, videoLists, replyLists, details} = this.props
+        const {match, itemList, videoLists, replyLists, details} = this.props
         const {videoList} = videoLists
         const {replyList} = replyLists
         const {detail} = details
@@ -70,7 +71,12 @@ class Detail extends Component {
         console.log('replyList: ', replyList)
         console.log('replyList: ', replyList)
         console.log('detail: ', detail)
+        
 */
+        if(itemList) {
+            console.log('itemList: ', itemList)
+        }
+
         if(videoList) {
              console.log('videoList: ', videoList)
         } 
