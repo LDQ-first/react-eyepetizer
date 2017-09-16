@@ -13,7 +13,7 @@ const CarouselDiv = styled.div`
        background: rgba(0 ,0, 0, 0.3);
        position: absolute;
        bottom: 0;
-       z-index: 10;
+       z-index: 100;
        &.pre {
            left: 0;
        }
@@ -56,6 +56,26 @@ const CarouselDiv = styled.div`
 
            }
        }
+   }
+   .activeItemLists {
+       position: absolute;
+       bottom: 0;
+       z-index: 50;
+       width: 100vw;
+       height: 350px;
+       margin-top: 50px;
+       .activeItemList {
+           outline: 1px solid lightgreen;
+           position: absolute;
+           left: calc(100vw / 4);
+           width: calc(100vw / 2);
+           visibility: hidden;
+           height: 0;
+           &.active {
+              visibility: visible;
+              height: 350px;
+           }
+      }
    }
 
 `

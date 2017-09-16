@@ -83,9 +83,6 @@ export default class Carousel extends Component {
             })
         }
         
-
-
-
     }
 
 
@@ -98,6 +95,7 @@ export default class Carousel extends Component {
 
 
         let itemLists = null
+        let activeItemLists = null
         if(itemList) {
           //  console.log('itemList: ', itemList)
             itemLists = itemList.map((list, index) => {
@@ -105,13 +103,20 @@ export default class Carousel extends Component {
                     <li key={index} className={classNames('itemList', {hide: activeIndex === index})}
                     ref={itemList => this.itemList = itemList}
                     style={{left: `${defaultWidth * index}`}}>
-                        <div className="title">{list.title}</div>
+                        <div className="title">{index} {list.title}</div>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
                 )
             })
-
             
+            activeItemLists = itemList.map((list, index) => {
+                return  (
+                    <li key={index} className={classNames('activeItemList', {active: activeIndex === index})}>
+                        <div className="title">{index} {list.title}</div>
+                        <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
+                    </li>
+                )
+            })
 
         }
 
@@ -126,6 +131,9 @@ export default class Carousel extends Component {
                 {itemLists ? itemLists[itemLists.length - 1] : null}
                 {itemLists ? itemLists: null }
                 {itemLists ? itemLists[0] : null}
+             </ul>
+             <ul className="activeItemLists">
+                {activeItemLists ? activeItemLists: null }
              </ul>
               <Button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
                 <KeyboardArrowRightIcon className="controlBtn-icon"/>
