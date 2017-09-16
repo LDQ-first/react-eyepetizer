@@ -8,7 +8,7 @@ const CarouselDiv = styled.div`
    height: 350px;
    overflow: hidden;
    .controlBtn {
-       width: calc(100vw / 4);
+       width: 25%;
        height: 270px;
        background: rgba(0 ,0, 0, 0.3);
        position: absolute;
@@ -18,7 +18,7 @@ const CarouselDiv = styled.div`
            left: 0;
        }
        &.next {
-           right: -8px;
+           right: 0px;
        }
        .controlBtn-icon {
            width: 50px;
@@ -28,7 +28,6 @@ const CarouselDiv = styled.div`
    }
    .itemLists {
        position: absolute;
-       width: calc((100vw / 2) * 7) ;
        height: 350px;
        margin-top: 50px;
        .itemList {
@@ -55,14 +54,14 @@ const CarouselDiv = styled.div`
        position: absolute;
        bottom: 0;
        z-index: 50;
-       width: 100vw;
+       width: 100%;
        height: 350px;
        margin-top: 50px;
        .activeItemList {
            outline: 1px solid lightgreen;
            position: absolute;
-           left: calc(100vw / 4);
-           width: calc(100vw / 2);
+           left: 25%;
+           width: 50%;
            visibility: hidden;
            height: 0;
            &.active {
@@ -74,7 +73,7 @@ const CarouselDiv = styled.div`
    .bullets {
        position: absolute;
        bottom: 0px;
-       width: 100vw;
+       width: 100%;
        height: 30px;
        background: rgba(255, 255, 255, 0.1);
        display: flex;

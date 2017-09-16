@@ -40,10 +40,11 @@ export default class Carousel extends Component {
 
     }
 
-    /*changeActiveIndex(state, props) {
-        return {activeIndex: }
-    }*/
-        
+    
+    componentDidMount() {
+ 
+    }
+    
 
     _setContent(index) {
         const {itemList} = this.props
@@ -131,22 +132,22 @@ export default class Carousel extends Component {
        // console.log(itemLists)
 
         return (
-          <CarouselDiv>
+          <CarouselDiv >
              <Button href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
                 <KeyboardArrowLeftIcon className="controlBtn-icon"/>
              </Button>
-             <ul className="itemLists" style={{left: `${left}`}}>
-                {itemLists ? itemLists[itemLists.length - 1] : null}
-                {itemLists ? itemLists: null }
-                {itemLists ? itemLists[0] : null}
-             </ul>
+            { itemList ? <ul className="itemLists" style={{left: `${left}`, width: `calc(100% / 2 * ${itemList.length + 1} )`}}>
+                {itemLists[itemLists.length - 1] }
+                {itemLists }
+                {itemLists[0] }
+             </ul> : null }
              <ul className="activeItemLists">
                 {activeItemLists ? activeItemLists: null }
              </ul>
               <Button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
                 <KeyboardArrowRightIcon className="controlBtn-icon"/>
               </Button>
-              <ul className="bullets">
+              <ul className="bullets" ref={bullets => this.bullets = bullets}>
                   {bullets}
               </ul>
           </CarouselDiv>
