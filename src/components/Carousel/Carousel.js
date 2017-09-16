@@ -20,7 +20,7 @@ export default class Carousel extends Component {
     constructor (props) {
         super(props)
         this.state = {
-           
+           activeIndex: 0,
         }
     }
 
@@ -29,17 +29,34 @@ export default class Carousel extends Component {
     componentWillMount() {
        
     }
+
+    componentWillReceiveProps(nextProps) {
+
+    }
     
+    
+    _toggleContent(dir) {
+        console.log(dir)
+        console.log(this.itemList)
+        console.log(this.itemList.offsetWidth)
+    }
+
 
     render() {
         const {itemList, _this} = this.props
+        const {activeIndex} = this.state
         console.log(detail)
+
+
+
+
         let itemLists = null
         if(itemList) {
             console.log('itemList: ', itemList)
             itemLists = itemList.map((itemList, index) => {
                 return (
-                    <li key={index} className="itemList">
+                    <li key={index} className={classNames('itemList', {active: activeIndex === index})}
+                     ref={itemList => this.itemList = itemList}>
                         <div className="title">{itemList.title}</div>
                         <div className="meta">#{itemList.category} / {formatDuration(itemList.duration)}</div>
                     </li>
@@ -51,9 +68,12 @@ export default class Carousel extends Component {
 
         return (
           <CarouselDiv>
+             <a href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}></a>
              <ul className="itemLists">
                 {itemLists ? itemLists: null }
              </ul>
+              <a href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}></a>
+
           </CarouselDiv>
         )
     }
