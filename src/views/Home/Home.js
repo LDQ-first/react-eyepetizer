@@ -54,7 +54,7 @@ class Home extends Component {
     
 
         return (
-            <div>
+            <div className="index">
                 {/*home
                 <div>
                     <Button  className="btn" onClick={() => {

@@ -14,11 +14,19 @@ const weibo = `http://weibo.com/eyepetizer`
 
 const email = `mailto:bd@eyepetizer.net`
 
+const homePoster = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_poster.43ddf261.jpg`
+const homeVideo = `//static.kaiyanapp.com/eyepetizer-web/homepage.mp4`
+
 
 const contact = {
     wechat,
     weibo,
     email
+}
+
+const home = {
+    homePoster,
+    homeVideo
 }
 
 
@@ -27,5 +35,6 @@ export {
     related,
     replies,
     detail,
-    contact
+    contact,
+    home
 }

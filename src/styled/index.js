@@ -15,8 +15,10 @@ export default injectGlobal`
     }
     html {
         overflow: auto;
+        height: 100%;
     }
     body {
+        height: 100%;
         line-height: 1.6;
         min-width: 320px;
         color: #2c3e50;
@@ -68,6 +70,9 @@ export default injectGlobal`
         background: none;
         -webkit-appearance: none;
     }
+    video {
+        display: inline-block;
+    }
     .noPadding {
         padding: 0;
     }
@@ -101,6 +106,18 @@ export default injectGlobal`
     .fade-exit.fade-exit-active {
         opacity: 0.01;
         transition: opacity 300ms ease-in;
+    }
+    #app {
+        height: 100%;
+    }
+    .app {
+        height: 100%;
+    }
+    .routes {
+        height: 100%;
+    }
+    .index {
+        height: 100%;
     }
 `
 

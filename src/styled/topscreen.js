@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 
 const TopScreenDiv = styled.div`
+    height: 100%;
+    position: relative;
     .menu {
         position: absolute;
         right: 10px;
@@ -30,6 +32,20 @@ const TopScreenDiv = styled.div`
         .email {
             background-size: 54px;
             background-position: 0 0;
+        }
+    }
+    .video-wrap {
+        position: relative;
+        z-index: -100;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        .video {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            min-height: 100%;
+            min-width: 100%;    
         }
     }
 

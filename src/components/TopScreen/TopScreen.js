@@ -38,7 +38,7 @@ export default class TopScreen extends Component {
 
     render() {
         const {QRCodeUrl, isShowQR} = this.state
-        const {contact} = eyeApi
+        const {contact, home} = eyeApi
 
         return (
             <TopScreenDiv>
@@ -53,6 +53,13 @@ export default class TopScreen extends Component {
                         <IconButton className="email" />
                     </a>
                 </div>
+                <div className="video-wrap">
+                    <video autoPlay loop className="video"
+                        poster={home.homePoster}
+                        src={home.homeVideo}
+                    ></video>
+                </div>
+
                 {
                     isShowQR 
                     ? <ShowQRCode  QRCodeUrl={QRCodeUrl || ''} _this={this}/> 

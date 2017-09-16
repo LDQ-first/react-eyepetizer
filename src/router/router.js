@@ -33,7 +33,7 @@ let open = false
 
 const getRouter = () => (
     <ConnectedRouter history={createHistory()}>  
-        <div>
+        <div className="routes">
            { /*<NavMenu></NavMenu>  */}
             <Switch>  
                 <Route exact path={home} component={createComponent(Home)}/>
