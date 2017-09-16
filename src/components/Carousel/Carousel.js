@@ -7,7 +7,6 @@ import CarouselDiv from '../../styled/Carousel.js'
 import moment from 'moment'
 import {detail} from '../../router/link.js'
 import {formatDuration} from '../../utils'
-
 import {defaultWidth} from '../../styled/Carousel.js'
 
 
@@ -24,7 +23,7 @@ export default class Carousel extends Component {
         super(props)
         this.state = {
            activeIndex: 0,
-           left: defaultWidth
+           left: 0
         }
     }
 
@@ -57,15 +56,16 @@ export default class Carousel extends Component {
         let itemLists = null
         if(itemList) {
             console.log('itemList: ', itemList)
-            itemLists = itemList.map((itemList, index) => {
-                return (
+            itemLists = itemList.map((list, index) => {
+                return  (
                     <li key={index} className={classNames('itemList', {active: activeIndex === index})}
-                     ref={itemList => this.itemList = itemList}>
-                        <div className="title">{itemList.title}</div>
-                        <div className="meta">#{itemList.category} / {formatDuration(itemList.duration)}</div>
+                    ref={itemList => this.itemList = itemList}>
+                        <div className="title">{list.title}</div>
+                        <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
                 )
             })
+
         }
 
         console.log(itemLists)
@@ -74,7 +74,9 @@ export default class Carousel extends Component {
           <CarouselDiv>
              <a href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}></a>
              <ul className="itemLists" style={{left: `${left}`}}>
+                {itemLists ? itemLists[itemLists.length - 1] : null}
                 {itemLists ? itemLists: null }
+                {itemLists ? itemLists[0] : null}
              </ul>
               <a href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}></a>
 
