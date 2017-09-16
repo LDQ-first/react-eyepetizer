@@ -8,8 +8,8 @@ import {
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
 import Button from '../../styled/button'
-import TopScreenDiv from '../../components/TopScreen/TopScreen.js'
-
+import TopScreen from '../../components/TopScreen/TopScreen.js'
+import VideoLists from '../../components/VideoLists/VideoLists.js'
 
 class Home extends Component {
     static get propTypes() { 
@@ -44,12 +44,12 @@ class Home extends Component {
        
         const {IndexData} = this.props
         const {date, itemList} = IndexData
-        if(date) {
+        /*if(date) {
             console.log('date: ', date)
         }
         if(itemList) {
             console.log('itemList: ', itemList)
-        }
+        }*/
         
     
 
@@ -64,8 +64,8 @@ class Home extends Component {
                         this.switchRoute('/detail/48921')
                     }}>跳转到 /detai/48921</Button >
                 </div>*/}
-                <TopScreenDiv />
-                
+                <TopScreen />
+                <VideoLists date={date} itemList={itemList}/>
             </div>
         )
     }
