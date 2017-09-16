@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import {mediaQuery} from './index.js'
 
 const TopScreenDiv = styled.div`
     height: 100%;
@@ -40,12 +40,15 @@ const TopScreenDiv = styled.div`
         height: 100%;
         width: 100%;
         overflow: hidden;
+        ${mediaQuery()} {
+            display: none;
+        }
         .video {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            min-height: 100%;
-            min-width: 100%;    
+            min-height: 100vh;
+            min-width: 100vw;    
         }
     }
 
