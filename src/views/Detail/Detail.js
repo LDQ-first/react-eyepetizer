@@ -4,9 +4,9 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import { withRouter } from 'react-router'
 import {
-    videoListSelector,
-    replyListSelector,
-    detailSelector
+    videoListsSelector,
+    replyListsSelector,
+    detailsSelector
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
 import Button from '../../styled/button'
@@ -19,9 +19,9 @@ class Detail extends Component {
             location: PropTypes.obj.isRequired,
             history: PropTypes.obj.isRequired,
             match: PropTypes.obj.isRequired,
-            videoList: PropTypes.array,
-            replyList: PropTypes.array,
-            detail: PropTypes.object,
+            videoLists: PropTypes.array,
+            replyLists: PropTypes.array,
+            details: PropTypes.object,
             getRelatedData: PropTypes.func,
             getRepliesData: PropTypes.func,
             getDetailData: PropTypes.func,
@@ -61,18 +61,25 @@ class Detail extends Component {
 
     render() {
        
-        const {match, videoList, replyList, detail} = this.props
-       
-       
-        if(videoList.length) {
+        const {match, videoLists, replyLists, details} = this.props
+        const {videoList} = videoLists
+        const {replyList} = replyLists
+        const {detail} = details
+
+        /*console.log('videoList: ', videoList)
+        console.log('replyList: ', replyList)
+        console.log('replyList: ', replyList)
+        console.log('detail: ', detail)
+*/
+        if(videoList) {
              console.log('videoList: ', videoList)
         } 
-        if(replyList.length) {
+        if(replyList) {
              console.log('replyList: ', replyList)
         }
 
-        if(detail.detail) {
-             console.log('detail.detail: ', detail.detail)
+        if(detail) {
+             console.log('detail: ', detail)
         }
 
         return (
@@ -93,9 +100,9 @@ class Detail extends Component {
 
 
 const mapStateToProps = (state) => ({
-    videoList: videoListSelector(state),
-    replyList: replyListSelector(state),
-    detail: detailSelector(state)
+    videoLists: videoListsSelector(state),
+    replyLists: replyListsSelector(state),
+    details: detailsSelector(state)
 })
 
 

@@ -16,28 +16,32 @@ export const IndexDataSelector = createSelector(
 )
 
 
-export const videoListSelector = createSelector(
+
+export const videoListsSelector = createSelector(
     eyeSelector,
     eyeState => {
         if(!eyeState) return
-        return eyeState.get('videoList')
+        return eyeState.get('videoLists')
     }
 )
 
 
-export const replyListSelector = createSelector(
+
+export const replyListsSelector = createSelector(
     eyeSelector,
     eyeState => {
         if(!eyeState) return
-        return eyeState.get('replyList')
+        return eyeState.get('replyLists')
     }
 )
 
-export const detailSelector = createSelector(
+
+
+
+export const detailsSelector = createSelector(
     eyeSelector,
     eyeState => {
         if(!eyeState) return
-        return eyeState.get('detail')
+        return eyeState.get('details')
     }
 )
-

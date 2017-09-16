@@ -87,7 +87,7 @@ export const getRelated = (videoList) => {
 
 
 const filterRelatedData = (data) => {
-   console.log(data.videoList)
+//   console.log(data.videoList)
    const newVideoList = []
    for(let video of data.videoList) {
       // console.log(video)
@@ -103,7 +103,7 @@ const filterRelatedData = (data) => {
     const newData = {
         videoList: newVideoList
     }
-    console.log(newData)
+  //  console.log(newData)
     return newData
 }
 
@@ -135,7 +135,7 @@ export const getReplies = (replyList) => {
 
 
 const filterRepliesData = (data) => {
-   console.log(data.replyList)
+//   console.log(data.replyList)
    const newReplyList = []
    for(let replyList of data.replyList) {
      //  console.log(replyList) 
@@ -154,7 +154,7 @@ const filterRepliesData = (data) => {
     const newData = {
         replyList: newReplyList
     }
-    console.log(newData)
+ //   console.log(newData)
     return newData
 }
 
@@ -184,7 +184,7 @@ export const getDetail = (data) => {
 
 
 const filterDetailData = (data) => {
-   console.log(data)
+ //  console.log(data)
    const tags = data.tags
    const newTags = [] 
    for(let tag of tags) {
@@ -206,7 +206,7 @@ const filterDetailData = (data) => {
     const newData = {
         detail: newdata
     }
-    console.log(newData)
+   // console.log(newData)
     return newData
 }
 
