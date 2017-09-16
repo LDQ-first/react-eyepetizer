@@ -4,6 +4,7 @@ import {mediaQuery} from './index.js'
 const TopScreenDiv = styled.div`
     height: 100%;
     position: relative;
+    overflow: hidden;
     .menu {
         position: absolute;
         right: 10px;
@@ -60,7 +61,36 @@ const TopScreenDiv = styled.div`
         ${mediaQuery()} {
             display: block;
         }
-        
+        .imglist {
+            animation: even 20s linear infinite alternate;
+            opacity: 0;
+            position: absolute;
+            transition: opacity 1.25s;
+            width: 120%;
+            &.hide {
+                opacity: 1;
+            }
+            &:nth-child(odd) {
+                animation: odd 8s ease infinite alternate;
+            }
+            @keyframes even {
+               0% {
+                    transform: scaleX(1)
+                }
+                100% {
+                    transform: scale3d(1.3, 1.3, 1.3)
+                }
+            }
+            @keyframes odd {
+                0% {
+                    transform: translateZ(0)
+                }
+                100% {
+                    transform: translate3d(-5%, -2%, 0)
+                }
+            }
+
+        }
     }
 
 

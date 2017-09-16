@@ -67,7 +67,7 @@ export default class TopScreen extends Component {
 
         const Imglists = imglists.map((imglist, index) => {
             return (
-                <img key={index} src={imglist} className={classNames({hide: index === imgIndex})}/>
+                <img key={index} src={imglist} className={classNames('imglist', {hide: index === imgIndex})}/>
             )
         })
 
@@ -94,7 +94,7 @@ export default class TopScreen extends Component {
                     ></video>
                 </div>
                 <div className="bgImg-list">
-                    
+                    {Imglists}
                 </div>
 
                 {
