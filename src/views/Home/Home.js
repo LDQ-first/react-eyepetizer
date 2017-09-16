@@ -27,6 +27,12 @@ class Home extends Component {
         const {getIndexData} = this.props
         getIndexData()
     }
+
+    
+    componentWillReceiveProps(nextProps) {
+        
+    }
+    
     
     switchRoute(path) {
          const {history} = this.props

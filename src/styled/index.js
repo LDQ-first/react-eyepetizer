@@ -65,6 +65,7 @@ export default injectGlobal`
         cursor: pointer;
         border: none;
         outline: none;
+        background: none;
         -webkit-appearance: none;
     }
     .icon {
@@ -98,58 +99,13 @@ export default injectGlobal`
 `
 
 const Container = styled.div`
-    padding: 1em;
-    padding-left: 13rem;
-    &.per {
-        padding: 0;
-        padding-left: 10rem;
-    } 
-    &.noPadding {
-        padding: 0;
-        padding-left: 10rem;
-    }
-    @media (max-width: 50em) {
-        padding: 1em;
-        padding-top: 70px; 
-        &.noPadding {
-            padding: 0;  
-        }
-        &.topPadding {
-            padding: 0;
-            padding-top: 53px;
-        }
-    }
-    .getSong {
-        margin-top: 1em;
-    }
-    .githubAppBar {
-        background: ${mainBlue};
-    }
-    &.userInfo {
-        .githubUrl {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            margin-top: 1em;
-            cursor: pointer;
-            text-transform: lowercase;
-            .item-icon {
-                width: 2em;
-                height: 2em;
-                color: #007bba;
-                margin-right: 2em;
-            }
-        }
-    }
-    &.lazyArea {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    
+   
 `
 
+
+const mediaQuery = (mediaSize = 1024) => `@media screen and (max-width: ${mediaSize}px)`
+
 module.exports = {
-    Container
+    Container,
+    mediaQuery
 }
