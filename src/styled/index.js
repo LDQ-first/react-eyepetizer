@@ -68,6 +68,12 @@ export default injectGlobal`
         background: none;
         -webkit-appearance: none;
     }
+    .noPadding {
+        padding: 0;
+    }
+    .noMargin {
+        margin: 0;
+    }
     .icon {
         width: 1em; height: 1em;
         vertical-align: -0.15em;

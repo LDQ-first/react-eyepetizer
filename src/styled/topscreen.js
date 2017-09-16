@@ -19,6 +19,14 @@ const TopScreenDiv = styled.div`
             background-size: 36px;
             background-position: 0 -26px;
         }
+        .weibo {
+            background-size: 36px;
+            background-position: 0 -63px;
+        }
+        .email {
+            background-size: 54px;
+            background-position: 0 0;
+        }
     }
 
 

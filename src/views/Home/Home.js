@@ -8,7 +8,7 @@ import {
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
 import Button from '../../styled/button'
-
+import TopScreenDiv from '../../components/TopScreen/TopScreen.js'
 
 
 class Home extends Component {
@@ -55,7 +55,7 @@ class Home extends Component {
 
         return (
             <div>
-                home
+                {/*home
                 <div>
                     <Button  className="btn" onClick={() => {
                         this.switchRoute('/detail')
@@ -63,7 +63,8 @@ class Home extends Component {
                     <Button  className="btn" onClick={() => {
                         this.switchRoute('/detail/48921')
                     }}>跳转到 /detai/48921</Button >
-                </div>
+                </div>*/}
+                <TopScreenDiv />
             </div>
         )
     }

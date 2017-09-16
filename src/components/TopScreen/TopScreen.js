@@ -1,24 +1,43 @@
 import React, { Component } from 'react'
 import TopScreenDiv from '../../styled/topscreen.js'
 import IconButton from 'material-ui/IconButton'
-import showQRCodeDiv from '../showQRCode/showQRCode.js'
+import ShowQRCode from '../showQRCode/showQRCode.js'
 
 
 
 
 export default class TopScreen extends Component {
 
+    constructor (props) {
+        super(props)
+        this.state = {
+            isShowQR: false
+        }
+    }
+
+
     _showQRCode(QRCodeUrl) {
-        console.log(QRCodeUrl)
-        console.log(this.showQRCode)
-        this.setSate({
+        this.setState({
+            isShowQR: true,
             QRCodeUrl
         })
     }
 
+    _hideQRCode(e, _this) {
+/*        console.log(e.target)
+        console.log(_this.shade)
+        console.log(_this.shade === e.target)*/
+        if(_this.shade === e.target) {
+            this.setState({
+                isShowQR: false,
+                QRCodeUrl: ''
+            })
+        }
+    }
+
 
     render() {
-        const {QRCodeUrl} = this.state
+        const {QRCodeUrl, isShowQR} = this.state
 
         return (
             <TopScreenDiv>
@@ -27,7 +46,11 @@ export default class TopScreen extends Component {
                     onClick={() => {this._showQRCode('//static.kaiyanapp.com/eyepetizer-web/assets/images/index/landing_wechat_account.53f45180.jpg')}}>
                     </IconButton>
                 </div>
-                <showQRCodeDiv ref={qr => this.showQRCode = qr} QRCodeUrl={QRCodeUrl}/>
+                {
+                    isShowQR 
+                    ? <ShowQRCode  QRCodeUrl={QRCodeUrl || ''} _this={this}/> 
+                    : null
+                }
             </TopScreenDiv>
         )
     }
