@@ -35,7 +35,13 @@ class Detail extends Component {
             getRelatedData(match.params.id)
             getRepliesData(match.params.id)
         }
-        
+        console.log('willmount')
+    }
+    
+
+    
+    componentWillReceiveProps(nextProps) {
+        const {getRelatedData, getRepliesData, match} = nextProps
 
     }
     
@@ -45,13 +51,29 @@ class Detail extends Component {
     }
 
     getDetail (id) {
-        const {getDetailData} = this.props
+        const {getDetailData, getRelatedData, getRepliesData, match} = this.props
+        if(match.params.id) {
+            getRelatedData(id)
+            getRepliesData(id)
+        }
         getDetailData(id)
     }
 
     render() {
        
-        const {match} = this.props
+        const {match, videoList, replyList, detail} = this.props
+       
+       
+        if(videoList.length) {
+             console.log('videoList: ', videoList)
+        } 
+        if(replyList.length) {
+             console.log('replyList: ', replyList)
+        }
+
+        if(detail.detail) {
+             console.log('detail.detail: ', detail.detail)
+        }
 
         return (
             <div>

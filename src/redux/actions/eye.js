@@ -24,12 +24,28 @@ export const getIndex = (IndexData) => {
 
 const filterIndexData = (data) => {
     const TYPE = 'video'
-    console.log(data.itemList)
     const newItemList = []
+    let newItemListData = {}
     for(let item of data.itemList) {
         if(item.type === TYPE) {
-            newItemList.push(item)
-        } else {
+            const itemdata = item.data
+            const tags = itemdata.tags
+            const newTags = [] 
+            for(let tag of tags) {
+                newTags.push({tag: tag.name})
+            }
+            newItemListData = {
+                category: itemdata.category,
+                consumption: itemdata.consumption,
+                videoImg: itemdata.cover.feed,
+                duration: itemdata.duration,
+                description: itemdata.description,
+                id: itemdata.id,
+                tags: newTags,
+                title: itemdata.title
+            }
+            newItemList.push(newItemListData)
+        } else if(item.type === 'textFooter'){
             break
         }
     }
@@ -42,7 +58,6 @@ const filterIndexData = (data) => {
     console.log(newData)
     return newData
 }
-
 
 
 export const getIndexData = () => async (dispatch) => {
@@ -72,10 +87,21 @@ export const getRelated = (videoList) => {
 
 
 const filterRelatedData = (data) => {
-   
+   console.log(data.videoList)
+   const newVideoList = []
+   for(let video of data.videoList) {
+      // console.log(video)
+       newVideoList.push({
+           category: video.category,
+           coverForFeed: video.coverForFeed,
+           duration: video.duration,
+           id: video.id,
+           title: video.title
+       })
+   }
 
     const newData = {
-        videoList: data.videoList
+        videoList: newVideoList
     }
     console.log(newData)
     return newData
@@ -87,8 +113,8 @@ export const getRelatedData = (id) => async (dispatch) => {
 
    try {
        let res = await axios.get(eyeApi.related(id))
-       console.log('res.data: ', res.data)
-       await dispatch(getIndex(filterRelatedData(res.data)))
+    //   console.log('res.data: ', res.data)
+       await dispatch(getRelated(filterRelatedData(res.data)))
    } catch (err) {
        console.log('err:', err)
    }
@@ -109,10 +135,24 @@ export const getReplies = (replyList) => {
 
 
 const filterRepliesData = (data) => {
-   
+   console.log(data.replyList)
+   const newReplyList = []
+   for(let replyList of data.replyList) {
+     //  console.log(replyList) 
+
+       newReplyList.push({
+           likeCount: replyList.likeCount,
+           message: replyList.message,
+           user: {
+               nickname: replyList.user.nickname,
+               avatar: replyList.user.avatar
+           },
+           hot:  replyList.hot
+       })
+   }
 
     const newData = {
-        replyList: data.replyList
+        replyList: newReplyList
     }
     console.log(newData)
     return newData
@@ -125,8 +165,8 @@ export const getRepliesData = (id) => async (dispatch) => {
    
    try {
        let res = await axios.get(eyeApi.replies(id))
-       console.log('res.data: ', res.data)
-       await dispatch(getIndex(filterRepliesData(res.data)))
+      // console.log('res.data: ', res.data)
+       await dispatch(getReplies(filterRepliesData(res.data)))
    } catch (err) {
        console.log('err:', err)
    }
@@ -144,10 +184,22 @@ export const getDetail = (data) => {
 
 
 const filterDetailData = (data) => {
-   
+   console.log(data)
+   const tags = data.tags
+   const newTags = [] 
+   for(let tag of tags) {
+       newTags.push({tag: tag.name})
+   }
+   const newdata = {
+       consumption: data.consumption,
+       description: data.description,
+       playUrl: data.playUrl,
+       tags: newTags
+   }
+
 
     const newData = {
-        detail: data
+        detail: newdata
     }
     console.log(newData)
     return newData
@@ -159,8 +211,8 @@ export const getDetailData = (id) => async (dispatch) => {
 
    try {
        let res = await axios.get(eyeApi.detail(id))
-       console.log('res.data: ', res.data)
-       await dispatch(getIndex(filterDetailData(res.data)))
+    //   console.log('res.data: ', res.data)
+       await dispatch(getDetail(filterDetailData(res.data)))
    } catch (err) {
        console.log('err:', err)
    }

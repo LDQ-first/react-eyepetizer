@@ -36,6 +36,9 @@ class Home extends Component {
 
     render() {
        
+        const {IndexData} = this.props
+
+        console.log('IndexData: ', IndexData)
 
 
         return (
