@@ -3,6 +3,10 @@ import styled from 'styled-components'
 
 const TopScreenDiv = styled.div`
     .menu {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 1;
         button {
             height: 36px;
             margin: 0 8px;

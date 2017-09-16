@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import TopScreenDiv from '../../styled/topscreen.js'
 import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
-
+import {eyeApi} from '../../api/api.js' 
 
 
 
@@ -38,13 +38,20 @@ export default class TopScreen extends Component {
 
     render() {
         const {QRCodeUrl, isShowQR} = this.state
+        const {contact} = eyeApi
 
         return (
             <TopScreenDiv>
                 <div className="menu">
                     <IconButton className="wechat" 
-                    onClick={() => {this._showQRCode('//static.kaiyanapp.com/eyepetizer-web/assets/images/index/landing_wechat_account.53f45180.jpg')}}>
+                    onClick={() => {this._showQRCode(contact.wechat)}}>
                     </IconButton>
+                    <a href={contact.weibo} target="_blank">
+                        <IconButton className="weibo" />
+                    </a>
+                     <a href={contact.email} target="_blank">
+                        <IconButton className="email" />
+                    </a>
                 </div>
                 {
                     isShowQR 

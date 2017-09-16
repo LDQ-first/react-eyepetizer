@@ -17,7 +17,8 @@ export default class showQRCode extends Component {
 
         return (
             <ShowQRCodeDiv>
-               <div className="shade" onClick={(e) => {_this._hideQRCode(e, this)}} ref={shade => this.shade = shade}>
+               <div className="shade" onClick={(e) => {_this._hideQRCode(e, this)}} 
+                    ref={shade => this.shade = shade}>
                     <div className="qr" >
                         <img className="qrImg" src={QRCodeUrl} />
                         <div>
