@@ -8,6 +8,9 @@ import moment from 'moment'
 import {detail} from '../../router/link.js'
 import {formatDuration} from '../../utils'
 
+import {defaultWidth} from '../../styled/Carousel.js'
+
+
 export default class Carousel extends Component {
     static get propTypes() { 
         return { 
@@ -21,6 +24,7 @@ export default class Carousel extends Component {
         super(props)
         this.state = {
            activeIndex: 0,
+           left: defaultWidth
         }
     }
 
@@ -44,7 +48,7 @@ export default class Carousel extends Component {
 
     render() {
         const {itemList, _this} = this.props
-        const {activeIndex} = this.state
+        const {activeIndex, left} = this.state
         console.log(detail)
 
 
@@ -69,7 +73,7 @@ export default class Carousel extends Component {
         return (
           <CarouselDiv>
              <a href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}></a>
-             <ul className="itemLists">
+             <ul className="itemLists" style={{left: `${left}`}}>
                 {itemLists ? itemLists: null }
              </ul>
               <a href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}></a>

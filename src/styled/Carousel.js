@@ -17,7 +17,6 @@ const CarouselDiv = styled.div`
    }
    .itemLists {
        position: absolute;
-       left: 0;
        width: calc((100vw / 3) * 6) ;
        height: 300px;
        .itemList {
@@ -42,4 +41,11 @@ const CarouselDiv = styled.div`
 
 `
 
+
+const defaultWidth = `calc(100vw / 3)`
+
 export default CarouselDiv
+
+export {
+    defaultWidth
+}
