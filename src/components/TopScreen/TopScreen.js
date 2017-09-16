@@ -4,7 +4,7 @@ import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-
+import Button from 'material-ui/Button'
 
 export default class TopScreen extends Component {
 
@@ -45,7 +45,6 @@ export default class TopScreen extends Component {
 
     _showBgImg() {
         const {imglists} = eyeApi
-        console.log(imglists.length)
         let i = 0
         setInterval(() => {
             i = i < imglists.length - 1 ? i + 1 : 0 
@@ -58,11 +57,7 @@ export default class TopScreen extends Component {
 
     render() {
         const {QRCodeUrl, isShowQR, imgIndex} = this.state
-        const {contact, home, imglists} = eyeApi
-
-        console.log(imgIndex)
-
-       
+        const {contact, home, imglists, author} = eyeApi
 
 
         const Imglists = imglists.map((imglist, index) => {
@@ -71,7 +66,6 @@ export default class TopScreen extends Component {
             )
         })
 
-        console.log(Imglists)
 
 
         return (
@@ -96,7 +90,20 @@ export default class TopScreen extends Component {
                 <div className="bgImg-list">
                     {Imglists}
                 </div>
-
+                <div className="content">
+                    <div className="logo"></div>
+                    <div className="intro"></div>
+                    <div className="download-button-list">
+                        <Button className="ios btn"></Button>
+                        <Button className="android btn"></Button>
+                    </div>
+                    <div className="entry-button">
+                        <a href={author} target="_blank">
+                            <Button className="audit"></Button>
+                            <p className="text">作者入口</p>
+                        </a>
+                    </div>
+                </div>
                 {
                     isShowQR 
                     ? <ShowQRCode  QRCodeUrl={QRCodeUrl || ''} _this={this}/> 

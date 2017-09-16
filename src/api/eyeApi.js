@@ -57,7 +57,9 @@ const imglists = [
     '//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_1.9583a28a.jpg'
 ]
 
+const sprite = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/sprite-s93ca05f687.023a526d.png`
 
+const author = `http://open.eyepetizer.net/#!/landing`
 
 
 export {
@@ -67,5 +69,7 @@ export {
     detail,
     contact,
     home,
-    imglists
+    imglists,
+    sprite,
+    author
 }

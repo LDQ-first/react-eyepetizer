@@ -1,10 +1,20 @@
 import styled from 'styled-components'
 import {mediaQuery} from './index.js'
+import {eyeApi} from '../api/api.js' 
+
 
 const TopScreenDiv = styled.div`
     height: 100%;
     position: relative;
     overflow: hidden;
+    ::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: -10;
+    }
     .menu {
         position: absolute;
         right: 10px;
@@ -83,13 +93,119 @@ const TopScreenDiv = styled.div`
             }
             @keyframes odd {
                 0% {
-                    transform: translateZ(0)
+                    transform: translate(0)
                 }
                 100% {
-                    transform: translate3d(-5%, -2%, 0)
+                    transform: translate(-5%, -2%)
                 }
             }
 
+        }
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-center: center;
+        .logo {
+            background: url(${eyeApi.sprite}) no-repeat ;
+            background-size: 642px;
+            background-position: 0 81.02435%;
+            height: 225px;
+            width: 180px;
+            position: absolute;
+            top: 10%;
+            ${mediaQuery()} {
+                background-position: 0 81.02435%;
+                background-size: 428px;
+                height: 150px;
+                top: 20%;
+                width: 120px;
+            }
+        }
+        .intro {
+            background: url(${eyeApi.sprite}) no-repeat;
+            background-size: 642px;
+            background-position: 0 55.5773%;
+            height: 54px;
+            position: absolute;
+            top: 48%;
+            width: 351px;
+            ${mediaQuery()} {
+                background-position: 0 55.5773%;
+                background-size: 528.59829px;
+                height: 44px;
+                width: 289px;
+            }
+        }
+        .download-button-list {
+            position: absolute;
+            font-size: 0;
+            height: 52px;
+            top: 64%;
+            .btn {
+                height: 52px;
+                margin: 0 14px;
+                opacity: .9;
+                transition: opacity .3s;
+                width: 162px;
+                background: url(${eyeApi.sprite}) no-repeat;
+                background-size: 642px;
+                &.ios {
+                    background-position: 0 21.40534%;
+                }
+                &.android {
+                    background-position: 0 7.22186%;
+                }
+            }
+            ${mediaQuery()} {
+                height: 124px;
+                top: 60%;
+                width: 162px;
+                .btn {
+                    margin: 0;
+                    position: absolute;
+                    &.ios {
+
+                    }
+                    &.android {
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+        .entry-button {
+            position: absolute;
+            height: 52px;
+            margin-top: 120px;
+            top: 60%;
+            .audit {
+                height: 53px;
+                margin: 0 14px;
+                opacity: .4;
+                -webkit-transition: opacity .3s;
+                transition: opacity .3s;
+                width: 220px;
+                cursor: pointer;
+                background: url(${eyeApi.sprite}) no-repeat 0 0 /642px;
+                /*background-position: 0 0;
+                background-size: 642px;*/
+            }
+            .text {
+                margin: 0;
+                position: absolute;
+                font-size: 14px;
+                text-align: center;
+                pointer-events: none;
+                color: #fff;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                line-height: 52px;
+                letter-spacing: 4px;
+             }
+            ${mediaQuery()} {
+                display: none;
+            }
         }
     }
 
