@@ -45,6 +45,8 @@ const CarouselDiv = styled.div`
        position: absolute;
        height: 400px;
        bottom: 40px;
+       overflow: hidden;
+       transition: left .5s ease-in-out;
        ${mediaQuery()} {
           height: 350px;
        }
@@ -61,6 +63,7 @@ const CarouselDiv = styled.div`
            justify-content: center;
            align-items: center;
            box-shadow: 0 0px 4px rgba(0, 0, 0, 0.8);
+           
            ${mediaQuery()} {
                 height: 350px;
             }
@@ -105,6 +108,7 @@ const CarouselDiv = styled.div`
            justify-content: center;
            align-items: center;
            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+            transition: transform .5s ease-in-out;
            &.active {
               visibility: visible;
               height: 450px;
@@ -117,11 +121,11 @@ const CarouselDiv = styled.div`
              
            }
            &:hover::before {
-                background: transparent;
+               background: rgba(0, 0, 0, 0.1);
            }
            &::before {
                 content: '';
-                background: rgba(0,0,0,.4);
+                background: rgba(0, 0, 0, 0.4);
                 height: 100%;
                 width: 100%;
                 position: absolute;

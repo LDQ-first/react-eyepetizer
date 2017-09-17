@@ -84,7 +84,7 @@ export default class Carousel extends Component {
             index = activeIndex - 1
         }
         this._setContent(index)
-          
+        
     }
 
 
@@ -142,7 +142,7 @@ export default class Carousel extends Component {
              <Button href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
                 <KeyboardArrowLeftIcon className="controlBtn-icon"/>
              </Button>
-            { itemList ? <ul className="itemLists" style={{left: `${left}`, width: `calc(50% * ${itemList.length + 1} )`}}>
+            { itemList ? <ul className="itemLists" style={{left: `${left}`, width: `calc(50% * ${itemList.length + 2} )`}}>
                 {itemLists[itemLists.length - 1] }
                 {itemLists }
                 {itemLists[0] }
