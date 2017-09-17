@@ -47,9 +47,7 @@ class Home extends Component {
        
         const {IndexData} = this.props
         const {date, itemList} = IndexData
-        /*console.log(itemList)
-        console.log(JSON.stringify(itemList))
-        localStorage.itemList = JSON.stringify(itemList)*/
+
 
         return (
             <div className="index">

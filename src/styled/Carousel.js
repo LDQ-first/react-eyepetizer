@@ -162,22 +162,25 @@ const CarouselDiv = styled.div`
                 border: none;
                 z-index: -1;
                 animation: showShadow 0.5s ease-in-out 0.5s forwards;
+                @media (min-width: 2200px) {
+                    opacity: 0;
+                }
                 @keyframes showShadow {
                    0% {
                        box-shadow: none;
                    }
                    100% {
-                       box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.9);
+                       box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.9);
                    }
                }
             }
             &::before {
                 left: 0; 
-                transform: skew(-10deg, -4deg) translate(13%, -5%);
+                transform: skew(-10deg, -4deg) translate(13%, -10%);
             }
             &::after {
                 right: 0;
-                transform: skew(10deg, 4deg) translate(-13%, -5%);
+                transform: skew(10deg, 4deg) translate(-13%, -10%);
             }
              
            }

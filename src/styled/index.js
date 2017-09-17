@@ -130,7 +130,7 @@ const Container = styled.div`
 `
 
 
-const mediaQuery = (mediaSize = 1024) => `@media screen and (max-width: ${mediaSize}px)`
+const mediaQuery = (mediaSize = 1024) => `@media (max-width: ${mediaSize}px)`
 
 module.exports = {
     Container,
