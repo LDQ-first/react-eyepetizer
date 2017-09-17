@@ -127,8 +127,8 @@ export default class Carousel extends Component {
                 return  (
                     <li key={index} className={classNames('activeItemList',
                              {active: activeIndex === index}, 
-                             {'pre': dir === 'pre'},
-                             {'next': dir === 'next'}
+                             {'pre': dir === 'pre' && activeIndex === index},
+                             {'next': dir === 'next' && activeIndex === index}
                     )}
                     style={{
                         background: `url(${list.videoImg}) no-repeat center/cover`
