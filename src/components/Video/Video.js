@@ -48,10 +48,6 @@ export default class Video extends Component {
     render() {
        const {itemList} = this.props
        const {vwh, play} = this.state
-      /*  if(itemList) {
-            console.log('itemList: ', itemList)
-        }*/
-
 
         return (
             <VideoDiv>

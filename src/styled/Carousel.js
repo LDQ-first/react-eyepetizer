@@ -78,7 +78,7 @@ const CarouselDiv = styled.div`
            }
            
            .title {
-
+               font-size: 16px;
            }
            .meta {
 
@@ -189,6 +189,7 @@ const CarouselDiv = styled.div`
              position: relative;
              z-index: 10;
              font-weight: bold;
+             font-size: 16px;
            }
            .meta {
                position: relative;

@@ -75,7 +75,7 @@ class Detail extends Component {
 
     getDetail (id) {
         const {getDetailData, getRelatedData, getRepliesData, match} = this.props
-        if(match.params.id) {
+        if(id) {
             getRelatedData(id)
             getRepliesData(id)
         }
@@ -91,21 +91,19 @@ class Detail extends Component {
         const {detail} = details
 
       
+       if(detail) {
+            console.log('detail: ', detail)
+        }
+
+
+
+
        
-
-
-
-        if(videoList) {
-             console.log('videoList: ', videoList)
-        } 
         if(replyList) {
              console.log('replyList: ', replyList)
         }
 
-        if(detail) {
-             console.log('detail: ', detail)
-        }
-
+       
         return (
             <div className="detail">
                { /*detail
@@ -119,8 +117,8 @@ class Detail extends Component {
                 </div>*/}
                 <Video itemList={itemList}/>
                 <VideoInfo itemList={itemList}/>
-                <RelatedVideo />
-                <ReplyLists />
+                <RelatedVideo videoList={videoList} detail={detail} _this={this}/>
+                <ReplyLists replyList={replyList}/>
                 <Tags itemList={itemList} />
                 <DetailFooter />
             </div>

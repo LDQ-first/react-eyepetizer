@@ -8,27 +8,13 @@ import {formatDuration} from '../../utils'
 export default class VideoInfo extends Component {
      static get propTypes() { 
         return { 
-            itemList: PropTypes.array,
-            _this: PropTypes.object
+            itemList: PropTypes.array
         }
     }
 
-     constructor (props) {
-        super(props)
-        this.state = {
-            
-        }
-    }
-
-
-    
 
     render() {
        const {itemList} = this.props
-       /* if(itemList) {
-            console.log('itemList: ', itemList)
-        }*/
-
 
         return (
             <VideoInfoDiv>

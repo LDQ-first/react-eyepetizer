@@ -95,7 +95,7 @@ export default class Carousel extends Component {
                         left: `${defaultWidth * index}`,
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}>
-                        <div className="title">{index} {list.title}</div>
+                        <h3 className="title">{index}. {list.title}</h3>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
                 )
@@ -113,8 +113,8 @@ export default class Carousel extends Component {
                     }}
                       onClick={() => {_this.switchRoute(`${detail}/${list.id}`, index)}}
                     >
-                        <div className="title">{index} {list.title}</div>
-                        <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
+                        <h3 className="title">{index}. {list.title}</h3>
+                        <div className="meta"># {list.category} / {formatDuration(list.duration)}</div>
                     </li>
                 )
             })
