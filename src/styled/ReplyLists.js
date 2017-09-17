@@ -18,6 +18,7 @@ const ReplyListsDiv = styled.div`
              display: flex;
              justify-content: space-between;
              align-items: center;
+             padding: 1em 0;
              .reply-content {
                   display: flex;
                   justify-content: space-between;
@@ -41,7 +42,7 @@ const ReplyListsDiv = styled.div`
 
                     }
                     .message {
-
+                        word-break: break-word;
                     }
                  }
              }
@@ -49,21 +50,26 @@ const ReplyListsDiv = styled.div`
                  display: flex;
                  flex-direction: column;
                  justify-content: center;
-                 align-items: flex-start;
+                 align-items: flex-end;
                  .like-count {
-                     
+                     padding: 0 1em;
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
                      .like-count-num {
-                         .like-count-icon {
-                             .likeIcon {
-
-                             }
-                         }
+                         
                      }
+                     .like-count-icon {
+                        .likeIcon {
+                            fill: #FFF;
+                        }
+                    }
                  }
                  .isHot {
+                      padding: 0 1em;
                      .hot-icon {
                          .hotIcon {
-
+                              fill: #FF8A65;
                          }
                      }
                  } 
