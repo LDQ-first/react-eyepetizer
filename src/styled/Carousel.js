@@ -100,11 +100,10 @@ const CarouselDiv = styled.div`
           height: 226px;
        }
        &:hover::before {
-            background: rgba(0, 0, 0, 0.1);
+            background: rgba(0, 0, 0, 0.05);
         }
         &::before {
             content: '';
-            background: rgba(0, 0, 0, 0.4);
             height: 100%;
             width: 100%;
             position: absolute;
@@ -112,6 +111,7 @@ const CarouselDiv = styled.div`
             transition: background .6s;  
             cursor: pointer;  
             z-index: 10; 
+            background: rgba(0, 0, 0, 0.4);
         }
        .activeItemList {
            position: relative;
@@ -122,7 +122,6 @@ const CarouselDiv = styled.div`
            justify-content: center;
            align-items: center;
            box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.8);
-           
            &.pre {
                animation: pre 0.5s ease-in-out;
                @keyframes pre {
