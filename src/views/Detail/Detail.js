@@ -114,9 +114,9 @@ class Detail extends Component {
         const {replyList} = replyLists
         const {detail} = details
 
-        if(itemList) {
+       /* if(itemList) {
             console.log('itemList: ', itemList)
-        }
+        }*/
        
        
         return (

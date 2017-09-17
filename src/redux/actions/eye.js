@@ -32,7 +32,7 @@ const filterIndexData = (data) => {
             const tags = itemdata.tags
             const newTags = [] 
             for(let tag of tags) {
-                newTags.push({tag: tag.name})
+                newTags.push({name: tag.name})
             }
             newItemListData = {
                 category: itemdata.category,
@@ -191,7 +191,7 @@ const filterDetailData = (data) => {
    const newTags = [] 
    for(let tag of tags) {
       
-       newTags.push({tag: tag.name})
+       newTags.push({name: tag.name})
    }
    const newdata = {
        consumption: data.consumption,

@@ -4,15 +4,15 @@ import {eyeApi} from '../api/api.js'
 
 const ReplyListsDiv = styled.div`
      color: #FFF;
-     .header {
-         background: rgba(0, 0, 0, 0.2);
+     padding-top: 2em;
+     background: rgba(0, 0, 0, 0.2);
+     .header {    
          text-align: center;
          .title {
              font-size: 20px;
          }
      }
      .reply-lists {
-         background: rgba(0, 0, 0, 0.2);
          padding: 15px 15px 8px 15px; 
          .reply {
              display: flex;
