@@ -5,15 +5,30 @@ import {eyeApi} from '../api/api.js'
 const CarouselDiv = styled.div`
    position: relative;
    width: 100%;
-   height: 350px;
+   height: 480px;
    overflow: hidden;
+   transform: perspective(1000px);
+   color: #FFF;
+   ${mediaQuery()} {
+      height: 415px;
+   }
+   ${mediaQuery(415)} {
+       height: 255px;
+   }
    .controlBtn {
-       width: 25%;
-       height: 270px;
+       width: 12.5%;
+       height: 400px;
        background: rgba(0 ,0, 0, 0.3);
        position: absolute;
        bottom: 30px;
        z-index: 100;
+       min-width: 8px;
+       ${mediaQuery()} {
+          height: 350px;
+       }
+       ${mediaQuery(415)} {
+          height: 200px;
+       }
        &.pre {
            left: 0;
        }
@@ -28,13 +43,26 @@ const CarouselDiv = styled.div`
    }
    .itemLists {
        position: absolute;
-       height: 350px;
-       margin-top: 50px;
+       height: 400px;
+       bottom: 30px;
+       ${mediaQuery()} {
+          height: 350px;
+       }
+       ${mediaQuery(415)} {
+          height: 200px;
+       }
        .itemList {
            outline: 1px solid red;
            float: left;
-           width: calc(100vw / 2);
-           height: 300px;
+           width: 50vw;
+           height: 400px;
+           min-width: 160px;
+           ${mediaQuery()} {
+                height: 350px;
+            }
+           ${mediaQuery(415)} {
+               height: 200px;
+           }
            &.hide {
                visibility: hidden;
                height: 0;
@@ -55,18 +83,32 @@ const CarouselDiv = styled.div`
        bottom: 0;
        z-index: 50;
        width: 100%;
-       height: 350px;
-       margin-top: 50px;
+       height: 450px;
+       bottom: 30px;
+       transform: translateZ(100px);
+       ${mediaQuery()} {
+          height: 385px;
+       }
+       ${mediaQuery(415)} {
+          height: 225px;
+       }
        .activeItemList {
            outline: 1px solid lightgreen;
            position: absolute;
-           left: 25%;
-           width: 50%;
+           left: 12.5%;
+           width: 75%;
            visibility: hidden;
            height: 0;
            &.active {
               visibility: visible;
-              height: 350px;
+              height: 450px;
+             ${mediaQuery()} {
+                height: 385px;
+             }
+              ${mediaQuery(415)} {
+                height: 225px;
+             }
+             
            }
       }
    }
@@ -98,7 +140,7 @@ const CarouselDiv = styled.div`
 `
 
 
-const defaultWidth = `calc(100vw / 2)`
+const defaultWidth = `calc(50vw)`
 
 export default CarouselDiv
 
