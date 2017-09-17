@@ -32,9 +32,6 @@ export default class TopScreen extends Component {
     }
 
     _hideQRCode(e, _this) {
-/*        console.log(e.target)
-        console.log(_this.shade)
-        console.log(_this.shade === e.target)*/
         if(_this.shade === e.target) {
             this.setState({
                 isShowQR: false,

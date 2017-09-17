@@ -31,21 +31,6 @@ export default class Carousel extends Component {
     }
 
 
-    
-    componentWillMount() {
-       
-    }
-
-    componentWillReceiveProps(nextProps) {
-
-    }
-
-    
-    componentDidMount() {
- 
-    }
-    
-
     _setContent(index) {
         const {itemList} = this.props
         const {activeIndex, left} = this.state
@@ -87,11 +72,6 @@ export default class Carousel extends Component {
             index = activeIndex - 1
         }
         this._setContent(index)
-        /*if(dir === 'next') {
-            this.setState({
-                activeTransfrom: 'transfromX()'
-            })
-        }*/
         
     }
 
@@ -108,7 +88,7 @@ export default class Carousel extends Component {
         let activeItemLists = null
         let bullets = null
         if(itemList) {
-          //  console.log('itemList: ', itemList)
+            console.log('itemList: ', itemList)
             itemLists = itemList.map((list, index) => {
                 return  (
                     <li key={index} className={classNames('itemList', {hide: activeIndex === index})}
@@ -132,7 +112,9 @@ export default class Carousel extends Component {
                     )}
                     style={{
                         background: `url(${list.videoImg}) no-repeat center/cover`
-                    }}>
+                    }}
+                      onClick={() => {_this.switchRoute(`${detail}/${list.id}`)}}
+                    >
                         <div className="title">{index} {list.title}</div>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
@@ -146,8 +128,6 @@ export default class Carousel extends Component {
                 )
             })
         }
-
-       // console.log(itemLists)
 
         return (
           <CarouselDiv >

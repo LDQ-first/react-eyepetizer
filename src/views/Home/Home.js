@@ -10,6 +10,9 @@ import * as eyeAction from '../../redux/actions/eye.js'
 import Button from '../../styled/button'
 import TopScreen from '../../components/TopScreen/TopScreen.js'
 import VideoLists from '../../components/VideoLists/VideoLists.js'
+import Download from '../../components/Download/Download.js'
+import Footer from '../../components/Footer/Footer.js'
+
 
 class Home extends Component {
     static get propTypes() { 
@@ -66,6 +69,8 @@ class Home extends Component {
                 </div>*/}
                 <TopScreen />
                 <VideoLists date={date} itemList={itemList}/>
+                <Download />
+                <Footer />
             </div>
         )
     }

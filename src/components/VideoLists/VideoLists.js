@@ -29,14 +29,10 @@ class VideoLists extends Component {
     }
 
 
-    
-    componentWillMount() {
-       
-    }
-
     switchRoute(path) {
          const {history} = this.props
-        history.push(path)
+         console.log(path)
+         history.push(path)
     }
 
     
@@ -47,8 +43,6 @@ class VideoLists extends Component {
             console.log('date: ', date)
         }
     //    console.log(location, history, match)
-
-
 
         return (
           <VideoListsDiv>

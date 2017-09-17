@@ -9,7 +9,7 @@ const ShowQRCodeDiv = styled.div`
         position: fixed;
         left: 0;
         top: 0;
-        z-index: 10;
+        z-index: 1000;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -19,8 +19,8 @@ const ShowQRCodeDiv = styled.div`
         padding-bottom: 20px;
         background: #fff;
         text-align: center;
-        animation: show 1s ease-in-out;
-        @keyframes show {
+        animation: showQR 1s ease-in-out;
+        @keyframes showQR {
             0% {
                 opacity: 0;
                 transform: translateY(30%);
