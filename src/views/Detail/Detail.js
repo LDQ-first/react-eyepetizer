@@ -10,8 +10,12 @@ import {
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
 import Button from '../../styled/button'
-
-
+import Video from '../../components/Video/Video.js'
+import VideoInfo from '../../components/VideoInfo/VideoInfo.js'
+import RelatedVideo from '../../components/RelatedVideo/RelatedVideo.js'
+import ReplyLists from '../../components/ReplyLists/ReplyLists.js'
+import Tags from '../../components/Tags/Tags.js'
+import DetailFooter from '../../components/DetailFooter/DetailFooter.js'
 
 class Detail extends Component {
     static get propTypes() { 
@@ -89,8 +93,8 @@ class Detail extends Component {
         }
 
         return (
-            <div>
-                detail
+            <div className="detail">
+               { /*detail
                 <div>
                   {match.params.id ?  <Button  className="btn" onClick={() => {
                         this.getDetail(match.params.id)
@@ -98,7 +102,13 @@ class Detail extends Component {
                     <Button  className="btn" onClick={() => {
                         this.switchRoute('/')
                     }}>跳转到 /</Button >
-                </div>
+                </div>*/}
+                <Video/>
+                <VideoInfo/>
+                <RelatedVideo />
+                <ReplyLists />
+                <Tags />
+                <DetailFooter />
             </div>
         )
     }

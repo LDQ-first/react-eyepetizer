@@ -85,9 +85,6 @@ export default injectGlobal`
         fill: currentColor;
         overflow: hidden;
     }
-   /* svg {
-        fill: ${svgBlue} !important;
-    }*/
     .fade-enter {
         opacity: 0.01;
         transform: translateY(-100%);
@@ -118,6 +115,12 @@ export default injectGlobal`
     }
     .index {
         height: 100%;
+    }
+    .detail {
+        outline: 1px solid red;
+        margin: 0 auto;
+        max-width: 700px;
+        overflow: hidden;
     }
 `
 
