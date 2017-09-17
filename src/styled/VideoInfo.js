@@ -25,6 +25,11 @@ const VideoInfoDiv = styled.div`
            opacity: 0.85;
        }
    }
+   .consumptions {
+       .consumption {
+           
+       }
+   }
    .download-area {
         background: rgba(0,0,0,.2);
         height: 70px;
