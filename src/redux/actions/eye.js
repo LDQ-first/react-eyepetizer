@@ -148,7 +148,8 @@ const filterRepliesData = (data) => {
                nickname: replyList.user.nickname,
                avatar: replyList.user.avatar
            },
-           hot:  replyList.hot
+           hot:  replyList.hot,
+           createTime: replyList.createTime
        })
    }
 

@@ -40,7 +40,7 @@ export default class ReplyLists extends Component {
                             <img src={reply.user.avatar} className="avatar"/>
                             <div className="reply-message">
                                  <h3 className="userName">{reply.user.nickname}</h3>
-                                <span className="time"></span>
+                                <span className="time">{moment(reply.createTime).format(`YYYY-M-D H:m`)}</span>
                                 <p className="message">{reply.message}</p>
                             </div>
                         </div>
