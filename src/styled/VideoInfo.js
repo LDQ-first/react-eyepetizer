@@ -26,18 +26,28 @@ const VideoInfoDiv = styled.div`
        }
    }
    .download-area {
-        background: rgba(0,0,0,.3);
+        background: rgba(0,0,0,.2);
         height: 70px;
         position: relative;
         z-index: 10;
         .logo {
-
+            background: url(${eyeApi.logoLaunch}) no-repeat center/ cover;
+            position: absolute;
+            height: 44px;
+            left: 15px;
+            top: 12px;
+            width: 174px;
         }
         .appLink {
-
+           
         }
         .appLinkBtn {
-            
+            background: url(${eyeApi.btnLaunch}) no-repeat center/ 100%;
+            position: absolute;
+            height: 33px;
+            right: 15px;
+            top: 18px;
+            width: 86px;
         }
    }
 

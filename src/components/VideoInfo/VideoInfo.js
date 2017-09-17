@@ -25,9 +25,9 @@ export default class VideoInfo extends Component {
 
     render() {
        const {itemList} = this.props
-        if(itemList) {
+       /* if(itemList) {
             console.log('itemList: ', itemList)
-        }
+        }*/
 
 
         return (
@@ -39,7 +39,7 @@ export default class VideoInfo extends Component {
                </div>
                <div className="download-area">
                    <div className="logo"></div>
-                   <a className="appLink" href={eyeApi.appLink}>
+                   <a className="appLink" href={eyeApi.appLink} target="_blank">
                     <Button className="appLinkBtn"/>
                    </a>
                </div>

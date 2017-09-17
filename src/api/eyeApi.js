@@ -58,7 +58,8 @@ const detailBg = `http://img.kaiyanapp.com/a55bf0a3e95f8ac1f935459618ed7d94.jpeg
 const playerBtn = `http://static.kaiyanapp.com/eyepetizer-web/assets/images/detail/icon_play@2x.3b9f9ba5.png`
 
 
-const logoLaunch = `http://static.kaiyanapp.com/eyepetizer-web/assets/images/detail/logo_launch@3x.ff359b72.png`
+const logoLaunch = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/logo_launch@3x.ff359b72.png`
+const btnLaunch = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/btn_launch@3x.950ac618.png`
 
 const appLink = `https://lkme.cc/3rC/mfeBTCBn9`
 
@@ -76,5 +77,6 @@ export {
     detailBg,
     playerBtn,
     logoLaunch,
+    btnLaunch,
     appLink
 }
