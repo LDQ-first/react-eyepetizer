@@ -65,6 +65,8 @@ export default class ReplyLists extends Component {
                )
            })
        }
+
+       console.log(replyLists)
        
 
 
@@ -74,7 +76,7 @@ export default class ReplyLists extends Component {
                     <h2 className="title">评论</h2>
                 </header>
                 { 
-                    replyLists 
+                    replyLists && replyLists.length
                     ? <ul className="reply-lists">
                         {replyLists}
                       </ul> 

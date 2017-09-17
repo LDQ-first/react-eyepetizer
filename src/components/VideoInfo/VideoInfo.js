@@ -16,6 +16,10 @@ export default class VideoInfo extends Component {
     render() {
        const {itemList} = this.props
 
+       if(itemList.consumption) {
+           console.log('consumption: ', itemList.consumption)
+       }
+
         return (
             <VideoInfoDiv>
                <div className="video-meta">

@@ -76,6 +76,11 @@ const ReplyListsDiv = styled.div`
              }
          }
      }
+     .noReply {
+         margin: 0;
+         text-align: center;
+         padding: 1em 0;
+     }
 
 `
 
