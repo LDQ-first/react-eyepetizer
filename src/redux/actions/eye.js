@@ -189,6 +189,7 @@ const filterDetailData = (data) => {
    const tags = data.tags
    const newTags = [] 
    for(let tag of tags) {
+      
        newTags.push({tag: tag.name})
    }
    const newdata = {

@@ -17,6 +17,7 @@ import RelatedVideo from '../../components/RelatedVideo/RelatedVideo.js'
 import ReplyLists from '../../components/ReplyLists/ReplyLists.js'
 import Tags from '../../components/Tags/Tags.js'
 import DetailFooter from '../../components/DetailFooter/DetailFooter.js'
+import {detail as detailLink} from '../../router/link.js'
 
 class Detail extends Component {
     static get propTypes() { 
@@ -64,12 +65,36 @@ class Detail extends Component {
 
     
     componentWillReceiveProps(nextProps) {
-        const {getRelatedData, getRepliesData, match} = nextProps
+        const {getRelatedData, getRepliesData, match, details} = nextProps
+        const {detail} = details
+        if(detail) {
+            console.log('detail: ', detail)
+            const newItemListData = {
+                category: detail.category,
+                consumption: detail.consumption,
+                videoImg: detail.coverForFeed,
+                duration: detail.duration,
+                description: detail.description,
+                id: detail.id,
+                tags: detail.tags,
+                title: detail.title,
+                playUrl: detail.playUrl
+            }
+            this.setState({
+                itemList: newItemListData
+            })
+            localStorage.itemList = JSON.stringify(newItemListData)
+            
+            if(match.params.id !== newItemListData.id + '') {
+                this.switchRoute(`${detailLink}/${newItemListData.id}`) 
+            }
+           
+         }
 
     }
     
     switchRoute(path) {
-         const {history} = this.props
+        const {history} = this.props
         history.push(path)
     }
 
@@ -90,10 +115,10 @@ class Detail extends Component {
         const {replyList} = replyLists
         const {detail} = details
 
-      
-       if(detail) {
-            console.log('detail: ', detail)
+        if(itemList) {
+            console.log('itemList: ', itemList)
         }
+       
 
 
 
@@ -119,7 +144,7 @@ class Detail extends Component {
                 <VideoInfo itemList={itemList}/>
                 <RelatedVideo videoList={videoList} detail={detail} _this={this}/>
                 <ReplyLists replyList={replyList}/>
-                <Tags itemList={itemList} />
+                { itemList.tags.length ? <Tags tags={itemList.tags} /> : null}
                 <DetailFooter />
             </div>
         )
