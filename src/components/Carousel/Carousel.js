@@ -105,7 +105,10 @@ export default class Carousel extends Component {
                 return  (
                     <li key={index} className={classNames('itemList', {hide: activeIndex === index})}
                     ref={itemList => this.itemList = itemList}
-                    style={{left: `${defaultWidth * index}`}}>
+                    style={{
+                        left: `${defaultWidth * index}`,
+                        background: `url(${list.videoImg}) no-repeat center/cover`
+                    }}>
                         <div className="title">{index} {list.title}</div>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
@@ -114,7 +117,10 @@ export default class Carousel extends Component {
             
             activeItemLists = itemList.map((list, index) => {
                 return  (
-                    <li key={index} className={classNames('activeItemList', {active: activeIndex === index})}>
+                    <li key={index} className={classNames('activeItemList', {active: activeIndex === index})}
+                    style={{
+                        background: `url(${list.videoImg}) no-repeat center/cover`
+                    }}>
                         <div className="title">{index} {list.title}</div>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>
                     </li>
