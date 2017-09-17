@@ -5,6 +5,7 @@ import classNames from 'classnames'
 import Button from 'material-ui/Button'
 import {formatDuration} from '../../utils'
 
+
 export default class RelatedVideo extends Component {
     static get propTypes() { 
         return { 
@@ -36,7 +37,9 @@ export default class RelatedVideo extends Component {
             videoLists = videoList.map((video, index) => {
                 return (
                     <li key={index} className="video-list">
-                        <img className="coverForFeed" src={video.coverForFeed} />
+                        <div className="coverForFeed">
+                           <img className="coverForFeedImg" src={video.coverForFeed} />
+                        </div>
                         <div className="content" onClick={() => {_this.getDetail(video.id)}}>
                             <h3 className="title">{video.title}</h3>
                             <div className="meta"># {video.category} / {formatDuration(video.duration)}</div>

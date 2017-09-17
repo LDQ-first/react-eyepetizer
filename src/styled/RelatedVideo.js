@@ -12,14 +12,41 @@ const RelatedVideoDiv = styled.div`
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 2em 0;
             .coverForFeed {
                 width: 40%;
                 border: 4px solid #EEE;
-                margin: 1em;
+                position: relative;
+                font-size: 0;
+                .coverForFeedImg {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+                &::before, &::after {
+                    content: '';
+                    position: absolute;
+                    
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    background: #3f51b5;
+                    border: 4px solid #FFF;
+                }
+                &::before {
+                    transform: rotate(-3deg);
+                    left: -4%;
+                    top: -4%;
+                }
+                &::after {
+                     transform: rotate(3deg);
+                     left: 0;
+                     top: -2%;
+                }
             }
             .content {
                 flex: 1;
-                padding: 1em;
+                padding: 1em 2em;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;

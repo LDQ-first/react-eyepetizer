@@ -78,7 +78,6 @@ export default class Carousel extends Component {
     render() {
         const {itemList, _this} = this.props
         const {activeIndex, left, activeTransfrom ,dir} = this.state
-      //  console.log(detail)
 
 
 

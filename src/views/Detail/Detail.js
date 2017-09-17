@@ -68,7 +68,6 @@ class Detail extends Component {
         const {getRelatedData, getRepliesData, match, details} = nextProps
         const {detail} = details
         if(detail) {
-            console.log('detail: ', detail)
             const newItemListData = {
                 category: detail.category,
                 consumption: detail.consumption,
