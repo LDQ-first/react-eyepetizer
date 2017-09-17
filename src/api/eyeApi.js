@@ -63,6 +63,8 @@ const btnLaunch = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/bt
 
 const appLink = `https://lkme.cc/3rC/mfeBTCBn9`
 
+const iconLike = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/icon_like_grey@3x.d2a2a2a8.png`
+
 
 export {
     index,
@@ -78,5 +80,6 @@ export {
     playerBtn,
     logoLaunch,
     btnLaunch,
-    appLink
+    appLink,
+    iconLike
 }

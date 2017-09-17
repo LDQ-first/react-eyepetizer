@@ -10,7 +10,6 @@ export default class RelatedVideo extends Component {
     static get propTypes() { 
         return { 
             videoList: PropTypes.array,
-            detail: PropTypes.object,
             _this: PropTypes.object
         }
     }
@@ -27,13 +26,12 @@ export default class RelatedVideo extends Component {
     
 
     render() {
-        const {videoList, detail, _this} = this.props
+        const {videoList, _this} = this.props
         
         
         
         let videoLists = null
         if(videoList) {
-            console.log('videoList: ', videoList)
             videoLists = videoList.map((video, index) => {
                 return (
                     <li key={index} className="video-list">

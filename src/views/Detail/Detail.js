@@ -118,15 +118,6 @@ class Detail extends Component {
             console.log('itemList: ', itemList)
         }
        
-
-
-
-
-       
-        if(replyList) {
-             console.log('replyList: ', replyList)
-        }
-
        
         return (
             <div className="detail">
