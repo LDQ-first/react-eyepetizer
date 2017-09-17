@@ -37,6 +37,12 @@ export default class VideoInfo extends Component {
                    <h2 className="meta">{itemList.category} / {formatDuration(itemList.duration)}</h2>
                    <p className="description">{itemList.description}</p>
                </div>
+               <div className="download-area">
+                   <div className="logo"></div>
+                   <a className="appLink" href={eyeApi.appLink}>
+                    <Button className="appLinkBtn"/>
+                   </a>
+               </div>
             </VideoInfoDiv>
         )
     }

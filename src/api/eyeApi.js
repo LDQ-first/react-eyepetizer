@@ -58,6 +58,11 @@ const detailBg = `http://img.kaiyanapp.com/a55bf0a3e95f8ac1f935459618ed7d94.jpeg
 const playerBtn = `http://static.kaiyanapp.com/eyepetizer-web/assets/images/detail/icon_play@2x.3b9f9ba5.png`
 
 
+const logoLaunch = `http://static.kaiyanapp.com/eyepetizer-web/assets/images/detail/logo_launch@3x.ff359b72.png`
+
+const appLink = `https://lkme.cc/3rC/mfeBTCBn9`
+
+
 export {
     index,
     related,
@@ -69,5 +74,7 @@ export {
     sprite,
     author,
     detailBg,
-    playerBtn
+    playerBtn,
+    logoLaunch,
+    appLink
 }

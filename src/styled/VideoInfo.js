@@ -25,6 +25,21 @@ const VideoInfoDiv = styled.div`
            opacity: 0.85;
        }
    }
+   .download-area {
+        background: rgba(0,0,0,.3);
+        height: 70px;
+        position: relative;
+        z-index: 10;
+        .logo {
+
+        }
+        .appLink {
+
+        }
+        .appLinkBtn {
+            
+        }
+   }
 
 `
 
