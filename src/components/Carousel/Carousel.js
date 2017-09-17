@@ -74,6 +74,9 @@ export default class Carousel extends Component {
         const {itemList} = this.props
         const {activeIndex} = this.state
         let index = 0
+        this.setState({
+            dir
+        })
         if(dir === 'next' && activeIndex === itemList.length - 1) {
             index = 0
         } else if (dir === 'next') {
@@ -84,13 +87,18 @@ export default class Carousel extends Component {
             index = activeIndex - 1
         }
         this._setContent(index)
+        /*if(dir === 'next') {
+            this.setState({
+                activeTransfrom: 'transfromX()'
+            })
+        }*/
         
     }
 
 
     render() {
         const {itemList, _this} = this.props
-        const {activeIndex, left} = this.state
+        const {activeIndex, left, activeTransfrom ,dir} = this.state
       //  console.log(detail)
 
 
@@ -117,7 +125,11 @@ export default class Carousel extends Component {
             
             activeItemLists = itemList.map((list, index) => {
                 return  (
-                    <li key={index} className={classNames('activeItemList', {active: activeIndex === index})}
+                    <li key={index} className={classNames('activeItemList',
+                             {active: activeIndex === index}, 
+                             {'pre': dir === 'pre'},
+                             {'next': dir === 'next'}
+                    )}
                     style={{
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}>

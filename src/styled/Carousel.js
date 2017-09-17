@@ -5,22 +5,23 @@ import {eyeApi} from '../api/api.js'
 const CarouselDiv = styled.div`
    position: relative;
    width: 100%;
-   height: 490px;
+   height: 480px;
    overflow: hidden;
    transform: perspective(1000px);
    color: #FFF;
+   background: #FFF;
    ${mediaQuery()} {
-      height: 425px;
+      height: 415px;
    }
    ${mediaQuery(415)} {
-       height: 265px;
+       height: 255px;
    }
    .controlBtn {
        width: 12.5%;
        height: 400px;
        background: rgba(0 ,0, 0, 0.2);
        position: absolute;
-       bottom: 40px;
+       bottom: 30px;
        z-index: 100;
        min-width: 8px;
        ${mediaQuery()} {
@@ -44,7 +45,7 @@ const CarouselDiv = styled.div`
    .itemLists {
        position: absolute;
        height: 400px;
-       bottom: 40px;
+       bottom: 30px;
        overflow: hidden;
        transition: left .5s ease-in-out;
        ${mediaQuery()} {
@@ -89,7 +90,7 @@ const CarouselDiv = styled.div`
        z-index: 50;
        width: 100%;
        height: 450px;
-       bottom: 40px;
+       bottom: 30px;
        transform: translateZ(100px);
        ${mediaQuery()} {
           height: 385px;
@@ -108,7 +109,13 @@ const CarouselDiv = styled.div`
            justify-content: center;
            align-items: center;
            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
-            transition: transform .5s ease-in-out;
+           transition: transform .5s ease-in-out;
+           &.pre {
+
+           }
+           &.next {
+               
+           }
            &.active {
               visibility: visible;
               height: 450px;
@@ -147,7 +154,7 @@ const CarouselDiv = styled.div`
    }
    .bullets {
        position: absolute;
-       bottom: 10px;
+       bottom: 0px;
        width: 100%;
        height: 30px;
        background: rgba(255, 255, 255, 0.1);
