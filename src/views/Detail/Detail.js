@@ -24,7 +24,6 @@ class Detail extends Component {
             location: PropTypes.obj.isRequired,
             history: PropTypes.obj.isRequired,
             match: PropTypes.obj.isRequired,
-            IndexData: PropTypes.object,
             videoLists: PropTypes.array,
             replyLists: PropTypes.array,
             details: PropTypes.object,
@@ -48,14 +47,10 @@ class Detail extends Component {
             getRepliesData(match.params.id)
         }
         console.log('willmount')
-        const {IndexData} = this.props
-        const {itemList} = IndexData
-
          if(localStorage.itemList) {
-            console.log('localStorage.itemList: ', localStorage.itemList)
-            console.log('JSON.parse(localStorage.itemList): ', JSON.parse(localStorage.itemList))
+            const itemList = JSON.parse(localStorage.itemList)
             this.setState({
-                itemList: JSON.parse(localStorage.itemList)
+                itemList: itemList
             })
         }
         
@@ -63,11 +58,7 @@ class Detail extends Component {
     
     
     componentDidMount() {
-        /*const {IndexData} = this.props
-        const {itemList} = IndexData
-         if(itemList) {
-            console.log('itemList: ', itemList)
-        }*/
+       
     }
     
 
@@ -93,9 +84,8 @@ class Detail extends Component {
 
     render() {
        
-        const {match, IndexData, videoLists, replyLists, details} = this.props
-       /* const {itemList} = IndexData*/
-       const {itemList} = this.state
+        const {match, videoLists, replyLists, details} = this.props
+        const {itemList} = this.state
         const {videoList} = videoLists
         const {replyList} = replyLists
         const {detail} = details
@@ -142,7 +132,6 @@ class Detail extends Component {
 
 
 const mapStateToProps = (state) => ({
-    IndexData: IndexDataSelector(state),
     videoLists: videoListsSelector(state),
     replyLists: replyListsSelector(state),
     details: detailsSelector(state)
