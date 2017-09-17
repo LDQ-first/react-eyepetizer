@@ -6,6 +6,11 @@ import Button from 'material-ui/Button'
 
 
 export default class DetailFooter extends Component {
+    static get propTypes() { 
+        return { 
+            _this: PropTypes.object
+        }
+    }
 
      constructor (props) {
         super(props)
@@ -18,12 +23,16 @@ export default class DetailFooter extends Component {
     
 
     render() {
-       
 
+        const {_this} = this.props
 
         return (
             <DetailFooterDiv>
-               
+               <Button className="indexLink" onClick={() => {_this.switchRoute('/')}}>
+                    <div className="bottom-logo"></div>
+               </Button>
+               <img src={eyeApi.eyepetizerWxQr} className="eyepetizerWxQr"/>
+               <div className="qr-tips">长按二维码关注「开眼 Eyepetizer」微信公众号</div>
             </DetailFooterDiv>
         )
     }

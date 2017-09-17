@@ -57,10 +57,7 @@ class Detail extends Component {
         
     }
     
-    
-    componentDidMount() {
-       
-    }
+
     
 
     
@@ -121,21 +118,12 @@ class Detail extends Component {
        
         return (
             <div className="detail">
-               { /*detail
-                <div>
-                  {match.params.id ?  <Button  className="btn" onClick={() => {
-                        this.getDetail(match.params.id)
-                    }}>获取 {match.params.id} 的详情</Button > : null }
-                    <Button  className="btn" onClick={() => {
-                        this.switchRoute('/')
-                    }}>跳转到 /</Button >
-                </div>*/}
                 <Video itemList={itemList}/>
                 <VideoInfo itemList={itemList}/>
                 <RelatedVideo videoList={videoList} detail={detail} _this={this}/>
                 <ReplyLists replyList={replyList}/>
                 { itemList.tags.length ? <Tags tags={itemList.tags} /> : null}
-                <DetailFooter />
+                <DetailFooter _this={this}/>
             </div>
         )
     }

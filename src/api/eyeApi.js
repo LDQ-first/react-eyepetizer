@@ -66,6 +66,11 @@ const appLink = `https://lkme.cc/3rC/mfeBTCBn9`
 const iconLike = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/icon_like_grey@3x.d2a2a2a8.png`
 
 
+const bottomLogo = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/bottom_logo@3x.556cae6b.png`
+
+const eyepetizerWxQr = `//static.kaiyanapp.com/eyepetizer-web/assets/images/eyepetizer-wx-qr.243f15a2.png`
+
+
 export {
     index,
     related,
@@ -81,5 +86,7 @@ export {
     logoLaunch,
     btnLaunch,
     appLink,
-    iconLike
+    iconLike,
+    bottomLogo,
+    eyepetizerWxQr
 }

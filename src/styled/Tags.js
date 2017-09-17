@@ -4,9 +4,8 @@ import {eyeApi} from '../api/api.js'
 
 const TagsDiv = styled.div`
      color: #FFF;
-     padding: 50px 0;
      background: rgba(0, 0, 0, 0.2);
-     padding: 15px 15px 15px 15px; 
+     padding: 15px; 
      .header {
          text-align: center;
          .title {

@@ -40,10 +40,6 @@ class VideoLists extends Component {
 
     render() {
         const {date, itemList, location, history, match} = this.props
-        if(date) {
-            console.log('date: ', date)
-        }
-    //    console.log(location, history, match)
 
         return (
           <VideoListsDiv>

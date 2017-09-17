@@ -32,7 +32,6 @@ export default class ReplyLists extends Component {
 
        let replyLists = null
        if(replyList) {
-         console.log('replyList: ', replyList)
            replyLists = replyList.map((reply, index) => {
                return (
                    <li key={index} className="reply">

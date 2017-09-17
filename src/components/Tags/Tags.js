@@ -28,7 +28,6 @@ export default class Tags extends Component {
 
        let tagLists = null
        if(tags) {
-           console.log('tags: ', tags)
            tagLists = tags.map((tag, index) => {
                return (
                    <li key={index} className="tag">
