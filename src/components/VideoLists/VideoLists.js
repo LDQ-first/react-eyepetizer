@@ -29,10 +29,14 @@ class VideoLists extends Component {
     }
 
 
-    switchRoute(path) {
-         const {history} = this.props
+    switchRoute(path, index) {
+         const {history, itemList} = this.props
          console.log(path)
          history.push(path)
+         console.log(index)
+         console.log(itemList[index])
+         console.log(JSON.stringify(itemList[index]))
+         localStorage.itemList = JSON.stringify(itemList[index])
     }
 
     

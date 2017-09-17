@@ -6,6 +6,13 @@ import Button from 'material-ui/Button'
 
 
 export default class Video extends Component {
+    static get propTypes() { 
+        return { 
+            itemList: PropTypes.array,
+            _this: PropTypes.object
+        }
+    }
+
 
      constructor (props) {
         super(props)
@@ -19,11 +26,11 @@ export default class Video extends Component {
 
     render() {
        
-
+        
 
         return (
             <VideoDiv>
-               
+               <video controls ></video>
             </VideoDiv>
         )
     }

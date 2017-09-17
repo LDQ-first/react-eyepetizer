@@ -55,7 +55,6 @@ export default class Carousel extends Component {
    
     
     _toggleContent(dir) {
-        console.log(dir)
         const {itemList} = this.props
         const {activeIndex} = this.state
         let index = 0
@@ -88,7 +87,6 @@ export default class Carousel extends Component {
         let activeItemLists = null
         let bullets = null
         if(itemList) {
-            console.log('itemList: ', itemList)
             itemLists = itemList.map((list, index) => {
                 return  (
                     <li key={index} className={classNames('itemList', {hide: activeIndex === index})}
@@ -113,7 +111,7 @@ export default class Carousel extends Component {
                     style={{
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}
-                      onClick={() => {_this.switchRoute(`${detail}/${list.id}`)}}
+                      onClick={() => {_this.switchRoute(`${detail}/${list.id}`, index)}}
                     >
                         <div className="title">{index} {list.title}</div>
                         <div className="meta">#{list.category} / {formatDuration(list.duration)}</div>

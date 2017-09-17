@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import { withRouter } from 'react-router'
 import {
+    IndexDataSelector,
     videoListsSelector,
     replyListsSelector,
     detailsSelector
@@ -23,7 +24,7 @@ class Detail extends Component {
             location: PropTypes.obj.isRequired,
             history: PropTypes.obj.isRequired,
             match: PropTypes.obj.isRequired,
-            itemList: PropTypes.array,
+            IndexData: PropTypes.object,
             videoLists: PropTypes.array,
             replyLists: PropTypes.array,
             details: PropTypes.object,
@@ -33,6 +34,12 @@ class Detail extends Component {
         }
     }
 
+     constructor (props) {
+        super(props)
+        this.state = {
+           
+        }
+    }
     
     componentWillMount() {
         const {getRelatedData, getRepliesData, match} = this.props
@@ -41,6 +48,26 @@ class Detail extends Component {
             getRepliesData(match.params.id)
         }
         console.log('willmount')
+        const {IndexData} = this.props
+        const {itemList} = IndexData
+
+         if(localStorage.itemList) {
+            console.log('localStorage.itemList: ', localStorage.itemList)
+            console.log('JSON.parse(localStorage.itemList): ', JSON.parse(localStorage.itemList))
+            this.setState({
+                itemList: JSON.parse(localStorage.itemList)
+            })
+        }
+        
+    }
+    
+    
+    componentDidMount() {
+        /*const {IndexData} = this.props
+        const {itemList} = IndexData
+         if(itemList) {
+            console.log('itemList: ', itemList)
+        }*/
     }
     
 
@@ -66,20 +93,19 @@ class Detail extends Component {
 
     render() {
        
-        const {match, itemList, videoLists, replyLists, details} = this.props
+        const {match, IndexData, videoLists, replyLists, details} = this.props
+       /* const {itemList} = IndexData*/
+       const {itemList} = this.state
         const {videoList} = videoLists
         const {replyList} = replyLists
         const {detail} = details
 
-        /*console.log('videoList: ', videoList)
-        console.log('replyList: ', replyList)
-        console.log('replyList: ', replyList)
-        console.log('detail: ', detail)
-        
-*/
+      
         if(itemList) {
             console.log('itemList: ', itemList)
         }
+
+
 
         if(videoList) {
              console.log('videoList: ', videoList)
@@ -116,6 +142,7 @@ class Detail extends Component {
 
 
 const mapStateToProps = (state) => ({
+    IndexData: IndexDataSelector(state),
     videoLists: videoListsSelector(state),
     replyLists: replyListsSelector(state),
     details: detailsSelector(state)

@@ -47,26 +47,12 @@ class Home extends Component {
        
         const {IndexData} = this.props
         const {date, itemList} = IndexData
-        /*if(date) {
-            console.log('date: ', date)
-        }
-        if(itemList) {
-            console.log('itemList: ', itemList)
-        }*/
-        
-    
+        /*console.log(itemList)
+        console.log(JSON.stringify(itemList))
+        localStorage.itemList = JSON.stringify(itemList)*/
 
         return (
             <div className="index">
-                {/*home
-                <div>
-                    <Button  className="btn" onClick={() => {
-                        this.switchRoute('/detail')
-                    }}>跳转到 /detail</Button >
-                    <Button  className="btn" onClick={() => {
-                        this.switchRoute('/detail/48921')
-                    }}>跳转到 /detai/48921</Button >
-                </div>*/}
                 <TopScreen />
                 <VideoLists date={date} itemList={itemList}/>
                 <Download />

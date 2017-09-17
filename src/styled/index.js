@@ -5,7 +5,7 @@ const bgBlue = lightBlue[400]
 const bgPurple = deepPurple[200]
 const mainBlue = blue[500]
 const svgBlue = blue[600]
-
+import {eyeApi} from '../api/api.js' 
 
 export default injectGlobal`
     * {
@@ -121,6 +121,7 @@ export default injectGlobal`
         margin: 0 auto;
         max-width: 700px;
         overflow: hidden;
+       /* background: url(${eyeApi.detailBg}) no-repeat center/cover;*/
     }
 `
 

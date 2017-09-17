@@ -38,19 +38,6 @@ const home = {
 }
 
 
-/*
-<div class="image-list">
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_7.8b2d29b4.jpg"alt=""class="hide"> 
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_6.54b06aad.jpg"alt=""class="hide"> 
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_5.c48e7769.jpg"alt=""class="hide"> 
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_4.c268348d.jpg"alt=""class="hide"> 
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_3.7819585d.jpg"alt=""class="hide"> 
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_2.6b1727b7.jpg"alt=""class=""> 
-<img src="//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_1.9583a28a.jpg"alt=""class="hide">
-</div>
-
-*/
-
 
 const imglists = [
     '//static.kaiyanapp.com/eyepetizer-web/assets/images/index/home_bk_7.8b2d29b4.jpg',
@@ -66,6 +53,8 @@ const sprite = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/sprite
 
 const author = `http://open.eyepetizer.net/#!/landing`
 
+const detailBg = `http://img.kaiyanapp.com/a55bf0a3e95f8ac1f935459618ed7d94.jpeg?imageMogr2/quality/60/format/jpg`
+
 
 export {
     index,
@@ -76,5 +65,6 @@ export {
     home,
     imglists,
     sprite,
-    author
+    author,
+    detailBg
 }
