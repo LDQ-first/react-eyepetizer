@@ -79,6 +79,9 @@ export default injectGlobal`
     .noMargin {
         margin: 0;
     }
+    .none {
+        display: none !important;
+    }
     .icon {
         width: 1em; height: 1em;
         vertical-align: -0.15em;

@@ -6,6 +6,12 @@ import Button from 'material-ui/Button'
 
 
 export default class Tags extends Component {
+    static get propTypes() { 
+        return { 
+            itemList: PropTypes.array,
+            _this: PropTypes.object
+        }
+    }
 
      constructor (props) {
         super(props)

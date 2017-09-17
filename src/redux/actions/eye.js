@@ -42,7 +42,8 @@ const filterIndexData = (data) => {
                 description: itemdata.description,
                 id: itemdata.id,
                 tags: newTags,
-                title: itemdata.title
+                title: itemdata.title,
+                playUrl: itemdata.playUrl
             }
             newItemList.push(newItemListData)
         } else if(item.type === 'textFooter'){

@@ -91,9 +91,7 @@ class Detail extends Component {
         const {detail} = details
 
       
-        if(itemList) {
-            console.log('itemList: ', itemList)
-        }
+       
 
 
 
@@ -119,11 +117,11 @@ class Detail extends Component {
                         this.switchRoute('/')
                     }}>跳转到 /</Button >
                 </div>*/}
-                <Video/>
-                <VideoInfo/>
+                <Video itemList={itemList}/>
+                <VideoInfo itemList={itemList}/>
                 <RelatedVideo />
                 <ReplyLists />
-                <Tags />
+                <Tags itemList={itemList} />
                 <DetailFooter />
             </div>
         )
