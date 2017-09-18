@@ -60,7 +60,7 @@ export default class VideoInfo extends Component {
 
        let author = null
        if(itemList.author) {
-           console.log('itemList.author: ', itemList.author)
+        /*   console.log('itemList.author: ', itemList.author)*/
            const item = itemList.author
            author = (
                 <div className="author" onClick={() => {_this.switchRoute(`${authorLink}/${item.id}`)}}>

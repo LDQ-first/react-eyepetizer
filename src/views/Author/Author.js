@@ -58,10 +58,12 @@ class Author extends Component {
     }
 
     switchRoute(path, index) {
-         const {history} = this.props
-        /* if(index) {
-           localStorage.itemList = JSON.stringify(itemList[index])
-       }*/
+         const {history, authors} = this.props
+         const {authorVideo} = authors
+       /*  console.log(authorVideo[index])*/
+         if(index) {
+           localStorage.itemList = JSON.stringify(authorVideo[index])
+        }
          history.push(path)
         
     }

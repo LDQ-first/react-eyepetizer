@@ -63,7 +63,7 @@ class Detail extends Component {
     componentWillReceiveProps(nextProps) {
         const {getRelatedData, getRepliesData, match, details} = nextProps
         const {detail} = details
-        if(detail) {
+        if(detail && this.props.details.detail !== detail) {
             const newItemListData = {
                 category: detail.category,
                 consumption: detail.consumption,
@@ -80,11 +80,9 @@ class Detail extends Component {
                 itemList: newItemListData
             })
             localStorage.itemList = JSON.stringify(newItemListData)
-            
             if(match.params.id !== newItemListData.id + '') {
                 this.switchRoute(`${detailLink}/${newItemListData.id}`) 
             }
-           
          }
 
     }

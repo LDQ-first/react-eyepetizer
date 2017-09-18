@@ -20,7 +20,7 @@ export default class AuthorVideo extends Component {
 
        let author = null
        if(authorVideo) {
-           console.log('authorVideo: ', authorVideo)
+          /* console.log('authorVideo: ', authorVideo)*/
            author = authorVideo.map((video, index) => {
                return (
                    <li key={index} className="video">    
