@@ -171,8 +171,6 @@ const TopScreenDiv = styled.div`
                 width: 220px;
                 cursor: pointer;
                 background: url(${eyeApi.sprite}) no-repeat 0 0 /642px;
-                /*background-position: 0 0;
-                background-size: 642px;*/
             }
             .text {
                 margin: 0;

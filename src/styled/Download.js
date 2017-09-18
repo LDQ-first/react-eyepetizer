@@ -62,7 +62,7 @@ const DownloadDiv = styled.div`
                     }
                 }
                 &.android {
-                    background: url(${eyeApi.sprite}) no-repeat 0 28.49707% / 642px;
+                    background: url(${eyeApi.sprite}) no-repeat 0 14.3136% / 642px;
                     bottom: 0;
                     ${mediaQuery()} {
                       left: 0;
