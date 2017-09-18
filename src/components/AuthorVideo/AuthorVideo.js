@@ -45,6 +45,9 @@ export default class AuthorVideo extends Component {
                <ul className="authorVideo">
                     {author}
                </ul>
+               <div className="end">
+                    「 The End 」
+               </div>
            </AuthorVideoDiv>
         )
     }

@@ -7,12 +7,12 @@ import {
     authorsSelector
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
-import Button from '../../styled/button'
 import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import AuthorDiv from '../../styled/Author.js'
 import AuthorInfo from '../../components/AuthorInfo/AuthorInfo.js'
 import AuthorVideo from '../../components/AuthorVideo/AuthorVideo.js'
+import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
 
 class Author extends Component {
     static get propTypes() { 
@@ -97,6 +97,7 @@ class Author extends Component {
             <AuthorDiv >
                 <AuthorInfo authorInfo={authors.authorInfo}/>
                 <AuthorVideo authorVideo={authors.authorVideo} _this={this}/>
+                <ReturnIndex/>
             </AuthorDiv>
         )
     }
