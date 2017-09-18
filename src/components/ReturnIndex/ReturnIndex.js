@@ -11,7 +11,7 @@ export default class ReturnIndex extends Component {
     render() {
         
     const indexUrl = process.env.NODE_ENV === 'production' 
-    ? '/react-allfamily/dist/'
+    ? '/react-eyepetizer/dist/'
     : '/'
         return (
             <ReturnIndexDiv>
