@@ -17,6 +17,7 @@ const TagsDiv = styled.div`
          display: flex;
          justify-content: center;
          align-items: center;
+         flex-wrap: wrap;
          .tag {
              margin: 0 1em;
              .tagBtn {
