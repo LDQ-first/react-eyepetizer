@@ -17,7 +17,7 @@ import ReplyLists from '../../components/ReplyLists/ReplyLists.js'
 import Tags from '../../components/Tags/Tags.js'
 import DetailFooter from '../../components/DetailFooter/DetailFooter.js'
 import {detail as detailLink} from '../../router/link.js'
-
+import GoToTop from '../../components/GoToTop/GoToTop.js'
 
 class Detail extends Component {
     static get propTypes() { 
@@ -84,7 +84,7 @@ class Detail extends Component {
                 this.switchRoute(`${detailLink}/${newItemListData.id}`) 
             }
          }
-         this._gotoTop()
+       /*  this._gotoTop()*/
          
 
     }
@@ -122,9 +122,6 @@ class Detail extends Component {
         const {replyList} = replyLists
         const {detail} = details
 
-       /* if(itemList) {
-            console.log('itemList: ', itemList)
-        }*/
        
        
         return (
@@ -135,6 +132,7 @@ class Detail extends Component {
                 <ReplyLists replyList={replyList}/>
                 { itemList.tags.length ? <Tags tags={itemList.tags} /> : null}
                 <DetailFooter _this={this}/>
+                <GoToTop />
             </div>
         )
     }

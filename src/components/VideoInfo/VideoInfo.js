@@ -5,10 +5,6 @@ import classNames from 'classnames'
 import FlatButton from 'material-ui/FlatButton'
 import {formatDuration} from '../../utils'
 import IconButton from 'material-ui/IconButton'
-/*import StarIcon from 'material-ui-icons/Star'
-import InsertCommentIcon from 'material-ui-icons/InsertComment'
-import ShareIcon from 'material-ui-icons/Share'*/
-
 import ToggleStar from 'material-ui/svg-icons/toggle/star'
 import EditorInsertComment from 'material-ui/svg-icons/editor/insert-comment'
 import SocialShare from 'material-ui/svg-icons/social/share'
