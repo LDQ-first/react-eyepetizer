@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import VideoDiv from '../../styled/Video.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import FlatButton from 'material-ui/FlatButton'
 
 
 export default class Video extends Component {
@@ -63,10 +62,10 @@ export default class Video extends Component {
                              background: `url(${itemList.videoImg}) no-repeat bottom/cover`
                         }}>
                     </div>
-                    <FlatButton className={classNames('play-btn', {'none': play})} style={{
+                    <button className={classNames('play-btn', {'none': play})} style={{
                         backgroundImage: `url(${eyeApi.playerBtn})`
                     }} onClick={() => {this._playVideo()}}>
-                    </FlatButton>
+                    </button>
                </div>
             </VideoDiv>
         )
