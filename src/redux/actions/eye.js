@@ -34,6 +34,22 @@ const filterIndexData = (data) => {
             for(let tag of tags) {
                 newTags.push({name: tag.name})
             }
+
+            let newAuthor = null
+            if(itemdata.author) {
+                const author = itemdata.author
+                newAuthor = {
+                        id: author.id,
+                        icon: author.icon,
+                        name: author.name,
+                        description: author.description,
+                        latestReleaseTime: author.latestReleaseTime,
+                        videoNum: author.videoNum
+                    }
+            }
+
+ 
+
             newItemListData = {
                 category: itemdata.category,
                 consumption: itemdata.consumption,
@@ -43,7 +59,8 @@ const filterIndexData = (data) => {
                 id: itemdata.id,
                 tags: newTags,
                 title: itemdata.title,
-                playUrl: itemdata.playUrl
+                playUrl: itemdata.playUrl,
+                author: newAuthor
             }
             newItemList.push(newItemListData)
         } else if(item.type === 'textFooter'){
@@ -190,9 +207,21 @@ const filterDetailData = (data) => {
    const tags = data.tags
    const newTags = [] 
    for(let tag of tags) {
-      
        newTags.push({name: tag.name})
    }
+    let newAuthor = null
+    if(itemdata.author) {
+        const author = itemdata.author
+        newAuthor = {
+                id: author.id,
+                icon: author.icon,
+                name: author.name,
+                description: author.description,
+                latestReleaseTime: author.latestReleaseTime,
+                videoNum: author.videoNum
+            }
+    }
+
    const newdata = {
        consumption: data.consumption,
        description: data.description,
@@ -202,7 +231,8 @@ const filterDetailData = (data) => {
        id: data.id,
        category: data.category,
        duration: data.duration,
-       coverForFeed: data.coverForFeed
+       coverForFeed: data.coverForFeed,
+       author: newAuthor
    }
 
 

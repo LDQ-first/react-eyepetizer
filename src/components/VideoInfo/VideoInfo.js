@@ -12,6 +12,7 @@ import ShareIcon from 'material-ui-icons/Share'*/
 import ToggleStar from 'material-ui/svg-icons/toggle/star'
 import EditorInsertComment from 'material-ui/svg-icons/editor/insert-comment'
 import SocialShare from 'material-ui/svg-icons/social/share'
+import moment from 'moment'
 
 export default class VideoInfo extends Component {
      static get propTypes() { 
@@ -23,6 +24,7 @@ export default class VideoInfo extends Component {
 
     render() {
        const {itemList} = this.props
+
 
        let consumption = null
        if(itemList.consumption) {
@@ -53,6 +55,24 @@ export default class VideoInfo extends Component {
            })
        }
 
+       let author = null
+       if(itemList.author) {
+           console.log('itemList.author: ', itemList.author)
+           const item = itemList.author
+           author = (
+                <div className="author">
+                    <img className="iconImg" src={item.icon} />
+                    <div className="message">
+                        <h3 className="name">{item.name}</h3>
+                        <span className="lastTime">{moment(item.latestReleaseTime).format(`YYYY-M-D H:m`)}</span>
+                        <p className="des">{item.description}</p>              
+                    </div>
+                    <span className="videoNum">视频数 {item.videoNum}</span> 
+               </div>
+           )     
+           
+       }
+
 
 
         return (
@@ -68,6 +88,7 @@ export default class VideoInfo extends Component {
                 </ul> 
                 : null
                }
+               {author}
                <div className="download-area">
                    <div className="logo"></div>
                    <a className="appLink" href={eyeApi.appLink} target="_blank">
