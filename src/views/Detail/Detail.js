@@ -84,7 +84,20 @@ class Detail extends Component {
                 this.switchRoute(`${detailLink}/${newItemListData.id}`) 
             }
          }
+         this._gotoTop()
+         
 
+    }
+
+    _gotoTop () {
+        const timer = setInterval(() => {
+            if(document.body.scrollTop === 0) {
+                clearInterval(timer)
+            }
+            else {
+                document.body.scrollTop -=  document.body.scrollTop * 0.2
+            }
+        }, 100)
     }
     
     switchRoute(path) {

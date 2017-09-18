@@ -271,7 +271,6 @@ export const getAuthor = (author) => {
 
 
 const filterAuthorData = (data) => {
-   console.log(data)
 
    const itemList = data.itemList
    let newItemList = []
@@ -325,7 +324,6 @@ const filterAuthorData = (data) => {
        authorVideo: newItemList,
        authorInfo: newPgcInfo
     }
-    console.log(newData)
     return newData
 }
 
