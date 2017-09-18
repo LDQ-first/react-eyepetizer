@@ -4,7 +4,7 @@ import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import FlatButton from 'material-ui/FlatButton'
+
 
 export default class TopScreen extends Component {
 
@@ -114,12 +114,12 @@ export default class TopScreen extends Component {
                     <div className="logo"></div>
                     <div className="intro"></div>
                     <div className="download-button-list">
-                        <FlatButton className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></FlatButton>
-                        <FlatButton className="android btn" onClick={() => {this._showQRCode(contact.android)}}></FlatButton>
+                        <button className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></button>
+                        <button className="android btn" onClick={() => {this._showQRCode(contact.android)}}></button>
                     </div>
                     <div className="entry-button">
                         <a href={author} target="_blank">
-                            <FlatButton className="audit"></FlatButton>
+                            <button className="audit"></button>
                             <p className="text">作者入口</p>
                         </a>
                     </div>

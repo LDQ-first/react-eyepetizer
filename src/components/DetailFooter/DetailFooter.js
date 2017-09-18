@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import DetailFooterDiv from '../../styled/DetailFooter.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import FlatButton from 'material-ui/FlatButton'
 
 
 export default class DetailFooter extends Component {
@@ -28,9 +27,9 @@ export default class DetailFooter extends Component {
 
         return (
             <DetailFooterDiv>
-               <FlatButton className="indexLink" onClick={() => {_this.switchRoute('/')}}>
+               <button className="indexLink" onClick={() => {_this.switchRoute('/')}}>
                     <div className="bottom-logo"></div>
-               </FlatButton>
+               </button>
                <img src={eyeApi.eyepetizerWxQr} className="eyepetizerWxQr"/>
                <div className="qr-tips">长按二维码关注「开眼 Eyepetizer」微信公众号</div>
             </DetailFooterDiv>

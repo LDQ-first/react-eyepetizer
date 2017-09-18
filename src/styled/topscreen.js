@@ -28,22 +28,6 @@ const TopScreenDiv = styled.div`
             padding: 0;
             width: 36px;
         }
-        .email, .wechat, .weibo {
-            background-image: url(${eyeApi.spriteShare});
-            background-repeat: no-repeat;
-        }
-        .wechat {
-            background-size: 36px;
-            background-position: 0 -26px;
-        }
-        .weibo {
-            background-size: 36px;
-            background-position: 0 -63px;
-        }
-        .email {
-            background-size: 54px;
-            background-position: 0 0;
-        }
     }
     .video-wrap {
         position: absolute;
@@ -119,7 +103,7 @@ const TopScreenDiv = styled.div`
                 background-size: 342.4px;
                 height: 120px;
                 top: 20%;
-                width: 120px;
+                width: 96px;
             }
         }
         .intro {
@@ -138,7 +122,7 @@ const TopScreenDiv = styled.div`
             }
         }
         .download-button-list {
-            position: absolute;
+            position: absolute ;
             font-size: 0;
             height: 52px;
             top: 64%;

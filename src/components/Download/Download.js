@@ -44,8 +44,8 @@ export default class Download extends Component {
                     <div className="icon"></div>
                     <div className="logo"></div>
                     <div className="download-button-list">
-                        <FlatButton className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></FlatButton>
-                        <FlatButton className="android btn" onClick={() => {this._showQRCode(contact.android)}}></FlatButton>
+                        <button className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></button>
+                        <button className="android btn" onClick={() => {this._showQRCode(contact.android)}}></button>
                     </div>
                 </div>
                 {

@@ -132,9 +132,9 @@ export default class Carousel extends Component {
 
         return (
           <CarouselDiv >
-             <FlatButton href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
+             <button href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
                 <HardwareKeyboardArrowLeft className="controlBtn-icon"/>
-             </FlatButton>
+             </button>
             { itemList ? <ul className="itemLists" style={{left: `${left}`, width: `calc(50% * ${itemList.length + 2} )`}}>
                 {itemLists[itemLists.length - 1] }
                 {itemLists }
@@ -143,9 +143,9 @@ export default class Carousel extends Component {
              <ul className="activeItemLists">
                 {activeItemLists ? activeItemLists: null }
              </ul>
-              <FlatButton href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
+              <button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
                 <HardwareKeyboardArrowRight className="controlBtn-icon"/>
-              </FlatButton>
+              </button>
               <ul className="bullets" ref={bullets => this.bullets = bullets}>
                   {bullets}
               </ul>

@@ -37,7 +37,7 @@ const VideoInfoDiv = styled.div`
             align-items: center;
            .iconBtn {
                .list-icon {
-                   fill: #FFF;
+                   fill: #FFF !important;
                }
            }
        }
@@ -50,7 +50,7 @@ const VideoInfoDiv = styled.div`
         .logo {
             background: url(${eyeApi.logoLaunch}) no-repeat center/ cover;
             position: absolute;
-            height: 44px;
+            height: 44px ;
             left: 15px;
             top: 12px;
             width: 174px;
@@ -60,8 +60,8 @@ const VideoInfoDiv = styled.div`
         }
         .appLinkBtn {
             background: url(${eyeApi.btnLaunch}) no-repeat center/ 100%;
-            position: absolute;
-            height: 33px;
+            position: absolute !important;
+            height: 33px !important;
             right: 15px;
             top: 18px;
             width: 86px;

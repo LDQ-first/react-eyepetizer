@@ -64,7 +64,7 @@ const ReplyListsDiv = styled.div`
                      }
                      .like-count-icon {
                         .likeIcon {
-                            fill: #FFF;
+                            fill: #FFF !important;
                         }
                     }
                  }
@@ -72,7 +72,7 @@ const ReplyListsDiv = styled.div`
                       padding: 0 1em;
                      .hot-icon {
                          .hotIcon {
-                              fill: #FF8A65;
+                              fill: #FF8A65 !important;
                          }
                      }
                  } 
