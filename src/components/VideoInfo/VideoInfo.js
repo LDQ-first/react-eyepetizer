@@ -23,7 +23,6 @@ export default class VideoInfo extends Component {
 
        let consumption = null
        if(itemList.consumption) {
-           console.log('consumption: ', itemList.consumption)
 
            let newConsumption = []
            const icons =  {
@@ -38,8 +37,6 @@ export default class VideoInfo extends Component {
                    icon: icons[key]
                })
            }
-
-           console.log(newConsumption)
 
            consumption = newConsumption.map((item, index) => {
                return (

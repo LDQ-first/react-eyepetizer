@@ -20,6 +20,7 @@ const ReplyListsDiv = styled.div`
              align-items: center;
              padding: 1em 0;
              .reply-content {
+                  flex: 1;
                   display: flex;
                   justify-content: space-between;
                   align-items: center;
@@ -30,13 +31,14 @@ const ReplyListsDiv = styled.div`
                     border-radius: 50%;
                     box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
                  }
-                 .reply-message {
-                      display: flex;
-                      flex-direction: column;
+                 .reply-message { 
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
                      justify-content: center;
                      align-items: flex-start;
-                     .userName {
-
+                    .userName {
+                        word-break: break-word;
                     }
                     .time {
 
@@ -47,6 +49,7 @@ const ReplyListsDiv = styled.div`
                  }
              }
              .like-hot {
+                 width: 100px;
                  display: flex;
                  flex-direction: column;
                  justify-content: center;

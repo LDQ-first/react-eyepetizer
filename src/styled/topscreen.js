@@ -116,8 +116,8 @@ const TopScreenDiv = styled.div`
             top: 10%;
             ${mediaQuery()} {
                 background-position: 0 81.02435%;
-                background-size: 428px;
-                height: 150px;
+                background-size: 342.4px;
+                height: 120px;
                 top: 20%;
                 width: 120px;
             }

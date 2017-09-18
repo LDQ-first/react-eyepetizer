@@ -28,12 +28,14 @@ export default class Video extends Component {
     }
 
     _setVideoWrap () {
-        const vww = this.videoWrap.offsetWidth
-        const ww = window.innerWidth
-        const vwh = vww / 1.78
-        this.setState({
-            vwh
-        })
+        if(this.videoWrap) {
+            const vww = this.videoWrap.offsetWidth
+            const ww = window.innerWidth
+            const vwh = vww / 1.78
+            this.setState({
+                vwh
+            })
+        }
     }
     
     _playVideo() {

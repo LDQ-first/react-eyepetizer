@@ -105,10 +105,10 @@ const CarouselDiv = styled.div`
           }
           .activeItemList {
               .title {
-                color: #f10;
+                color: #fd470e;
             }
             .meta {
-                 color: #f10;
+                 color: #fd470e;
             }
           }
        }
@@ -166,33 +166,46 @@ const CarouselDiv = styled.div`
              &::before, &::after {
                 content: '';
                 position: absolute;
-                bottom: 0;
+                bottom: 20px;
                 width: 50%;
                 height: 50%;
                 border: none;
-                z-index: -1;
-                animation: showShadow 0.5s ease-in-out 0.6s forwards;
+                z-index: -10;
+                animation: showShadow 0.5s ease-in-out 1s forwards;
+                ${mediaQuery(1500)} {
+                   bottom: 16px;
+                }
+                ${mediaQuery()} {
+                   bottom: 12px;
+                }
                 @media (min-width: 2200px) {
                     opacity: 0;
                 }
                 @keyframes showShadow {
-                   0% {
-                       box-shadow: none;
-                   }
-                   100% {
-                       box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.9);
-                   }
-               }
-            }
-            &::before {
-                left: 0; 
-                transform: skew(-10deg, -4deg) translate(13%, -10%);
-            }
-            &::after {
-                right: 0;
-                transform: skew(10deg, 4deg) translate(-13%, -10%);
-            }
-             
+                    0% {
+                        opacity: 0;
+                        box-shadow: none;
+                    }
+                    100% {
+                        opacity: 1;
+                        box-shadow: 0 15px 10px rgba(0, 0, 0, 0.9);
+                    }
+                }
+                }
+                &::before {
+                    left: 8px;
+                    transform: rotate(-3deg);
+                    ${mediaQuery(500)} {
+                        left: 0px;
+                    }
+                }
+                &::after {
+                    right: 8px;
+                    transform: rotate(3deg);
+                    ${mediaQuery(500)} {
+                        right: 0px;
+                    }
+                }   
            }
            
            .title {

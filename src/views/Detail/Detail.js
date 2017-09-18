@@ -47,7 +47,6 @@ class Detail extends Component {
             getRelatedData(match.params.id)
             getRepliesData(match.params.id)
         }
-        console.log('willmount')
          if(localStorage.itemList) {
             const itemList = JSON.parse(localStorage.itemList)
             this.setState({
