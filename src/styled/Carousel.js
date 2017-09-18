@@ -99,9 +99,19 @@ const CarouselDiv = styled.div`
        ${mediaQuery(415)} {
           height: 226px;
        }
-       &:hover::before {
+       &:hover {
+           &::before {
             z-index: 0;
-        }
+          }
+          .activeItemList {
+              .title {
+                color: #f10;
+            }
+            .meta {
+                 color: #f10;
+            }
+          }
+       }
         &::before {
             content: '';
             height: 100%;
@@ -161,7 +171,7 @@ const CarouselDiv = styled.div`
                 height: 50%;
                 border: none;
                 z-index: -1;
-                animation: showShadow 0.5s ease-in-out 0.5s forwards;
+                animation: showShadow 0.5s ease-in-out 0.6s forwards;
                 @media (min-width: 2200px) {
                     opacity: 0;
                 }
@@ -187,13 +197,14 @@ const CarouselDiv = styled.div`
            
            .title {
              position: relative;
-             z-index: 10;
+             z-index: 11;
              font-weight: bold;
              font-size: 16px;
            }
            .meta {
-               position: relative;
-              z-index: 10;
+              position: relative;
+              z-index: 11;
+              font-weight: bold;
            }
       }
    }
