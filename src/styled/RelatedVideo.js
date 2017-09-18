@@ -6,18 +6,30 @@ const RelatedVideoDiv = styled.div`
      color: #FFF;
     .video-lists {
         background: rgba(0, 0, 0, 0.2);
-        padding: 15px 15px 8px 15px;
+        padding: 15px 30px;
         .video-list {
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 2em 0;
+            ${mediaQuery(500)} {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+            }
             .coverForFeed {
                 width: 40%;
                 border: 4px solid #EEE;
                 position: relative;
                 font-size: 0;
+                ${mediaQuery(768)} {
+                    width: 50%;
+                }
+                ${mediaQuery(500)} {
+                    width: 90%;
+                }
                 .coverForFeedImg {
                     width: 100%;
                     height: 100%;
@@ -52,6 +64,9 @@ const RelatedVideoDiv = styled.div`
                 justify-content: center;
                 align-items: flex-start;
                 cursor: pointer;
+                ${mediaQuery(500)} {
+                    margin-top: 1em;
+                }
                 .title {
                     font-weight: bold;
                     font-size: 16px;

@@ -120,11 +120,10 @@ export default injectGlobal`
         height: 100%;
     }
     .detail {
-        outline: 1px solid red;
         margin: 0 auto;
         max-width: 700px;
         overflow: hidden;
-       /* background: url(${eyeApi.detailBg}) no-repeat center/cover;*/
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }
 `
 

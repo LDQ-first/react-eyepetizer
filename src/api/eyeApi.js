@@ -53,7 +53,7 @@ const sprite = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/sprite
 
 const author = `http://open.eyepetizer.net/#!/landing`
 
-const detailBg = `http://img.kaiyanapp.com/a55bf0a3e95f8ac1f935459618ed7d94.jpeg?imageMogr2/quality/60/format/jpg`
+
 
 const playerBtn = `http://static.kaiyanapp.com/eyepetizer-web/assets/images/detail/icon_play@2x.3b9f9ba5.png`
 
@@ -81,7 +81,6 @@ export {
     imglists,
     sprite,
     author,
-    detailBg,
     playerBtn,
     logoLaunch,
     btnLaunch,
