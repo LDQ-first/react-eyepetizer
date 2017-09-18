@@ -4,7 +4,8 @@ import {
     GET_INDEX, 
     GET_RELATED, 
     GET_REPLIES,
-    GET_DETAIL
+    GET_DETAIL,
+    GET_AUTHOR,
 } from '../const/const'
 
 import axios from 'axios'
@@ -210,8 +211,8 @@ const filterDetailData = (data) => {
        newTags.push({name: tag.name})
    }
     let newAuthor = null
-    if(itemdata.author) {
-        const author = itemdata.author
+    if(data.author) {
+        const author = data.author
         newAuthor = {
                 id: author.id,
                 icon: author.icon,
@@ -251,6 +252,59 @@ export const getDetailData = (id) => async (dispatch) => {
        let res = await axios.get(eyeApi.detail(id))
     //   console.log('res.data: ', res.data)
        await dispatch(getDetail(filterDetailData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+
+export const getAuthor = (Author) => { 
+    return {
+        type: GET_AUTHOR,
+        Author: Author
+    }
+}
+
+
+
+const filterAuthorData = (data) => {
+   console.log(data)
+
+   const itemList = data.itemList
+   let newItemList = []
+   for(let item of itemList) {
+       if(item.type === 'video') {
+           const data = item.data
+
+            newItemList.push({
+                category: data.category,
+                consumption: data.consumption,
+                coverForFeed: cover.feed,
+                
+            })
+       }
+   }
+  
+
+    const newData = {
+       count: data.count,
+
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getAuthorData = (id) => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.authorDetail(id))
+    //   console.log('res.data: ', res.data)
+       await dispatch(getAuthor(filterAuthorData(res.data)))
    } catch (err) {
        console.log('err:', err)
    }

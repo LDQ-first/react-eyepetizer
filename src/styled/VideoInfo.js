@@ -47,10 +47,11 @@ const VideoInfoDiv = styled.div`
        justify-content: space-between;
        align-items: center;
        padding: 15px 15px 8px 15px;
+       margin: 1em 0;
        .iconImg {
             height: 36px;
             width: 36px;
-            margin: 0 20px;
+            margin: 0 20px 0 10px;
             border-radius: 50%;
             box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
        }

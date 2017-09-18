@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-import {Link} from 'react-router-dom'
 import { withRouter } from 'react-router'
 import {
     IndexDataSelector,
@@ -73,7 +72,8 @@ class Detail extends Component {
                 id: detail.id,
                 tags: detail.tags,
                 title: detail.title,
-                playUrl: detail.playUrl
+                playUrl: detail.playUrl,
+                author: detail.author
             }
             this.setState({
                 itemList: newItemListData

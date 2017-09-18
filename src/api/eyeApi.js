@@ -97,6 +97,14 @@ export {
     related,
     replies,
     detail,
+    feed,
+    search,
+    authorDetail,
+    hot,
+    category,
+    pgcs,
+
+    
     contact,
     home,
     imglists,

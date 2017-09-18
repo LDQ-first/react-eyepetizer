@@ -10,6 +10,7 @@ import Loading from '../components/Loading/Loading'
 import NotFound from 'bundle-loader?lazy&name=notFound!../views/NotFound/NotFound'
 import Home from 'bundle-loader?lazy&name=Home!../views/Home/Home'
 import Detail from 'bundle-loader?lazy&name=Detail!../views/Detail/Detail'
+import Author from 'bundle-loader?lazy&name=Author!../views/Author/Author'
 
 
 /*import NavMenu from './nav'*/
@@ -18,7 +19,7 @@ import Detail from 'bundle-loader?lazy&name=Detail!../views/Detail/Detail'
 import createHistory from 'history/createHashHistory'
 
 
-import {home, detail} from './link.js'
+import {home, detail, author} from './link.js'
 
 const createComponent = (component) => () => (
     <Bundle load={component}>
@@ -39,6 +40,8 @@ const getRouter = () => (
                 <Route exact path={home} component={createComponent(Home)}/>
                 <Route path={`${detail}/:id`} component={createComponent(Detail)}/>  
                 <Route path={detail} component={createComponent(Detail)}/>         
+                <Route path={`${author}/:id`} component={createComponent(Author)}/>         
+                <Route path={author} component={createComponent(Author)}/>         
                 <Route component={createComponent(NotFound)}/>
             </Switch>
         </div>

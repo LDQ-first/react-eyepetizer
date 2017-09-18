@@ -36,8 +36,6 @@ export const replyListsSelector = createSelector(
 )
 
 
-
-
 export const detailsSelector = createSelector(
     eyeSelector,
     eyeState => {
@@ -45,3 +43,15 @@ export const detailsSelector = createSelector(
         return eyeState.get('details')
     }
 )
+
+
+export const authorsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('authors')
+    }
+)
+
+
+

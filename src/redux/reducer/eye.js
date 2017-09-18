@@ -4,7 +4,8 @@ import {
     GET_INDEX, 
     GET_RELATED, 
     GET_REPLIES,
-    GET_DETAIL
+    GET_DETAIL,
+    GET_AUTHOR
 } from '../const/const'
 
 import { fromJS } from 'immutable'
@@ -16,7 +17,8 @@ const initState = fromJS({
     },
     videoLists: [],
     replyLists: [],
-    details: {}
+    details: {},
+    authors: {},
 })
 
 export default (state = initState, action) => {
@@ -29,6 +31,8 @@ export default (state = initState, action) => {
             return state.set('replyLists', action.replyList)
         case GET_DETAIL:
             return state.set('details', action.detail)
+        case GET_AUTHOR:
+            return state.set('authors', action.author)
         default:
             return state
     }
