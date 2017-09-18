@@ -261,10 +261,10 @@ export const getDetailData = (id) => async (dispatch) => {
 
 
 
-export const getAuthor = (Author) => { 
+export const getAuthor = (author) => { 
     return {
         type: GET_AUTHOR,
-        Author: Author
+        author: author
     }
 }
 

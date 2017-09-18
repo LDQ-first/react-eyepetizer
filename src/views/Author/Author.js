@@ -11,6 +11,7 @@ import Button from '../../styled/button'
 import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import AuthorDiv from '../../styled/Author.js'
+import AuthorInfo from '../../components/AuthorInfo/AuthorInfo.js'
 
 class Author extends Component {
     static get propTypes() { 
@@ -76,15 +77,17 @@ class Author extends Component {
         const {match, details, authors} = this.props
         const {detail} = details
 
-        if(authors) {
+
+        /*if(authors) {
             console.log('authors: ', authors)
-        }
+
+        }*/
         
 
        
         return (
             <AuthorDiv >
-                author
+                <AuthorInfo authorInfo={authors.authorInfo}/>
                
             </AuthorDiv>
         )
