@@ -7,18 +7,16 @@ import classNames from 'classnames'
 export default class AuthorInfo extends Component {
      static get propTypes() { 
         return { 
-           authorInfo: PropTypes.object,
-            _this: PropTypes.object
+           authorInfo: PropTypes.object
         }
     }
 
 
     render() {
-       const {authorInfo, _this} = this.props
+       const {authorInfo} = this.props
 
        let author = null
        if(authorInfo) {
-           console.log('authorInfo: ', authorInfo)
            author = (
                <div className="authorInfo">
                    <img className="icon" src={authorInfo.icon}/>

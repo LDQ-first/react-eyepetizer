@@ -12,6 +12,7 @@ import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import AuthorDiv from '../../styled/Author.js'
 import AuthorInfo from '../../components/AuthorInfo/AuthorInfo.js'
+import AuthorVideo from '../../components/AuthorVideo/AuthorVideo.js'
 
 class Author extends Component {
     static get propTypes() { 
@@ -49,19 +50,26 @@ class Author extends Component {
         
     }
     
-
-    
-
     
     componentWillReceiveProps(nextProps) {
         
 
     }
+
+    switchRoute(path, index) {
+         const {history} = this.props
+        /* if(index) {
+           localStorage.itemList = JSON.stringify(itemList[index])
+       }*/
+         history.push(path)
+        
+    }
+
     
-    switchRoute(path) {
+  /*  switchRoute(path) {
         const {history} = this.props
         history.push(path)
-    }
+    }*/
 
     getDetail (id) {
         const {getDetailData, getRelatedData, getRepliesData, match} = this.props
@@ -88,7 +96,7 @@ class Author extends Component {
         return (
             <AuthorDiv >
                 <AuthorInfo authorInfo={authors.authorInfo}/>
-               
+                <AuthorVideo authorVideo={authors.authorVideo} _this={this}/>
             </AuthorDiv>
         )
     }
