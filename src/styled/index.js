@@ -1,10 +1,10 @@
 import {injectGlobal} from 'styled-components'
 import styled from 'styled-components'
-import { lightBlue, deepPurple, blue } from 'material-ui/colors'
-const bgBlue = lightBlue[400]
-const bgPurple = deepPurple[200]
-const mainBlue = blue[500]
-const svgBlue = blue[600]
+const bgBlue = '#29B6F6'
+const bgPurple = '#B39DDB'
+const mainBlue = '#2196F3'
+const svgBlue = '#1E88E5'
+
 import {eyeApi} from '../api/api.js' 
 
 export default injectGlobal`

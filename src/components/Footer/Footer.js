@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import FooterDiv from '../../styled/Footer.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 
 

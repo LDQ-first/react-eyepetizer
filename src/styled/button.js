@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import Button from 'material-ui/Button'
+import FlatButton from 'material-ui/FlatButton'
 
 
 
-const Buttons = styled(Button)`
+const Buttons = styled(FlatButton)`
     &.btn {
         color: #fff;
         overflow: hidden;

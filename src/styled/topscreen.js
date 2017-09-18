@@ -29,7 +29,7 @@ const TopScreenDiv = styled.div`
             width: 36px;
         }
         .email, .wechat, .weibo {
-            background-image: url(//static.kaiyanapp.com/eyepetizer-web/assets/images/sprite_share.bc0f4494.png);
+            background-image: url(${eyeApi.spriteShare});
             background-repeat: no-repeat;
         }
         .wechat {

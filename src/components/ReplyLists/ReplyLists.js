@@ -2,11 +2,14 @@ import React, { Component } from 'react'
 import ReplyListsDiv from '../../styled/ReplyLists.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
 import moment from 'moment'
 import IconButton from 'material-ui/IconButton'
-import WhatshotIcon from 'material-ui-icons/Whatshot'
-import ThumbUpIcon from 'material-ui-icons/ThumbUp'
+
+/*import WhatshotIcon from 'material-ui-icons/Whatshot'
+import ThumbUpIcon from 'material-ui-icons/ThumbUp'*/
+
+import SocialWhatshot from 'material-ui/svg-icons/social/whatshot'
+import ActionThumbUp from 'material-ui/svg-icons/action/thumb-up'
 
 
 export default class ReplyLists extends Component {
@@ -47,13 +50,13 @@ export default class ReplyLists extends Component {
                             <div className="like-count">
                                 <span className="like-count-num">{reply.likeCount}</span>
                                 <IconButton className="like-count-icon">
-                                    <ThumbUpIcon className="likeIcon"/>
+                                    <ActionThumbUp className="likeIcon"/>
                                 </IconButton>
                             </div>
                             {   reply.likeCount 
                                 ? <div className="isHot">
                                     <IconButton className="hot-icon">
-                                        <WhatshotIcon className="hotIcon"/>
+                                        <SocialWhatshot className="hotIcon"/>
                                     </IconButton> 
                                 </div>
                                 : null

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import IconButton from 'material-ui/IconButton'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
 import VideoListsDiv from '../../styled/VideoLists.js'
 import moment from 'moment'
 import Carousel from '../Carousel/Carousel.js'

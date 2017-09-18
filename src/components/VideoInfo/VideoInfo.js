@@ -2,13 +2,16 @@ import React, { Component } from 'react'
 import VideoInfoDiv from '../../styled/VideoInfo.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
+import FlatButton from 'material-ui/FlatButton'
 import {formatDuration} from '../../utils'
 import IconButton from 'material-ui/IconButton'
-import StarIcon from 'material-ui-icons/Star'
+/*import StarIcon from 'material-ui-icons/Star'
 import InsertCommentIcon from 'material-ui-icons/InsertComment'
-import ShareIcon from 'material-ui-icons/Share'
+import ShareIcon from 'material-ui-icons/Share'*/
 
+import ToggleStar from 'material-ui/svg-icons/toggle/star'
+import EditorInsertComment from 'material-ui/svg-icons/editor/insert-comment'
+import SocialShare from 'material-ui/svg-icons/social/share'
 
 export default class VideoInfo extends Component {
      static get propTypes() { 
@@ -26,9 +29,9 @@ export default class VideoInfo extends Component {
 
            let newConsumption = []
            const icons =  {
-               collectionCount: <StarIcon className="list-icon"/>,
-               replyCount: <InsertCommentIcon className="list-icon"/>,
-               shareCount: <ShareIcon className="list-icon"/>
+               collectionCount: <ToggleStar className="list-icon"/>,
+               replyCount: <EditorInsertComment className="list-icon"/>,
+               shareCount: <SocialShare className="list-icon"/>
             }
             
            for(let key in itemList.consumption ) {
@@ -68,7 +71,7 @@ export default class VideoInfo extends Component {
                <div className="download-area">
                    <div className="logo"></div>
                    <a className="appLink" href={eyeApi.appLink} target="_blank">
-                    <Button className="appLinkBtn"/>
+                    <FlatButton className="appLinkBtn"/>
                    </a>
                </div>
             </VideoInfoDiv>

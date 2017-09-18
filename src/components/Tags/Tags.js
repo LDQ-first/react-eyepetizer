@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import TagsDiv from '../../styled/Tags.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
+import FlatButton from 'material-ui/FlatButton'
 
 
 export default class Tags extends Component {
@@ -31,7 +31,7 @@ export default class Tags extends Component {
            tagLists = tags.map((tag, index) => {
                return (
                    <li key={index} className="tag">
-                        <Button className="tagBtn"> {tag.name} </Button>
+                        <FlatButton className="tagBtn"> {tag.name} </FlatButton>
                    </li>
                )
            })

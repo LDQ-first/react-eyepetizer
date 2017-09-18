@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DownloadDiv from '../../styled/Download.js'
 import {eyeApi} from '../../api/api.js' 
-import Button from 'material-ui/Button'
+import FlatButton from 'material-ui/FlatButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 
 
@@ -44,8 +44,8 @@ export default class Download extends Component {
                     <div className="icon"></div>
                     <div className="logo"></div>
                     <div className="download-button-list">
-                        <Button className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></Button>
-                        <Button className="android btn" onClick={() => {this._showQRCode(contact.android)}}></Button>
+                        <FlatButton className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></FlatButton>
+                        <FlatButton className="android btn" onClick={() => {this._showQRCode(contact.android)}}></FlatButton>
                     </div>
                 </div>
                 {

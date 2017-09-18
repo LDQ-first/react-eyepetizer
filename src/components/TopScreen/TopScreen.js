@@ -4,7 +4,7 @@ import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
+import FlatButton from 'material-ui/FlatButton'
 
 export default class TopScreen extends Component {
 
@@ -68,14 +68,37 @@ export default class TopScreen extends Component {
         return (
             <TopScreenDiv>
                 <div className="menu">
-                    <IconButton className="wechat" 
+                    <IconButton className="wechat" touch={true}
+                    style={{
+                        width: 'atuo',
+                        height: '36px',
+                        padding: '0',
+                        margin: '0 0.5rem',
+                        background: `url(${eyeApi.spriteShare}) no-repeat 0 -26px/36px`
+                    }}
                     onClick={() => {this._showQRCode(contact.wechat)}}>
                     </IconButton>
                     <a href={contact.weibo} target="_blank">
-                        <IconButton className="weibo" />
+                        <IconButton 
+                         style={{
+                            width: 'atuo',
+                            height: '36px',
+                            padding: '0',
+                            margin: '0 0.5rem',
+                            background: `url(${eyeApi.spriteShare}) no-repeat 0 -63px/36px`
+                        }}
+                        className="weibo" />
                     </a>
                      <a href={contact.email} target="_blank">
-                        <IconButton className="email" />
+                        <IconButton 
+                        style={{
+                            width: 'atuo',
+                            height: '36px',
+                            padding: '0',
+                            margin: '0 0.5rem',
+                            background: `url(${eyeApi.spriteShare}) no-repeat 0 0/54px`
+                        }}
+                        className="email" />
                     </a>
                 </div>
                 <div className="video-wrap">
@@ -91,12 +114,12 @@ export default class TopScreen extends Component {
                     <div className="logo"></div>
                     <div className="intro"></div>
                     <div className="download-button-list">
-                        <Button className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></Button>
-                        <Button className="android btn" onClick={() => {this._showQRCode(contact.android)}}></Button>
+                        <FlatButton className="ios btn" onClick={() => {this._showQRCode(contact.ios)}}></FlatButton>
+                        <FlatButton className="android btn" onClick={() => {this._showQRCode(contact.android)}}></FlatButton>
                     </div>
                     <div className="entry-button">
                         <a href={author} target="_blank">
-                            <Button className="audit"></Button>
+                            <FlatButton className="audit"></FlatButton>
                             <p className="text">作者入口</p>
                         </a>
                     </div>

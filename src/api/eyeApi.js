@@ -3,12 +3,18 @@ const index = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/t
 
 const related = id => `https://baobab.kaiyanapp.com/api/v1/video/related/${id}?num=10`
 
-const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id}&num=1000`
+const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id}&num=100`
 
 const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
+const feed = (date, num) => `http://baobab.kaiyanapp.com/api/v1/feed?date=${date}&num=${num}`
+
+const search = query => `http://baobab.kaiyanapp.com/api/v1/search?num=20&query=${query}`
+
+const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=100`
 
 
+const spriteShare = `//static.kaiyanapp.com/eyepetizer-web/assets/images/sprite_share.bc0f4494.png`
 
 const wechat = `//static.kaiyanapp.com/eyepetizer-web/assets/images/index/landing_wechat_account.53f45180.jpg`
 
@@ -87,5 +93,6 @@ export {
     appLink,
     iconLike,
     bottomLogo,
-    eyepetizerWxQr
+    eyepetizerWxQr,
+    spriteShare
 }

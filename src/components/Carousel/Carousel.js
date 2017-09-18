@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
-import IconButton from 'material-ui/IconButton'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-import Button from 'material-ui/Button'
+import FlatButton from 'material-ui/FlatButton'
 import CarouselDiv from '../../styled/Carousel.js'
 import moment from 'moment'
 import {detail} from '../../router/link.js'
 import {formatDuration} from '../../utils'
 import {defaultWidth} from '../../styled/Carousel.js'
-import KeyboardArrowLeftIcon from 'material-ui-icons/KeyboardArrowLeft'
-import KeyboardArrowRightIcon from 'material-ui-icons/KeyboardArrowRight'
+
+
+/*import KeyboardArrowLeftIcon from 'material-ui-icons/KeyboardArrowLeft'
+import KeyboardArrowRightIcon from 'material-ui-icons/KeyboardArrowRight'*/
+
+import HardwareKeyboardArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left'
+import HardwareKeyboardArrowRight from 'material-ui/svg-icons/hardware/keyboard-arrow-right'
 
 
 
@@ -128,9 +132,9 @@ export default class Carousel extends Component {
 
         return (
           <CarouselDiv >
-             <Button href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
-                <KeyboardArrowLeftIcon className="controlBtn-icon"/>
-             </Button>
+             <FlatButton href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
+                <HardwareKeyboardArrowLeft className="controlBtn-icon"/>
+             </FlatButton>
             { itemList ? <ul className="itemLists" style={{left: `${left}`, width: `calc(50% * ${itemList.length + 2} )`}}>
                 {itemLists[itemLists.length - 1] }
                 {itemLists }
@@ -139,9 +143,9 @@ export default class Carousel extends Component {
              <ul className="activeItemLists">
                 {activeItemLists ? activeItemLists: null }
              </ul>
-              <Button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
-                <KeyboardArrowRightIcon className="controlBtn-icon"/>
-              </Button>
+              <FlatButton href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
+                <HardwareKeyboardArrowRight className="controlBtn-icon"/>
+              </FlatButton>
               <ul className="bullets" ref={bullets => this.bullets = bullets}>
                   {bullets}
               </ul>
