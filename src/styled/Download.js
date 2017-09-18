@@ -3,7 +3,6 @@ import {mediaQuery} from './index.js'
 import {eyeApi} from '../api/api.js' 
 
 const DownloadDiv = styled.div`
-    /*height: 700px;*/
     padding: 60px 0;
     .intro {
        background: url(${eyeApi.sprite}) no-repeat 0 100% / 428px;

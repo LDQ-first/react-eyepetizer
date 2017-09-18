@@ -7,11 +7,26 @@ const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id
 
 const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
+
+
+
 const feed = (date, num) => `http://baobab.kaiyanapp.com/api/v1/feed?date=${date}&num=${num}`
 
 const search = query => `http://baobab.kaiyanapp.com/api/v1/search?num=20&query=${query}`
 
 const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=100`
+
+
+
+
+const hot = `http://baobab.kaiyanapp.com/api/v4/discovery/hot`
+
+const category = `http://baobab.kaiyanapp.com/api/v4/discovery/category`
+
+const pgcs = `http://baobab.kaiyanapp.com/api/v4/pgcs/all`
+
+
+
 
 
 const spriteShare = `//static.kaiyanapp.com/eyepetizer-web/assets/images/sprite_share.bc0f4494.png`
