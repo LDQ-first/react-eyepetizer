@@ -64,7 +64,7 @@ export default class VideoInfo extends Component {
                     <img className="iconImg" src={item.icon} />
                     <div className="message">
                         <h3 className="name">{item.name}</h3>
-                        <span className="lastTime">{moment(item.latestReleaseTime).format(`YYYY-M-D H:m`)}</span>
+                        <span className="lastTime">最新更新时间  {moment(item.latestReleaseTime).format(`YYYY-M-D hh:mm`)}</span>
                         <p className="des">{item.description}</p>              
                     </div>
                     <span className="videoNum">视频数 {item.videoNum}</span> 

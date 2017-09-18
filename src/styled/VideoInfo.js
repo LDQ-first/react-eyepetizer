@@ -65,9 +65,10 @@ const VideoInfoDiv = styled.div`
                word-break: break-word;
            }
            .lastTime {
-               
+               font-size: 12px;
            }
            .des {
+               font-size: 14px;
                 margin: 0;
                 word-break: break-word;
            }
