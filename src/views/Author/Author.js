@@ -13,6 +13,7 @@ import AuthorDiv from '../../styled/Author.js'
 import AuthorInfo from '../../components/AuthorInfo/AuthorInfo.js'
 import AuthorVideo from '../../components/AuthorVideo/AuthorVideo.js'
 import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
+import GoToTop from '../../components/GoToTop/GoToTop.js'
 
 class Author extends Component {
     static get propTypes() { 
@@ -98,6 +99,7 @@ class Author extends Component {
                 <AuthorInfo authorInfo={authors.authorInfo}/>
                 <AuthorVideo authorVideo={authors.authorVideo} _this={this}/>
                 <ReturnIndex/>
+                <GoToTop />
             </AuthorDiv>
         )
     }
