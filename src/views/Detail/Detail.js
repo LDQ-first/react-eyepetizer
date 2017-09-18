@@ -18,6 +18,7 @@ import Tags from '../../components/Tags/Tags.js'
 import DetailFooter from '../../components/DetailFooter/DetailFooter.js'
 import {detail as detailLink} from '../../router/link.js'
 
+
 class Detail extends Component {
     static get propTypes() { 
         return { 
@@ -118,7 +119,7 @@ class Detail extends Component {
         return (
             <div className="detail">
                 <Video itemList={itemList}/>
-                <VideoInfo itemList={itemList}/>
+                <VideoInfo itemList={itemList} _this={this}/>
                 <RelatedVideo videoList={videoList} detail={detail} _this={this}/>
                 <ReplyLists replyList={replyList}/>
                 { itemList.tags.length ? <Tags tags={itemList.tags} /> : null}

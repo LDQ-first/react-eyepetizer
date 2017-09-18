@@ -38,8 +38,6 @@ class Author extends Component {
         const {getRelatedData, getRepliesData, getAuthorData, match} = this.props
         if(match.params.id) {
             getAuthorData(match.params.id)
-            /*getRelatedData(match.params.id)
-            getRepliesData(match.params.id)*/
         }
         /* if(localStorage.itemList) {
             const itemList = JSON.parse(localStorage.itemList)
@@ -87,7 +85,7 @@ class Author extends Component {
         return (
             <AuthorDiv >
                 author
-              
+               
             </AuthorDiv>
         )
     }

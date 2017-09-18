@@ -48,6 +48,7 @@ const VideoInfoDiv = styled.div`
        align-items: center;
        padding: 15px 15px 8px 15px;
        margin: 1em 0;
+       cursor: pointer;
        .iconImg {
             height: 36px;
             width: 36px;

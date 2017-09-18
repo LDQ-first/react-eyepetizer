@@ -13,17 +13,20 @@ import ToggleStar from 'material-ui/svg-icons/toggle/star'
 import EditorInsertComment from 'material-ui/svg-icons/editor/insert-comment'
 import SocialShare from 'material-ui/svg-icons/social/share'
 import moment from 'moment'
+import {author as authorLink} from '../../router/link.js'
+
 
 export default class VideoInfo extends Component {
      static get propTypes() { 
         return { 
-            itemList: PropTypes.array
+            itemList: PropTypes.array,
+            _this: PropTypes.object
         }
     }
 
 
     render() {
-       const {itemList} = this.props
+       const {itemList, _this} = this.props
 
 
        let consumption = null
@@ -60,7 +63,7 @@ export default class VideoInfo extends Component {
            console.log('itemList.author: ', itemList.author)
            const item = itemList.author
            author = (
-                <div className="author">
+                <div className="author" onClick={() => {_this.switchRoute(`${authorLink}/${item.id}`)}}>
                     <img className="iconImg" src={item.icon} />
                     <div className="message">
                         <h3 className="name">{item.name}</h3>
