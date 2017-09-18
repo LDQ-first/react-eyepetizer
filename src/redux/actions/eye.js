@@ -279,19 +279,51 @@ const filterAuthorData = (data) => {
        if(item.type === 'video') {
            const data = item.data
 
+           let newAuthor = null
+            if(data.author) {
+                const author = data.author
+                newAuthor = {
+                        id: author.id,
+                        icon: author.icon,
+                        name: author.name,
+                        description: author.description,
+                        latestReleaseTime: author.latestReleaseTime,
+                        videoNum: author.videoNum
+                    }
+            }
+
             newItemList.push({
                 category: data.category,
                 consumption: data.consumption,
-                coverForFeed: cover.feed,
-                
+                videoImg: data.cover.feed,
+                description: data.description,
+                duration: data.duration,
+                id: data.id,
+                tags: data.tags,
+                title: data.title,
+                playUrl: data.playUrl,
+                author: newAuthor
             })
        }
    }
+
+
+   const pgcInfo = data.pgcInfo
+   const newPgcInfo = {
+      brief: pgcInfo.brief,
+      icon: pgcInfo.icon,
+      id: pgcInfo.id,
+      name: pgcInfo.name,
+      videoCount: pgcInfo.videoCount,
+      description: pgcInfo.description
+   }
+
   
 
     const newData = {
        count: data.count,
-
+       authorVideo: newItemList,
+       authorInfo: newPgcInfo
     }
     console.log(newData)
     return newData
