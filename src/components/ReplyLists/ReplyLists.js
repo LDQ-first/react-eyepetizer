@@ -66,7 +66,6 @@ export default class ReplyLists extends Component {
            })
        }
 
-       console.log(replyLists)
        
 
 

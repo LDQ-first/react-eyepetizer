@@ -4,6 +4,7 @@ import {eyeApi} from '../../api/api.js'
 import classNames from 'classnames'
 import Button from 'material-ui/Button'
 import {formatDuration} from '../../utils'
+import IconButton from 'material-ui/IconButton'
 import StarIcon from 'material-ui-icons/Star'
 import InsertCommentIcon from 'material-ui-icons/InsertComment'
 import ShareIcon from 'material-ui-icons/Share'
@@ -23,9 +24,31 @@ export default class VideoInfo extends Component {
        let consumption = null
        if(itemList.consumption) {
            console.log('consumption: ', itemList.consumption)
-           consumption = [...itemList.consumption].map((item, index) => {
+
+           let newConsumption = []
+           const icons =  {
+               collectionCount: <StarIcon className="list-icon"/>,
+               replyCount: <InsertCommentIcon className="list-icon"/>,
+               shareCount: <ShareIcon className="list-icon"/>
+            }
+            
+           for(let key in itemList.consumption ) {
+               newConsumption.push({
+                   num: itemList.consumption[key],
+                   icon: icons[key]
+               })
+           }
+
+           console.log(newConsumption)
+
+           consumption = newConsumption.map((item, index) => {
                return (
-                   <li key={index} className="consumption"></li>
+                   <li key={index} className="consumption">
+                        <IconButton className="iconBtn">
+                            {item.icon}
+                        </IconButton>
+                        <span className="num">{item.num}</span>
+                   </li>
                )
            })
        }
@@ -41,7 +64,7 @@ export default class VideoInfo extends Component {
                </div>
               { consumption && consumption.length
                 ?  <ul className="consumptions">
-                   
+                        {consumption}
                 </ul> 
                 : null
                }
