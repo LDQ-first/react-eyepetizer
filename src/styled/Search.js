@@ -3,12 +3,7 @@ import {mediaQuery} from './index.js'
 import {eyeApi} from '../api/api.js' 
 
 const SearchDiv = styled.div`
-     background: #EEE;
-     position: absolute;
-     top: 0;
-     z-index: 2000;
-     height: 100%;
-     width: 100%;
+     padding-bottom: 50px;
      .header {
          padding: 5px; 
          background: #007ACC;
@@ -88,11 +83,16 @@ const SearchDiv = styled.div`
                  justify-content: center;
                  align-items: center;
                  .hotWord {
-                     background: #CCC;
+                    /* background: #;
                      color: #FFF;
                      margin: 4px;
-                     padding: 4px 8px;
-                     font-size: 12px;
+                     font-size: 12px;*/
+                        background: #7e57c2;
+                        border-radius: 2px;
+                        padding: 0;
+                        box-shadow: 0 1px 6px rgba(0,0,0,.4), 0 1px 4px rgba(0,0,0,.2);
+                        margin: 10px;
+                       /* padding: 0 10px;*/
                  }
              }
          }

@@ -77,11 +77,12 @@ export default class Search extends Component {
                onClick={() => {this._wordSearch(word)}}>
                     <FlatButton
                          style={{
-                            width: '32px',
-                            height: '32px',
+                            width: 'auto',
+                            height: '36px',
                             margin: '0',
-                            padding: '0',
+                            padding: '0 10px',
                             verticalAlign: `super`,
+                            color: `#FFF`
                         }}
                     >
                         {word}

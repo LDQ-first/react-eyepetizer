@@ -72,7 +72,7 @@ class SearchArea extends Component {
 
 
 const mapStateToProps = (state) => ({
-     authors: authorsSelector(state),
+    authors: authorsSelector(state),
     details: detailsSelector(state)
 })
 
