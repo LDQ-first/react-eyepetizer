@@ -141,6 +141,14 @@ export default injectGlobal`
     .searchArea {
         
     }
+    .feed {
+        .date {
+            text-align: center;
+            .title {
+                color: #FFF;
+            }
+        }
+    }
 `
 
 const Container = styled.div`

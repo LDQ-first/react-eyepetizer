@@ -10,6 +10,8 @@ import * as eyeAction from '../../redux/actions/eye.js'
 import VideoArea from '../../components/VideoArea/VideoArea.js'
 import DatePickerCom from '../../components/DatePicker/DatePicker.js'
 import moment from 'moment'
+import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
+
 
 class Feed extends Component {
     static get propTypes() { 
@@ -24,15 +26,17 @@ class Feed extends Component {
 
     
     componentWillMount() {
-        const {getFeedData} = this.props
-        const date = moment(new Date() - 24 * 60 * 60 * 1000).format(`YYYYMMDD`)
-        getFeedData(date)
-       
+        const {getFeedData, match} = this.props
+         getFeedData(match.params.date)
     }
 
     
     componentWillReceiveProps(nextProps) {
-        
+        const {feeds, getFeedData, match} = nextProps
+        const date = moment(feeds.date).format(`YYYYMMDD`)
+        if(date !== match.params.date) {
+             getFeedData(match.params.date)
+        }
     }
     
     
@@ -48,22 +52,23 @@ class Feed extends Component {
 
     render() {
        const {feeds} = this.props
-       const {videoList} = feeds
-
-       if(videoList) {
-           console.log('videoList: ', videoList)
-       }
+       const {videoList, date} = feeds
 
 
         return (
             <div className="feed">
               { <DatePickerCom _this={this}/>}
-               
+              <header className="date">
+                   <h1 className="title">
+                        {moment(date).format(`YYYYMMDD`)}
+                   </h1>
+               </header>
                {   
                    videoList
                    ? <VideoArea authorVideo={videoList} _this={this}/>
                    : null
                 }
+                <ReturnIndex/>
             </div>
         )
     }

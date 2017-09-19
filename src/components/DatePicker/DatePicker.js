@@ -16,34 +16,20 @@ export default class DatePickerCom extends Component {
      constructor(props) {
         super(props)
         this.state = {
-            controlledDate: null,
+           
         }
     }
 
     handleChange = (event, date) => {
-        this.setState({
-            controlledDate: date,
-        })
-    }
-
-    
-    componentWillUpdate(nextProps, nextState) {
-        const {controlledDate} = nextState
-        console.log(controlledDate)
-        if(controlledDate) {
-            const date = moment(controlledDate).format(`YYYYMMDD`)
-            console.log(date)
-        }
-        
+        const {_this} = this.props
+        const formatDate = moment(date).format(`YYYYMMDD`)
+        _this.switchRoute(`${feed}/${formatDate}`)
     }
     
     
 
     render() {
         const {_this} = this.props
-        const date = moment(new Date() - 24 * 60 * 60 * 1000).format(`YYYYMMDD`)
-       
-
 
         return (
             <DatePickerDiv >
@@ -51,18 +37,14 @@ export default class DatePickerCom extends Component {
                 <DatePicker
                     className="picker"
                     hintText="选择日期"
-                    value={this.state.controlledDate}
                     onChange={this.handleChange}
-                    onClick={() => {/*_this.switchRoute(`${feed}/${date}`)*/}}
                     style = {{
                         height: `36px`,
                         width: `120px`,
                         
                     }}
-                    textFieldStyle = {{
-                        textAlign: `center`,
-                        cursor: `pointer`,
-                        color: `#FFF`
+                    dialogContainerStyle = {{
+                        top: `-40px`
                     }}
                 >
                     <ActionDateRange />

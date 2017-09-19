@@ -35,7 +35,7 @@ const DatePickerDiv = styled.div`
         svg {
             fill: #FFF !important;
             margin-top: 3px;
-            left: -40px;
+            left: 5px;
             width: 30px !important;
             height: 30px !important;
         }

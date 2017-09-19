@@ -523,7 +523,6 @@ export const getFeed = (feed) => {
 
 
 const filterFeedData = (data) => {
-   console.log(data.dailyList)
    const dailyList = data.dailyList[0]
 
    const newVideoList = []
@@ -575,7 +574,7 @@ const filterFeedData = (data) => {
         videoList: newVideoList,
         date: dailyList.date
     }
-    console.log(newData)
+   // console.log(newData)
     return newData
 }
 
