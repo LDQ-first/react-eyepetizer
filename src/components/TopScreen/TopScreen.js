@@ -5,10 +5,15 @@ import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
 import ActionSearch from 'material-ui/svg-icons/action/search'
-
+import {searchArea} from '../../router/link.js'
 
 
 export default class TopScreen extends Component {
+    static get propTypes() { 
+        return { 
+            _this: PropTypes.object
+        }
+    }
 
     constructor (props) {
         super(props)
@@ -67,7 +72,7 @@ export default class TopScreen extends Component {
     render() {
         const {QRCodeUrl, isShowQR, imgIndex} = this.state
         const {contact, home, imglists, author} = eyeApi
-
+        const {_this} = this.props
 
         const Imglists = imglists.map((imglist, index) => {
             return (
@@ -124,7 +129,7 @@ export default class TopScreen extends Component {
                         iconStyle = {{
                             color: `#FFF`
                         }}
-                        onClick={() => {this._showSearch()}}
+                        onClick={() => {_this.switchRoute(`${searchArea}`)}}
                         className="email" >
                         <ActionSearch />
                      </IconButton>

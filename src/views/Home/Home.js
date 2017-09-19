@@ -51,8 +51,7 @@ class Home extends Component {
 
         return (
             <div className="index">
-                
-                <TopScreen />
+                <TopScreen _this={this}/>
                 <VideoLists date={date} itemList={itemList}/>
                 <Download />
                 <Footer />
