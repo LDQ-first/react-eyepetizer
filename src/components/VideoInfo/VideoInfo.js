@@ -56,7 +56,6 @@ export default class VideoInfo extends Component {
 
        let author = null
        if(itemList.author) {
-        /*   console.log('itemList.author: ', itemList.author)*/
            const item = itemList.author
            author = <AuthorLeftInfo item={item} _this={_this}/>
        }

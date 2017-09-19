@@ -19,13 +19,41 @@ export default class AuthorInfo extends Component {
        if(authorInfo) {
            author = (
                <div className="authorInfo">
-                   <img className="icon" src={authorInfo.icon}/>
-                   <h1 className="name">{authorInfo.name}</h1>
-                   <p className="brief">{authorInfo.brief}</p>
-                   <p className="description">{authorInfo.description}</p>
-                   <p className="videoCount">
-                        <span className="videoCount-content">共有 {authorInfo.videoCount} 个视频</span>
-                   </p>
+                   {
+                       authorInfo.icon 
+                       ? <img className="icon" src={authorInfo.icon}/>
+                       : null
+                   }
+                   {
+                       authorInfo.name
+                       ? <h1 className="name">{authorInfo.name}</h1>
+                       : (
+                           authorInfo.title 
+                           ? <h1 className="name">{authorInfo.title}</h1>
+                           : null
+                         )
+                   }
+                   {
+                       authorInfo.brief
+                       ? <p className="brief">{authorInfo.brief}</p>
+                       : null
+                   }
+                   {
+                       authorInfo.description
+                       ? <p className="description">{authorInfo.description}</p>
+                       : null
+                   }
+                   {
+                       authorInfo.videoCount
+                       ? (
+                           <p className="videoCount">
+                                <span className="videoCount-content">共有 {authorInfo.videoCount} 个视频</span>
+                            </p>
+
+                         )
+                        : null
+                   }
+                   
                </div>
            )    
        }
