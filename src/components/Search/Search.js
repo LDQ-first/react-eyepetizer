@@ -11,6 +11,10 @@ import {formatDuration} from '../../utils'
 import {detail} from '../../router/link.js'
 import {author as authorLink} from '../../router/link.js'
 import VideoArea from '../../components/VideoArea/VideoArea.js'
+import AuthorLeftInfo from '../../components/AuthorLeftInfo/AuthorLeftInfo.js'
+import VideoHorizontal from '../../components/VideoHorizontal/VideoHorizontal.js'
+
+
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -129,21 +133,8 @@ export default class Search extends Component {
 
                     return (
                         <li key={index} className="author" >
-                            <div className="authorInfo" 
-                            onClick={() => {_this.switchRoute(`${authorLink}/${author.id}`)}}>
-                                <img className="icon" src={author.icon} />
-                                <div className="des">
-                                    <h2 className="title">{author.title}</h2>
-                                    <p className="description">{author.description}</p>
-                                </div>
-                            </div>
-                            {   
-                                videoLists ?
-                                <ul className="authorVideos" >
-                                  {videoLists}
-                                </ul>
-                                : null
-                            }
+                             <AuthorLeftInfo item={author} _this={_this}/>
+                            <VideoHorizontal itemList={itemList} />
                         </li>
                     )
                 })

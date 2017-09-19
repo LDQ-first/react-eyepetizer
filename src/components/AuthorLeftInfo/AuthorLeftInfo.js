@@ -26,7 +26,7 @@ export default class AuthorLeftInfo extends Component {
                     <div className="message">
                         {
                             item.name ? <h3 className="name">{item.name}</h3> : (
-                                item.title ? <h3 className="name">{item.name}</h3> : null
+                                item.title ? <h3 className="name">{item.title}</h3> : null
                             )
                         }    
                         {

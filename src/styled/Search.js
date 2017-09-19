@@ -105,54 +105,6 @@ const SearchDiv = styled.div`
                 .authors {
                     .author {
                         margin: 20px 10px;
-                        .authorInfo {
-                            cursor: pointer;
-                            margin: 10px 0;
-                            .icon {
-                                height: 30px;
-                                width: 30px;
-                                margin: 4px;
-                                border-radius: 50%;
-                                box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-                            }
-                            .des {
-                                flex: 1;
-                                .title {
-                                    font-size: 14px;
-                                    word-break: break-word;
-                                }
-                                .description {
-                                    font-size: 14px;
-                                    margin: 0;
-                                }
-                            }
-                        }
-                        
-                        .authorVideos {
-                            overflow-x: auto;
-                            display: flex;
-                            justify-content: flex-start;
-                            padding: 10px 0;
-                            .video {
-                                margin: 0 10px;
-                                width: calc(50% - 50px);
-                                max-width: 400px;
-                                min-width: 200px;
-                                font-size: 14px;
-                                .videoImg {
-                                    width: 100%;
-                                    cursor: pointer;
-                                }
-                                .videoDes {
-                                    .name {
-                                       font-size: 12px;
-                                    }
-                                    .meta {
-                                        font-size: 12px;
-                                    }
-                                }
-                            }
-                        }
                     }
                 }
                 .videos {
