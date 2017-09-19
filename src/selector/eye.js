@@ -61,5 +61,13 @@ export const searchListsSelector = createSelector(
     }
 )
 
+export const feedsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('feeds')
+    }
+)
+
 
 

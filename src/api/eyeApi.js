@@ -10,7 +10,7 @@ const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
 
 
-const feed = (date, num) => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/feed?date=${date}&num=${num}`
+const feed = date => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/feed?date=${date}&num=1`
 
 const search = query => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/search?num=50&query=${query}`
 

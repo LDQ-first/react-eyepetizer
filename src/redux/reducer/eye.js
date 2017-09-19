@@ -6,7 +6,8 @@ import {
     GET_REPLIES,
     GET_DETAIL,
     GET_AUTHOR,
-    GET_SEARCH
+    GET_SEARCH,
+    GET_FEED
 } from '../const/const'
 
 import { fromJS } from 'immutable'
@@ -21,6 +22,7 @@ const initState = fromJS({
     details: {},
     authors: {},
     searchLists: {},
+    feeds: {}
 })
 
 export default (state = initState, action) => {
@@ -37,6 +39,8 @@ export default (state = initState, action) => {
             return state.set('authors', action.author)
         case GET_SEARCH:
             return state.set('searchLists', action.searchList)
+        case GET_FEED:
+            return state.set('feeds', action.feed)
         default:
             return state
     }

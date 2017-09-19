@@ -6,7 +6,8 @@ import {
     GET_REPLIES,
     GET_DETAIL,
     GET_AUTHOR,
-    GET_SEARCH
+    GET_SEARCH,
+    GET_FEED
 } from '../const/const'
 
 import axios from 'axios'
@@ -502,6 +503,90 @@ export const getSearchData = (query) => async (dispatch) => {
        let res = await axios.get(eyeApi.search(query))
     //   console.log('res.data: ', res.data)
        await dispatch(getSearch(filterSearchData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+
+
+export const getFeed = (feed) => { 
+    return {
+        type: GET_FEED,
+        feed: feed
+    }
+}
+
+
+
+const filterFeedData = (data) => {
+   console.log(data.dailyList)
+   const dailyList = data.dailyList[0]
+
+   const newVideoList = []
+   if(dailyList.videoList.length) {
+       const videoList = dailyList.videoList
+       for(let video of videoList) {
+
+            const tags = video.tags
+            const newTags = [] 
+            if(tags) {
+                for(let tag of tags) {
+                    newTags.push({name: tag.name})
+                }
+            }
+
+            let newAuthor = null
+            if(video.author) {
+                const author = video.author
+                newAuthor = {
+                    id: author.id,
+                    icon: author.icon,
+                    name: author.name,
+                    description: author.description,
+                    latestReleaseTime: author.latestReleaseTime,
+                    videoNum: author.videoNum
+                }
+            }
+
+
+           const newVideo = {
+               category: video.category,
+               consumption: video.consumption,
+               videoImg: video.coverForFeed,
+               description: video.description,
+               duration: video.duration,
+               id: video.id,
+               tags: newTags,
+               title: video.title,
+               playUrl: video.playUrl,
+               author: newAuthor
+           }
+           newVideoList.push(newVideo)
+       }
+
+   }
+
+   
+    const newData = {
+        videoList: newVideoList,
+        date: dailyList.date
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getFeedData = (date) => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.feed(date))
+    //   console.log('res.data: ', res.data)
+       await dispatch(getFeed(filterFeedData(res.data)))
    } catch (err) {
        console.log('err:', err)
    }

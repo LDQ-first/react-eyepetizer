@@ -1,4 +1,4 @@
-let home, detail, author, searchArea
+let home, detail, author, searchArea, feed
 
 
 /*process.env.NODE_ENV === 'production' 
@@ -14,10 +14,12 @@ home = '/'
 detail = '/detail'
 author = '/author'
 searchArea = '/searchArea'
+feed = '/feed'
 
 export {
     home,
     detail,
     author,
-    searchArea
+    searchArea,
+    feed
 }
