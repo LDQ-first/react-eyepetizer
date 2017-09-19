@@ -4,7 +4,7 @@ import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-
+import ActionSearch from 'material-ui/svg-icons/action/search'
 
 export default class TopScreen extends Component {
 
@@ -50,6 +50,16 @@ export default class TopScreen extends Component {
             })
         }, 10000)
     }
+
+    _showSearch () {
+        console.log('show')
+    }
+
+    _hideSearch () {
+
+    }
+
+   
 
 
     render() {
@@ -100,6 +110,21 @@ export default class TopScreen extends Component {
                         }}
                         className="email" />
                     </a>
+                    <IconButton 
+                        style={{
+                            width: 'atuo',
+                            height: '36px',
+                            padding: '0',
+                            margin: '0 0.5rem',
+                            verticalAlign: `super`
+                        }}
+                        iconStyle = {{
+                            color: `#FFF`
+                        }}
+                        onClick={() => {this._showSearch()}}
+                        className="email" >
+                        <ActionSearch />
+                     </IconButton>
                 </div>
                 <div className="video-wrap">
                     <video autoPlay loop className="video"

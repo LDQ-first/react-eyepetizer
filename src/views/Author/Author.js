@@ -38,29 +38,17 @@ class Author extends Component {
     }
     
     componentWillMount() {
-        const {getRelatedData, getRepliesData, getAuthorData, match} = this.props
+        const {getAuthorData, match} = this.props
         if(match.params.id) {
             getAuthorData(match.params.id)
         }
-        /* if(localStorage.itemList) {
-            const itemList = JSON.parse(localStorage.itemList)
-            this.setState({
-                itemList: itemList
-            })
-        }*/
         
     }
     
-    
-    componentWillReceiveProps(nextProps) {
-        
-
-    }
 
     switchRoute(path, index) {
          const {history, authors} = this.props
          const {authorVideo} = authors
-       /*  console.log(authorVideo[index])*/
          if(index) {
            localStorage.itemList = JSON.stringify(authorVideo[index])
         }
@@ -68,11 +56,6 @@ class Author extends Component {
         
     }
 
-    
-  /*  switchRoute(path) {
-        const {history} = this.props
-        history.push(path)
-    }*/
 
     getDetail (id) {
         const {getDetailData, getRelatedData, getRepliesData, match} = this.props
@@ -87,14 +70,6 @@ class Author extends Component {
        
         const {match, details, authors} = this.props
         const {detail} = details
-
-
-        /*if(authors) {
-            console.log('authors: ', authors)
-
-        }*/
-        
-
        
         return (
             <AuthorDiv >

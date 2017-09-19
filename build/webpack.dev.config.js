@@ -21,7 +21,7 @@ const devConfig = (baseConfig, {
     devServer: {
         /*contentBase: path.join(__dirname, '../dist'),*/
         historyApiFallback: true,
-        host: '0.0.0.0',  //手机局域网访问 http://10.30.6.224:5000
+        host: '0.0.0.0',  //手机局域网访问 http://10.30.1.105:5000
         hot: true,
         /*inline: true, //实时刷新*/
         port: 5000
