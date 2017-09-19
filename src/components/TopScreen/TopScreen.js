@@ -135,7 +135,7 @@ export default class TopScreen extends Component {
                             color: `#FFF`
                         }}
                         onClick={() => {this._clearSearchData();_this.switchRoute(`${searchArea}`);}}
-                        className="email" >
+                        className="search" >
                         <ActionSearch />
                      </IconButton>
                 </div>
