@@ -38,7 +38,7 @@ class SearchArea extends Component {
     
     componentWillMount() {
        const {getSearchData} = this.props
-       getSearchData('')
+      /* getSearchData('')*/
         
     }
     

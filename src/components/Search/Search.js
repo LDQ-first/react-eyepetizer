@@ -9,6 +9,7 @@ import FlatButton from 'material-ui/FlatButton'
 import {home} from '../../router/link.js'
 import {formatDuration} from '../../utils'
 import {detail} from '../../router/link.js'
+import {author as authorLink} from '../../router/link.js'
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -132,7 +133,8 @@ export default class Search extends Component {
 
                     return (
                         <li key={index} className="author" >
-                            <div className="authorInfo" onClick={() => {}}>
+                            <div className="authorInfo" 
+                            onClick={() => {_this.switchRoute(`${authorLink}/${author.id}`)}}>
                                 <img className="icon" src={author.icon} />
                                 <div className="des">
                                     <h2 className="title">{author.title}</h2>

@@ -22,6 +22,7 @@ class Home extends Component {
             match: PropTypes.obj.isRequired,
             IndexData: PropTypes.object,
             getIndexData: PropTypes.func,
+            getSearchData: PropTypes.func,
         }
     }
 
@@ -45,13 +46,13 @@ class Home extends Component {
 
     render() {
        
-        const {IndexData} = this.props
+        const {IndexData, getSearchData} = this.props
         const {date, itemList} = IndexData
 
 
         return (
             <div className="index">
-                <TopScreen _this={this}/>
+                <TopScreen _this={this} getSearchData={getSearchData}/>
                 <VideoLists date={date} itemList={itemList}/>
                 <Download />
                 <Footer />

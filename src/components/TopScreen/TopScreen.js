@@ -11,7 +11,8 @@ import {searchArea} from '../../router/link.js'
 export default class TopScreen extends Component {
     static get propTypes() { 
         return { 
-            _this: PropTypes.object
+            _this: PropTypes.object,
+            getSearchData: PropTypes.func,
         }
     }
 
@@ -72,7 +73,7 @@ export default class TopScreen extends Component {
     render() {
         const {QRCodeUrl, isShowQR, imgIndex} = this.state
         const {contact, home, imglists, author} = eyeApi
-        const {_this} = this.props
+        const {_this ,getSearchData} = this.props
 
         const Imglists = imglists.map((imglist, index) => {
             return (
@@ -129,7 +130,7 @@ export default class TopScreen extends Component {
                         iconStyle = {{
                             color: `#FFF`
                         }}
-                        onClick={() => {_this.switchRoute(`${searchArea}`)}}
+                        onClick={() => {getSearchData('');_this.switchRoute(`${searchArea}`);}}
                         className="email" >
                         <ActionSearch />
                      </IconButton>
