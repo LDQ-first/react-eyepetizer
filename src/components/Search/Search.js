@@ -6,6 +6,7 @@ import IconButton from 'material-ui/IconButton'
 import ActionSearch from 'material-ui/svg-icons/action/search'
 import NavigationCancel from 'material-ui/svg-icons/navigation/cancel'
 import FlatButton from 'material-ui/FlatButton'
+import {home} from '../../router/link.js'
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -27,6 +28,12 @@ export default class Search extends Component {
                      ],
         }
     }
+
+    
+    componentDidMount() {
+        this._searchInput.value = ''
+    }
+    
 
     _enterSearch (e) {
         if(e.keyCode === 13) {
@@ -127,7 +134,7 @@ export default class Search extends Component {
                         <NavigationCancel/>
                      </IconButton>
                      <button className="cancelBtn"
-                     onClick={() => {this._cancel()}}
+                     onClick={() => {_this.switchRoute(`${home}`)}}
                      >取消</button>
                      </div>
                 </header>
