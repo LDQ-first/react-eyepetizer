@@ -357,6 +357,9 @@ export const getSearch = (searchList) => {
 
 const filterSearchData = (data) => {
    
+   if(!data) {
+       return {}
+   }
    const itemList = data.itemList
    /*console.log(data.itemList)*/
    const authors = []
@@ -492,8 +495,10 @@ const filterSearchData = (data) => {
 
 
 export const getSearchData = (query) => async (dispatch) => {
-
    try {
+       if(query === '') {
+           return dispatch(getSearch(filterSearchData(null)))
+       }
        let res = await axios.get(eyeApi.search(query))
     //   console.log('res.data: ', res.data)
        await dispatch(getSearch(filterSearchData(res.data)))

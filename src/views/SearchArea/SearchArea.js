@@ -37,7 +37,8 @@ class SearchArea extends Component {
     }
     
     componentWillMount() {
-       
+       const {getSearchData} = this.props
+       getSearchData('')
         
     }
     
@@ -51,6 +52,8 @@ class SearchArea extends Component {
          history.push(path)
         
     }
+
+    
 
 
     search (searchValue) {

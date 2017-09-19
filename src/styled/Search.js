@@ -62,8 +62,8 @@ const SearchDiv = styled.div`
          }
      }
      .main {
-         padding: 15px; 
-         overflow-y: auto;
+         padding: 15px 5px; 
+         /*overflow-y: auto;*/
          .hotWordArea {
            /* display: flex;
             flex-direction: column;
@@ -102,48 +102,51 @@ const SearchDiv = styled.div`
                   text-align: center;
             }
             .searchResult {
-
                 .authors {
-
                     .author {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        align-items: center;
-                        .icon {
-                            height: 60px;
-                            width: 60px;
-                            margin: 1em;
-                            border-radius: 50%;
-                            box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-                        }
-                        .des {
-                            flex: 1;
-                            .title {
-                                font-size: 16px;
-                                word-break: break-word;
+                        margin: 20px 10px;
+                        .authorInfo {
+                            margin: 10px 0;
+                            .icon {
+                                height: 30px;
+                                width: 30px;
+                                margin: 4px;
+                                border-radius: 50%;
+                                box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
                             }
-                            .description {
-
+                            .des {
+                                flex: 1;
+                                .title {
+                                    font-size: 14px;
+                                    word-break: break-word;
+                                }
+                                .description {
+                                    font-size: 14px;
+                                    margin: 0;
+                                }
                             }
                         }
+                        
                         .authorVideos {
-                            overflow-x: scroll;
+                            overflow-x: auto;
                             display: flex;
-                            flex-wrap: nowrap;
+                            justify-content: flex-start;
+                            padding: 10px 0;
                             .video {
                                 margin: 0 10px;
-                                width: 200px;
+                                width: calc(50% - 50px);
+                                max-width: 400px;
+                                min-width: 200px;
                                 font-size: 14px;
                                 .videoImg {
                                     width: 100%;
                                 }
                                 .videoDes {
                                     .name {
-                                       
+                                       font-size: 12px;
                                     }
                                     .meta {
-
+                                        font-size: 12px;
                                     }
                                 }
                             }

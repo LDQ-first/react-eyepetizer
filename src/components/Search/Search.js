@@ -132,14 +132,20 @@ export default class Search extends Component {
 
                     return (
                         <li key={index} className="author" onClick={() => {}}>
-                            <img className="icon" src={author.icon} />
-                            <div className="des">
-                                <h2 className="title">{author.title}</h2>
-                                <p className="description">{author.description}</p>
+                            <div className="authorInfo">
+                                <img className="icon" src={author.icon} />
+                                <div className="des">
+                                    <h2 className="title">{author.title}</h2>
+                                    <p className="description">{author.description}</p>
+                                </div>
                             </div>
                             {   
                                 videoLists ?
-                                <ul className="authorVideos">
+                                <ul className="authorVideos" 
+                                    /*style={{
+                                        width: `${videoLists.length * 220}`
+                                    }}*/
+                                >
                                   {videoLists}
                                 </ul>
                                 : null

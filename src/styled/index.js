@@ -32,18 +32,21 @@ export default injectGlobal`
                       SimSun, sans-serif !important;
     }
     ::-webkit-scrollbar {
-        width: 0.5em
+        width: 0.25em;
+        visibility: hidden;
     }
 
     ::-webkit-scrollbar-track {
-        border-radius: 0.25em;
-        background: #ceb9d1
+        border-radius: 0.125em;
+        background: #ceb9d1;
+        visibility: hidden;
     }
 
     ::-webkit-scrollbar-thumb {
-        height: 0.5em;
-        border-radius: 0.25em;
-        background: #498bd6 linear-gradient(180deg,#fff,rgba(3,169,244,.5),#0277bd)
+        height: 0.125em;
+        border-radius: 0.05em;
+        background: #498bd6 linear-gradient(180deg, #fff,rgba(3,169,244,.5), #0277bd);
+        visibility: hidden;
     }
     ul,
     li {
