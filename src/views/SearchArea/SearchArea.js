@@ -43,12 +43,11 @@ class SearchArea extends Component {
     }
     
 
-    switchRoute(path, index) {
+    switchRoute(path, item) {
          const {history} = this.props
-         /*const {authorVideo} = authors
-         if(index) {
-           localStorage.itemList = JSON.stringify(authorVideo[index])
-        }*/
+         if(item) {
+           localStorage.itemList = JSON.stringify(item)
+        }
          history.push(path)
         
     }

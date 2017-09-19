@@ -33,20 +33,30 @@ export default injectGlobal`
     }
     ::-webkit-scrollbar {
         width: 0.25em;
-        visibility: hidden;
+        ${navigator.platform.indexOf("Win")} || 
+        ${navigator.platform.indexOf("Mac")} ||
+        ${navigator.platform.indexOf("Linux")}
+        ? null :  visibility: hidden;
+       
     }
 
     ::-webkit-scrollbar-track {
         border-radius: 0.125em;
         background: #ceb9d1;
-        visibility: hidden;
+        ${navigator.platform.indexOf("Win")} || 
+        ${navigator.platform.indexOf("Mac")} ||
+        ${navigator.platform.indexOf("Linux")}
+        ? null :  visibility: hidden;
     }
 
     ::-webkit-scrollbar-thumb {
         height: 0.125em;
         border-radius: 0.05em;
         background: #498bd6 linear-gradient(180deg, #fff,rgba(3,169,244,.5), #0277bd);
-        visibility: hidden;
+        ${navigator.platform.indexOf("Win")} || 
+        ${navigator.platform.indexOf("Mac")} ||
+        ${navigator.platform.indexOf("Linux")}
+        ? null :  visibility: hidden;
     }
     ul,
     li {

@@ -8,6 +8,7 @@ import NavigationCancel from 'material-ui/svg-icons/navigation/cancel'
 import FlatButton from 'material-ui/FlatButton'
 import {home} from '../../router/link.js'
 import {formatDuration} from '../../utils'
+import {detail} from '../../router/link.js'
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -116,10 +117,9 @@ export default class Search extends Component {
 
                     const videoLists = itemList.map((item, index) => {
                         return (
-                            <li key={index} className="video"
-                                onClick={() => {}}
-                            >
-                                <img src={item.videoImg} className="videoImg"/>
+                            <li key={index} className="video" >
+                                <img src={item.videoImg} className="videoImg" 
+                                onClick={() => {_this.switchRoute(`${detail}/${item.id}`, item)}}/>
                                 <div className="videoDes">
                                     <h3 className="name">{item.title}</h3>
                                     <div className="meta"># {item.category} / {formatDuration(item.duration)}</div>
@@ -131,8 +131,8 @@ export default class Search extends Component {
 
 
                     return (
-                        <li key={index} className="author" onClick={() => {}}>
-                            <div className="authorInfo">
+                        <li key={index} className="author" >
+                            <div className="authorInfo" onClick={() => {}}>
                                 <img className="icon" src={author.icon} />
                                 <div className="des">
                                     <h2 className="title">{author.title}</h2>

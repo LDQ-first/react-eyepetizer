@@ -140,6 +140,7 @@ const SearchDiv = styled.div`
                                 font-size: 14px;
                                 .videoImg {
                                     width: 100%;
+                                    cursor: pointer;
                                 }
                                 .videoDes {
                                     .name {
