@@ -8,7 +8,7 @@ import {
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
 import VideoArea from '../../components/VideoArea/VideoArea.js'
-import DatePicker from '../../components/DatePicker/DatePicker.js'
+import DatePickerCom from '../../components/DatePicker/DatePicker.js'
 import moment from 'moment'
 
 class Feed extends Component {
@@ -57,8 +57,13 @@ class Feed extends Component {
 
         return (
             <div className="feed">
-              {/* <DatePicker />*/}
-               <VideoArea authorVideo={videoList} _this={this}/>
+              { <DatePickerCom _this={this}/>}
+               
+               {   
+                   videoList
+                   ? <VideoArea authorVideo={videoList} _this={this}/>
+                   : null
+                }
             </div>
         )
     }
