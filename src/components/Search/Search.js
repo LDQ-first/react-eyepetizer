@@ -7,6 +7,7 @@ import ActionSearch from 'material-ui/svg-icons/action/search'
 import NavigationCancel from 'material-ui/svg-icons/navigation/cancel'
 import FlatButton from 'material-ui/FlatButton'
 import {home} from '../../router/link.js'
+import {formatDuration} from '../../utils'
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -105,11 +106,44 @@ export default class Search extends Component {
            console.log('Authors', Authors)
            console.log('Videos', Videos)
 
+
+
+
            if(Authors) {
                 searchResultAuthors = Authors.map((author, index) => {
-                    return (
-                        <li key={index} className="author">
 
+                    const itemList = author.itemList
+
+                    const videoLists = itemList.map((item, index) => {
+                        return (
+                            <li key={index} className="video"
+                                onClick={() => {}}
+                            >
+                                <img src={item.videoImg} />
+                                <div className="videoDes">
+                                    <h3 className="name">{item.title}</h3>
+                                    <div className="meta"># {item.category} / {formatDuration(item.duration)}</div>
+                                </div>
+                            </li>
+                        )
+                    })
+
+
+
+                    return (
+                        <li key={index} className="author" onClick={() => {}}>
+                            <img className="icon" src={author.icon} />
+                            <div className="des">
+                                <h2 className="title">{author.title}</h2>
+                                <p className="description">{author.description}</p>
+                            </div>
+                            {   
+                                videoLists ?
+                                <ul className="authorVideos">
+                                  {videoLists}
+                                </ul>
+                                : null
+                           }
                         </li>
                     )
                 })
@@ -118,7 +152,7 @@ export default class Search extends Component {
            if(Videos) {
                 searchResultVideos = Videos.map((video, index) => {
                     return (
-                        <li key={index} className="video">
+                        <li key={index} className="video" onClick={() => {}}>
                                 
                         </li>
                     )

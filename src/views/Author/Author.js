@@ -11,7 +11,7 @@ import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import AuthorDiv from '../../styled/Author.js'
 import AuthorInfo from '../../components/AuthorInfo/AuthorInfo.js'
-import AuthorArea from '../../components/AuthorArea/AuthorArea.js'
+import VideoArea from '../../components/VideoArea/VideoArea.js'
 import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
 
@@ -74,7 +74,7 @@ class Author extends Component {
         return (
             <AuthorDiv >
                 <AuthorInfo authorInfo={authors.authorInfo}/>
-                <AuthorArea authorVideo={authors.authorVideo} _this={this}/>
+                <VideoArea authorVideo={authors.authorVideo} _this={this}/>
                 <ReturnIndex/>
                 <GoToTop />
             </AuthorDiv>

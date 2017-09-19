@@ -101,6 +101,29 @@ const SearchDiv = styled.div`
              .resultNum {
                   text-align: center;
             }
+            .searchResult {
+                .authors {
+                    .author {
+                        .icon {
+                            
+                        }
+                        .des {
+                            .title {
+
+                            }
+                            .description {
+
+                            }
+                        }
+                        .authorVideos {
+                            
+                        }
+                    }
+                }
+                .videos {
+
+                }
+            }
          }
          
      }

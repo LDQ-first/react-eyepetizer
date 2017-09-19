@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import AuthorAreaDiv from '../../styled/AuthorArea.js'
+import VideoAreaDiv from '../../styled/VideoArea.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
 import {formatDuration} from '../../utils'
 import {detail} from '../../router/link.js'
 
 
-export default class AuthorArea extends Component {
+export default class VideoArea extends Component {
      static get propTypes() { 
         return { 
            authorVideo: PropTypes.object,
@@ -40,14 +40,14 @@ export default class AuthorArea extends Component {
 
 
         return (
-           <AuthorAreaDiv>
+           <VideoAreaDiv>
                <ul className="authorVideo">
                     {author}
                </ul>
                <div className="end">
                     「 The End 」
                </div>
-           </AuthorAreaDiv>
+           </VideoAreaDiv>
         )
     }
 }
