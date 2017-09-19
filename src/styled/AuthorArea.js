@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {mediaQuery} from './index.js'
 import {eyeApi} from '../api/api.js' 
 
-const AuthorVideoDiv = styled.div`
+const AuthorAreaDiv = styled.div`
      color: #FFF;
      padding: 1em;
      .authorVideo {
@@ -100,4 +100,4 @@ const AuthorVideoDiv = styled.div`
 
 `
 
-export default AuthorVideoDiv
+export default AuthorAreaDiv
