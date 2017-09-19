@@ -33,8 +33,10 @@ const filterIndexData = (data) => {
             const itemdata = item.data
             const tags = itemdata.tags
             const newTags = [] 
-            for(let tag of tags) {
-                newTags.push({name: tag.name})
+            if(tags) {
+                for(let tag of tags) {
+                    newTags.push({name: tag.name})
+                }
             }
 
             let newAuthor = null
@@ -356,7 +358,7 @@ export const getSearch = (searchList) => {
 const filterSearchData = (data) => {
    
    const itemList = data.itemList
-   console.log(data.itemList)
+   /*console.log(data.itemList)*/
    const authors = []
    const videos = []
    for(let item of itemList) {
@@ -366,13 +368,122 @@ const filterSearchData = (data) => {
            videos.push(item)
        }
    }
-   
 
+   console.log('authors: ', authors)
+   console.log('videos: ', videos)
+
+   
+   const newAuthor = []
+   if(authors.length) {
+       for(let item of authors) {
+           const data = item.data
+
+           const newItemLists = []
+            if(data.itemList) {
+                for(let item of data.itemList) {
+                    const data = item.data
+
+                    let newAuthor = null
+                    if(data.author) {
+                        const author = data.author
+                        newAuthor = {
+                                id: author.id,
+                                icon: author.icon,
+                                name: author.name,
+                                description: author.description,
+                                latestReleaseTime: author.latestReleaseTime,
+                                videoNum: author.videoNum
+                            }
+                    }
+
+                    const tags = data.tags
+                    const newTags = [] 
+                    if(tags) {
+                        for(let tag of tags) {
+                            newTags.push({name: tag.name})
+                        }
+                    }
+                    
+
+
+                    const newItemList = {
+                        category: data.category,
+                        consumption: data.consumption,
+                        videoImg: data.cover.feed,
+                        description: data.description,
+                        duration: data.duration,
+                        id: data.id,
+                        tags: newTags,
+                        title: data.title,
+                        playUrl: data.playUrl,
+                        author: newAuthor
+                    }
+                    newItemLists.push(newItemList)
+                }
+            } 
+
+           const newItem = {
+               description: data.header.description,
+               title: data.header.title,
+               id: data.header.id,
+               icon: data.header.icon,
+               itemList: newItemLists
+           }
+           newAuthor.push(newItem)
+       }
+   }
+
+
+   const newVideos = []
+   if(videos.length) {
+       for(let item of videos) {
+           const data = item.data
+
+        const tags = data.tags
+        const newTags = [] 
+        if(tags) {
+            for(let tag of tags) {
+                newTags.push({name: tag.name})
+            }
+        }
+
+         let newAuthor = null
+        if(data.author) {
+            const author = data.author
+            newAuthor = {
+                id: author.id,
+                icon: author.icon,
+                name: author.name,
+                description: author.description,
+                latestReleaseTime: author.latestReleaseTime,
+                videoNum: author.videoNum
+            }
+        }
+
+
+         const newItem = {
+               category: data.category,
+               consumption: data.consumption,
+               videoImg: data.cover.feed,
+               description: data.description,
+               duration: data.duration,
+               id: data.id,
+               tags: newTags,
+               title: data.title,
+               playUrl: data.playUrl,
+               author: newAuthor
+        }
+        newVideos.push(newItem)
+
+           
+       }
+   }
 
 
     const newData = {
-        count: data.count
-
+        count: data.count,
+        newAuthor: newAuthor,
+        newVideos: newVideos
     }
   //  console.log(newData)
     return newData

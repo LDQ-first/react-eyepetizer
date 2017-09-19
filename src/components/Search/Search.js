@@ -11,7 +11,8 @@ import {home} from '../../router/link.js'
 export default class Search extends Component {
     static get propTypes() { 
         return { 
-            _this: PropTypes.object
+            _this: PropTypes.object,
+            searchLists: PropTypes.object
         }
     }
 
@@ -46,14 +47,15 @@ export default class Search extends Component {
     }
 
      _search (value) {
+        const {_this} = this.props
         const search = this._searchInput
         let searchValue = search.value
         if(value) {
-            console.log(value)
+          /*  console.log(value)*/
             searchValue = value
         }
-        console.log(searchValue)
-
+        /*console.log(searchValue)*/
+        _this.search(searchValue)
 
     }
 
@@ -68,7 +70,7 @@ export default class Search extends Component {
     
 
     render() {
-       const {_this} = this.props
+       const {_this, searchLists} = this.props
        const {hotWords, isShowResult} = this.state
        
        const hotWord = hotWords.map((word, index) => {
@@ -90,6 +92,11 @@ export default class Search extends Component {
                </li>
            )
        })
+
+
+       if(searchLists) {
+           console.log('searchLists', searchLists)
+       }
        
 
       

@@ -53,5 +53,13 @@ export const authorsSelector = createSelector(
     }
 )
 
+export const searchListsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('searchLists')
+    }
+)
+
 
 

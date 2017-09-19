@@ -4,7 +4,8 @@ import {connect} from 'react-redux'
 import { withRouter } from 'react-router'
 import {
     detailsSelector,
-    authorsSelector
+    authorsSelector,
+    searchListsSelector
 } from '../../selector/eye.js'
 import * as eyeAction from '../../redux/actions/eye.js'
 import Tags from '../../components/Tags/Tags.js'
@@ -19,10 +20,12 @@ class SearchArea extends Component {
             match: PropTypes.obj.isRequired,
             authors: PropTypes.obj.isRequired,
             details: PropTypes.object,
+            searchLists: PropTypes.object,
             getAuthorData: PropTypes.func,
             getRelatedData: PropTypes.func,
             getRepliesData: PropTypes.func,
             getDetailData: PropTypes.func,
+            getSearchData: PropTypes.func,
         }
     }
 
@@ -50,6 +53,13 @@ class SearchArea extends Component {
     }
 
 
+    search (searchValue) {
+        console.log(searchValue)
+        const {getSearchData} = this.props
+        getSearchData(searchValue)
+    }
+
+
     getDetail (id) {
         const {getDetailData, getRelatedData, getRepliesData, match} = this.props
         if(id) {
@@ -60,11 +70,11 @@ class SearchArea extends Component {
     }
 
     render() {
-
+         const {searchLists} = this.props
        
         return (
             <div className="searchArea">
-                <Search _this={this}/>
+                <Search _this={this} searchLists={searchLists} />
             </div>
         )
     }
@@ -73,7 +83,8 @@ class SearchArea extends Component {
 
 const mapStateToProps = (state) => ({
     authors: authorsSelector(state),
-    details: detailsSelector(state)
+    details: detailsSelector(state),
+    searchLists: searchListsSelector(state)
 })
 
 
