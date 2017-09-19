@@ -55,15 +55,9 @@ export default class Search extends Component {
         const search = this._searchInput
         let searchValue = search.value
         if(value) {
-          /*  console.log(value)*/
             searchValue = value
         }
-        /*console.log(searchValue)*/
         _this.search(searchValue)
-
-    }
-
-    _cancel () {
 
     }
 
@@ -145,11 +139,7 @@ export default class Search extends Component {
                             </div>
                             {   
                                 videoLists ?
-                                <ul className="authorVideos" 
-                                    /*style={{
-                                        width: `${videoLists.length * 220}`
-                                    }}*/
-                                >
+                                <ul className="authorVideos" >
                                   {videoLists}
                                 </ul>
                                 : null
@@ -160,13 +150,7 @@ export default class Search extends Component {
            }
 
            if(Videos) {
-                searchResultVideos = Videos.map((video, index) => {
-                    return (
-                        <li key={index} className="video" onClick={() => {}}>
-                                
-                        </li>
-                    )
-                })
+               searchResultVideos = <VideoArea authorVideo={Videos} _this={_this}/>
            }
 
            searchResult = (

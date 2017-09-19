@@ -36,11 +36,6 @@ class SearchArea extends Component {
         }
     }
     
-    componentWillMount() {
-      
-
-        
-    }
     
 
     switchRoute(path, item) {
@@ -73,7 +68,7 @@ class SearchArea extends Component {
 
     render() {
          let {searchLists} = this.props
-         if( localStorage.searchLists) {
+         if( !searchLists &&localStorage.searchLists) {
              searchLists =  JSON.parse(localStorage.searchLists)
          }
        

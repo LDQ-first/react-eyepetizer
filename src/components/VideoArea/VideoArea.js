@@ -27,7 +27,7 @@ export default class VideoArea extends Component {
                            <img className="coverForFeedImg" src={video.videoImg} />
                         </div>
                          <div className="content" 
-                         onClick={() => {_this.switchRoute(`${detail}/${video.id}`, index)}} >
+                         onClick={() => {_this.switchRoute(`${detail}/${video.id}`, video)}} >
                             <h3 className="title">{video.title}</h3>
                             <div className="meta"># {video.category} / {formatDuration(video.duration)}</div>
                         </div>
