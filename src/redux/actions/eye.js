@@ -6,6 +6,7 @@ import {
     GET_REPLIES,
     GET_DETAIL,
     GET_AUTHOR,
+    GET_SEARCH
 } from '../const/const'
 
 import axios from 'axios'
@@ -335,6 +336,56 @@ export const getAuthorData = (id) => async (dispatch) => {
        let res = await axios.get(eyeApi.authorDetail(id))
     //   console.log('res.data: ', res.data)
        await dispatch(getAuthor(filterAuthorData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+export const getSearch = (searchList) => { 
+    return {
+        type: GET_RELATED,
+        searchList: searchList
+    }
+}
+
+
+
+const filterSearchData = (data) => {
+   
+   const itemList = data.itemList
+   console.log(data.itemList)
+   const authors = []
+   const videos = []
+   for(let item of itemList) {
+       if(item.type === 'videoCollectionWithBrief') {
+           authors.push(item)
+       } else if(item.type === 'video') {
+           videos.push(item)
+       }
+   }
+   
+
+
+
+    const newData = {
+        count: data.count
+
+    }
+  //  console.log(newData)
+    return newData
+}
+
+
+
+export const getSearchData = (query) => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.search(query))
+    //   console.log('res.data: ', res.data)
+       await dispatch(getSearch(filterSearchData(res.data)))
    } catch (err) {
        console.log('err:', err)
    }
