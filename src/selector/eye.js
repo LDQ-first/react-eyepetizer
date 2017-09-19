@@ -70,4 +70,66 @@ export const feedsSelector = createSelector(
 )
 
 
+export const hotsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('hots')
+    }
+)
+
+
+export const categorysSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('categorys')
+    }
+)
+
+
+export const pgcasSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('pgcas')
+    }
+)
+
+
+export const weeksSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('weeks')
+    }
+)
+
+
+export const monthsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('months')
+    }
+)
+
+export const allsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('alls')
+    }
+)
+
+
+export const followsSelector = createSelector(
+    eyeSelector,
+    eyeState => {
+        if(!eyeState) return
+        return eyeState.get('follows')
+    }
+)
+
+
 

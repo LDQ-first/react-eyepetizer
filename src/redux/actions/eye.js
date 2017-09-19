@@ -7,7 +7,17 @@ import {
     GET_DETAIL,
     GET_AUTHOR,
     GET_SEARCH,
-    GET_FEED
+    GET_FEED,
+
+    GET_HOT,
+    GET_CATEGORY,
+    GET_PGCA,
+
+    GET_WEEK,
+    GET_MONTH,
+    GET_ALL,
+
+    GET_FOLLOW,
 } from '../const/const'
 
 import axios from 'axios'
@@ -15,7 +25,7 @@ import {eyeApi} from '../../api/api.js'
 import fetchJsonp from 'fetch-jsonp'
 
 
-
+//index
 
 export const getIndex = (IndexData) => { 
     return {
@@ -98,7 +108,7 @@ export const getIndexData = () => async (dispatch) => {
 
 
 
-
+//related
 
 export const getRelated = (videoList) => { 
     return {
@@ -146,7 +156,7 @@ export const getRelatedData = (id) => async (dispatch) => {
 
 
 
-
+//replies
 
 export const getReplies = (replyList) => { 
     return {
@@ -198,6 +208,10 @@ export const getRepliesData = (id) => async (dispatch) => {
 
 
 
+
+
+
+//detail
 
 export const getDetail = (data) => { 
     return {
@@ -264,6 +278,7 @@ export const getDetailData = (id) => async (dispatch) => {
 
 
 
+//authorDetail
 
 export const getAuthor = (author) => { 
     return {
@@ -346,6 +361,11 @@ export const getAuthorData = (id) => async (dispatch) => {
 
 
 
+
+
+
+
+//search
 
 export const getSearch = (searchList) => { 
     return {
@@ -511,7 +531,7 @@ export const getSearchData = (query) => async (dispatch) => {
 
 
 
-
+//feed
 
 export const getFeed = (feed) => { 
     return {
@@ -590,3 +610,402 @@ export const getFeedData = (date) => async (dispatch) => {
        console.log('err:', err)
    }
 }
+
+
+
+//hot
+export const getHot = (hot) => { 
+    return {
+        type: GET_HOT,
+        hot: hot
+    }
+}
+
+
+
+const filterHotData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+
+
+
+       }
+   }
+
+  
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getHotData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.hot())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getHot(filterHotData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+//week
+
+export const getWeek = (week) => { 
+    return {
+        type: GET_WEEK,
+        week: week
+    }
+}
+
+
+const filterWeekData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+           
+       }
+   }
+
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getWeekData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.weekly())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getWeek(filterWeekData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+//month
+
+export const getMonth = (month) => { 
+    return {
+        type: GET_MONTH,
+        month: month
+    }
+}
+
+
+const filterMonthData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+           
+       }
+   }
+
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getMonthData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.monthly())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getMonth(filterMonthData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+//all
+
+export const getAll = (all) => { 
+    return {
+        type: GET_ALL,
+        all: all
+    }
+}
+
+
+const filterAllData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+           
+       }
+   }
+
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getAllData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.historical())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getAll(filterAllData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+//category
+
+export const getCategory = (category) => { 
+    return {
+        type: GET_CATEGORY,
+        category: category
+    }
+}
+
+
+
+
+const filterCategoryData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+           
+
+
+       }
+   }
+
+  
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getCategoryData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.category())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getCategory(filterCategoryData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+
+
+
+//pgca
+
+export const getPgca = (pgca) => { 
+    return {
+        type: GET_PGCA,
+        pgca: pgca
+    }
+}
+
+
+
+
+
+
+const filterPgcaData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+           
+       }
+   }
+
+  
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getPgcaData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.pgca())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getPgca(filterPgcaData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+
+
+
+
+
+//follow
+
+export const getFollow = (follow) => { 
+    return {
+        type: GET_FOLLOW,
+        follow: follow
+    }
+}
+
+
+
+
+
+
+const filterFollowData = (data) => {
+   console.log(data.itemList)
+   const itemList = data.itemList
+
+   const newItemList = []
+
+
+   if(itemList) {
+       for(let item of itemList) {
+           const type = item.type
+           console.log(type)
+
+           switch(type) {
+            
+           }
+           
+       }
+   }
+
+  
+
+    const newData = {
+       
+    }
+    console.log(newData)
+    return newData
+}
+
+
+
+export const getFollowData = () => async (dispatch) => {
+
+   try {
+       let res = await axios.get(eyeApi.follow())
+    //   console.log('res.data: ', res.data)
+       await dispatch(getFollow(filterFollowData(res.data)))
+   } catch (err) {
+       console.log('err:', err)
+   }
+}
+

@@ -1,3 +1,4 @@
+//API
 
 const index = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/tabs/selected`
 
@@ -19,15 +20,30 @@ const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgc
 
 
 
-const hot = `http://baobab.kaiyanapp.com/api/v4/discovery/hot`
+const hot = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/hot`
 
-const category = `http://baobab.kaiyanapp.com/api/v4/discovery/category`
+const category = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/category`
 
-const pgcs = `http://baobab.kaiyanapp.com/api/v4/pgcs/all`
+const pgcs = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/pgcs/all`
+
+const follow = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/tabs/follow`
+
+
+const weekly = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist/?type=Weekly`
+
+const monthly = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist/?type=Monthly`
+
+const historical = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist/?type=Historical`
 
 
 
 
+
+
+
+
+
+//resource
 
 const spriteShare = `//static.kaiyanapp.com/eyepetizer-web/assets/images/sprite_share.bc0f4494.png`
 
@@ -92,6 +108,9 @@ const bottomLogo = `//static.kaiyanapp.com/eyepetizer-web/assets/images/detail/b
 const eyepetizerWxQr = `//static.kaiyanapp.com/eyepetizer-web/assets/images/eyepetizer-wx-qr.243f15a2.png`
 
 
+
+
+
 export {
     index,
     related,
@@ -103,8 +122,12 @@ export {
     hot,
     category,
     pgcs,
+    follow,
+    weekly,
+    monthly,
+    historical,
 
-    
+
     contact,
     home,
     imglists,

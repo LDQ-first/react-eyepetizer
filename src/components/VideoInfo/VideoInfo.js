@@ -62,11 +62,23 @@ export default class VideoInfo extends Component {
                 <div className="author" onClick={() => {_this.switchRoute(`${authorLink}/${item.id}`)}}>
                     <img className="iconImg" src={item.icon} />
                     <div className="message">
-                        <h3 className="name">{item.name}</h3>
-                        <span className="lastTime">最新更新时间  {moment(item.latestReleaseTime).format(`YYYY-M-D hh:mm`)}</span>
+                        {
+                            item.name ? <h3 className="name">{item.name}</h3> : (
+                                item.title ? <h3 className="name">{item.name}</h3> : null
+                            )
+                        }    
+                        {
+                            item.latestReleaseTime ?
+                            <span className="lastTime">最新更新时间  {moment(item.latestReleaseTime).format(`YYYY-M-D hh:mm`)}</span>
+                            : null
+                        }
                         <p className="des">{item.description}</p>              
                     </div>
-                    <span className="videoNum">视频数 {item.videoNum}</span> 
+                    {   
+                       item.videoNum ?
+                       <span className="videoNum">视频数 {item.videoNum}</span> 
+                       : null
+                    }
                </div>
            )     
            
