@@ -14,6 +14,10 @@ import Author from 'bundle-loader?lazy&name=Author!../views/Author/Author'
 import SearchArea from 'bundle-loader?lazy&name=SearchArea!../views/SearchArea/SearchArea'
 import Feed from 'bundle-loader?lazy&name=Feed!../views/Feed/Feed'
 
+import Find from 'bundle-loader?lazy&name=Find!../views/Find/Find'
+import Follow from 'bundle-loader?lazy&name=Follow!../views/Follow/Follow'
+import Ranklist from 'bundle-loader?lazy&name=Ranklist!../views/Ranklist/Ranklist'
+
 
 /*import NavMenu from './nav'*/
 
@@ -46,7 +50,12 @@ const getRouter = () => (
                 <Route path={author} component={createComponent(Author)}/>         
                 <Route path={searchArea} component={createComponent(SearchArea)}/>         
                 <Route path={`${feed}/:date`} component={createComponent(Feed)}/>         
-                <Route path={feed} component={createComponent(Feed)}/>         
+                <Route path={feed} component={createComponent(Feed)}/>      
+
+                <Route path={find} component={createComponent(Find)}/>         
+                <Route path={follow} component={createComponent(Follow)}/>         
+                <Route path={ranklist} component={createComponent(Ranklist)}/>
+                         
                 <Route component={createComponent(NotFound)}/>
             </Switch>
         </div>
