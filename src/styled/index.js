@@ -149,6 +149,15 @@ export default injectGlobal`
             }
         }
     }
+    .find {
+
+    }
+    .ranklist {
+
+    }
+    .follow {
+        
+    }
 `
 
 const Container = styled.div`

@@ -21,7 +21,7 @@ import Feed from 'bundle-loader?lazy&name=Feed!../views/Feed/Feed'
 import createHistory from 'history/createHashHistory'
 
 
-import {home, detail, author, searchArea, feed} from './link.js'
+import {home, detail, author, searchArea, feed, find, ranklist, follow} from './link.js'
 
 const createComponent = (component) => () => (
     <Bundle load={component}>
