@@ -10,7 +10,7 @@ import EditorInsertComment from 'material-ui/svg-icons/editor/insert-comment'
 import SocialShare from 'material-ui/svg-icons/social/share'
 import moment from 'moment'
 import {author as authorLink} from '../../router/link.js'
-
+import AuthorLeftInfo from '../../components/AuthorLeftInfo/AuthorLeftInfo.js'
 
 export default class VideoInfo extends Component {
      static get propTypes() { 
@@ -58,30 +58,7 @@ export default class VideoInfo extends Component {
        if(itemList.author) {
         /*   console.log('itemList.author: ', itemList.author)*/
            const item = itemList.author
-           author = (
-                <div className="author" onClick={() => {_this.switchRoute(`${authorLink}/${item.id}`)}}>
-                    <img className="iconImg" src={item.icon} />
-                    <div className="message">
-                        {
-                            item.name ? <h3 className="name">{item.name}</h3> : (
-                                item.title ? <h3 className="name">{item.name}</h3> : null
-                            )
-                        }    
-                        {
-                            item.latestReleaseTime ?
-                            <span className="lastTime">最新更新时间  {moment(item.latestReleaseTime).format(`YYYY-M-D hh:mm`)}</span>
-                            : null
-                        }
-                        <p className="des">{item.description}</p>              
-                    </div>
-                    {   
-                       item.videoNum ?
-                       <span className="videoNum">视频数 {item.videoNum}</span> 
-                       : null
-                    }
-               </div>
-           )     
-           
+           author = <AuthorLeftInfo item={item} _this={_this}/>
        }
 
 
