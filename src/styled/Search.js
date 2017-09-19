@@ -102,21 +102,51 @@ const SearchDiv = styled.div`
                   text-align: center;
             }
             .searchResult {
+
                 .authors {
+
                     .author {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
                         .icon {
-                            
+                            height: 60px;
+                            width: 60px;
+                            margin: 1em;
+                            border-radius: 50%;
+                            box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
                         }
                         .des {
+                            flex: 1;
                             .title {
-
+                                font-size: 16px;
+                                word-break: break-word;
                             }
                             .description {
 
                             }
                         }
                         .authorVideos {
-                            
+                            overflow-x: scroll;
+                            display: flex;
+                            flex-wrap: nowrap;
+                            .video {
+                                margin: 0 10px;
+                                width: 200px;
+                                font-size: 14px;
+                                .videoImg {
+                                    width: 100%;
+                                }
+                                .videoDes {
+                                    .name {
+                                       
+                                    }
+                                    .meta {
+
+                                    }
+                                }
+                            }
                         }
                     }
                 }

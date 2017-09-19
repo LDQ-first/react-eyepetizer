@@ -119,7 +119,7 @@ export default class Search extends Component {
                             <li key={index} className="video"
                                 onClick={() => {}}
                             >
-                                <img src={item.videoImg} />
+                                <img src={item.videoImg} className="videoImg"/>
                                 <div className="videoDes">
                                     <h3 className="name">{item.title}</h3>
                                     <div className="meta"># {item.category} / {formatDuration(item.duration)}</div>
@@ -143,7 +143,7 @@ export default class Search extends Component {
                                   {videoLists}
                                 </ul>
                                 : null
-                           }
+                            }
                         </li>
                     )
                 })
@@ -232,7 +232,7 @@ export default class Search extends Component {
                         searchResult 
                         ? <section className="result">
                              <p className="resultNum">共有 {searchLists.count}个搜索结果</p>
-
+                             {searchResult}
                           </section>
                         : <section className="hotWordArea">
                              <aside className="tipArea">
