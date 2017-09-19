@@ -12,7 +12,7 @@ const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
 const feed = (date, num) => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/feed?date=${date}&num=${num}`
 
-const search = query => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/search?num=50&query=${query}`
+const search = query => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/search?num=10&query=${query}`
 
 const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=100`
 

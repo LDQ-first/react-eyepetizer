@@ -348,7 +348,7 @@ export const getAuthorData = (id) => async (dispatch) => {
 
 export const getSearch = (searchList) => { 
     return {
-        type: GET_RELATED,
+        type: GET_SEARCH,
         searchList: searchList
     }
 }
@@ -369,8 +369,8 @@ const filterSearchData = (data) => {
        }
    }
 
-   console.log('authors: ', authors)
-   console.log('videos: ', videos)
+ //  console.log('authors: ', authors)
+ //  console.log('videos: ', videos)
 
    
    const newAuthor = []
@@ -485,7 +485,7 @@ const filterSearchData = (data) => {
         newAuthor: newAuthor,
         newVideos: newVideos
     }
-  //  console.log(newData)
+   // console.log(newData)
     return newData
 }
 
