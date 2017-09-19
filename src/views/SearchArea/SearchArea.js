@@ -11,6 +11,7 @@ import * as eyeAction from '../../redux/actions/eye.js'
 import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
+import GoToTop from '../../components/GoToTop/GoToTop.js'
 
 class SearchArea extends Component {
     static get propTypes() { 
@@ -75,6 +76,7 @@ class SearchArea extends Component {
         return (
             <div className="searchArea">
                 <Search _this={this} searchLists={searchLists} />
+                <GoToTop />
             </div>
         )
     }

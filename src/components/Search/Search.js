@@ -97,12 +97,12 @@ export default class Search extends Component {
        let searchResultVideos = null 
 
        if(searchLists && searchLists.Authors && searchLists.Videos) {
-           console.log('searchLists', searchLists)    
+             
            localStorage.searchLists = JSON.stringify(searchLists)    
            const Authors = searchLists.Authors
            const Videos = searchLists.Videos
-           console.log('Authors', Authors)
-           console.log('Videos', Videos)
+           /*console.log('Authors', Authors)
+           console.log('Videos', Videos)*/
 
 
 
