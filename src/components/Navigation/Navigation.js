@@ -49,8 +49,12 @@ export default class Navigation extends Component {
        const {selectedIndex} = this.state
 
         return (
-            <NavigationDiv>
-                <Paper zDepth={1}>
+            <NavigationDiv 
+                style={{
+                        display: document.body.scrollTop > document.body.offsetHeight ? `block` : `none`
+                    }}
+                >
+                <Paper zDepth={1} >
                     <BottomNavigation selectedIndex={selectedIndex}>
                         <BottomNavigationItem
                             label="首页"
