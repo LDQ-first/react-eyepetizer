@@ -94,8 +94,55 @@ export default class Search extends Component {
        })
 
 
-       if(searchLists) {
-           console.log('searchLists', searchLists)
+       let searchResult = null 
+       let searchResultAuthors = null 
+       let searchResultVideos = null 
+
+       if(searchLists && searchLists.Authors && searchLists.Videos) {
+           console.log('searchLists', searchLists)        
+           const Authors = searchLists.Authors
+           const Videos = searchLists.Videos
+           console.log('Authors', Authors)
+           console.log('Videos', Videos)
+
+           if(Authors) {
+                searchResultAuthors = Authors.map((author, index) => {
+                    return (
+                        <li key={index} className="author">
+
+                        </li>
+                    )
+                })
+           }
+
+           if(Videos) {
+                searchResultVideos = Videos.map((video, index) => {
+                    return (
+                        <li key={index} className="video">
+                                
+                        </li>
+                    )
+                })
+           }
+
+           searchResult = (
+               <div className="searchResult">
+                  {
+                      searchResultAuthors 
+                       ? <ul className="authors">
+                         {searchResultAuthors}
+                         </ul> 
+                      : null
+                  }
+                  {
+                      searchResultVideos 
+                      ? <ul className="videos">
+                         {searchResultVideos}
+                        </ul> 
+                      : null
+                   }
+               </div>
+           )
        }
        
 
@@ -148,9 +195,10 @@ export default class Search extends Component {
                 </header>
                 <article className="main">
                     { 
-                        isShowResult 
+                        searchResult 
                         ? <section className="result">
-                             <p className="resultNum">共有 个搜索结果</p>
+                             <p className="resultNum">共有 {searchLists.count}个搜索结果</p>
+
                           </section>
                         : <section className="hotWordArea">
                              <aside className="tipArea">

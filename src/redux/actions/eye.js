@@ -482,8 +482,8 @@ const filterSearchData = (data) => {
 
     const newData = {
         count: data.count,
-        newAuthor: newAuthor,
-        newVideos: newVideos
+        Authors: newAuthor,
+        Videos: newVideos
     }
    // console.log(newData)
     return newData
