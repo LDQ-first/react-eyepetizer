@@ -11,7 +11,7 @@ import VideoArea from '../../components/VideoArea/VideoArea.js'
 import DatePickerCom from '../../components/DatePicker/DatePicker.js'
 import moment from 'moment'
 import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
-
+import GoToTop from '../../components/GoToTop/GoToTop.js'
 
 class Feed extends Component {
     static get propTypes() { 
@@ -69,6 +69,7 @@ class Feed extends Component {
                    : null
                 }
                 <ReturnIndex/>
+                <GoToTop />
             </div>
         )
     }
