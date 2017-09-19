@@ -4,6 +4,7 @@ import {eyeApi} from '../api/api.js'
 
 const SearchDiv = styled.div`
      padding-bottom: 50px;
+      color: #FFF;
      .header {
          padding: 5px; 
          background: #007ACC;
