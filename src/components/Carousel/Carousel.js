@@ -73,6 +73,21 @@ export default class Carousel extends Component {
         
     }
 
+    start(e) {
+         this.touchStart = e.targetTouches[0].clientX
+        console.log('this.touchStart: ', this.touchStart)
+    }
+
+    move(e) {
+
+    }
+
+    end(e) {
+
+    }
+
+
+
 
     render() {
         const {itemList, _this} = this.props
@@ -110,6 +125,9 @@ export default class Carousel extends Component {
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}
                       onClick={() => {_this.switchRoute(`${detail}/${list.id}`, index)}}
+                      onTouchStart={(e) => {this.start(e)}}
+                      onTouchMove={(e) => {this.move(e)}}
+                      onTouchEnd={(e) => {this.end(e)}}
                     >
                         <h3 className="title">{list.title}</h3>
                         <div className="meta"># {list.category} / {formatDuration(list.duration)}</div>
