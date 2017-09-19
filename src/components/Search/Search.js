@@ -10,6 +10,7 @@ import {home} from '../../router/link.js'
 import {formatDuration} from '../../utils'
 import {detail} from '../../router/link.js'
 import {author as authorLink} from '../../router/link.js'
+import VideoArea from '../../components/VideoArea/VideoArea.js'
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -102,7 +103,8 @@ export default class Search extends Component {
        let searchResultVideos = null 
 
        if(searchLists && searchLists.Authors && searchLists.Videos) {
-           console.log('searchLists', searchLists)        
+           console.log('searchLists', searchLists)    
+           localStorage.searchLists = JSON.stringify(searchLists)    
            const Authors = searchLists.Authors
            const Videos = searchLists.Videos
            console.log('Authors', Authors)

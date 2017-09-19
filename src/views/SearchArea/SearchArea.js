@@ -37,8 +37,8 @@ class SearchArea extends Component {
     }
     
     componentWillMount() {
-       const {getSearchData} = this.props
-      /* getSearchData('')*/
+      
+
         
     }
     
@@ -72,7 +72,10 @@ class SearchArea extends Component {
     }
 
     render() {
-         const {searchLists} = this.props
+         let {searchLists} = this.props
+         if( localStorage.searchLists) {
+             searchLists =  JSON.parse(localStorage.searchLists)
+         }
        
         return (
             <div className="searchArea">

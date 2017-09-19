@@ -106,6 +106,7 @@ const SearchDiv = styled.div`
                     .author {
                         margin: 20px 10px;
                         .authorInfo {
+                            cursor: pointer;
                             margin: 10px 0;
                             .icon {
                                 height: 30px;

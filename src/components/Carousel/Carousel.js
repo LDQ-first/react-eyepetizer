@@ -7,11 +7,6 @@ import moment from 'moment'
 import {detail} from '../../router/link.js'
 import {formatDuration} from '../../utils'
 import {defaultWidth} from '../../styled/Carousel.js'
-
-
-/*import KeyboardArrowLeftIcon from 'material-ui-icons/KeyboardArrowLeft'
-import KeyboardArrowRightIcon from 'material-ui-icons/KeyboardArrowRight'*/
-
 import HardwareKeyboardArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left'
 import HardwareKeyboardArrowRight from 'material-ui/svg-icons/hardware/keyboard-arrow-right'
 

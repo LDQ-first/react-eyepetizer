@@ -67,13 +67,17 @@ export default class TopScreen extends Component {
 
     }
 
-   
+   _clearSearchData() {
+       const {getSearchData} = this.props
+       localStorage.searchLists = ''
+       getSearchData('')
+   }
 
 
     render() {
         const {QRCodeUrl, isShowQR, imgIndex} = this.state
         const {contact, home, imglists, author} = eyeApi
-        const {_this ,getSearchData} = this.props
+        const {_this } = this.props
 
         const Imglists = imglists.map((imglist, index) => {
             return (
@@ -130,7 +134,7 @@ export default class TopScreen extends Component {
                         iconStyle = {{
                             color: `#FFF`
                         }}
-                        onClick={() => {getSearchData('');_this.switchRoute(`${searchArea}`);}}
+                        onClick={() => {this._clearSearchData();_this.switchRoute(`${searchArea}`);}}
                         className="email" >
                         <ActionSearch />
                      </IconButton>
