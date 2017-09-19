@@ -4,7 +4,8 @@ import {eyeApi} from '../../api/api.js'
 import classNames from 'classnames'
 import IconButton from 'material-ui/IconButton'
 import ActionSearch from 'material-ui/svg-icons/action/search'
-
+import NavigationCancel from 'material-ui/svg-icons/navigation/cancel'
+import FlatButton from 'material-ui/FlatButton'
 
 export default class Search extends Component {
     static get propTypes() { 
@@ -27,7 +28,7 @@ export default class Search extends Component {
         }
     }
 
-    _enterSearch () {
+    _enterSearch (e) {
         if(e.keyCode === 13) {
             this._search()
         }
@@ -53,17 +54,31 @@ export default class Search extends Component {
 
     }
 
+    _clearInput () {
+        this._searchInput.value = ''
+    }
+
     
 
     render() {
        const {_this} = this.props
-       const {hotWords} = this.state
+       const {hotWords, isShowResult} = this.state
        
        const hotWord = hotWords.map((word, index) => {
            return (
                <li key={index} className="hotWord"
                onClick={() => {this._wordSearch(word)}}>
-                    {word}
+                    <FlatButton
+                         style={{
+                            width: '32px',
+                            height: '32px',
+                            margin: '0',
+                            padding: '0',
+                            verticalAlign: `super`,
+                        }}
+                    >
+                        {word}
+                    </FlatButton>
                </li>
            )
        })
@@ -75,14 +90,14 @@ export default class Search extends Component {
         return (
             <SearchDiv>
                 <header className="header">
+                     <div className="content">
                      <IconButton 
                         style={{
-                            width: 'atuo',
-                            height: '36px',
+                            width: '32px',
+                            height: '32px',
+                            marginLeft: '10px',
                             padding: '0',
-                            margin: '0 0.5rem',
                             verticalAlign: `super`,
-                            background: `rgba(255, 255, 255, 0.15)`
                         }}
                         iconStyle = {{
                             color: `#FFF`
@@ -93,13 +108,28 @@ export default class Search extends Component {
                      </IconButton>
                      <span className="searchArea">
                         <input type="text" placeholder="帮你找到感兴趣的视频" className="searchInput"
-                        ref={input = this._searchInput = input}
+                        ref={input => this._searchInput = input}
                         onKeyDown={(e) => {this._enterSearch(e)}}
                         />
                      </span>
+                     <IconButton 
+                        style={{
+                            width: '32px',
+                            height: '32px',
+                            padding: '0',
+                            verticalAlign: `super`,
+                        }}
+                        iconStyle = {{
+                            color: `#FFF`
+                        }}
+                        onClick={() => {this._clearInput()}}
+                        className="clearBtn" >
+                        <NavigationCancel/>
+                     </IconButton>
                      <button className="cancelBtn"
                      onClick={() => {this._cancel()}}
                      >取消</button>
+                     </div>
                 </header>
                 <article className="main">
                     { 
@@ -111,7 +141,7 @@ export default class Search extends Component {
                              <aside className="tipArea">
                                  <p className="tip">输入标题或描述中的关键词找到更多视频</p>
                              </aside>
-                             <h2>- 热门搜索词 -</h2>
+                             <h2 className="title">- 热门搜索词 -</h2>
                              <ul className="hotWords">
                                  {hotWord}
                              </ul>

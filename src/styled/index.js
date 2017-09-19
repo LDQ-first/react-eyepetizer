@@ -125,6 +125,9 @@ export default injectGlobal`
         overflow: hidden;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }
+    .searchArea {
+        
+    }
 `
 
 const Container = styled.div`

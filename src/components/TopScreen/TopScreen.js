@@ -6,6 +6,8 @@ import {eyeApi} from '../../api/api.js'
 import classNames from 'classnames'
 import ActionSearch from 'material-ui/svg-icons/action/search'
 
+
+
 export default class TopScreen extends Component {
 
     constructor (props) {
@@ -77,6 +79,7 @@ export default class TopScreen extends Component {
 
         return (
             <TopScreenDiv>
+                
                 <div className="menu">
                     <IconButton className="wechat" touch={true}
                     style={{

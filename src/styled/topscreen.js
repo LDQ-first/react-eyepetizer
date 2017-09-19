@@ -4,7 +4,7 @@ import {eyeApi} from '../api/api.js'
 
 
 const TopScreenDiv = styled.div`
-    height: 100%;
+    min-height: 100%;
     position: relative;
     overflow: hidden;
     ::before {

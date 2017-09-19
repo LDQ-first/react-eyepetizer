@@ -11,6 +11,7 @@ import NotFound from 'bundle-loader?lazy&name=notFound!../views/NotFound/NotFoun
 import Home from 'bundle-loader?lazy&name=Home!../views/Home/Home'
 import Detail from 'bundle-loader?lazy&name=Detail!../views/Detail/Detail'
 import Author from 'bundle-loader?lazy&name=Author!../views/Author/Author'
+import SearchArea from 'bundle-loader?lazy&name=SearchArea!../views/SearchArea/SearchArea'
 
 
 /*import NavMenu from './nav'*/
@@ -19,7 +20,7 @@ import Author from 'bundle-loader?lazy&name=Author!../views/Author/Author'
 import createHistory from 'history/createHashHistory'
 
 
-import {home, detail, author} from './link.js'
+import {home, detail, author, searchArea} from './link.js'
 
 const createComponent = (component) => () => (
     <Bundle load={component}>
@@ -42,6 +43,7 @@ const getRouter = () => (
                 <Route path={detail} component={createComponent(Detail)}/>         
                 <Route path={`${author}/:id`} component={createComponent(Author)}/>         
                 <Route path={author} component={createComponent(Author)}/>         
+                <Route path={searchArea} component={createComponent(SearchArea)}/>         
                 <Route component={createComponent(NotFound)}/>
             </Switch>
         </div>

@@ -51,6 +51,7 @@ class Home extends Component {
 
         return (
             <div className="index">
+                
                 <TopScreen />
                 <VideoLists date={date} itemList={itemList}/>
                 <Download />
