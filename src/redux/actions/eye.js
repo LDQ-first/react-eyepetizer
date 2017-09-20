@@ -1125,15 +1125,108 @@ const filterPgcaData = (data) => {
 
    const newItemList = []
 
-
+   let text = []
+   let authorList = {}
    if(itemList) {
-       for(let item of itemList) {
+       let authors = []
+       for(let key in itemList) {
+           const item = itemList[key]
            const type = item.type
            console.log(type)
-
+           const data = item.data
            switch(type) {
-            
+               case 'leftAlignTextHeader' :
+                text.push(data.text)
+                break
+               case 'blankCard':
+                authorList[text.length - 1] = authors
+                authors = []
+                break
+                case 'briefCard':
+                     let newAuthor = null
+                    if(data) {
+                        const author = data
+                        newAuthor = {
+                            id: author.id,
+                            icon: author.icon,
+                            name: author.title,
+                            description: author.description
+                        }
+                    }
+                    authors.push(newAuthor)
+                break
+                case 'videoCollectionWithBrief':
+                    const newItemList = []
+                    const author = data.header
+                    const itemList = data.itemList
+
+
+                    const newHeader = {
+                        id: author.id,
+                        icon: author.icon,
+                        name: author.title,
+                        description: author.description || author.subTitle,
+                        latestReleaseTime: author.latestReleaseTime,
+                        videoNum: author.videoNum
+                    }
+
+
+                    for(let item of itemList) {
+                        const video = item.data
+
+                        const tags = video.tags
+                        const newTags = [] 
+                        if(tags) {
+                            for(let tag of tags) {
+                                newTags.push({name: tag.name})
+                            }
+                        }
+
+                        let newAuthor = null
+                        if(video.author) {
+                            const author = video.author
+                            newAuthor = {
+                                id: author.id,
+                                icon: author.icon,
+                                name: author.name,
+                                description: author.description,
+                                latestReleaseTime: author.latestReleaseTime,
+                                videoNum: author.videoNum
+                            }
+                        }
+
+
+                        const newVideo = {
+                            category: video.category,
+                            consumption: video.consumption,
+                            videoImg: video.cover.feed,
+                            description: video.description,
+                            duration: video.duration,
+                            id: video.id,
+                            tags: newTags,
+                            title: video.title,
+                            playUrl: video.playUrl,
+                            author: newAuthor
+                        }
+
+                        newItemList.push(newVideo)
+                    }
+
+                    authors.push({
+                        ...newHeader,
+                        itemList: newItemList,
+                        type
+                    })         
+                    break      
            }
+           if(parseInt(key) === itemList.length - 1) {
+               authorList[text.length - 1] = authors
+           }
+           
+           
+
+           
+
            
        }
    }
@@ -1141,7 +1234,8 @@ const filterPgcaData = (data) => {
   
 
     const newData = {
-       
+        text,
+        authorList
     }
     console.log(newData)
     return newData
@@ -1152,7 +1246,7 @@ const filterPgcaData = (data) => {
 export const getPgcaData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.pgca)
+       let res = await axios.get(eyeApi.pgcs)
     //   console.log('res.data: ', res.data)
        await dispatch(getPgca(filterPgcaData(res.data)))
    } catch (err) {

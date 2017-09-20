@@ -63,6 +63,9 @@ class Find extends Component {
             .then(() => {
                 getCategoryData()
             })
+            .then(() => {
+                getPgcaData()
+            })
 
     }
     
