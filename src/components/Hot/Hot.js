@@ -62,6 +62,13 @@ export default class Hot extends Component {
 
                 return (
                     <ul  key={index}  className="videos">
+                        <header className="header">
+                            <h2 className="title">
+                                { 
+                                    text ? text[index] : null
+                                }
+                            </h2>
+                        </header>
                         {lists}
                     </ul>
                 )
