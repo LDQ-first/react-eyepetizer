@@ -628,21 +628,78 @@ const filterHotData = (data) => {
    console.log(data.itemList)
    const itemList = data.itemList
 
-   const newItemList = []
-   
 
-   let textHeader = null
-
+   let text = []
+   let videoList = []
    if(itemList) {
-       for(let item of itemList) {
+       for(let i = 0; i < itemList.length; i++) {
+           const item = itemList[i]
            const type = item.type
            console.log(type)
-           const data = itme.data
+           const data = item.data
 
            switch(type) {
-               
-               
-             
+               case 'textHeader':
+                    console.log(i)
+
+                    text.push(data.text)
+
+                    let newVideoList = []
+
+                    for(let j = i + 1; j < itemList.length; j++) {
+                        const item = itemList[j]
+                        const type = item.type
+                        console.log(type)
+                        const video = item.data
+                        
+
+                        if(type !== 'video') {
+                            console.log('j: ', j)
+                            i = j - 1
+                            break
+                        } else {
+
+                            const tags = video.tags
+                            const newTags = [] 
+                            if(tags) {
+                                for(let tag of tags) {
+                                    newTags.push({name: tag.name})
+                                }
+                            }
+
+                            let newAuthor = null
+                            if(video.author) {
+                                const author = video.author
+                                newAuthor = {
+                                    id: author.id,
+                                    icon: author.icon,
+                                    name: author.name,
+                                    description: author.description,
+                                    latestReleaseTime: author.latestReleaseTime,
+                                    videoNum: author.videoNum
+                                }
+                            }
+
+                            const newVideo = {
+                                category: video.category,
+                                consumption: video.consumption,
+                                videoImg: video.cover.feed,
+                                description: video.description,
+                                duration: video.duration,
+                                id: video.id,
+                                tags: newTags,
+                                title: video.title,
+                                playUrl: video.playUrl,
+                                author: newAuthor
+                            }
+                           /* console.log(newVideoList)*/
+                            newVideoList.push(newVideo)
+                        }
+                    
+                    }
+                    /* console.log(videoList)*/
+                    videoList.push(newVideoList)
+                break
 
            }
 
@@ -654,7 +711,8 @@ const filterHotData = (data) => {
   
 
     const newData = {
-       
+        text,
+        videoList
     }
     console.log(newData)
     return newData
