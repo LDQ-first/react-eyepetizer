@@ -157,8 +157,30 @@ export default injectGlobal`
 
     }
     .follow {
-        padding-bottom: 56px;
+        padding-bottom: 70px;
+        
     }
+    .end {
+        color: #FFF;
+        position: relative;
+        width: 100%;
+        padding: 0 10px;
+        height: 1.6em;
+        text-align: center;
+         &::before, &::after {
+            content: '';
+            border: 2px solid #FFF;
+            position: absolute;
+            top: 50%;
+            width: calc(50% - 70px);
+        }
+        &::before {
+            left: 0;
+        }
+        &::after {
+            right: 0;
+        }
+     }
 `
 
 const Container = styled.div`

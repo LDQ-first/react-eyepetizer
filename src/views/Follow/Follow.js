@@ -83,19 +83,31 @@ class Follow extends Component {
 
     render() {
         const {follows, history} = this.props
-
-        let authors = null
+        let authorH = []
+        let authorC = []
         if(follows && follows.authors) {
-            console.log('follows.authors: ', follows.authors)
-            authors = follows.authors
+            const authors = follows.authors
+
+            authors.forEach((author, index) => {
+                author.type === 'videoCollectionWithBrief' 
+                    ? authorH.push(author) 
+                    : authorC.push(author)
+            })
+
         }
+
+
+
 
        
         return (
             <div className="follow">
                 <Header _this={this} subtitle={'全部作者'} title={'Subscription'} />
-                <AuthorHorizontal _this={this} authors={authors}/>
-
+                <AuthorCarousel _this={this} authors={authorC} />
+                <AuthorHorizontal _this={this} authors={authorH}/>
+                <div className="end">
+                    「 The End 」
+                </div>
                 <Navigation history={history} isShow={true} index={2}/>
                 <GoToTop />
             </div>

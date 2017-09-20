@@ -9,20 +9,38 @@ export default class AuthorCarousel extends Component {
    static get propTypes() { 
         return { 
             _this: PropTypes.object,
-            itemList: PropTypes.array,
             authors: PropTypes.array,
         }
     }
 
     render() {
-        const {_this, authors, itemList} = this.props
+        const {_this, authors} = this.props
        
+        let ResultAuthors = null 
+        if(authors) {
+            ResultAuthors = authors.map((author, index) => {
+                const itemList = author.itemList
+
+                return (
+                    <li key={index} className="author" >
+                        <AuthorInfo authorInfo={author} _this={_this}/>
+                        <Carousel  itemList={itemList} _this={_this}/>
+                    </li>
+                    
+                )
+            })
+
+           
+        }
+
+
 
 
         return (
             <AuthorCarouselDiv >
-                <AuthorInfo authorInfo={authors.authorInfo}/>
-                <Carousel itemList={itemList} _this={_this}/>
+               <ul className="authors">
+                   {ResultAuthors}
+               </ul>
             </AuthorCarouselDiv>
         )
     }

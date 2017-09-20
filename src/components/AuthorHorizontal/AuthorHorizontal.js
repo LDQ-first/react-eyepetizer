@@ -17,9 +17,9 @@ export default class AuthorHorizontal extends Component {
     render() {
         const {_this, authors} = this.props
        
-        let searchResultAuthors = null 
+        let ResultAuthors = null 
         if(authors) {
-                searchResultAuthors = authors.map((author, index) => {
+                ResultAuthors = authors.map((author, index) => {
 
                     const itemList = author.itemList
 
@@ -36,7 +36,7 @@ export default class AuthorHorizontal extends Component {
         return (
             <AuthorHorizontalDiv >
                 <ul className="authors">
-                    {searchResultAuthors}
+                    {ResultAuthors}
                 </ul>
             </AuthorHorizontalDiv>
         )

@@ -35,6 +35,8 @@ export default class Carousel extends Component {
         const {activeIndex, left} = this.state
         const width = this.itemList.offsetWidth
 
+
+
         if(index === activeIndex) {
             return
         } else if(index === itemList.length - 1) {
@@ -89,9 +91,9 @@ export default class Carousel extends Component {
 
     end(e) {
         e.stopPropagation()
-        if(this.distance < -50) {
+        if(this.distance < -20) {
              this._toggleContent('pre')
-         } if(this.distance > 50) {
+         } if(this.distance > 20) {
              this._toggleContent('next')
          }
     }
@@ -103,7 +105,9 @@ export default class Carousel extends Component {
         const {itemList, _this} = this.props
         const {activeIndex, left, activeTransfrom ,dir} = this.state
 
-
+        /* if(itemList) {
+            console.log('itemList: ', itemList)
+        }*/
 
 
         let itemLists = null
@@ -134,7 +138,7 @@ export default class Carousel extends Component {
                     style={{
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}
-                      onClick={() => {_this.switchRoute(`${detail}/${list.id}`, index)}}
+                      onClick={() => {_this.switchRoute(`${detail}/${list.id}`, list)}}
                       
                       
                     >

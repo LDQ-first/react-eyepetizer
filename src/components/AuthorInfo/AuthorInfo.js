@@ -1,24 +1,24 @@
 import React, { Component } from 'react'
 import AuthorInfoDiv from '../../styled/AuthorInfo.js'
 import {eyeApi} from '../../api/api.js' 
-import classNames from 'classnames'
-
+import {author as authorLink} from '../../router/link.js'
 
 export default class AuthorInfo extends Component {
      static get propTypes() { 
         return { 
-           authorInfo: PropTypes.object
+           authorInfo: PropTypes.object,
+            _this: PropTypes.object,
         }
     }
 
 
     render() {
-       const {authorInfo} = this.props
+       const {authorInfo, _this} = this.props
 
        let author = null
        if(authorInfo) {
            author = (
-               <div className="authorInfo">
+               <div className="authorInfo" onClick={() => {_this.switchRoute(`${authorLink}/${authorInfo.id}`)}}>
                    {
                        authorInfo.icon 
                        ? <img className="icon" src={authorInfo.icon}/>

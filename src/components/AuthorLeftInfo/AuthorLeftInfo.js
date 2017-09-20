@@ -19,7 +19,6 @@ export default class AuthorLeftInfo extends Component {
 
     render() {
         const {item, _this} = this.props
-        console.log(item)
 
         return (
             <AuthorLeftInfoDiv onClick={() => {_this.switchRoute(`${authorLink}/${item.id}`)}}>
