@@ -60,6 +60,9 @@ class Find extends Component {
      componentWillMount() {
         const {getHotData, getCategoryData, getPgcaData} = this.props
         getHotData()
+            .then(() => {
+                /*getCategoryData()*/
+            })
 
     }
     

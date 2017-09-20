@@ -28,16 +28,10 @@ const AuthorVideoInfoDiv = styled.div`
                 align-items: flex-start;
                 .name {
                     font-size: 14px;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
                     width: 90%;
                 }
                 .meta {
                     font-size: 12px;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
                     width: 90%;
                 }
             }

@@ -54,6 +54,7 @@ const getRouter = () => (
 
                 <Route path={find} component={createComponent(Find)}/>         
                 <Route path={follow} component={createComponent(Follow)}/>         
+                <Route path={`${ranklist}/:type`} component={createComponent(Ranklist)}/>
                 <Route path={ranklist} component={createComponent(Ranklist)}/>
                          
                 <Route component={createComponent(NotFound)}/>

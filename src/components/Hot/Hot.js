@@ -3,7 +3,7 @@ import HotDiv from '../../styled/Hot.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
 import AuthorSingle from '../../components/AuthorSingle/AuthorSingle.js'
-
+import {ranklist} from '../../router/link.js'
 
 export default class Hot extends Component {
     static get propTypes() { 
@@ -18,6 +18,23 @@ export default class Hot extends Component {
         this.state = {
             
         }
+    }
+
+    switchRoute(index) {
+         const {_this} = this.props
+        let type = ''
+        switch(index) {
+            case 0: 
+                type = 'week'
+                break
+            case 1:
+                type = 'month'
+                break
+            case 2:
+                type = 'all'
+                break
+        }
+        _this.switchRoute(`${ranklist}/${type}`)
     }
 
     
@@ -80,7 +97,7 @@ export default class Hot extends Component {
         const ranklists = eyeApi.imgs.map((img, index) => {
             return (
                 <li key={index} className="img-wrap" 
-                onClick={() => {}}>
+                onClick={() => {this.switchRoute(index)}}>
                     <img src={img} className="img"/> 
                 </li>
             )

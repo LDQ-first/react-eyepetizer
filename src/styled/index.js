@@ -182,6 +182,11 @@ export default injectGlobal`
             right: 0;
         }
      }
+     .textOverflow {
+         overflow: hidden;
+         white-space: nowrap;
+         text-overflow: ellipsis;
+     }
 `
 
 const Container = styled.div`

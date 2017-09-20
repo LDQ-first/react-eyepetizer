@@ -18,6 +18,10 @@ import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
 import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
+import {Tabs as TabsUI, Tab} from 'material-ui/Tabs'
+import SwipeableViews from 'react-swipeable-views'
+import VideoArea from '../../components/VideoArea/VideoArea.js'
+import {ranklist} from '../../router/link.js'
 
 
 class Ranklist extends Component {
@@ -48,11 +52,54 @@ class Ranklist extends Component {
         }
     }
 
-     constructor (props) {
+      constructor(props) {
         super(props)
         this.state = {
-           
+            slideIndex: 0,
         }
+    }
+
+    handleChange = (index) => {
+        this.setState({
+            slideIndex: index,
+        })
+        let type = ''
+        switch(index) {
+            case 0: 
+                type = 'week'
+                break
+            case 1:
+                type = 'month'
+                break
+            case 2:
+                type = 'all'
+                break
+        }
+        this.switchRoute(`${ranklist}/${type}`)
+     
+    }
+    
+    
+    componentWillMount() {
+        const {match, getWeekData, getMonthData, getAllData} = this.props
+        const type = match.params.type
+        console.log(type)
+        let index = 0
+        switch(type) {
+            case 'week': 
+                index = 0
+                break
+            case 'month':
+                index = 1
+                break
+            case 'all':
+                index = 2
+                break
+        }
+        this.setState({
+            slideIndex: index
+        })
+        getWeekData()
     }
     
     
@@ -80,6 +127,7 @@ class Ranklist extends Component {
 
     render() {
         const {weeks, months, alls} = this.props
+        const {slideIndex} = this.state
 
         if(weeks) {
             console.log('weeks: ', weeks )
@@ -98,6 +146,25 @@ class Ranklist extends Component {
        
         return (
             <div className="ranklist">
+                <TabsUI
+                    onChange={this.handleChange}
+                    value={slideIndex}
+                    >
+                    <Tab label="周排行" value={0} />
+                    <Tab label="月排行" value={1} />
+                    <Tab label="总排行" value={2} />
+                </TabsUI>
+                <SwipeableViews
+                    index={slideIndex}
+                    onChangeIndex={this.handleChange}
+                    >
+                    <div>0</div>
+                    <div>1</div>
+                    <div>2</div>
+                </SwipeableViews>
+                <div className="end">
+                    「 The End 」
+                </div>
                 <ReturnIndex />
                 <GoToTop />
             </div>

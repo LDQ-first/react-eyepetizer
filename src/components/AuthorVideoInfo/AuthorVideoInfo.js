@@ -40,11 +40,11 @@ export default class AuthorVideoInfo extends Component {
                         }
                         <div className="message">
                             {
-                                item.name ? <h3 className="name">{item.name}</h3> : (
-                                    item.title ? <h3 className="name">{item.title}</h3> : null
+                                item.name ? <h3 className="name textOverflow">{item.name}</h3> : (
+                                    item.title ? <h3 className="name textOverflow">{item.title}</h3> : null
                                 )
                             }    
-                            <div className="meta">
+                            <div className="meta textOverflow">
                                { item.author ? item.author.name + '/' : null} #{item.category} / {formatDuration(item.duration)}
                             </div>             
                         </div>
