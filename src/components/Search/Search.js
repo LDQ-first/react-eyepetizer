@@ -134,7 +134,7 @@ export default class Search extends Component {
                     return (
                         <li key={index} className="author" >
                              <AuthorLeftInfo item={author} _this={_this}/>
-                            <VideoHorizontal itemList={itemList} />
+                            <VideoHorizontal itemList={itemList} _this={_this} />
                         </li>
                     )
                 })

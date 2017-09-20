@@ -10,6 +10,8 @@ export default class Header extends Component {
     static get propTypes() { 
         return { 
            _this: PropTypes.object,
+           subtitle: PropTypes.string,
+           title: PropTypes.string,
            
         }
     }
@@ -17,12 +19,12 @@ export default class Header extends Component {
 
     render() {
        
-       const {_this} = this.props
+       const {_this, title, subtitle} = this.props
 
         return (
             <HeaderDiv>
-               <h2 className="subtitle"></h2>
-               <h1 className="title"></h1>
+               <h2 className="subtitle">{subtitle}</h2>
+               <h1 className="title">{title}</h1>
                <IconButton 
                     style={{
                         width: 'atuo',

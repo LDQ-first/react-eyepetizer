@@ -19,6 +19,9 @@ import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
 import Navigation from '../../components/Navigation/Navigation.js'
+import Header from '../../components/Header/Header.js'
+import {Tabs, Tab} from 'material-ui/Tabs'
+import SwipeableViews from 'react-swipeable-views'
 
 class Find extends Component {
     static get propTypes() { 
@@ -53,6 +56,12 @@ class Find extends Component {
         }
     }
     
+
+     componentWillMount() {
+        const {getHotData, getCategoryData, getPgcaData} = this.props
+        /*getHotData()*/
+
+    }
     
 
     switchRoute(path, item) {
@@ -64,7 +73,11 @@ class Find extends Component {
         
     }
 
-    
+     _clearSearchData() {
+       const {getSearchData} = this.props
+       localStorage.searchLists = ''
+       getSearchData('')
+   }
 
 
     getDetail (id) {
@@ -96,7 +109,7 @@ class Find extends Component {
        
         return (
             <div className="find">
-                
+                 <Header _this={this} subtitle={'全部分类'} title={'Discover'} />
                  <Navigation history={history} isShow={true} index={1}/>
                 <GoToTop />
             </div>

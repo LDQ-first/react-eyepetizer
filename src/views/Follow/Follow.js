@@ -14,6 +14,8 @@ import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
 import Navigation from '../../components/Navigation/Navigation.js'
+import Header from '../../components/Header/Header.js'
+
 
 class Follow extends Component {
     static get propTypes() { 
@@ -54,7 +56,11 @@ class Follow extends Component {
         
     }
 
-    
+     _clearSearchData() {
+       const {getSearchData} = this.props
+       localStorage.searchLists = ''
+       getSearchData('')
+   }
 
 
     getDetail (id) {
@@ -75,7 +81,7 @@ class Follow extends Component {
        
         return (
             <div className="follow">
-
+                <Header _this={this} subtitle={'全部作者'} title={'Subscription'} />
                 <Navigation history={history} isShow={true} index={2}/>
                 <GoToTop />
             </div>
