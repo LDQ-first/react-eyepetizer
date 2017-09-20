@@ -37,6 +37,9 @@ const AuthorLeftInfoDiv = styled.div`
     }
     .videoNum {
         margin-left: 10px;
+        ${mediaQuery(768)} {
+            display: none;
+        }
     }
 
 `

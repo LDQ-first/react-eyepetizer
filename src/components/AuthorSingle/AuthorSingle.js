@@ -29,7 +29,7 @@ export default class AuthorSingle extends Component {
         return (
             <AuthorSingleDiv>
                 <VideoImg item={item} _this={_this}/>
-                <AuthorLeftInfo item={item} _this={_this}/>
+                { item.author ? <AuthorLeftInfo item={item.author} _this={_this}/> : null }
             </AuthorSingleDiv>
         )
     }

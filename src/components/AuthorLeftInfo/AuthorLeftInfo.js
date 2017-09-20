@@ -22,7 +22,7 @@ export default class AuthorLeftInfo extends Component {
 
         return (
             <AuthorLeftInfoDiv onClick={() => {_this.switchRoute(`${authorLink}/${item.id}`)}}>
-                 <img className="iconImg" src={item.icon} />
+                   <img className="iconImg" src={item.icon} />
                     <div className="message">
                         {
                             item.name ? <h3 className="name">{item.name}</h3> : (
