@@ -982,7 +982,7 @@ const filterFollowData = (data) => {
 
            switch(type) {
              case 'videoCollectionWithBrief':
-                
+             case 'videoCollectionOfHorizontalScrollCard':
                 const newItemList = []
                 const author = data.header
                 const itemList = data.itemList
@@ -1041,12 +1041,9 @@ const filterFollowData = (data) => {
 
                 newItemLists.push({
                     newHeader,
-                    newItemList
-                })
-
-
-                break
-             case 'videoCollectionOfHorizontalScrollCard':
+                    newItemList,
+                    type
+                })               
                 break
              default :
                 break
