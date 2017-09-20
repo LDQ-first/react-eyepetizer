@@ -625,7 +625,7 @@ export const getHot = (hot) => {
 
 
 const filterHotData = (data) => {
-   console.log(data.itemList)
+ /*  console.log(data.itemList)*/
    const itemList = data.itemList
 
 
@@ -635,12 +635,12 @@ const filterHotData = (data) => {
        for(let i = 0; i < itemList.length; i++) {
            const item = itemList[i]
            const type = item.type
-           console.log(type)
+          /* console.log(type)*/
            const data = item.data
 
            switch(type) {
                case 'textHeader':
-                    console.log(i)
+                   /* console.log(i)*/
 
                     text.push(data.text)
 
@@ -649,12 +649,12 @@ const filterHotData = (data) => {
                     for(let j = i + 1; j < itemList.length; j++) {
                         const item = itemList[j]
                         const type = item.type
-                        console.log(type)
+                        /*console.log(type)*/
                         const video = item.data
                         
 
                         if(type !== 'video') {
-                            console.log('j: ', j)
+                          /*  console.log('j: ', j)*/
                             i = j - 1
                             break
                         } else {
@@ -692,14 +692,16 @@ const filterHotData = (data) => {
                                 playUrl: video.playUrl,
                                 author: newAuthor
                             }
-                           /* console.log(newVideoList)*/
                             newVideoList.push(newVideo)
                         }
                     
                     }
-                    /* console.log(videoList)*/
                     videoList.push(newVideoList)
                 break
+
+
+                default:
+                  break
 
            }
 
@@ -714,7 +716,7 @@ const filterHotData = (data) => {
         text,
         videoList
     }
-    console.log(newData)
+    /*console.log(newData)*/
     return newData
 }
 
