@@ -112,6 +112,11 @@ const weekImg = `http://img.kaiyanapp.com/5992fbf7468c2174a31fb7b438ebd414.jpeg?
 const monthImg = `http://img.kaiyanapp.com/33a59b02f3d8e57831844b54771f72d6.jpeg?imageMogr2/quality/60`
 const allImg = `http://img.kaiyanapp.com/9fb34512de6d12a6b22d821079d06ff3.jpeg?imageMogr2/quality/60`
 
+const imgs = [ 
+    weekImg,
+    monthImg,
+    allImg
+]
 
 
 export {
@@ -144,7 +149,7 @@ export {
     bottomLogo,
     eyepetizerWxQr,
     spriteShare,
-    weekImg,
-    monthImg,
-    allImg
+
+    imgs
+   
 }

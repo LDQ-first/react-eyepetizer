@@ -78,6 +78,16 @@ export default class Hot extends Component {
 
         }
 
+        
+        const ranklists = eyeApi.imgs.map((img, index) => {
+            return (
+                <li key={index} className="img-wrap" 
+                onClick={() => {}}>
+                    <img src={img} className="img"/> 
+                </li>
+            )
+        })
+
 
         return (
             <HotDiv>
@@ -94,7 +104,14 @@ export default class Hot extends Component {
                     </ul>
                 </div>
                 <div className="ranklist">
-                    
+                    <header className="header">
+                        <h2 className="title">
+                            热门排行
+                        </h2>
+                    </header>
+                    <ul className="imgs">
+                        {ranklists}
+                    </ul>
                 </div>
                 <div className="others">
                     {others}
