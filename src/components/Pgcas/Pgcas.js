@@ -30,7 +30,7 @@ export default class Pgcas extends Component {
         
         let authors = null
         if(pgcas) {
-            console.log('pgcas: ', pgcas)
+
             const {text} = pgcas
             const {authorList }= pgcas
            

@@ -32,7 +32,6 @@ export default class Categorys extends Component {
        let categoryAuthor = null
         if(categorys) {
             const {authors} = categorys
-            console.log('authors: ', authors)
 
             if(authors) {
                 categoryAuthor = (

@@ -3,7 +3,11 @@ import {mediaQuery} from './index.js'
 import {eyeApi} from '../api/api.js' 
 
 const PgcasDiv = styled.div`
-    padding-top: 50px;
+    padding-top: 70px;
+    color: #FFF;
+    .authors {
+        text-align: center;
+    }
 
 `
 
