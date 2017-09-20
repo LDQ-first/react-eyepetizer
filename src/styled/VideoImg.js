@@ -6,6 +6,7 @@ const VideoImgDiv = styled.div`
     width: 100%;
     .img {
         width: 100%;
+        box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.8);
     }
 
 `

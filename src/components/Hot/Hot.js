@@ -33,7 +33,6 @@ export default class Hot extends Component {
         if(hots) {
             console.log('hots: ', hots)
             text = hots.text
-            console.log(hots.videoList)
             
             if(hots.videoList) {
 
@@ -47,7 +46,7 @@ export default class Hot extends Component {
             })
 
 
-           /* others = hots.videoList.map((list, index) => {
+            others = hots.videoList.map((list, index) => {
                 if(index === 0) return
                 console.log(index)
                 let lists = null
@@ -67,7 +66,7 @@ export default class Hot extends Component {
                     </ul>
                 )
 
-            })*/
+            })
              }
 
         }
@@ -91,7 +90,7 @@ export default class Hot extends Component {
                     
                 </div>
                 <div className="others">
-                    
+                    {others}
                 </div>
             </HotDiv>
         )
