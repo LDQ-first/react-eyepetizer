@@ -1026,7 +1026,7 @@ const filterFollowData = (data) => {
                     const newVideo = {
                         category: video.category,
                         consumption: video.consumption,
-                        videoImg: video.coverForFeed,
+                        videoImg: video.cover.feed,
                         description: video.description,
                         duration: video.duration,
                         id: video.id,
@@ -1040,8 +1040,8 @@ const filterFollowData = (data) => {
                 }
 
                 newItemLists.push({
-                    newHeader,
-                    newItemList,
+                    ...newHeader,
+                    itemList: newItemList,
                     type
                 })               
                 break
@@ -1055,7 +1055,7 @@ const filterFollowData = (data) => {
   
 
     const newData = {
-       Authors: newItemLists
+       authors: newItemLists
     }
     console.log(newData)
     return newData

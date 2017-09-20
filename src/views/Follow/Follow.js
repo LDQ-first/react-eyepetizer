@@ -84,14 +84,17 @@ class Follow extends Component {
     render() {
         const {follows, history} = this.props
 
-        if(follows) {
-            console.log('follows: ', follows)
+        let authors = null
+        if(follows && follows.authors) {
+            console.log('follows.authors: ', follows.authors)
+            authors = follows.authors
         }
+
        
         return (
             <div className="follow">
                 <Header _this={this} subtitle={'全部作者'} title={'Subscription'} />
-                <AuthorHorizontal _this={this} />
+                <AuthorHorizontal _this={this} authors={authors}/>
 
                 <Navigation history={history} isShow={true} index={2}/>
                 <GoToTop />
