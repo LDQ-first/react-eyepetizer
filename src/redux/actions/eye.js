@@ -613,6 +613,7 @@ export const getFeedData = (date) => async (dispatch) => {
 
 
 
+
 //hot
 export const getHot = (hot) => { 
     return {
@@ -628,7 +629,9 @@ const filterHotData = (data) => {
    const itemList = data.itemList
 
    const newItemList = []
+   
 
+  /* let carousel = */
 
    if(itemList) {
        for(let item of itemList) {
@@ -636,7 +639,9 @@ const filterHotData = (data) => {
            console.log(type)
 
            switch(type) {
-            
+               case 'horizontalScrollCard':
+
+
            }
 
 
@@ -647,7 +652,7 @@ const filterHotData = (data) => {
   
 
     const newData = {
-       
+       carousel
     }
     console.log(newData)
     return newData
@@ -991,8 +996,8 @@ const filterFollowData = (data) => {
                 const newHeader = {
                     id: author.id,
                     icon: author.icon,
-                    name: author.name,
-                    description: author.description,
+                    name: author.title,
+                    description: author.description || author.subTitle,
                     latestReleaseTime: author.latestReleaseTime,
                     videoNum: author.videoNum
                 }

@@ -60,6 +60,9 @@ export default class Tabs extends Component {
                     <Categorys _this={_this} categorys={categorys} />
                     <Pgcas _this={_this} pgcas={pgcas} />
                 </SwipeableViews>
+                <div className="end">
+                    「 The End 」
+                </div>
             </TabsDiv>
         )
     }

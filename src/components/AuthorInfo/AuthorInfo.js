@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import AuthorInfoDiv from '../../styled/AuthorInfo.js'
 import {eyeApi} from '../../api/api.js' 
-import {author as authorLink} from '../../router/link.js'
 
 export default class AuthorInfo extends Component {
      static get propTypes() { 
@@ -14,11 +13,12 @@ export default class AuthorInfo extends Component {
 
     render() {
        const {authorInfo, _this} = this.props
+      
 
        let author = null
        if(authorInfo) {
            author = (
-               <div className="authorInfo" onClick={() => {_this.switchRoute(`${authorLink}/${authorInfo.id}`)}}>
+               <div className="authorInfo">
                    {
                        authorInfo.icon 
                        ? <img className="icon" src={authorInfo.icon}/>

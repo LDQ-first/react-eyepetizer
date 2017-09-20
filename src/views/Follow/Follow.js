@@ -96,7 +96,7 @@ class Follow extends Component {
 
         }
 
-
+        console.log(authorC)
 
 
        
