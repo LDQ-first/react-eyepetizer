@@ -13,6 +13,7 @@ import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
+import Navigation from '../../components/Navigation/Navigation.js'
 
 class Follow extends Component {
     static get propTypes() { 
@@ -66,7 +67,7 @@ class Follow extends Component {
     }
 
     render() {
-        const {follows} = this.props
+        const {follows, history} = this.props
 
         if(follows) {
             console.log('follows: ', follows)
@@ -74,7 +75,8 @@ class Follow extends Component {
        
         return (
             <div className="follow">
-                
+
+                <Navigation history={history} isShow={true} index={2}/>
                 <GoToTop />
             </div>
         )

@@ -16,23 +16,21 @@ export default class Navigation extends Component {
         return { 
            _this: PropTypes.object,
            history: PropTypes.object,
-           isShow: PropTypes.bool
+           isShow: PropTypes.bool,
+           index: PropTypes.number
         }
     }
 
     constructor (props) {
         super(props)
+        const {index} = props
+
         this.state = {
-            selectedIndex: 0,
+            selectedIndex: index || 0,
             isShow: false
         }
     }
 
-    
-   /* componentWillMount() {
-        document.addEventListener('')
-    }
-    */
 
 
      switchRoute(path) {
@@ -54,7 +52,6 @@ export default class Navigation extends Component {
        const {_this, isShow} = this.props
        const {selectedIndex } = this.state
 
-       console.log(isShow)
 
         return (
             <NavigationDiv 

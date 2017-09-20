@@ -131,6 +131,7 @@ export default injectGlobal`
     }
     .index {
         height: 100%;
+        padding-bottom: 56px;
     }
     .detail {
         margin: 0 auto;
@@ -150,13 +151,13 @@ export default injectGlobal`
         }
     }
     .find {
-
+        padding-bottom: 56px;
     }
     .ranklist {
 
     }
     .follow {
-        
+        padding-bottom: 56px;
     }
 `
 

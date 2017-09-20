@@ -17,7 +17,7 @@ import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
-
+import ReturnIndex from '../../components/ReturnIndex/ReturnIndex.js'
 
 
 class Ranklist extends Component {
@@ -98,7 +98,7 @@ class Ranklist extends Component {
        
         return (
             <div className="ranklist">
-                
+                <ReturnIndex />
                 <GoToTop />
             </div>
         )

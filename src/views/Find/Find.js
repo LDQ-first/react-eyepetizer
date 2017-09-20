@@ -18,6 +18,7 @@ import Tags from '../../components/Tags/Tags.js'
 import {detail as detailLink} from '../../router/link.js'
 import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
+import Navigation from '../../components/Navigation/Navigation.js'
 
 class Find extends Component {
     static get propTypes() { 
@@ -67,7 +68,7 @@ class Find extends Component {
 
 
     getDetail (id) {
-        const {getDetailData, getRelatedData, getRepliesData, match} = this.props
+        const {getDetailData, getRelatedData, getRepliesData, match, history} = this.props
         if(id) {
             getRelatedData(id)
             getRepliesData(id)
@@ -76,7 +77,7 @@ class Find extends Component {
     }
 
     render() {
-        const {hots, categorys, pgcas} = this.props
+        const {hots, categorys, pgcas, history} = this.props
 
         if(hots) {
             console.log('hots: ', hots)
@@ -96,6 +97,7 @@ class Find extends Component {
         return (
             <div className="find">
                 
+                 <Navigation history={history} isShow={true} index={1}/>
                 <GoToTop />
             </div>
         )

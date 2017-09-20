@@ -4,8 +4,9 @@ import {eyeApi} from '../api/api.js'
 
 const GoToTopDiv = styled.div`
     position: fixed;
-    bottom: 20px;
+    bottom: 70px;
     right: 20px;
+    z-index: 600
     ${mediaQuery(768)}  {
         bottom: 10px;
         right: 10px;
