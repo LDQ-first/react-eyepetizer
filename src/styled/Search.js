@@ -63,12 +63,7 @@ const SearchDiv = styled.div`
      }
      .main {
          padding: 15px 5px; 
-         /*overflow-y: auto;*/
          .hotWordArea {
-           /* display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;*/
              .tipArea {
                 padding: 1em 0;
                  .tip {
@@ -84,16 +79,11 @@ const SearchDiv = styled.div`
                  justify-content: center;
                  align-items: center;
                  .hotWord {
-                    /* background: #;
-                     color: #FFF;
-                     margin: 4px;
-                     font-size: 12px;*/
                         background: #7e57c2;
                         border-radius: 2px;
                         padding: 0;
                         box-shadow: 0 1px 6px rgba(0,0,0,.4), 0 1px 4px rgba(0,0,0,.2);
                         margin: 10px;
-                       /* padding: 0 10px;*/
                  }
              }
          }
@@ -102,11 +92,6 @@ const SearchDiv = styled.div`
                   text-align: center;
             }
             .searchResult {
-                .authors {
-                    .author {
-                        margin: 20px 10px;
-                    }
-                }
                 .videos {
 
                 }

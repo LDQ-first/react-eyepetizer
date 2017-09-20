@@ -15,6 +15,9 @@ import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
 import Navigation from '../../components/Navigation/Navigation.js'
 import Header from '../../components/Header/Header.js'
+import AuthorHorizontal from '../../components/AuthorHorizontal/AuthorHorizontal.js'
+import AuthorCarousel from '../../components/AuthorCarousel/AuthorCarousel.js'
+
 
 
 class Follow extends Component {
@@ -43,6 +46,12 @@ class Follow extends Component {
         this.state = {
            
         }
+    }
+    
+    
+    componentWillMount() {
+        const {getFollowData} = this.props
+        getFollowData()
     }
     
     
@@ -82,7 +91,8 @@ class Follow extends Component {
         return (
             <div className="follow">
                 <Header _this={this} subtitle={'全部作者'} title={'Subscription'} />
-                
+                <AuthorHorizontal _this={this} />
+
                 <Navigation history={history} isShow={true} index={2}/>
                 <GoToTop />
             </div>

@@ -13,7 +13,7 @@ import {author as authorLink} from '../../router/link.js'
 import VideoArea from '../../components/VideoArea/VideoArea.js'
 import AuthorLeftInfo from '../../components/AuthorLeftInfo/AuthorLeftInfo.js'
 import VideoHorizontal from '../../components/VideoHorizontal/VideoHorizontal.js'
-
+import AuthorHorizontal from '../../components/AuthorHorizontal/AuthorHorizontal.js'
 
 
 export default class Search extends Component {
@@ -97,7 +97,6 @@ export default class Search extends Component {
 
 
        let searchResult = null 
-       let searchResultAuthors = null 
        let searchResultVideos = null 
 
        if(searchLists && searchLists.Authors && searchLists.Videos) {
@@ -105,40 +104,9 @@ export default class Search extends Component {
            localStorage.searchLists = JSON.stringify(searchLists)    
            const Authors = searchLists.Authors
            const Videos = searchLists.Videos
-           /*console.log('Authors', Authors)
-           console.log('Videos', Videos)*/
+           console.log('Authors', Authors)
+          /* console.log('Videos', Videos)*/
 
-
-
-
-           if(Authors) {
-                searchResultAuthors = Authors.map((author, index) => {
-
-                    const itemList = author.itemList
-
-                    const videoLists = itemList.map((item, index) => {
-                        return (
-                            <li key={index} className="video" >
-                                <img src={item.videoImg} className="videoImg" 
-                                onClick={() => {_this.switchRoute(`${detail}/${item.id}`, item)}}/>
-                                <div className="videoDes">
-                                    <h3 className="name">{item.title}</h3>
-                                    <div className="meta"># {item.category} / {formatDuration(item.duration)}</div>
-                                </div>
-                            </li>
-                        )
-                    })
-
-
-
-                    return (
-                        <li key={index} className="author" >
-                             <AuthorLeftInfo item={author} _this={_this}/>
-                            <VideoHorizontal itemList={itemList} _this={_this} />
-                        </li>
-                    )
-                })
-           }
 
            if(Videos) {
                searchResultVideos = <VideoArea authorVideo={Videos} _this={_this}/>
@@ -146,13 +114,7 @@ export default class Search extends Component {
 
            searchResult = (
                <div className="searchResult">
-                  {
-                      searchResultAuthors 
-                       ? <ul className="authors">
-                         {searchResultAuthors}
-                         </ul> 
-                      : null
-                  }
+                  <AuthorHorizontal _this={_this} authors={Authors}/>
                   {
                       searchResultVideos 
                       ? <ul className="videos">

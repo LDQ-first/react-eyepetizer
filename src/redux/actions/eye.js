@@ -658,7 +658,7 @@ const filterHotData = (data) => {
 export const getHotData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.hot())
+       let res = await axios.get(eyeApi.hot)
     //   console.log('res.data: ', res.data)
        await dispatch(getHot(filterHotData(res.data)))
    } catch (err) {
@@ -711,7 +711,7 @@ const filterWeekData = (data) => {
 export const getWeekData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.weekly())
+       let res = await axios.get(eyeApi.weekly)
     //   console.log('res.data: ', res.data)
        await dispatch(getWeek(filterWeekData(res.data)))
    } catch (err) {
@@ -763,7 +763,7 @@ const filterMonthData = (data) => {
 export const getMonthData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.monthly())
+       let res = await axios.get(eyeApi.monthly)
     //   console.log('res.data: ', res.data)
        await dispatch(getMonth(filterMonthData(res.data)))
    } catch (err) {
@@ -816,7 +816,7 @@ const filterAllData = (data) => {
 export const getAllData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.historical())
+       let res = await axios.get(eyeApi.historical)
     //   console.log('res.data: ', res.data)
        await dispatch(getAll(filterAllData(res.data)))
    } catch (err) {
@@ -881,7 +881,7 @@ const filterCategoryData = (data) => {
 export const getCategoryData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.category())
+       let res = await axios.get(eyeApi.category)
     //   console.log('res.data: ', res.data)
        await dispatch(getCategory(filterCategoryData(res.data)))
    } catch (err) {
@@ -942,7 +942,7 @@ const filterPgcaData = (data) => {
 export const getPgcaData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.pgca())
+       let res = await axios.get(eyeApi.pgca)
     //   console.log('res.data: ', res.data)
        await dispatch(getPgca(filterPgcaData(res.data)))
    } catch (err) {
@@ -1001,7 +1001,7 @@ const filterFollowData = (data) => {
 export const getFollowData = () => async (dispatch) => {
 
    try {
-       let res = await axios.get(eyeApi.follow())
+       let res = await axios.get(eyeApi.follow)
     //   console.log('res.data: ', res.data)
        await dispatch(getFollow(filterFollowData(res.data)))
    } catch (err) {
