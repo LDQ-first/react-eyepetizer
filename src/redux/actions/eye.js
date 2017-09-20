@@ -972,16 +972,84 @@ const filterFollowData = (data) => {
    console.log(data.itemList)
    const itemList = data.itemList
 
-   const newItemList = []
-
+   const newItemLists = []
 
    if(itemList) {
        for(let item of itemList) {
            const type = item.type
            console.log(type)
+           const data = item.data
 
            switch(type) {
-            
+             case 'videoCollectionWithBrief':
+                
+                const newItemList = []
+                const author = data.header
+                const itemList = data.itemList
+
+
+                const newHeader = {
+                    id: author.id,
+                    icon: author.icon,
+                    name: author.name,
+                    description: author.description,
+                    latestReleaseTime: author.latestReleaseTime,
+                    videoNum: author.videoNum
+                }
+
+
+                for(let item of itemList) {
+                    const video = item.data
+
+                    const tags = video.tags
+                    const newTags = [] 
+                    if(tags) {
+                        for(let tag of tags) {
+                            newTags.push({name: tag.name})
+                        }
+                    }
+
+                    let newAuthor = null
+                    if(video.author) {
+                        const author = video.author
+                        newAuthor = {
+                            id: author.id,
+                            icon: author.icon,
+                            name: author.name,
+                            description: author.description,
+                            latestReleaseTime: author.latestReleaseTime,
+                            videoNum: author.videoNum
+                        }
+                    }
+
+
+                    const newVideo = {
+                        category: video.category,
+                        consumption: video.consumption,
+                        videoImg: video.coverForFeed,
+                        description: video.description,
+                        duration: video.duration,
+                        id: video.id,
+                        tags: newTags,
+                        title: video.title,
+                        playUrl: video.playUrl,
+                        author: newAuthor
+                    }
+
+                    newItemList.push(newVideo)
+                }
+
+                newItemLists.push({
+                    newHeader,
+                    newItemList
+                })
+
+
+                break
+             case 'videoCollectionOfHorizontalScrollCard':
+                break
+             default :
+                break
            }
            
        }
@@ -990,7 +1058,7 @@ const filterFollowData = (data) => {
   
 
     const newData = {
-       
+       Authors: newItemLists
     }
     console.log(newData)
     return newData
