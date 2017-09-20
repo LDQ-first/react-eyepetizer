@@ -165,6 +165,7 @@ export default injectGlobal`
         position: relative;
         width: 100%;
         padding: 0 10px;
+        margin: 1em 0;
         height: 1.6em;
         text-align: center;
          &::before, &::after {
