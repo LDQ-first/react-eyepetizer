@@ -126,11 +126,13 @@ class Ranklist extends Component {
     }
 
     render() {
-        const {weeks, months, alls} = this.props
+        const {weeks, months, alls } = this.props
         const {slideIndex} = this.state
 
+        let weekVideo = []
         if(weeks) {
             console.log('weeks: ', weeks )
+            weekVideo = weeks.videos
         }
 
         if(months) {
@@ -158,13 +160,10 @@ class Ranklist extends Component {
                     index={slideIndex}
                     onChangeIndex={this.handleChange}
                     >
-                    <div>0</div>
+                    <VideoArea authorVideo={weekVideo} _this={this}/>
                     <div>1</div>
                     <div>2</div>
                 </SwipeableViews>
-                <div className="end">
-                    「 The End 」
-                </div>
                 <ReturnIndex />
                 <GoToTop />
             </div>
