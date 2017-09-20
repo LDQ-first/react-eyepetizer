@@ -88,19 +88,42 @@ class Ranklist extends Component {
         switch(type) {
             case 'week': 
                 index = 0
+                getWeekData()
+                    .then(() => {
+                        getMonthData()
+                    })
+                    .then(() => {
+                        getAllData()
+                    })
                 break
             case 'month':
                 index = 1
+                getMonthData()
+                    .then(() => {
+                        getWeekData()
+                    })
+                    .then(() => {
+                        getAllData()
+                    })
                 break
             case 'all':
                 index = 2
+                 getAllData()
+                    .then(() => {
+                        getMonthData()
+                    })
+                    .then(() => {
+                        getWeekData()
+                    })
                 break
         }
         this.setState({
             slideIndex: index
         })
-        getWeekData()
+        
     }
+
+
     
     
 
@@ -115,32 +138,23 @@ class Ranklist extends Component {
 
     
 
-
-    getDetail (id) {
-        const {getDetailData, getRelatedData, getRepliesData, match} = this.props
-        if(id) {
-            getRelatedData(id)
-            getRepliesData(id)
-        }
-        getDetailData(id)
-    }
-
     render() {
         const {weeks, months, alls } = this.props
         const {slideIndex} = this.state
 
         let weekVideo = []
+        let monthVideo = []
+        let allVideo = []
         if(weeks) {
-            console.log('weeks: ', weeks )
             weekVideo = weeks.videos
         }
 
         if(months) {
-            console.log('months: ', months)
+            monthVideo = months.videos
         }
 
         if(alls) {
-            console.log('alls: ', alls)
+            allVideo = alls.videos
         }
 
 
@@ -161,8 +175,8 @@ class Ranklist extends Component {
                     onChangeIndex={this.handleChange}
                     >
                     <VideoArea authorVideo={weekVideo} _this={this}/>
-                    <div>1</div>
-                    <div>2</div>
+                    <VideoArea authorVideo={monthVideo} _this={this}/>
+                    <VideoArea authorVideo={allVideo} _this={this}/>
                 </SwipeableViews>
                 <ReturnIndex />
                 <GoToTop />

@@ -29,11 +29,11 @@ const pgcs = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/pg
 const follow = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/tabs/follow`
 
 
-const weekly = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist/?type=Weekly`
+const weekly = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist?strategy=weekly`
 
-const monthly = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist/?type=Monthly`
+const monthly = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/ranklist?strategy=monthly`
 
-const historical = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist/?type=Historical`
+const historical = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v2/ranklist?strategy=historical`
 
 
 

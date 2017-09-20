@@ -747,7 +747,7 @@ export const getWeek = (week) => {
 
 
 const filterWeekData = (data) => {
-   console.log(data.videoList)
+ 
    const videoList = data.videoList
 
    const newVideoList = []
@@ -799,7 +799,7 @@ const filterWeekData = (data) => {
     const newData = {
        videos: newVideoList
     }
-    console.log(newData)
+
     return newData
 }
 
@@ -829,7 +829,7 @@ export const getMonth = (month) => {
 
 
 const filterMonthData = (data) => {
-   console.log(data.videoList)
+
    const videoList = data.videoList
 
    const newVideoList = []
@@ -838,7 +838,40 @@ const filterMonthData = (data) => {
    if(videoList) {
        for(let video of videoList) {
           
+            const tags = video.tags
+            const newTags = [] 
+            if(tags) {
+                for(let tag of tags) {
+                    newTags.push({name: tag.name})
+                }
+            }
 
+            let newAuthor = null
+            if(video.author) {
+                const author = video.author
+                newAuthor = {
+                    id: author.id,
+                    icon: author.icon,
+                    name: author.name,
+                    description: author.description,
+                    latestReleaseTime: author.latestReleaseTime,
+                    videoNum: author.videoNum
+                }
+            }
+
+            const newVideo = {
+                category: video.category,
+                consumption: video.consumption,
+                videoImg: video.coverForFeed,
+                description: video.description,
+                duration: video.duration,
+                id: video.id,
+                tags: newTags,
+                title: video.title,
+                playUrl: video.playUrl,
+                author: newAuthor
+            }
+            newVideoList.push(newVideo)
            
            
        }
@@ -846,9 +879,9 @@ const filterMonthData = (data) => {
 
 
     const newData = {
-       
+       videos: newVideoList
     }
-    console.log(newData)
+
     return newData
 }
 
@@ -879,7 +912,6 @@ export const getAll = (all) => {
 
 
 const filterAllData = (data) => {
-   console.log(data.videoList)
    const videoList = data.videoList
 
    const newVideoList = []
@@ -887,7 +919,40 @@ const filterAllData = (data) => {
 
    if(videoList) {
        for(let video of videoList) {
-          
+           const tags = video.tags
+            const newTags = [] 
+            if(tags) {
+                for(let tag of tags) {
+                    newTags.push({name: tag.name})
+                }
+            }
+
+            let newAuthor = null
+            if(video.author) {
+                const author = video.author
+                newAuthor = {
+                    id: author.id,
+                    icon: author.icon,
+                    name: author.name,
+                    description: author.description,
+                    latestReleaseTime: author.latestReleaseTime,
+                    videoNum: author.videoNum
+                }
+            }
+
+            const newVideo = {
+                category: video.category,
+                consumption: video.consumption,
+                videoImg: video.cover.feed,
+                description: video.description,
+                duration: video.duration,
+                id: video.id,
+                tags: newTags,
+                title: video.title,
+                playUrl: video.playUrl,
+                author: newAuthor
+            }
+            newVideoList.push(newVideo)
 
           
        }
@@ -895,9 +960,8 @@ const filterAllData = (data) => {
 
 
     const newData = {
-       
+        videos: newVideoList
     }
-    console.log(newData)
     return newData
 }
 
