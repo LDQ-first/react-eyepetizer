@@ -26,7 +26,6 @@ export default class AuthorVideoInfo extends Component {
        
      
        const {item, _this} = this.props
-       console.log(item)
 
        let authorsVideos = null
 

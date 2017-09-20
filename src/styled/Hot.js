@@ -4,6 +4,7 @@ import {eyeApi} from '../api/api.js'
 
 const HotDiv = styled.div`
     color: #FFF;
+    margin: 10px 0;
     .top {
         
     }
