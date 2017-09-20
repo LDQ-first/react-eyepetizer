@@ -74,16 +74,25 @@ export default class Carousel extends Component {
     }
 
     start(e) {
+        e.stopPropagation()
          this.touchStart = e.targetTouches[0].clientX
-        console.log('this.touchStart: ', this.touchStart)
     }
 
     move(e) {
+        e.stopPropagation()
+         const touch = e.targetTouches[0]
+         this.distance = touch.clientX - this.touchStart
+         
 
     }
 
     end(e) {
-
+        e.stopPropagation()
+        if(this.distance < -10) {
+             this._toggleContent('pre')
+         } if(this.distance > 10) {
+             this._toggleContent('next')
+         }
     }
 
 
@@ -125,9 +134,7 @@ export default class Carousel extends Component {
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}
                       onClick={() => {_this.switchRoute(`${detail}/${list.id}`, index)}}
-                      onTouchStart={(e) => {this.start(e)}}
-                      onTouchMove={(e) => {this.move(e)}}
-                      onTouchEnd={(e) => {this.end(e)}}
+                      
                     >
                         <h3 className="title">{list.title}</h3>
                         <div className="meta"># {list.category} / {formatDuration(list.duration)}</div>
@@ -153,7 +160,11 @@ export default class Carousel extends Component {
                 {itemLists }
                 {itemLists[0] }
              </ul> : null }
-             <ul className="activeItemLists">
+             <ul className="activeItemLists" 
+                 onTouchStart={(e) => {this.start(e)}}
+                 onTouchMove={(e) => {this.move(e)}}
+                 onTouchEnd={(e) => {this.end(e)}}
+                 >
                 {activeItemLists ? activeItemLists: null }
              </ul>
               <button href="javascript:;" className="controlBtn next" onClick={() => {this._toggleContent('next')}}>
