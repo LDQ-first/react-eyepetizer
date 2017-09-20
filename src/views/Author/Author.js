@@ -48,10 +48,6 @@ class Author extends Component {
 
     switchRoute(path, item) {
          const {history} = this.props
-        /* const {authorVideo} = authors
-         if(index) {
-           localStorage.itemList = JSON.stringify(authorVideo[index])
-        }*/
          if(item) {
            localStorage.itemList = JSON.stringify(item)
         }

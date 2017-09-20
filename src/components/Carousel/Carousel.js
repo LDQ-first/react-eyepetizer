@@ -76,6 +76,7 @@ export default class Carousel extends Component {
     start(e) {
         e.stopPropagation()
          this.touchStart = e.targetTouches[0].clientX
+         this.distance = 0
     }
 
     move(e) {
@@ -88,9 +89,9 @@ export default class Carousel extends Component {
 
     end(e) {
         e.stopPropagation()
-        if(this.distance < -10) {
+        if(this.distance < -50) {
              this._toggleContent('pre')
-         } if(this.distance > 10) {
+         } if(this.distance > 50) {
              this._toggleContent('next')
          }
     }
@@ -134,6 +135,7 @@ export default class Carousel extends Component {
                         background: `url(${list.videoImg}) no-repeat center/cover`
                     }}
                       onClick={() => {_this.switchRoute(`${detail}/${list.id}`, index)}}
+                      
                       
                     >
                         <h3 className="title">{list.title}</h3>

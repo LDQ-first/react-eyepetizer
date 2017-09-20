@@ -20,8 +20,7 @@ import Search from '../../components/Search/Search.js'
 import GoToTop from '../../components/GoToTop/GoToTop.js'
 import Navigation from '../../components/Navigation/Navigation.js'
 import Header from '../../components/Header/Header.js'
-import {Tabs, Tab} from 'material-ui/Tabs'
-import SwipeableViews from 'react-swipeable-views'
+import Tabs from '../../components/Tabs/Tabs.js'
 
 class Find extends Component {
     static get propTypes() { 
@@ -32,6 +31,7 @@ class Find extends Component {
             authors: PropTypes.obj.isRequired,
             details: PropTypes.object,
             searchLists: PropTypes.object,
+
             hots: PropTypes.object,
             categorys: PropTypes.object,
             pgcas: PropTypes.object,
@@ -92,24 +92,12 @@ class Find extends Component {
     render() {
         const {hots, categorys, pgcas, history} = this.props
 
-        if(hots) {
-            console.log('hots: ', hots)
-        }
-
-        if(categorys) {
-            console.log('categorys: ', categorys)
-        }
-
-        if(pgcas) {
-            console.log('pgcas: ', pgcas)
-        }
-
-
 
        
         return (
             <div className="find">
                  <Header _this={this} subtitle={'全部分类'} title={'Discover'} />
+                 <Tabs _this={this} hots={hots} categorys={categorys} pgcas={pgcas} />
                  <Navigation history={history} isShow={true} index={1}/>
                 <GoToTop />
             </div>

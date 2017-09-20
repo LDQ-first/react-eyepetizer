@@ -82,6 +82,7 @@ class Follow extends Component {
         return (
             <div className="follow">
                 <Header _this={this} subtitle={'全部作者'} title={'Subscription'} />
+                
                 <Navigation history={history} isShow={true} index={2}/>
                 <GoToTop />
             </div>

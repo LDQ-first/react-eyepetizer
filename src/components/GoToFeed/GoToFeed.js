@@ -20,8 +20,8 @@ export default class GoToFeed extends Component {
 
 
         return (
-            <GoToFeedDiv onClick={() => {_this.switchRoute(`${feed}/${date}`)}}>
-                <h2 className="title">
+            <GoToFeedDiv >
+                <h2 className="title" onClick={() => {_this.switchRoute(`${feed}/${date}`)}}>
                     更多往期精选视频 &gt;
                 </h2>
             </GoToFeedDiv>
