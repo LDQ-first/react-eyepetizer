@@ -37,12 +37,11 @@ class Home extends Component {
     componentWillMount() {
         const {getIndexData} = this.props
         getIndexData()
+        document.addEventListener('scroll', () => {
+            this._isShowNav()
+        })
     }
 
-    
-    componentWillReceiveProps(nextProps) {
-        
-    }
     
     
     switchRoute(path) {
@@ -71,9 +70,7 @@ class Home extends Component {
         const {isShow} = this.state
 
         return (
-            <div className="index"
-                onWheel={() => {this._isShowNav()}}
-            >
+            <div className="index" >
                 <TopScreen _this={this} getSearchData={getSearchData}/>
                 <VideoLists date={date} itemList={itemList}/>
                 <GoToFeed _this={this}/>

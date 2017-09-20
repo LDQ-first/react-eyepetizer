@@ -54,7 +54,7 @@ export default class Navigation extends Component {
        const {_this, isShow} = this.props
        const {selectedIndex } = this.state
 
-       
+       console.log(isShow)
 
         return (
             <NavigationDiv 
