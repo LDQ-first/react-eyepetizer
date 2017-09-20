@@ -154,9 +154,16 @@ export default injectGlobal`
         padding-bottom: 56px;
     }
     .ranklist {
-
+        padding-top: 48px;
+        .tabsui {
+            position: fixed;
+            width: 100vw;
+            top: 0;
+            z-index: 500;
+        } 
     }
     .follow {
+        padding-top: 50px;
         padding-bottom: 70px;
         
     }
@@ -187,6 +194,7 @@ export default injectGlobal`
          white-space: nowrap;
          text-overflow: ellipsis;
      }
+
 `
 
 const Container = styled.div`

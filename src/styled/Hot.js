@@ -7,7 +7,7 @@ const HotDiv = styled.div`
     margin: 10px 0;
     overflow: auto;
     .top {
-        
+        padding-top: 50px;
     }
     .ranklist {
         margin: 0 10px;

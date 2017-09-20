@@ -3,10 +3,12 @@ import TabsDiv from '../../styled/Tabs.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
 import {Tabs as TabsUI, Tab} from 'material-ui/Tabs'
-import SwipeableViews from 'react-swipeable-views'
 import Hot from '../../components/Hot/Hot.js'
 import Categorys from '../../components/Categorys/Categorys.js'
 import Pgcas from '../../components/Pgcas/Pgcas.js'
+import Slider from 'material-ui/Slider'
+
+
 
 export default class Tabs extends Component {
     static get propTypes() { 
@@ -21,13 +23,13 @@ export default class Tabs extends Component {
      constructor(props) {
         super(props)
         this.state = {
-            slideIndex: 0,
+            value: 0,
         }
     }
 
     handleChange = (value) => {
         this.setState({
-            slideIndex: value,
+            value: value,
         })
 
     }
@@ -36,7 +38,7 @@ export default class Tabs extends Component {
 
     render() {
        
-       const {slideIndex} = this.state
+       const {value} = this.state
 
        const {hots, categorys, pgcas, _this} = this.props
 
@@ -44,22 +46,17 @@ export default class Tabs extends Component {
 
         return (
             <TabsDiv>
-               <TabsUI
+               <TabsUI className="tabsui"
                     onChange={this.handleChange}
-                    value={slideIndex}
+                    value={value}
                     >
                     <Tab label="热门" value={0} />
                     <Tab label="分类" value={1} />
                     <Tab label="作者" value={2} />
                 </TabsUI>
-                <SwipeableViews
-                    index={slideIndex}
-                    onChangeIndex={this.handleChange}
-                    >
-                    <Hot _this={_this} hots={hots} />
-                    <Categorys _this={_this} categorys={categorys} />
-                    <Pgcas _this={_this} pgcas={pgcas} />
-                </SwipeableViews>
+                 {value === 0 && <Hot _this={_this} hots={hots} />}
+                 {value === 1 && <Categorys _this={_this} categorys={categorys} />}
+                 {value === 2 && <Pgcas _this={_this} pgcas={pgcas} />}
                 <div className="end">
                     「 The End 」
                 </div>

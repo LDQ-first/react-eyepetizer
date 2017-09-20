@@ -162,7 +162,7 @@ class Ranklist extends Component {
        
         return (
             <div className="ranklist">
-                <TabsUI
+                <TabsUI className="tabsui"
                     onChange={this.handleChange}
                     value={slideIndex}
                     >

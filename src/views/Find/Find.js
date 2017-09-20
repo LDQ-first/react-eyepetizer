@@ -61,7 +61,7 @@ class Find extends Component {
         const {getHotData, getCategoryData, getPgcaData} = this.props
         getHotData()
             .then(() => {
-                /*getCategoryData()*/
+                getCategoryData()
             })
 
     }

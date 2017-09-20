@@ -8,6 +8,11 @@ const HeaderDiv = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    z-index: 500;
+    background: linear-gradient(135deg,#32B4F4,#5EACEC); 
     button {
         opacity: .7;
     }

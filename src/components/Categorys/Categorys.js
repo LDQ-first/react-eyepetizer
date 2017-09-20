@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import CategorysDiv from '../../styled/Categorys.js'
 import {eyeApi} from '../../api/api.js' 
-import classNames from 'classnames'
-
+import AuthorCarousel from '../../components/AuthorCarousel/AuthorCarousel.js'
 
 
 export default class Categorys extends Component {
@@ -26,11 +25,22 @@ export default class Categorys extends Component {
     render() {
        
      
-       const {categorys} = this.props
+       const {categorys, _this} = this.props
 
 
+
+       let categoryAuthor = null
         if(categorys) {
-            console.log('categorys: ', categorys)
+            const {authors} = categorys
+            console.log('authors: ', authors)
+
+            if(authors) {
+                categoryAuthor = (
+                    <AuthorCarousel _this={_this} authors={authors} />
+                )
+            }
+
+
         }
 
        
@@ -38,7 +48,7 @@ export default class Categorys extends Component {
 
         return (
             <CategorysDiv>
-              
+                {categoryAuthor}
             </CategorysDiv>
         )
     }
