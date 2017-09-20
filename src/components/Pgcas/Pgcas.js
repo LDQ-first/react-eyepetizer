@@ -59,7 +59,7 @@ export default class Pgcas extends Component {
                  } else {
                      authorContent = authorList[index].map((author, i) => {
                          return (
-                             <AuthorLeftInfo key={i} authorInfo={author} _this={_this}/>
+                             <AuthorLeftInfo key={i} item={author} _this={_this}/>
                          )
                      })
                  }
