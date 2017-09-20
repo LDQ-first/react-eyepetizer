@@ -631,16 +631,18 @@ const filterHotData = (data) => {
    const newItemList = []
    
 
-  /* let carousel = */
+   let textHeader = null
 
    if(itemList) {
        for(let item of itemList) {
            const type = item.type
            console.log(type)
+           const data = itme.data
 
            switch(type) {
-               case 'horizontalScrollCard':
-
+               
+               
+             
 
            }
 
@@ -652,7 +654,7 @@ const filterHotData = (data) => {
   
 
     const newData = {
-       carousel
+       
     }
     console.log(newData)
     return newData
