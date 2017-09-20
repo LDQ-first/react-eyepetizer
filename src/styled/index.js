@@ -130,7 +130,7 @@ export default injectGlobal`
         height: 100%;
     }
     .index {
-        height: 100%;
+        height: calc(100% + 56px);
         padding-bottom: 56px;
     }
     .detail {
