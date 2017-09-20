@@ -1271,7 +1271,7 @@ export const getFollow = (follow) => {
 
 
 const filterFollowData = (data) => {
-   console.log(data.itemList)
+  /* console.log(data.itemList)*/
    const itemList = data.itemList
 
    const newItemLists = []
@@ -1359,7 +1359,7 @@ const filterFollowData = (data) => {
     const newData = {
        authors: newItemLists
     }
-    console.log(newData)
+  /*  console.log(newData)*/
     return newData
 }
 
