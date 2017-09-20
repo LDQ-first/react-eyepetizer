@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import AuthorSingleDiv from '../../styled/AuthorSingle.js'
 import VideoImg from '../../components/VideoImg/VideoImg.js'
-import AuthorLeftInfo from '../../components/AuthorLeftInfo/AuthorLeftInfo.js'
+import AuthorVideoInfo from '../../components/AuthorVideoInfo/AuthorVideoInfo.js'
+
+
 
 export default class AuthorSingle extends Component {
     static get propTypes() { 
@@ -24,12 +26,12 @@ export default class AuthorSingle extends Component {
        
      
        const {item, _this} = this.props
-       console.log(item)
+
 
         return (
             <AuthorSingleDiv>
                 <VideoImg item={item} _this={_this}/>
-                { item.author ? <AuthorLeftInfo item={item.author} _this={_this}/> : null }
+                <AuthorVideoInfo item={item} _this={_this}/>
             </AuthorSingleDiv>
         )
     }
