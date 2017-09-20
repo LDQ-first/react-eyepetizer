@@ -12,6 +12,7 @@ import VideoLists from '../../components/VideoLists/VideoLists.js'
 import Download from '../../components/Download/Download.js'
 import Footer from '../../components/Footer/Footer.js'
 import GoToFeed from '../../components/GoToFeed/GoToFeed.js'
+import Navigation from '../../components/Navigation/Navigation.js'
 
 class Home extends Component {
     static get propTypes() { 
@@ -22,6 +23,13 @@ class Home extends Component {
             IndexData: PropTypes.object,
             getIndexData: PropTypes.func,
             getSearchData: PropTypes.func,
+        }
+    }
+
+     constructor (props) {
+        super(props)
+        this.state = {
+            isShow: false
         }
     }
 
@@ -42,19 +50,35 @@ class Home extends Component {
         history.push(path)
     }
 
+    _isShowNav () {
+        
+        if(document.body.scrollTop > window.innerHeight) {
+            this.setState({
+                isShow: true
+            })
+        } else {
+            this.setState({
+                isShow: false
+            })
+        }
+    }
+
 
     render() {
        
-        const {IndexData, getSearchData} = this.props
+        const {IndexData, getSearchData, history} = this.props
         const {date, itemList} = IndexData
-
+        const {isShow} = this.state
 
         return (
-            <div className="index">
+            <div className="index"
+                onWheel={() => {this._isShowNav()}}
+            >
                 <TopScreen _this={this} getSearchData={getSearchData}/>
                 <VideoLists date={date} itemList={itemList}/>
                 <GoToFeed _this={this}/>
                 <Download />
+                <Navigation history={history} isShow={isShow}/>
                 <Footer />
             </div>
         )

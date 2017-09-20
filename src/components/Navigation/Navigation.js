@@ -15,7 +15,8 @@ export default class Navigation extends Component {
     static get propTypes() { 
         return { 
            _this: PropTypes.object,
-           history: PropTypes.object
+           history: PropTypes.object,
+           isShow: PropTypes.bool
         }
     }
 
@@ -23,10 +24,15 @@ export default class Navigation extends Component {
         super(props)
         this.state = {
             selectedIndex: 0,
+            isShow: false
         }
     }
 
-   
+    
+   /* componentWillMount() {
+        document.addEventListener('')
+    }
+    */
 
 
      switchRoute(path) {
@@ -45,13 +51,15 @@ export default class Navigation extends Component {
 
     render() {
        
-       const {_this} = this.props
-       const {selectedIndex} = this.state
+       const {_this, isShow} = this.props
+       const {selectedIndex } = this.state
+
+       
 
         return (
             <NavigationDiv 
                 style={{
-                        display: document.body.scrollTop > document.body.offsetHeight ? `block` : `none`
+                        display: isShow ? `block` : `none`
                     }}
                 >
                 <Paper zDepth={1} >
