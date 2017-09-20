@@ -7,7 +7,7 @@ import Hot from '../../components/Hot/Hot.js'
 import Categorys from '../../components/Categorys/Categorys.js'
 import Pgcas from '../../components/Pgcas/Pgcas.js'
 import Slider from 'material-ui/Slider'
-
+import {find} from '../../router/link.js'
 
 
 export default class Tabs extends Component {
@@ -17,6 +17,7 @@ export default class Tabs extends Component {
             hots: PropTypes.object,
             categorys: PropTypes.object,
             pgcas: PropTypes.object,
+            match: PropTypes.obj.isRequired,
         }
     }
 
@@ -28,12 +29,48 @@ export default class Tabs extends Component {
     }
 
     handleChange = (value) => {
+        const { _this} = this.props
         this.setState({
             value: value,
         })
-
+        let type = ''
+        switch(value) {
+            case 0: 
+                type = 'hot'
+                break
+            case 1:
+                type = 'category'
+                break
+            case 2:
+                type = 'pgca'
+                break
+        }
+        _this.switchRoute(`${find}/${type}`)
     }
 
+    componentWillMount() {
+        const {match} = this.props
+        
+        if(match) {
+            const type = match.params.type
+            console.log(type)
+            let index = 0
+            switch(type) {
+                case 'hot': 
+                    index = 0    
+                    break
+                case 'category':
+                    index = 1 
+                    break
+                case 'pgca':
+                    index = 2
+                    break
+            }
+            this.setState({
+                value: index
+            })
+        }
+    }
     
 
     render() {

@@ -998,7 +998,6 @@ export const getCategory = (category) => {
 
 
 const filterCategoryData = (data) => {
-   console.log(data.itemList)
    const itemList = data.itemList
 
    const newItemLists = []
@@ -1082,7 +1081,6 @@ const filterCategoryData = (data) => {
     const newData = {
         authors: newItemLists
     }
-    console.log(newData)
     return newData
 }
 
@@ -1120,7 +1118,7 @@ export const getPgca = (pgca) => {
 
 
 const filterPgcaData = (data) => {
-   console.log(data.itemList)
+ /*  console.log(data.itemList)*/
    const itemList = data.itemList
 
    const newItemList = []
@@ -1237,7 +1235,7 @@ const filterPgcaData = (data) => {
         text,
         authorList
     }
-    console.log(newData)
+    /*console.log(newData)*/
     return newData
 }
 

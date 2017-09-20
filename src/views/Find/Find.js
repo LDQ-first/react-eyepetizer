@@ -96,14 +96,14 @@ class Find extends Component {
     }
 
     render() {
-        const {hots, categorys, pgcas, history} = this.props
+        const {hots, categorys, pgcas, history, match} = this.props
 
 
        
         return (
             <div className="find">
                  <Header _this={this} subtitle={'全部分类'} title={'Discover'} />
-                 <Tabs _this={this} hots={hots} categorys={categorys} pgcas={pgcas} />
+                 <Tabs _this={this} hots={hots} categorys={categorys} pgcas={pgcas} match={match}/>
                  <Navigation history={history} isShow={true} index={1}/>
                 <GoToTop />
             </div>

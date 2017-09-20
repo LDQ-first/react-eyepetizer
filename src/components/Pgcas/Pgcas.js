@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PgcasDiv from '../../styled/Pgcas.js'
 import {eyeApi} from '../../api/api.js' 
 import classNames from 'classnames'
-
+import AuthorLeftInfo from '../../components/AuthorLeftInfo/AuthorLeftInfo.js'
 
 
 export default class Pgcas extends Component {
@@ -29,6 +29,12 @@ export default class Pgcas extends Component {
 
         if(pgcas) {
             console.log('pgcas: ', pgcas)
+            const {text} = pgcas
+            const {authorList }= pgcas
+
+            if(text && authorList) {
+
+            }
         }
 
 

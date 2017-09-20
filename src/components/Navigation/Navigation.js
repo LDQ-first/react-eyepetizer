@@ -69,7 +69,7 @@ export default class Navigation extends Component {
                         <BottomNavigationItem
                             label="发现"
                             icon={<ToggleRadioButtonUnchecked />}
-                            onClick={() => this.select(1, `${find}`)}
+                            onClick={() => this.select(1, `${find}/hot`)}
                         />
                         <BottomNavigationItem
                             label="关注"

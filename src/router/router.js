@@ -52,6 +52,7 @@ const getRouter = () => (
                 <Route path={`${feed}/:date`} component={createComponent(Feed)}/>         
                 <Route path={feed} component={createComponent(Feed)}/>      
 
+                <Route path={`${find}/:type`} component={createComponent(Find)}/>         
                 <Route path={find} component={createComponent(Find)}/>         
                 <Route path={follow} component={createComponent(Follow)}/>         
                 <Route path={`${ranklist}/:type`} component={createComponent(Ranklist)}/>
