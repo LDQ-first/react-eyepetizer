@@ -1130,7 +1130,6 @@ const filterPgcaData = (data) => {
        for(let key in itemList) {
            const item = itemList[key]
            const type = item.type
-           console.log(type)
            const data = item.data
            switch(type) {
                case 'leftAlignTextHeader' :

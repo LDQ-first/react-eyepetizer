@@ -53,7 +53,6 @@ export default class Tabs extends Component {
         
         if(match) {
             const type = match.params.type
-            console.log(type)
             let index = 0
             switch(type) {
                 case 'hot': 
