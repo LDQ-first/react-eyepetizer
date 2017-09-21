@@ -180,7 +180,7 @@ export default injectGlobal`
             border: 2px solid #FFF;
             position: absolute;
             top: 50%;
-            width: calc(50% - 70px);
+            width: calc(40% - 70px);
         }
         &::before {
             left: 0;

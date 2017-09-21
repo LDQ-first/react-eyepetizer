@@ -20,16 +20,22 @@ const ReplyListsDiv = styled.div`
              align-items: center;
              padding: 1em 0;
              .reply-content {
-                  flex: 1;
                   display: flex;
-                  justify-content: space-between;
+                  justify-content: flex-start;
                   align-items: center;
+                   width: calc(100% - 90px);
+                   ${mediaQuery(768)} {
+                    width: calc(100% - 70px);
+                  }
                  .avatar {
                     height: 36px;
                     width: 36px;
                     margin: 0 13px;
                     border-radius: 50%;
                     box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+                    ${mediaQuery(768)} {
+                       margin: 0 8px 0 0;
+                    }
                  }
                  .reply-message { 
                     flex: 1;
@@ -37,32 +43,52 @@ const ReplyListsDiv = styled.div`
                     flex-direction: column;
                      justify-content: center;
                      align-items: flex-start;
+                     width: calc(100% - 44px);
                     .userName {
-                        word-break: break-word;
+                       width: 100%;
+                       font-size: 16px;
+                       ${mediaQuery(768)} {
+                           font-size: 14px;
+                        }
                     }
                     .time {
 
                     }
                     .message {
                         word-break: break-word;
+                        ${mediaQuery(768)} {
+                           font-size: 14px;
+                        }
                     }
                  }
              }
              .like-hot {
-                 width: 100px;
+                 width: 90px;
                  display: flex;
                  flex-direction: column;
                  justify-content: center;
                  align-items: flex-end;
+                 ${mediaQuery(768)} {
+                    width: 68px;
+                 }
                  .like-count {
                      padding: 0 1em;
                      display: flex;
                      justify-content: space-between;
                      align-items: center;
+                      ${mediaQuery(768)} {
+                        padding: 0 0.5em;
+                      }
                      .like-count-num {
                          
                      }
                      .like-count-icon {
+                         ${mediaQuery(768)} {
+                            padding: 6px !important;
+                            width: 36px !important;
+                            height: 36px !important;
+
+                        }
                         .likeIcon {
                             fill: #FFF !important;
                         }
@@ -70,7 +96,15 @@ const ReplyListsDiv = styled.div`
                  }
                  .isHot {
                       padding: 0 1em;
+                      ${mediaQuery(768)} {
+                        padding: 0 0.5em ;
+                      }
                      .hot-icon {
+                         ${mediaQuery(768)} {
+                            padding: 6px !important;
+                            width: 36px !important;
+                            height: 36px !important;
+                        }
                          .hotIcon {
                               fill: #FF8A65 !important;
                          }
