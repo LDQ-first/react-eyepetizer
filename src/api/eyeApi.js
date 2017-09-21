@@ -15,7 +15,7 @@ const feed = date => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/a
 
 const search = query => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/search?num=200&query=${query}`
 
-const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=200`
+const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=500`
 
 
 
