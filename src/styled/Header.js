@@ -26,6 +26,8 @@ const HeaderDiv = styled.div`
     }
     .title {
         font-size: 16px;
+        font-family: Lobster,cursive;
+        letter-spacing: 2px;
     }
 `
 

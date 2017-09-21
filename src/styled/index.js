@@ -68,9 +68,6 @@ export default injectGlobal`
         display: inline-block;
         text-decoration: none;
         color: #0060E9;
-        &:hover, &:hover * {
-            color: #3f51b5;
-        }
     }
     p {
         margin: 10px 0;
@@ -131,7 +128,6 @@ export default injectGlobal`
     }
     .index {
         height: calc(100% + 56px);
-        padding-bottom: 56px;
     }
     .detail {
         margin: 0 auto;

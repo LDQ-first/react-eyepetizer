@@ -10,7 +10,8 @@ export default class Footer extends Component {
      constructor (props) {
         super(props)
         this.state = {
-            isShowQR: false
+            isShowQR: false,
+            date: new Date().getFullYear() === 2016 ? 2017 : `2017 ~ ${new Date().getFullYear()}`
         }
     }
 
@@ -36,12 +37,28 @@ export default class Footer extends Component {
 
 
     render() {
-        const {QRCodeUrl, isShowQR} = this.state
-        const {contact} = eyeApi
+        const {QRCodeUrl, isShowQR, date} = this.state
+
 
 
         return (
             <FooterDiv>
+                <p className="copyRight">
+                   Copyright {date} © by 
+                   <a className="githubUrl" href="https://github.com/LDQ-first" target="_blank" 
+                    rel="noopener noreferrer"> LDQ-first </a> 
+                    (◕ᴗ◕)
+                </p>
+                <p className="githubRep">
+                    {`source code in Github =>`}
+                    <a className="githubRepUrl" href="https://github.com/LDQ-first/react-eyepetizer" target="_blank" 
+                    rel="noopener noreferrer">
+                        <svg className="icon" aria-hidden="true">
+                            <use xlinkHref="#icon-github1"></use>
+                        </svg>
+                    </a> 
+                </p>
+
                 {
                     isShowQR 
                     ? <ShowQRCode  QRCodeUrl={QRCodeUrl || ''} _this={this}/> 
