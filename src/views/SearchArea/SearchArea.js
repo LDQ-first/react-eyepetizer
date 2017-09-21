@@ -52,7 +52,6 @@ class SearchArea extends Component {
 
 
     search (searchValue) {
-        console.log(searchValue)
         const {getSearchData} = this.props
         getSearchData(searchValue)
     }

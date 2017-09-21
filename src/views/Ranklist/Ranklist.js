@@ -83,7 +83,6 @@ class Ranklist extends Component {
     componentWillMount() {
         const {match, getWeekData, getMonthData, getAllData} = this.props
         const type = match.params.type
-        console.log(type)
         let index = 0
         switch(type) {
             case 'week': 

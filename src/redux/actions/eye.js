@@ -1278,7 +1278,6 @@ const filterFollowData = (data) => {
    if(itemList) {
        for(let item of itemList) {
            const type = item.type
-           console.log(type)
            const data = item.data
 
            switch(type) {

@@ -104,8 +104,7 @@ export default class Search extends Component {
            localStorage.searchLists = JSON.stringify(searchLists)    
            const Authors = searchLists.Authors
            const Videos = searchLists.Videos
-           console.log('Authors', Authors)
-          /* console.log('Videos', Videos)*/
+
 
 
            if(Videos) {
