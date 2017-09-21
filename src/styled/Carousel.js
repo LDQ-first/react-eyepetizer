@@ -5,22 +5,22 @@ import {eyeApi} from '../api/api.js'
 const CarouselDiv = styled.div`
    position: relative;
    width: 100%;
-   height: 480px;
+   height: 570px;
    overflow: hidden;
    color: #FFF;
-   background: #FFF;
+   background: #5EACEC;
    ${mediaQuery()} {
-      height: 416px;
+      height: 506px;
    }
    ${mediaQuery(415)} {
-       height: 256px;
+       height: 346px;
    }
    .controlBtn {
        width: 12.5%;
        height: 400px;
        background: rgba(0 ,0, 0, 0.2);
        position: absolute;
-       bottom: 55px;
+       bottom: 125px;
        z-index: 100;
        min-width: 8px;
        ${mediaQuery(768)} {
@@ -28,7 +28,7 @@ const CarouselDiv = styled.div`
        }
        ${mediaQuery()} {
           height: 350px;
-          bottom: 48px;
+          bottom: 118px;
        }
       /* ${mediaQuery(415)} {
           height: 200px;
@@ -49,14 +49,14 @@ const CarouselDiv = styled.div`
    .itemLists {
        position: absolute;
        height: 400px;
-       bottom: 55px;
+       bottom: 125px;
        ${mediaQuery()} {
           height: 350px;
-          bottom: 48px;
+          bottom: 118px;
        }
        ${mediaQuery(415)} {
           height: 200px;
-          bottom: 43px;
+          bottom: 113px;
        }
        .itemList {
            float: left;
@@ -95,7 +95,7 @@ const CarouselDiv = styled.div`
        left: 12.5%;
        width: 75%;
        height: 450px;
-       bottom: 30px;
+       bottom: 100px;
         ${mediaQuery(768)} {
           left: 0;
           width: 100%;
@@ -108,15 +108,8 @@ const CarouselDiv = styled.div`
        }
        &:hover {
            &::before {
-            z-index: 0;
-          }
-          .activeItemList {
-              .title {
-                color: #fd470e;
-            }
-            .meta {
-                 color: #fd470e;
-            }
+            z-index: -1;
+            background: transparent;
           }
        }
         &::before {
@@ -134,9 +127,7 @@ const CarouselDiv = styled.div`
            visibility: hidden;
            height: 0;
            display: flex;
-           flex-direction: column;
            justify-content: center;
-           align-items: center;
            box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.8);
            cursor: pointer;
            &.pre {
@@ -216,13 +207,15 @@ const CarouselDiv = styled.div`
            }
            
            .title {
-             position: relative;
+             position: absolute;
+             bottom: -40px;
              z-index: 11;
              font-weight: bold;
              font-size: 16px;
            }
            .meta {
-              position: relative;
+              position: absolute;
+              bottom: -60px;
               z-index: 11;
               font-weight: bold;
            }

@@ -105,10 +105,6 @@ export default class Carousel extends Component {
         const {itemList, _this} = this.props
         const {activeIndex, left, activeTransfrom ,dir} = this.state
 
-        /* if(itemList) {
-            console.log('itemList: ', itemList)
-        }*/
-
 
         let itemLists = null
         let activeItemLists = null
