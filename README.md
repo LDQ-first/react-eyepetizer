@@ -39,15 +39,22 @@
 ## 效果图
 
 ### index
+
 ![index](https://ldq-first.github.io/react-eyepetizer/static/result/index.gif)  
 
+
 ### hot
+
 ![hot](https://ldq-first.github.io/react-eyepetizer/static/result/hot.gif)  
 
+
 ### search
+
 ![search](https://ldq-first.github.io/react-eyepetizer/static/result/search.gif)  
 
+
 ### detail
+
 ![detail](https://ldq-first.github.io/react-eyepetizer/static/result/detail.gif)  
 
 
