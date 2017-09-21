@@ -38,14 +38,14 @@
 
 ## 效果图
 
-![index](https://ldq-first.github.io/react-eyepetizer/static/result/index.gif)
-
-![hot](https://ldq-first.github.io/react-eyepetizer/static/result/hot.gif)
-
-![search](https://ldq-first.github.io/react-eyepetizer/static/result/search.gif)
-
-![detail](https://ldq-first.github.io/react-eyepetizer/static/result/detail.gif)
-
+![index](https://ldq-first.github.io/react-eyepetizer/static/result/index.gif)  
+---
+![hot](https://ldq-first.github.io/react-eyepetizer/static/result/hot.gif)  
+---
+![search](https://ldq-first.github.io/react-eyepetizer/static/result/search.gif)  
+---
+![detail](https://ldq-first.github.io/react-eyepetizer/static/result/detail.gif)  
+---
 
 
 
