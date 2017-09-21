@@ -25,6 +25,7 @@ const DatePickerDiv = styled.div`
             bottom: 0px !important;
             width: 80px;
             color: #FFF !important;
+            cursor: pointer;
         }
         input {
             cursor: pointer !important;
@@ -38,6 +39,7 @@ const DatePickerDiv = styled.div`
             left: 5px;
             width: 30px !important;
             height: 30px !important;
+            cursor: pointer !important;
         }
     }
 

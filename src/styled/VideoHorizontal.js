@@ -9,11 +9,14 @@ const VideoHorizontalDiv = styled.div`
         justify-content: flex-start;
         padding: 10px 0;
         .video {
-            margin: 0 10px;
+            margin-right: 10px;
             width: calc(50% - 50px);
             max-width: 400px;
             min-width: 200px;
             font-size: 14px;
+            + .video  {
+                margin-left: 10px;
+            }
             .videoImg {
                 width: 100%;
                 cursor: pointer;

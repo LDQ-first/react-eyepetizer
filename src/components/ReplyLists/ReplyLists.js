@@ -4,10 +4,6 @@ import {eyeApi} from '../../api/api.js'
 import classNames from 'classnames'
 import moment from 'moment'
 import IconButton from 'material-ui/IconButton'
-
-/*import WhatshotIcon from 'material-ui-icons/Whatshot'
-import ThumbUpIcon from 'material-ui-icons/ThumbUp'*/
-
 import SocialWhatshot from 'material-ui/svg-icons/social/whatshot'
 import ActionThumbUp from 'material-ui/svg-icons/action/thumb-up'
 

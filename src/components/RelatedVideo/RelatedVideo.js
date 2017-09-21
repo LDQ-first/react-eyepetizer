@@ -33,11 +33,11 @@ export default class RelatedVideo extends Component {
         if(videoList) {
             videoLists = videoList.map((video, index) => {
                 return (
-                    <li key={index} className="video-list">
+                    <li key={index} className="video-list" onClick={() => {_this.getDetail(video.id)}}>
                         <div className="coverForFeed">
                            <img className="coverForFeedImg" src={video.coverForFeed} />
                         </div>
-                        <div className="content" onClick={() => {_this.getDetail(video.id)}}>
+                        <div className="content">
                             <h3 className="title">{video.title}</h3>
                             <div className="meta"># {video.category} / {formatDuration(video.duration)}</div>
                         </div>

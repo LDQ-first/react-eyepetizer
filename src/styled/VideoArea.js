@@ -4,27 +4,29 @@ import {eyeApi} from '../api/api.js'
 
 const VideoAreaDiv = styled.div`
      color: #FFF;
-     padding: 1em;
      .authorVideo {
         padding: 15px 30px;
         .video {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 2em 0;
+            padding: 2em;
+            cursor: pointer;
+            ${mediaQuery(800)} {
+                 padding: 2em 0;
+            }
             ${mediaQuery(500)} {
                display: flex;
                flex-direction: column;
                justify-content: center;
                align-items: center;
             }
-            
             .coverForFeed {
                 width: 40%;
                 border: 4px solid #EEE;
                 position: relative;
                 font-size: 0;
-                ${mediaQuery(768)} {
+                 ${mediaQuery()} {
                     width: 50%;
                 }
                 ${mediaQuery(500)} {
@@ -38,7 +40,6 @@ const VideoAreaDiv = styled.div`
                 &::before, &::after {
                     content: '';
                     position: absolute;
-                    
                     width: 100%;
                     height: 100%;
                     z-index: -1;
@@ -62,14 +63,19 @@ const VideoAreaDiv = styled.div`
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: flex-start;
-                cursor: pointer;
+                align-items: flex-start;  
                 ${mediaQuery(500)} {
                     margin-top: 1em;
                 }
                 .title {
                     font-weight: bold;
-                    font-size: 16px;
+                    font-size: 20px;
+                    ${mediaQuery()} {
+                        font-size: 18px;
+                    }
+                    ${mediaQuery(800)} {
+                        font-size: 16px;
+                    }
                 }
                 .meta {
 

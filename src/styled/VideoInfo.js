@@ -5,15 +5,15 @@ import {eyeApi} from '../api/api.js'
 const VideoInfoDiv = styled.div`
     color: #FFF;
     background: rgba(0,0,0,.2);
-    padding-top: ${props => props.paddingTop}px;
+   /* padding-top: ${props => props.paddingTop}px;*/
    .video-meta {
        padding: 8px 15px;
-       position: fixed;
-       margin-top: -${props => props.paddingTop}px;
+      /* position: fixed;
+       margin-top: -${props => props.paddingTop}px;*/
+        /* z-index: 1000;*/
+       /* background: #5EACEC;*/
         width: 100%;
         max-width: 600px;
-        z-index: 1000;
-        background: #5EACEC;
        .title {
            font-size: 18px;
            margin: 0;

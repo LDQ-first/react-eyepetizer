@@ -8,6 +8,7 @@ const VideoDiv = styled.div`
      width: 100%;
      max-width: 600px;
      z-index: 1000;
+     background: #5EACEC;
      .video-wrap {
         overflow: hidden;
         position: relative;

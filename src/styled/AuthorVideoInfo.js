@@ -19,6 +19,9 @@ const AuthorVideoInfoDiv = styled.div`
                 margin: 0 20px 0 10px;
                 border-radius: 50%;
                 box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+                ${mediaQuery(768)}  {
+                    margin: 0 20px 0 0;
+                }
             }
             .message {
                 flex: 1;

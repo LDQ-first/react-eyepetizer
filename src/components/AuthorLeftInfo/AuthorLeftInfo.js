@@ -31,8 +31,8 @@ export default class AuthorLeftInfo extends Component {
                     }
                     <div className="message">
                         {
-                            item.name ? <h3 className="name">{item.name}</h3> : (
-                                item.title ? <h3 className="name">{item.title}</h3> : null
+                            item.name ? <h3 className="name textOverflow">{item.name}</h3> : (
+                                item.title ? <h3 className="name textOverflow">{item.title}</h3> : null
                             )
                         }    
                         {
@@ -40,7 +40,7 @@ export default class AuthorLeftInfo extends Component {
                             <span className="lastTime">最新更新时间  {moment(item.latestReleaseTime).format(`YYYY-M-D hh:mm`)}</span>
                             : null
                         }
-                        <p className="des">{item.description}</p>              
+                        <p className="des textOverflow">{item.description}</p>              
                     </div>
                     {   
                        item.videoNum ?

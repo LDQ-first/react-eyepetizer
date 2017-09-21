@@ -29,18 +29,18 @@ export default class VideoInfo extends Component {
 
     
     componentDidMount() {
-        const {paddingTop} = this.state
+       /* const {paddingTop} = this.state
 
         this.setState({
             paddingTop: this._videoMeta.offsetHeight
-        })
+        })*/
 
     }
     
 
     render() {
        const {itemList, _this} = this.props
-       const {paddingTop} = this.state
+       /*const {paddingTop} = this.state*/
 
 
        let consumption = null
@@ -84,7 +84,7 @@ export default class VideoInfo extends Component {
 
 
         return (
-            <VideoInfoDiv paddingTop={paddingTop}>
+            <VideoInfoDiv>
                <div className="video-meta" ref={meta => this._videoMeta = meta}>
                    <h1 className="title">{itemList.title}</h1>
                    <h2 className="meta">{itemList.category} / {formatDuration(itemList.duration)}</h2>

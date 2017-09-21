@@ -6,15 +6,21 @@ const AuthorLeftInfoDiv = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 15px 8px 15px;
+    padding: 15px;
     margin: 1em 0;
     cursor: pointer;
+    ${mediaQuery(768)}  {
+        padding: 15px 8px;
+    }
     .iconImg {
         height: 36px;
         width: 36px;
         margin: 0 20px 0 10px;
         border-radius: 50%;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+        ${mediaQuery(768)}  {
+         margin: 0 20px 0 0;
+        }
     }
     .message {
         flex: 1;
@@ -22,9 +28,11 @@ const AuthorLeftInfoDiv = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        width: calc(100% - 170px);
         .name {
             font-size: 14px;
-            word-break: break-word;
+            width: 100%;
+           /* word-break: break-word;*/
         }
         .lastTime {
             font-size: 12px;
@@ -32,7 +40,8 @@ const AuthorLeftInfoDiv = styled.div`
         .des {
             font-size: 14px;
             margin: 0;
-            word-break: break-word;
+            width: 100%;
+           /* word-break: break-word;*/
         }
     }
     .videoNum {
