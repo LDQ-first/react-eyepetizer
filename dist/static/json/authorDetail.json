@@ -1,0 +1,5667 @@
+{
+  "itemList": [
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 52413,
+        "title": "我的夜间护肤过程分享：痘痘肌篇",
+        "slogan": null,
+        "description": "我的肤质是敏感痘痘肌，这是我的夜间护肤过程。你晚上护肤是什么步骤呢？在评论中告诉我吧！",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/aa99029f5dee91f3a5a10044a086c395.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/aa99029f5dee91f3a5a10044a086c395.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/2efaaf1cf162024e64c195579f9c0fe2.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 239,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=52413",
+          "forWeibo": "http://wandou.im/3ocpkv"
+        },
+        "releaseTime": 1505966866000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=normal&source=qcloud",
+                "size": 11612182
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=normal&source=ucloud",
+                "size": 11612182
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=high&source=qcloud",
+                "size": 18123646
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=high&source=ucloud",
+                "size": 18123646
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52413&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 0,
+          "shareCount": 0,
+          "replyCount": 0
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "我的夜间护肤过程分享：痘痘肌篇",
+        "descriptionPgc": "我的肤质是敏感痘痘肌，这是我的夜间护肤过程。你晚上护肤是什么步骤呢？在评论中告诉我吧！",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505966866000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 52119,
+        "title": "适合初秋的小烟熏妆容教程",
+        "slogan": null,
+        "description": "今天我要给大家分享的是一款很适合秋冬的小烟熏，一起来学学看吧！别忘了关注我哦~",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "时尚",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/95b6fabab844403cf3c4be25e53ee281.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/95b6fabab844403cf3c4be25e53ee281.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/a184c4395677ee935c46e25566a95a42.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 350,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=52119",
+          "forWeibo": "http://wandou.im/3ockvc"
+        },
+        "releaseTime": 1505880483000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=normal&source=qcloud",
+                "size": 24124511
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=normal&source=ucloud",
+                "size": 24124511
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=high&source=qcloud",
+                "size": 39409674
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=high&source=ucloud",
+                "size": 39409674
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52119&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 15,
+          "shareCount": 6,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "适合初秋的小烟熏妆容教程",
+        "descriptionPgc": "今天我要给大家分享的是一款很适合秋冬的小烟熏，一起来学学看吧！别忘了关注我哦~",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505880483000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 51755,
+        "title": "可爱 x 前卫妆容教程",
+        "slogan": null,
+        "description": "即便是做芭比娃娃，也要叛逆地与众不同。大家喜欢这次的妆容吗？在下方留言告诉我吧！",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "时尚",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/5dfc261d21d72296a73ec03d8a695eb2.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/5dfc261d21d72296a73ec03d8a695eb2.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/5e77ab7cb4cbbc9546b77379e971ec47.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 261,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=51755",
+          "forWeibo": "http://wandou.im/3ocd3o"
+        },
+        "releaseTime": 1505729246000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=normal&source=qcloud",
+                "size": 15463419
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=normal&source=ucloud",
+                "size": 15463419
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=high&source=qcloud",
+                "size": 26595280
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=high&source=ucloud",
+                "size": 26595280
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51755&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 19,
+          "shareCount": 4,
+          "replyCount": 0
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "可爱 x 前卫妆容教程",
+        "descriptionPgc": "即便是做芭比娃娃，也要叛逆地与众不同。大家喜欢这次的妆容吗？在下方留言告诉我吧！",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505729246000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 51548,
+        "title": "异色眼线怎么画？蓝色与粉红色眼线简易妆容",
+        "slogan": null,
+        "description": "大家喜欢这次有些古怪的妆容吗？",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/15226d2b0f3597e3ac3e2030af998acc.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/15226d2b0f3597e3ac3e2030af998acc.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/d933ff4a3b9f1d6b22e6a10d9b6d6dac.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 139,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=51548",
+          "forWeibo": "http://wandou.im/3oc999"
+        },
+        "releaseTime": 1505650014000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=normal&source=qcloud",
+                "size": 8049392
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=normal&source=ucloud",
+                "size": 8049392
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=high&source=qcloud",
+                "size": 13523612
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=high&source=ucloud",
+                "size": 13523612
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51548&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 8,
+          "shareCount": 2,
+          "replyCount": 0
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "异色眼线怎么画？蓝色与粉红色眼线简易妆容",
+        "descriptionPgc": "大家喜欢这次有些古怪的妆容吗？",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505650014000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 51411,
+        "title": "忘记欧美风，这两种眉形才最适合亚洲人",
+        "slogan": null,
+        "description": "适合自己的才是最好的，大家不妨尝试这两种对亚洲面部更友好的眉形，可能会让你的妆容立刻变得不同哦~",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/9ad249f8f95fb25ee98935f854741065.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/9ad249f8f95fb25ee98935f854741065.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/50b5bfa8620d667931349369129996ce.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 270,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=51411",
+          "forWeibo": "http://wandou.im/3obz0x"
+        },
+        "releaseTime": 1505563641000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=normal&source=qcloud",
+                "size": 15105465
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=normal&source=ucloud",
+                "size": 15105465
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=high&source=qcloud",
+                "size": 24708686
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=high&source=ucloud",
+                "size": 24708686
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51411&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 61,
+          "shareCount": 14,
+          "replyCount": 0
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "忘记欧美风，这两种眉形才最适合亚洲人",
+        "descriptionPgc": "适合自己的才是最好的，大家不妨尝试这两种对亚洲面部更友好的眉形，可能会让你的妆容立刻变得不同哦~",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505563641000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 51248,
+        "title": "刘海怎么处理？我的 3 种方式送给你",
+        "slogan": null,
+        "description": "总有观众问我怎么修剪自己的刘海，这期就教大家 3 种处理方式，希望能帮到你们~",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/1114b2e8fcb343863e75bf66512f1001.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/1114b2e8fcb343863e75bf66512f1001.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/19d73529aa8945170c738f14635bec77.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 157,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=51248",
+          "forWeibo": "http://wandou.im/3obn7s"
+        },
+        "releaseTime": 1505470057000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=normal&source=qcloud",
+                "size": 11192785
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=normal&source=ucloud",
+                "size": 11192785
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=high&source=qcloud",
+                "size": 18037144
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=high&source=ucloud",
+                "size": 18037144
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51248&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 50,
+          "shareCount": 21,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "刘海怎么处理？我的 3 种方式送给你",
+        "descriptionPgc": "总有观众问我怎么修剪自己的刘海，这期就教大家 3 种处理方式，希望能帮到你们~",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505470057000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 51064,
+        "title": "简单快手妆，早晚一次搞定",
+        "slogan": null,
+        "description": "这次的妆容早晚适用，很容易上手，尤其适合日常上班与上学的你们哦~",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/28f6544143c347fa47982a00eca02068.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/28f6544143c347fa47982a00eca02068.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/69c3aeddb61772e4df1ecaab9abee9ff.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 362,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=51064",
+          "forWeibo": "http://wandou.im/3oblaj"
+        },
+        "releaseTime": 1505448484000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=normal&source=qcloud",
+                "size": 16909027
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=normal&source=ucloud",
+                "size": 16909027
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=high&source=qcloud",
+                "size": 29142788
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=high&source=ucloud",
+                "size": 29142788
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51064&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 34,
+          "shareCount": 10,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "简单快手妆，早晚一次搞定",
+        "descriptionPgc": "这次的妆容早晚适用，很容易上手，尤其适合日常上班与上学的你们哦~",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505448484000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 50938,
+        "title": "我的新加坡之旅",
+        "slogan": null,
+        "description": "前段时间我们去新加坡玩啦，是一个很难忘的地方呢，一起来看看吧~",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "旅行",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/6a8edc26bd051a98b68e165d249da9f0.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/6a8edc26bd051a98b68e165d249da9f0.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/66dc193c723112e7e74ce9551d9b84ab.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 244,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=50938",
+          "forWeibo": "http://wandou.im/3obhsp"
+        },
+        "releaseTime": 1505383674000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=normal&source=qcloud",
+                "size": 32950961
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=normal&source=ucloud",
+                "size": 32950961
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=high&source=qcloud",
+                "size": 54024561
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=high&source=ucloud",
+                "size": 54024561
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50938&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 33,
+          "shareCount": 8,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "我的新加坡之旅",
+        "descriptionPgc": "前段时间我们去新加坡玩啦，是一个很难忘的地方呢，一起来看看吧~",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505383674000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 50645,
+        "title": "清纯 INS 风：桃花少女妆教程",
+        "slogan": null,
+        "description": "这次的妆容让我想起粉红色的独角兽，可爱又不失个性，你们觉得呢？",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/a39cbf293ec8d51fb8dcb706e8f9e758.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/a39cbf293ec8d51fb8dcb706e8f9e758.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/d5cbd31c04de49335a0352468b9c5ffe.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 220,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=50645",
+          "forWeibo": "http://wandou.im/3obctl"
+        },
+        "releaseTime": 1505297239000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=normal&source=qcloud",
+                "size": 11968191
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=normal&source=ucloud",
+                "size": 11968191
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=high&source=qcloud",
+                "size": 20056632
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=high&source=ucloud",
+                "size": 20056632
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50645&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 14,
+          "shareCount": 0,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "清纯 INS 风：桃花少女妆教程",
+        "descriptionPgc": "这次的妆容让我想起粉红色的独角兽，可爱又不失个性，你们觉得呢？",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505297239000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 50075,
+        "title": "今天做个小情人：甜美约会妆教程",
+        "slogan": null,
+        "description": "秋高气爽，正是约会好时机。褪下女强人的铠甲，做一天他的小情人吧！",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "时尚",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/17db014631bba74e24f75186eae965e3.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/17db014631bba74e24f75186eae965e3.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/3386f8e71091b93ac8c9fa892c2a7c2b.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 395,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=50075",
+          "forWeibo": "http://wandou.im/3ob3lk"
+        },
+        "releaseTime": 1505124412000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=normal&source=qcloud",
+                "size": 21605734
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=normal&source=ucloud",
+                "size": 21605734
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=high&source=qcloud",
+                "size": 35411409
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=high&source=ucloud",
+                "size": 35411409
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=50075&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 57,
+          "shareCount": 19,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "今天做个小情人：甜美约会妆教程",
+        "descriptionPgc": "秋高气爽，正是约会好时机。褪下女强人的铠甲，做一天他的小情人吧！",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505124412000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 49876,
+        "title": "如何化个健康光泽肌妆容",
+        "slogan": null,
+        "description": "比起妆感重的哑光妆容，现在大家更爱选择富有光泽的妆感，既健康又可爱，大家喜欢这次的风格吗？",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/3f3387a3920f7517ab425740a2aba01d.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/3f3387a3920f7517ab425740a2aba01d.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/68e48d995c89cc2bc101588a65636dc8.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 321,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=49876",
+          "forWeibo": "http://wandou.im/3oazj7"
+        },
+        "releaseTime": 1505045253000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=normal&source=qcloud",
+                "size": 18537231
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=normal&source=ucloud",
+                "size": 18537231
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=high&source=qcloud",
+                "size": 29489978
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=high&source=ucloud",
+                "size": 29489978
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49876&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 52,
+          "shareCount": 10,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "如何化个健康光泽肌妆容",
+        "descriptionPgc": "比起妆感重的哑光妆容，现在大家更爱选择富有光泽的妆感，既健康又可爱，大家喜欢这次的风格吗？",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505045253000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 49778,
+        "title": "韩式少女风：少女时代泰妍清新女友状",
+        "slogan": null,
+        "description": "这次为大家带来的是韩国风的彩妆，泰妍是韩国大热女歌手，妆容也被韩国妹子们争相模仿，大家觉得这样的状好看吗？",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/965405898322b696c5b4f32d080eea5e.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/965405898322b696c5b4f32d080eea5e.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/f1fb346cb73f908413b5a9510627758a.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 244,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=49778",
+          "forWeibo": "http://wandou.im/3oaszh"
+        },
+        "releaseTime": 1505005626000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=normal&source=qcloud",
+                "size": 12158680
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=normal&source=ucloud",
+                "size": 12158680
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=high&source=qcloud",
+                "size": 19587636
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=high&source=ucloud",
+                "size": 19587636
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49778&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 36,
+          "shareCount": 4,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "韩式少女风：少女时代泰妍清新女友状",
+        "descriptionPgc": "这次为大家带来的是韩国风的彩妆，泰妍是韩国大热女歌手，妆容也被韩国妹子们争相模仿，大家觉得这样的状好看吗？",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1505005626000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 49421,
+        "title": "快手日常妆：小心机裸妆教程",
+        "slogan": null,
+        "description": "化妆的最高境界是让人感到舒适、不做作，同时散发一种特别而自然的美。这便是这只视频的灵感来源，有时我们不需要浓妆艳抹也能很美。",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/79311b8ba872c8f79116e2f65c705822.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/79311b8ba872c8f79116e2f65c705822.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/5e5ee517abef87bdc617da2e6b626bcf.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 364,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=49421",
+          "forWeibo": "http://wandou.im/3oac22"
+        },
+        "releaseTime": 1504843633000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=normal&source=qcloud",
+                "size": 23937244
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=normal&source=ucloud",
+                "size": 23937244
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=high&source=qcloud",
+                "size": 38155509
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=high&source=ucloud",
+                "size": 38155509
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=49421&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 119,
+          "shareCount": 33,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "快手日常妆：小心机裸妆教程",
+        "descriptionPgc": "化妆的最高境界是让人感到舒适、不做作，同时散发一种特别而自然的美。这便是这只视频的灵感来源，有时我们不需要浓妆艳抹也能很美。",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1504843633000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 48994,
+        "title": "双眼皮胶水 vs 双眼皮贴，哪个更好用？",
+        "slogan": null,
+        "description": "很多观众都问我双眼皮是怎么做到这么大而自然的，这期就来教教大家如何转换不明显的双眼皮，对比哪种固定方式更好。",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/0e8be3af85dd02c8c4409046eddc2679.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/0e8be3af85dd02c8c4409046eddc2679.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/b1fce51651e20f6db3285db3f091db8e.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 286,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=48994",
+          "forWeibo": "http://wandou.im/3oa3lc"
+        },
+        "releaseTime": 1504692470000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=normal&source=qcloud",
+                "size": 12818810
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=normal&source=ucloud",
+                "size": 12818810
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=high&source=qcloud",
+                "size": 20603307
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=high&source=ucloud",
+                "size": 20603307
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48994&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 49,
+          "shareCount": 22,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "双眼皮胶水 vs 双眼皮贴，哪个更好用？",
+        "descriptionPgc": "很多观众都问我双眼皮是怎么做到这么大而自然的，这期就来教教大家如何转换不明显的双眼皮，对比哪种固定方式更好。",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1504692470000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 48767,
+        "title": "「权力的游戏」夜王仿妆",
+        "slogan": null,
+        "description": "在「权力的游戏」中，守夜人军团总司令夜王有着特别的魅力。以他为原型，我做了一期魔鬼风仿妆，希望大家喜欢～",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/81cc12bd473528206d263183b7517b53.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/81cc12bd473528206d263183b7517b53.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/bd35a931d6c5635d57b81c35f78a20e0.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 533,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=48767",
+          "forWeibo": "http://wandou.im/3o9ywu"
+        },
+        "releaseTime": 1504606058000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=normal&source=qcloud",
+                "size": 32913614
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=normal&source=ucloud",
+                "size": 32913614
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=high&source=qcloud",
+                "size": 53230922
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=high&source=ucloud",
+                "size": 53230922
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=48767&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 12,
+          "shareCount": 4,
+          "replyCount": 0
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "「权力的游戏」夜王仿妆",
+        "descriptionPgc": "在「权力的游戏」中，守夜人军团总司令夜王有着特别的魅力。以他为原型，我做了一期魔鬼风仿妆，希望大家喜欢～",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1504606058000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 44994,
+        "title": "如何画出有趣可爱的妆容",
+        "slogan": null,
+        "description": "如何画出有趣可爱的妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/1568537c332a0b9e086db97ccb5f32b7.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/1568537c332a0b9e086db97ccb5f32b7.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/96f21ac87a3a010a614263c6521f8d6f.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 252,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=44994",
+          "forWeibo": "http://wandou.im/3o5l3l"
+        },
+        "releaseTime": 1503144430000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=normal&source=qcloud",
+                "size": 14341174
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=normal&source=ucloud",
+                "size": 14341174
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=high&source=qcloud",
+                "size": 23801704
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=high&source=ucloud",
+                "size": 23801704
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44994&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 49,
+          "shareCount": 24,
+          "replyCount": 7
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "如何画出有趣可爱的妆容",
+        "descriptionPgc": "如何画出有趣可爱的妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1503144430000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 44882,
+        "title": "皮肤状态糟糕，如何化妆遮瑕？",
+        "slogan": null,
+        "description": "皮肤状态糟糕，如何化妆遮瑕？",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/23722abb818cb06580242b574e864613.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/23722abb818cb06580242b574e864613.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/a16e8e2250ff352fa3548754016e8553.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 201,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=44882",
+          "forWeibo": "http://wandou.im/3o5dk9"
+        },
+        "releaseTime": 1503104854000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=normal&source=qcloud",
+                "size": 9891772
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=normal&source=ucloud",
+                "size": 9891772
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=high&source=qcloud",
+                "size": 16225862
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=high&source=ucloud",
+                "size": 16225862
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44882&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 59,
+          "shareCount": 4,
+          "replyCount": 4
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "皮肤状态糟糕，如何化妆遮瑕？",
+        "descriptionPgc": "皮肤状态糟糕，如何化妆遮瑕？",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1503104854000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 44600,
+        "title": "夏末特色妆容",
+        "slogan": null,
+        "description": "夏末特色妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/78ed81722d6dbaff95abafc9acabac91.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/78ed81722d6dbaff95abafc9acabac91.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/e0bdabe95c846032234b5c2f946ce9fa.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 220,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=44600",
+          "forWeibo": "http://wandou.im/3o5425"
+        },
+        "releaseTime": 1503029265000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=normal&source=qcloud",
+                "size": 15284100
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=normal&source=ucloud",
+                "size": 15284100
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=high&source=qcloud",
+                "size": 25532703
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=high&source=ucloud",
+                "size": 25532703
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=44600&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 65,
+          "shareCount": 37,
+          "replyCount": 4
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "夏末特色妆容",
+        "descriptionPgc": "夏末特色妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1503029265000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 41715,
+        "title": "我的春季美妆之旅",
+        "slogan": null,
+        "description": "我的春季美妆之旅",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/5a654a40da54669a9a9d3c4c30ce8df1.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/5a654a40da54669a9a9d3c4c30ce8df1.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/268168705b6d5dfa35e6068b85d4fa2e.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 251,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=41715",
+          "forWeibo": "http://wandou.im/3o1fxq"
+        },
+        "releaseTime": 1502100442000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=normal&source=qcloud",
+                "size": 22197876
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=normal&source=ucloud",
+                "size": 22197876
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=high&source=qcloud",
+                "size": 35875938
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=high&source=ucloud",
+                "size": 35875938
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41715&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 52,
+          "shareCount": 12,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "我的春季美妆之旅",
+        "descriptionPgc": "我的春季美妆之旅",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1502100442000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 41645,
+        "title": "简单自然的夏天日常妆",
+        "slogan": null,
+        "description": "简单自然的夏天日常妆",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/99247ba832835c90d5deb28e53052128.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/99247ba832835c90d5deb28e53052128.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/db284496305d80f99fbc16dcfb7bb556.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 264,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=41645",
+          "forWeibo": "http://wandou.im/3o1bbw"
+        },
+        "releaseTime": 1502078808000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=normal&source=qcloud",
+                "size": 14552515
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=normal&source=ucloud",
+                "size": 14552515
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=high&source=qcloud",
+                "size": 23839979
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=high&source=ucloud",
+                "size": 23839979
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=41645&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 67,
+          "shareCount": 21,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "简单自然的夏天日常妆",
+        "descriptionPgc": "简单自然的夏天日常妆",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1502078808000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 37575,
+        "title": "金光闪闪的紫色妆容",
+        "slogan": null,
+        "description": "金光闪闪的紫色妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/184468f39c3aaf9c73faa98f52fa57d0.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/184468f39c3aaf9c73faa98f52fa57d0.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/4391a60ed515a5d8ae6c2c489c7b59bb.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 263,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=37575",
+          "forWeibo": "http://wandou.im/3nva79"
+        },
+        "releaseTime": 1500685671000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=normal&source=qcloud",
+                "size": 15466541
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=normal&source=ucloud",
+                "size": 15466541
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=high&source=qcloud",
+                "size": 25405929
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=high&source=ucloud",
+                "size": 25405929
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37575&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 29,
+          "shareCount": 20,
+          "replyCount": 6
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "金光闪闪的紫色妆容",
+        "descriptionPgc": "金光闪闪的紫色妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1500685671000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 37442,
+        "title": "5分钟画完华丽派对妆容",
+        "slogan": null,
+        "description": "5分钟画完华丽派对妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/66f106b73b4220c166bf02eb2df57af6.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/66f106b73b4220c166bf02eb2df57af6.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/8d8538553fed4aa71b1974c3d0dd4702.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 316,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=37442",
+          "forWeibo": "http://wandou.im/3nv4d5"
+        },
+        "releaseTime": 1500631677000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=normal&source=qcloud",
+                "size": 21377135
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=normal&source=ucloud",
+                "size": 21377135
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=high&source=qcloud",
+                "size": 35588632
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=high&source=ucloud",
+                "size": 35588632
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=37442&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 53,
+          "shareCount": 20,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "5分钟画完华丽派对妆容",
+        "descriptionPgc": "5分钟画完华丽派对妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1500631677000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 36003,
+        "title": "简单轻松，用卷发棒做出三种不同的短发造型",
+        "slogan": null,
+        "description": "简单轻松，用卷发棒做出三种不同的短发造型",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/4fcaed63bdcb7de24cac168f94d160dd.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/4fcaed63bdcb7de24cac168f94d160dd.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/43da414a5cd09a3bf05cc0fe82c939ba.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 439,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=36003",
+          "forWeibo": "http://wandou.im/3nswzw"
+        },
+        "releaseTime": 1500120405000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=normal&source=qcloud",
+                "size": 31062995
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=normal&source=ucloud",
+                "size": 31062995
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=high&source=qcloud",
+                "size": 50113848
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=high&source=ucloud",
+                "size": 50113848
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=36003&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 71,
+          "shareCount": 30,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "简单轻松，用卷发棒做出三种不同的短发造型",
+        "descriptionPgc": "简单轻松，用卷发棒做出三种不同的短发造型",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1500120405000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 35970,
+        "title": "日常出行的简单妆容和发型教程",
+        "slogan": null,
+        "description": "日常出行的简单妆容和发型教程",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/679671f0c9f79c41955b695d1f6e1db1.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/679671f0c9f79c41955b695d1f6e1db1.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/e727226e2b5b3e3c42e60dc353cdffaf.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 312,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=35970",
+          "forWeibo": "http://wandou.im/3nsq39"
+        },
+        "releaseTime": 1500091605000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=normal&source=qcloud",
+                "size": 18904212
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=normal&source=ucloud",
+                "size": 18904212
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=high&source=qcloud",
+                "size": 32734526
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=high&source=ucloud",
+                "size": 32734526
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35970&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 105,
+          "shareCount": 30,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "日常出行的简单妆容和发型教程",
+        "descriptionPgc": "日常出行的简单妆容和发型教程",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1500091605000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 35940,
+        "title": "画一个优雅的妆容吧",
+        "slogan": null,
+        "description": "甜美优雅的妆容教程",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/fe3e72ead20480b58943c2689e9d41e6.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/fe3e72ead20480b58943c2689e9d41e6.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/c56e7e25d5d1adddbc7596d9103461bd.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 309,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=35940",
+          "forWeibo": "http://wandou.im/3nsnr4"
+        },
+        "releaseTime": 1500080802000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=normal&source=qcloud",
+                "size": 17896717
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=normal&source=ucloud",
+                "size": 17896717
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=high&source=qcloud",
+                "size": 29226471
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=high&source=ucloud",
+                "size": 29226471
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35940&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 80,
+          "shareCount": 33,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "画一个优雅的妆容吧",
+        "descriptionPgc": "甜美优雅的妆容教程",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1500080802000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 35853,
+        "title": "如何画出性感自然的妆容",
+        "slogan": null,
+        "description": "如何画出性感自然的妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/48a2c8add65ca7980448c31e6076b124.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/48a2c8add65ca7980448c31e6076b124.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/f1cbbd83dceef485142c7c5d8a72f80d.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 280,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=35853",
+          "forWeibo": "http://wandou.im/3nshkm"
+        },
+        "releaseTime": 1500026821000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=normal&source=qcloud",
+                "size": 13842485
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=normal&source=ucloud",
+                "size": 13842485
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=high&source=qcloud",
+                "size": 23778895
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=high&source=ucloud",
+                "size": 23778895
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=35853&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 71,
+          "shareCount": 27,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "如何画出性感自然的妆容",
+        "descriptionPgc": "如何画出性感自然的妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1500026821000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 34280,
+        "title": "粉色秀年轻桃花妆容",
+        "slogan": null,
+        "description": "粉色秀年轻妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/27c52a3a7fa8585b9d3456a12cfcd461.png?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/27c52a3a7fa8585b9d3456a12cfcd461.png?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/77bdd0eaeaa72aa69dc4b33bfe7bd352.png?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 260,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=34280",
+          "forWeibo": "http://wandou.im/3nq016"
+        },
+        "releaseTime": 1499476016000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=normal&source=qcloud",
+                "size": 17791850
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=normal&source=ucloud",
+                "size": 17791850
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=high&source=qcloud",
+                "size": 30360442
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=high&source=ucloud",
+                "size": 30360442
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34280&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 0,
+          "shareCount": 6,
+          "replyCount": 4
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "粉色秀年轻桃花妆容",
+        "descriptionPgc": "粉色秀年轻妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1499476016000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 34192,
+        "title": "我的日常夜间护肤贴士",
+        "slogan": null,
+        "description": "我的日常夜间护肤贴士",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/831894648f0b529fe3478a0d6868a83b.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/831894648f0b529fe3478a0d6868a83b.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/065ab7146a37247138ca36431bc87f34.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 120,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=34192",
+          "forWeibo": "http://wandou.im/3npv3q"
+        },
+        "releaseTime": 1499429250000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=normal&source=qcloud",
+                "size": 9500040
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=normal&source=ucloud",
+                "size": 9500040
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=high&source=qcloud",
+                "size": 17052292
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=high&source=ucloud",
+                "size": 17052292
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34192&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 59,
+          "shareCount": 18,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "我的日常夜间护肤贴士",
+        "descriptionPgc": "我的日常夜间护肤贴士",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1499429250000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 34018,
+        "title": "我的日常妆容",
+        "slogan": null,
+        "description": "美妆教程",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/092ca7b7730f763a9f0e4ff574d19867.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/092ca7b7730f763a9f0e4ff574d19867.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/0a873c3718af411aa7399a1420273389.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 157,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=34018",
+          "forWeibo": "http://wandou.im/3npo0w"
+        },
+        "releaseTime": 1499400439000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=normal&source=qcloud",
+                "size": 9796125
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=normal&source=ucloud",
+                "size": 9796125
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=high&source=qcloud",
+                "size": 18087174
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=high&source=ucloud",
+                "size": 18087174
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=34018&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 14,
+          "shareCount": 10,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "我的日常妆容",
+        "descriptionPgc": "美妆教程",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1499400439000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 27445,
+        "title": "短发的三种变化",
+        "slogan": null,
+        "description": "如何是短发也能有变化？",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/adf923f144932b7a916cabbcd80059d9.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/adf923f144932b7a916cabbcd80059d9.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/10682beeb991f6c383bcecd65448c00f.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 390,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=27445",
+          "forWeibo": "http://wandou.im/3np8z0"
+        },
+        "releaseTime": 1497268947000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=normal&source=qcloud",
+                "size": 34512340
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=normal&source=ucloud",
+                "size": 34512340
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=high&source=qcloud",
+                "size": 54756650
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=high&source=ucloud",
+                "size": 54756650
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27445&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 224,
+          "shareCount": 112,
+          "replyCount": 5
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "短发的三种变化",
+        "descriptionPgc": "如何是短发也能有变化？",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1497268947000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 27351,
+        "title": "超甜美的玫瑰花茶妆",
+        "slogan": null,
+        "description": "化妆教程，充满少女感的妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/516e983ed1450e589778719ddcca04fb.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/516e983ed1450e589778719ddcca04fb.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/93447979377ac254e9b59cd70eabc371.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 349,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=27351",
+          "forWeibo": "http://wandou.im/3np8tx"
+        },
+        "releaseTime": 1497247266000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=normal&source=qcloud",
+                "size": 18777355
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=normal&source=ucloud",
+                "size": 18777355
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=high&source=qcloud",
+                "size": 32470947
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=high&source=ucloud",
+                "size": 32470947
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27351&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 245,
+          "shareCount": 104,
+          "replyCount": 4
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "超甜美的玫瑰花茶妆",
+        "descriptionPgc": "化妆教程，充满少女感的妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1497247266000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 27218,
+        "title": "四分钟快速日常妆！",
+        "slogan": null,
+        "description": "日常妆容步骤。",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/be55f1ad527c25b4936e5d4f81034a47.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/be55f1ad527c25b4936e5d4f81034a47.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/1cae6abf62259807e240673cae19f6bb.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 264,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=27218",
+          "forWeibo": "http://wandou.im/3np8m7"
+        },
+        "releaseTime": 1497233096000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=normal&source=qcloud",
+                "size": 14162380
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=normal&source=ucloud",
+                "size": 14162380
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=high&source=qcloud",
+                "size": 23129696
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=high&source=ucloud",
+                "size": 23129696
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=27218&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 107,
+          "shareCount": 61,
+          "replyCount": 8
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "四分钟快速日常妆！",
+        "descriptionPgc": "日常妆容步骤。",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1497233096000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 25462,
+        "title": "可爱「雀斑」妆",
+        "slogan": null,
+        "description": "可爱「雀斑」妆",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/4b4df179a7aaa8073fb60ce053ffc05d.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/4b4df179a7aaa8073fb60ce053ffc05d.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/19bd0c45ba7afb07a777a951080046a3.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 249,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=25462",
+          "forWeibo": "http://wandou.im/3np5yb"
+        },
+        "releaseTime": 1496635213000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=normal&source=qcloud",
+                "size": 11388021
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=normal&source=ucloud",
+                "size": 11388021
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=high&source=qcloud",
+                "size": 18216064
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=high&source=ucloud",
+                "size": 18216064
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25462&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 22,
+          "shareCount": 18,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "可爱「雀斑」妆",
+        "descriptionPgc": "可爱「雀斑」妆",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496635213000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 25390,
+        "title": "清纯软妹：「心机」妆",
+        "slogan": null,
+        "description": "清纯软妹：「心机」妆",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/d22c1caf8e41ff130a88f5229f0e64bc.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/d22c1caf8e41ff130a88f5229f0e64bc.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/e84ac0229ea16f65c136005d39bc95d6.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 246,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=25390",
+          "forWeibo": "http://wandou.im/3np5tq"
+        },
+        "releaseTime": 1496538017000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=normal&source=qcloud",
+                "size": 13889647
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=normal&source=ucloud",
+                "size": 13889647
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=high&source=qcloud",
+                "size": 24140694
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=high&source=ucloud",
+                "size": 24140694
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25390&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 58,
+          "shareCount": 29,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "清纯软妹：「心机」妆",
+        "descriptionPgc": "清纯软妹：「心机」妆",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496538017000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 25135,
+        "title": "韩版妆容：桃花色",
+        "slogan": null,
+        "description": "桃花色韩版妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/9fb86e5da15a547e848b5d5f47f68c01.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/9fb86e5da15a547e848b5d5f47f68c01.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/1f78fe7ab109cd0614d006fc19e78fcd.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 150,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=25135",
+          "forWeibo": "http://wandou.im/3np5fp"
+        },
+        "releaseTime": 1496404876000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=normal&source=qcloud",
+                "size": 8926229
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=normal&source=ucloud",
+                "size": 8926229
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=high&source=qcloud",
+                "size": 14638694
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=high&source=ucloud",
+                "size": 14638694
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=25135&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 28,
+          "shareCount": 20,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "韩版妆容：桃花色",
+        "descriptionPgc": "桃花色韩版妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496404876000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24991,
+        "title": "短发也可以有变化！",
+        "slogan": null,
+        "description": "三种不同风格的短发扎法",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/315dc799dae7358d02bf4157f9ae8759.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/315dc799dae7358d02bf4157f9ae8759.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/bb93fafe05884b0416a199958684fca6.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 274,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24991",
+          "forWeibo": "http://wandou.im/3np576"
+        },
+        "releaseTime": 1496376072000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=normal&source=qcloud",
+                "size": 21924094
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=normal&source=ucloud",
+                "size": 21924094
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=high&source=qcloud",
+                "size": 35978888
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=high&source=ucloud",
+                "size": 35978888
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24991&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 67,
+          "shareCount": 40,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "短发也可以有变化！",
+        "descriptionPgc": "三种不同风格的短发扎法",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496376072000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24932,
+        "title": "迎接春天的自然妆容教程",
+        "slogan": null,
+        "description": "迎接春天的自然妆容教程",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/57b7f7a5ff63932ec5b291361b2c7efe.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/57b7f7a5ff63932ec5b291361b2c7efe.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/7890f6bb2dff46c23c81bdbd096dce61.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 248,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24932",
+          "forWeibo": "http://wandou.im/3np53y"
+        },
+        "releaseTime": 1496365295000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=normal&source=qcloud",
+                "size": 11522741
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=normal&source=ucloud",
+                "size": 11522741
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=high&source=qcloud",
+                "size": 19119442
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=high&source=ucloud",
+                "size": 19119442
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24932&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 43,
+          "shareCount": 20,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "迎接春天的自然妆容教程",
+        "descriptionPgc": "迎接春天的自然妆容教程",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496365295000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24775,
+        "title": "「白雪公主风」童话妆",
+        "slogan": null,
+        "description": "「白雪公主风」童话妆",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/dd7f7ea4c40c90a7f136bac0905899ad.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/dd7f7ea4c40c90a7f136bac0905899ad.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/e1d9ad792fa46769d107e195e98298e4.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 226,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24775",
+          "forWeibo": "http://wandou.im/3np4uv"
+        },
+        "releaseTime": 1496289667000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=normal&source=qcloud",
+                "size": 10814997
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=normal&source=ucloud",
+                "size": 10814997
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=high&source=qcloud",
+                "size": 17268822
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=high&source=ucloud",
+                "size": 17268822
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24775&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 38,
+          "shareCount": 26,
+          "replyCount": 1
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "「白雪公主风」童话妆",
+        "descriptionPgc": "「白雪公主风」童话妆",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496289667000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24737,
+        "title": "好清纯好不做作的日常韩妆",
+        "slogan": null,
+        "description": "好清纯好不做作的日常韩妆",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/067ad1c53c2bbe07b7b87507dfd0c8d8.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/067ad1c53c2bbe07b7b87507dfd0c8d8.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/8d1694b6f6d2606d1b3c9cc72458262e.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 229,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24737",
+          "forWeibo": "http://wandou.im/3np4sl"
+        },
+        "releaseTime": 1496278903000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=normal&source=qcloud",
+                "size": 12059745
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=normal&source=ucloud",
+                "size": 12059745
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=high&source=qcloud",
+                "size": 20125745
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=high&source=ucloud",
+                "size": 20125745
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24737&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 90,
+          "shareCount": 43,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "好清纯好不做作的日常韩妆",
+        "descriptionPgc": "好清纯好不做作的日常韩妆",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496278903000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24692,
+        "title": "四类咬唇妆教学",
+        "slogan": null,
+        "description": "四类咬唇妆教学",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/a1378e188f6508c4663032fd6cd01a50.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/a1378e188f6508c4663032fd6cd01a50.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/78c1ee2375de2b531cb62c9f22955c91.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 249,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24692",
+          "forWeibo": "http://wandou.im/3np4pv"
+        },
+        "releaseTime": 1496232045000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=normal&source=qcloud",
+                "size": 12441770
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=normal&source=ucloud",
+                "size": 12441770
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=high&source=qcloud",
+                "size": 20962259
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=high&source=ucloud",
+                "size": 20962259
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24692&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 94,
+          "shareCount": 66,
+          "replyCount": 2
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "四类咬唇妆教学",
+        "descriptionPgc": "四类咬唇妆教学",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496232045000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24562,
+        "title": "自拍必备妆容，教你做网红",
+        "slogan": null,
+        "description": "自拍必备妆容，教你做网红",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/efa688f8f79dde39ea5eb626ddb8d6ed.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/efa688f8f79dde39ea5eb626ddb8d6ed.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/6643472352e84b93b3c361c3c804cd59.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 382,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24562",
+          "forWeibo": "http://wandou.im/3np4id"
+        },
+        "releaseTime": 1496203223000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=normal&source=qcloud",
+                "size": 26779981
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=normal&source=ucloud",
+                "size": 26779981
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=high&source=qcloud",
+                "size": 44024284
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=high&source=ucloud",
+                "size": 44024284
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24562&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 141,
+          "shareCount": 50,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "自拍必备妆容，教你做网红",
+        "descriptionPgc": "自拍必备妆容，教你做网红",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496203223000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24554,
+        "title": "这是一个「有态度」的美妆教程",
+        "slogan": null,
+        "description": "这是一个「有态度」的美妆教程",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/89478ec0d6018ebc232d43cad512fba1.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/89478ec0d6018ebc232d43cad512fba1.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/ea5085201b7ab9c6663497ab69419259.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 401,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24554",
+          "forWeibo": "http://wandou.im/3np4hv"
+        },
+        "releaseTime": 1496192436000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=normal&source=qcloud",
+                "size": 25421810
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=normal&source=ucloud",
+                "size": 25421810
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=high&source=qcloud",
+                "size": 41346258
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=high&source=ucloud",
+                "size": 41346258
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24554&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 254,
+          "shareCount": 116,
+          "replyCount": 3
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "这是一个「有态度」的美妆教程",
+        "descriptionPgc": "这是一个「有态度」的美妆教程",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496192436000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24542,
+        "title": "戴着眼镜，也能闪亮动人",
+        "slogan": null,
+        "description": "眼镜妹子福利～",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/e78541b5b7b188f4dd0ef350a87495d9.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/e78541b5b7b188f4dd0ef350a87495d9.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/b8777c3f68129ebeb0dfbf81acc7ac05.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 239,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24542",
+          "forWeibo": "http://wandou.im/3np4h8"
+        },
+        "releaseTime": 1496145621000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=normal&source=qcloud",
+                "size": 14369642
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=normal&source=ucloud",
+                "size": 14369642
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=high&source=qcloud",
+                "size": 23785919
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=high&source=ucloud",
+                "size": 23785919
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24542&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 242,
+          "shareCount": 116,
+          "replyCount": 5
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "戴着眼镜，也能闪亮动人",
+        "descriptionPgc": "眼镜妹子福利～",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496145621000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    },
+    {
+      "type": "video",
+      "data": {
+        "dataType": "VideoBeanForClient",
+        "id": 24531,
+        "title": "情人节特辑：有个性的可爱妆容",
+        "slogan": null,
+        "description": "情人节特辑：有个性的可爱妆容",
+        "provider": {
+          "name": "定制来源",
+          "alias": "CustomSrc",
+          "icon": ""
+        },
+        "category": "生活",
+        "author": {
+          "id": 970,
+          "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+          "name": "美妆教程精选",
+          "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+          "link": "",
+          "latestReleaseTime": 1505966866000,
+          "videoNum": 44,
+          "adTrack": null,
+          "follow": {
+            "itemType": "author",
+            "itemId": 970,
+            "followed": false
+          },
+          "shield": {
+            "itemType": "author",
+            "itemId": 970,
+            "shielded": false
+          },
+          "approvedNotReadyVideoCount": 0,
+          "ifPgc": true
+        },
+        "cover": {
+          "feed": "http://img.kaiyanapp.com/36abb6c687c3a5ec0230b68b985d1093.jpeg?imageMogr2/quality/60/format/jpg",
+          "detail": "http://img.kaiyanapp.com/36abb6c687c3a5ec0230b68b985d1093.jpeg?imageMogr2/quality/60/format/jpg",
+          "blurred": "http://img.kaiyanapp.com/5d0815fa30f90dd227aff54f8f96c75f.jpeg?imageMogr2/quality/60/format/jpg",
+          "sharing": null,
+          "homepage": null
+        },
+        "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=default&source=qcloud",
+        "thumbPlayUrl": null,
+        "duration": 409,
+        "webUrl": {
+          "raw": "http://www.eyepetizer.net/detail.html?vid=24531",
+          "forWeibo": "http://wandou.im/3np4gm"
+        },
+        "releaseTime": 1496106028000,
+        "library": "DEFAULT",
+        "playInfo": [
+          {
+            "height": 480,
+            "width": 854,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=normal&source=qcloud",
+                "size": 27606157
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=normal&source=ucloud",
+                "size": 27606157
+              }
+            ],
+            "name": "标清",
+            "type": "normal",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=normal&source=qcloud"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "urlList": [
+              {
+                "name": "qcloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=high&source=qcloud",
+                "size": 44613959
+              },
+              {
+                "name": "ucloud",
+                "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=high&source=ucloud",
+                "size": 44613959
+              }
+            ],
+            "name": "高清",
+            "type": "high",
+            "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=24531&editionType=high&source=qcloud"
+          }
+        ],
+        "consumption": {
+          "collectionCount": 503,
+          "shareCount": 247,
+          "replyCount": 19
+        },
+        "campaign": null,
+        "waterMarks": null,
+        "adTrack": null,
+        "tags": [
+          
+        ],
+        "type": "NORMAL",
+        "titlePgc": "情人节特辑：有个性的可爱妆容",
+        "descriptionPgc": "情人节特辑：有个性的可爱妆容",
+        "remark": null,
+        "idx": 0,
+        "shareAdTrack": null,
+        "favoriteAdTrack": null,
+        "webAdTrack": null,
+        "date": 1496106028000,
+        "promotion": null,
+        "label": null,
+        "labelList": [
+          
+        ],
+        "descriptionEditor": "",
+        "collected": false,
+        "played": false,
+        "subtitles": [
+          
+        ],
+        "lastViewTime": null,
+        "playlists": null
+      },
+      "tag": null
+    }
+  ],
+  "count": 44,
+  "total": 0,
+  "nextPageUrl": null,
+  "pgcInfo": {
+    "dataType": "PgcInfo",
+    "id": 970,
+    "icon": "http://img.kaiyanapp.com/a8c73f0cfd2a7fe27ccc25d706c9bce9.png?imageMogr2/quality/60/format/jpg",
+    "name": "美妆教程精选",
+    "brief": "44 个视频  /  3487 次收藏  /  1517 次分享",
+    "description": "从日常通勤到暗黑撩人，你想找的妆容都在这里。",
+    "actionUrl": "eyepetizer://pgc/detail/970/?title=%E7%BE%8E%E5%A6%86%E6%95%99%E7%A8%8B%E7%B2%BE%E9%80%89&userType=PGC&tabIndex=0",
+    "area": "",
+    "gender": "",
+    "registDate": -1,
+    "followCount": 3541,
+    "follow": {
+      "itemType": "author",
+      "itemId": 970,
+      "followed": false
+    },
+    "self": false,
+    "cover": null,
+    "videoCount": 44,
+    "shareCount": 1517,
+    "collectCount": 3487,
+    "shield": {
+      "itemType": "author",
+      "itemId": 970,
+      "shielded": false
+    }
+  }
+}

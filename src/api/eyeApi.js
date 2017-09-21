@@ -4,7 +4,7 @@ const index = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/t
 
 const related = id => `https://baobab.kaiyanapp.com/api/v1/video/related/${id}?num=10`
 
-const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id}&num=100`
+const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id}&num=200`
 
 const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
@@ -13,18 +13,18 @@ const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
 const feed = date => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/feed?date=${date}&num=1`
 
-const search = query => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/search?num=100&query=${query}`
+const search = query => `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v1/search?num=200&query=${query}`
 
-const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=100`
-
-
+const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgcId=${pgcId}&num=200`
 
 
-const hot = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/hot`
 
-const category = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/category`
 
-const pgcs = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/pgcs/all`
+const hot = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/hot?num=150`
+
+const category = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/category?num=100`
+
+const pgcs = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/pgcs/all?num=200`
 
 const follow = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/tabs/follow`
 

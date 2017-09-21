@@ -1,0 +1,1242 @@
+{
+  "videoList": [
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 51493,
+      "title": "WBA 编舞「They Don't Love You No More」",
+      "slogan": null,
+      "description": "Willdabeast Adams 编舞 Meek Mill「They Don't Love You No More」",
+      "provider": {
+        "name": "定制来源",
+        "alias": "CustomSrc",
+        "icon": ""
+      },
+      "category": "音乐",
+      "author": {
+        "id": 980,
+        "icon": "http://img.kaiyanapp.com/5484dfe072b87060d8e87cd4bc7d7096.jpeg?imageMogr2/quality/60/format/jpg",
+        "name": "Tim Milgram",
+        "description": "Tim Milgram 是一个专门录制舞蹈视频的工作室。",
+        "link": "",
+        "latestReleaseTime": 1505729253000,
+        "videoNum": 240,
+        "adTrack": null,
+        "follow": {
+          "itemType": "author",
+          "itemId": 980,
+          "followed": false
+        },
+        "shield": {
+          "itemType": "author",
+          "itemId": 980,
+          "shielded": false
+        },
+        "approvedNotReadyVideoCount": 0,
+        "ifPgc": true
+      },
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 258,
+      "releaseTime": 1505621199000,
+      "library": "NOT_RECOMMEND",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=normal&source=qcloud",
+              "size": 39368139
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=normal&source=ucloud",
+              "size": 39368139
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=high&source=qcloud",
+              "size": 64231150
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=high&source=ucloud",
+              "size": 64231150
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51493&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 40,
+        "shareCount": 12,
+        "replyCount": 0
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        
+      ],
+      "type": "NORMAL",
+      "titlePgc": "WBA 编舞「They Don't Love You No More」",
+      "descriptionPgc": "Willdabeast Adams 编舞 Meek Mill「They Don't Love You No More」",
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505621199000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/427801e5d9545c29d64d9fa6b3e3b12e.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/427801e5d9545c29d64d9fa6b3e3b12e.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/72470896e31778a1f9a27355121810a6.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3oc4mh",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=51493"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 19523,
+      "title": "SNL 飙车慎点：这件衬衫你值得拥有",
+      "slogan": "尴尬到想找个洞钻进去？你可以的！",
+      "description": "背后说老板坏话被抓到，晒娃却晒成隐私照……这些尬到天际的时刻该如何是好？幸亏有这件神奇的衬衫！From Saturday Night Live",
+      "provider": {
+        "name": "YouTube",
+        "alias": "youtube",
+        "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+      },
+      "category": "综艺",
+      "author": null,
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=default&source=qcloud",
+      "thumbPlayUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl/1504772754007_e257b4f3.mp4?vid=19523&source=qcloud",
+      "duration": 135,
+      "releaseTime": 1505610000000,
+      "library": "DAILY",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=normal&source=qcloud",
+              "size": 7929110
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=normal&source=ucloud",
+              "size": 7929110
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=high&source=qcloud",
+              "size": 16408568
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=high&source=ucloud",
+              "size": 16408568
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19523&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 905,
+        "shareCount": 936,
+        "replyCount": 25
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        {
+          "id": 28,
+          "name": "综艺",
+          "actionUrl": "eyepetizer://tag/28/?title=%E7%BB%BC%E8%89%BA",
+          "adTrack": null
+        },
+        {
+          "id": 140,
+          "name": "搞笑",
+          "actionUrl": "eyepetizer://tag/140/?title=%E6%90%9E%E7%AC%91",
+          "adTrack": null
+        },
+        {
+          "id": 172,
+          "name": "什么鬼",
+          "actionUrl": "eyepetizer://tag/172/?title=%E4%BB%80%E4%B9%88%E9%AC%BC",
+          "adTrack": null
+        },
+        {
+          "id": 128,
+          "name": "污",
+          "actionUrl": "eyepetizer://tag/128/?title=%E6%B1%A1",
+          "adTrack": null
+        },
+        {
+          "id": 490,
+          "name": "脑洞",
+          "actionUrl": "eyepetizer://tag/490/?title=%E8%84%91%E6%B4%9E",
+          "adTrack": null
+        }
+      ],
+      "type": "NORMAL",
+      "titlePgc": "",
+      "descriptionPgc": "",
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505610000000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "背后说老板坏话被抓到，晒娃却晒成隐私照……这些尬到天际的时刻该如何是好？幸亏有这件神奇的衬衫！From Saturday Night Live",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/85b4e9939b20a672b4197eafe020e7ac.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/85b4e9939b20a672b4197eafe020e7ac.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/72b58cfef68d164d0585425fd7bd0178.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": null,
+      "rawWebUrl": null
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 51494,
+      "title": "奥利奥红丝绒饼干，味觉层次丰富",
+      "slogan": null,
+      "description": "香浓味美。",
+      "provider": {
+        "name": "定制来源",
+        "alias": "CustomSrc",
+        "icon": ""
+      },
+      "category": "开胃",
+      "author": {
+        "id": 1009,
+        "icon": "http://img.kaiyanapp.com/9d7f9f054deb016b8b037df89737c7fc.jpeg?imageMogr2/quality/60/format/jpg",
+        "name": "Cooking Tree",
+        "description": "分享高颜值甜点制作过程^^",
+        "link": "",
+        "latestReleaseTime": 1505988444000,
+        "videoNum": 224,
+        "adTrack": null,
+        "follow": {
+          "itemType": "author",
+          "itemId": 1009,
+          "followed": false
+        },
+        "shield": {
+          "itemType": "author",
+          "itemId": 1009,
+          "shielded": false
+        },
+        "approvedNotReadyVideoCount": 0,
+        "ifPgc": true
+      },
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 120,
+      "releaseTime": 1505621203000,
+      "library": "DEFAULT",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=normal&source=qcloud",
+              "size": 12789629
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=normal&source=ucloud",
+              "size": 12789629
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=high&source=qcloud",
+              "size": 21808315
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=high&source=ucloud",
+              "size": 21808315
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51494&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 46,
+        "shareCount": 6,
+        "replyCount": 1
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        
+      ],
+      "type": "NORMAL",
+      "titlePgc": "奥利奥红丝绒饼干，味觉层次丰富",
+      "descriptionPgc": "香浓味美。",
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505621203000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/780775973e39c68c4f291ef36e5314b7.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/780775973e39c68c4f291ef36e5314b7.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/245ff725cd402e5d7d294791ee946319.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3oc4mi",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=51494"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 19432,
+      "title": "汪星人 140 年的赞歌",
+      "slogan": "人类的好朋友就是这么棒~",
+      "description": "有没有想过「人类最好的朋友」（Man's best friend）这个短语是从哪里来的？宠物食品品牌西莎（CESAR）的广告告诉你，1870 年，一个人的狗被射杀了，他起诉了凶手，片中的旁白就是在法庭上给汪星人的赞美诗：「Eulogy on the Dog」。From CESAR Canine Cuisine",
+      "provider": {
+        "name": "YouTube",
+        "alias": "youtube",
+        "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+      },
+      "category": "萌宠",
+      "author": null,
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=default&source=qcloud",
+      "thumbPlayUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl/1504772912186_e7dc661b.mp4?vid=19432&source=qcloud",
+      "duration": 63,
+      "releaseTime": 1505523600000,
+      "library": "DAILY",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=normal&source=qcloud",
+              "size": 4767760
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=normal&source=ucloud",
+              "size": 4767760
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=high&source=qcloud",
+              "size": 8272140
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=high&source=ucloud",
+              "size": 8272140
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=19432&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 708,
+        "shareCount": 691,
+        "replyCount": 12
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        {
+          "id": 16,
+          "name": "广告",
+          "actionUrl": "eyepetizer://tag/16/?title=%E5%B9%BF%E5%91%8A",
+          "adTrack": null
+        },
+        {
+          "id": 32,
+          "name": "萌宠",
+          "actionUrl": "eyepetizer://tag/32/?title=%E8%90%8C%E5%AE%A0",
+          "adTrack": null
+        },
+        {
+          "id": 540,
+          "name": "汪星人",
+          "actionUrl": "eyepetizer://tag/540/?title=%E6%B1%AA%E6%98%9F%E4%BA%BA",
+          "adTrack": null
+        },
+        {
+          "id": 176,
+          "name": "感人",
+          "actionUrl": "eyepetizer://tag/176/?title=%E6%84%9F%E4%BA%BA",
+          "adTrack": null
+        },
+        {
+          "id": 136,
+          "name": "温情",
+          "actionUrl": "eyepetizer://tag/136/?title=%E6%B8%A9%E6%83%85",
+          "adTrack": null
+        }
+      ],
+      "type": "NORMAL",
+      "titlePgc": null,
+      "descriptionPgc": null,
+      "remark": "http://www.vmovier.com/51569",
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505523600000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "有没有想过「人类最好的朋友」（Man's best friend）这个短语是从哪里来的？宠物食品品牌西莎（CESAR）的广告告诉你，1870 年，一个人的狗被射杀了，他起诉了凶手，片中的旁白就是在法庭上给汪星人的赞美诗：「Eulogy on the Dog」。From CESAR Canine Cuisine",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/2a1f19fc110d4a899dfb14eb3e4a2ea6.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/2a1f19fc110d4a899dfb14eb3e4a2ea6.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/e2009b5f39f340f57d60eaf95c0bc6d7.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3muyqo",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=19432"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 51391,
+      "title": "广告会玩丨这个 MV 色香味俱全",
+      "slogan": "墨西哥卷饼居然会跳舞！",
+      "description": "格莱美最佳音乐制作人 RZA，为墨西哥卷饼的 51 种食材配上 51 种特有的声音，让卷饼的味道听得到！画面动效炫得如同热情奔放的墨西哥舞蹈一样挪不开眼~From Chipotle Mexican Grill",
+      "provider": {
+        "name": "YouTube",
+        "alias": "youtube",
+        "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+      },
+      "category": "广告",
+      "author": null,
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 115,
+      "releaseTime": 1505610001000,
+      "library": "DAILY",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=normal&source=qcloud",
+              "size": 10496994
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=normal&source=ucloud",
+              "size": 10496994
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=high&source=qcloud",
+              "size": 15957307
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=high&source=ucloud",
+              "size": 15957307
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=51391&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 824,
+        "shareCount": 348,
+        "replyCount": 8
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        {
+          "id": 16,
+          "name": "广告",
+          "actionUrl": "eyepetizer://tag/16/?title=%E5%B9%BF%E5%91%8A",
+          "adTrack": null
+        },
+        {
+          "id": 18,
+          "name": "音乐",
+          "actionUrl": "eyepetizer://tag/18/?title=%E9%9F%B3%E4%B9%90",
+          "adTrack": null
+        },
+        {
+          "id": 20,
+          "name": "开胃",
+          "actionUrl": "eyepetizer://tag/20/?title=%E5%BC%80%E8%83%83",
+          "adTrack": null
+        },
+        {
+          "id": 2,
+          "name": "创意",
+          "actionUrl": "eyepetizer://tag/2/?title=%E5%88%9B%E6%84%8F",
+          "adTrack": null
+        }
+      ],
+      "type": "NORMAL",
+      "titlePgc": null,
+      "descriptionPgc": null,
+      "remark": "http://www.vmovier.com/52514",
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505610001000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "格莱美最佳音乐制作人 RZA，为墨西哥卷饼的 51 种食材配上 51 种特有的声音，让卷饼的味道听得到！画面动效炫得如同热情奔放的墨西哥舞蹈一样挪不开眼~From Chipotle Mexican Grill",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/3d45b1ac93f688035aa27ba603242cda.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/3d45b1ac93f688035aa27ba603242cda.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/dc927edd104d94c24b2d77117b398bc5.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3oby99",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=51391"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 14065,
+      "title": "送给还在坚持的你：打败心中的野兽",
+      "slogan": "去做吧！全力以赴是你唯一的选择",
+      "description": "恐惧是每个人心里都会养着的一只野兽，请务必驯服它的张牙舞爪。在坚持梦想的路上，愿你无畏前行。From Camille Marotte",
+      "provider": {
+        "name": "Vimeo",
+        "alias": "vimeo",
+        "icon": "http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"
+      },
+      "category": "生活",
+      "author": null,
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=default&source=qcloud",
+      "thumbPlayUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl/1504872604412_20f7a92b.mp4?vid=14065&source=qcloud",
+      "duration": 69,
+      "releaseTime": 1505091600000,
+      "library": "DAILY",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=normal&source=qcloud",
+              "size": 4229437
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=normal&source=ucloud",
+              "size": 4229437
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 502,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=high&source=qcloud",
+              "size": 5524058
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=high&source=ucloud",
+              "size": 5524058
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=14065&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 3722,
+        "shareCount": 1615,
+        "replyCount": 20
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        {
+          "id": 666,
+          "name": "生活",
+          "actionUrl": "eyepetizer://tag/666/?title=%E7%94%9F%E6%B4%BB",
+          "adTrack": null
+        },
+        {
+          "id": 482,
+          "name": "感悟",
+          "actionUrl": "eyepetizer://tag/482/?title=%E6%84%9F%E6%82%9F",
+          "adTrack": null
+        },
+        {
+          "id": 510,
+          "name": "励志",
+          "actionUrl": "eyepetizer://tag/510/?title=%E5%8A%B1%E5%BF%97",
+          "adTrack": null
+        },
+        {
+          "id": 4,
+          "name": "运动",
+          "actionUrl": "eyepetizer://tag/4/?title=%E8%BF%90%E5%8A%A8",
+          "adTrack": null
+        }
+      ],
+      "type": "NORMAL",
+      "titlePgc": null,
+      "descriptionPgc": null,
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505091600000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "恐惧是每个人心里都会养着的一只野兽，请务必驯服它的张牙舞爪。在坚持梦想的路上，愿你无畏前行。From Camille Marotte",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/9f4b6cece956a0790f308adaa129c5da.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/9f4b6cece956a0790f308adaa129c5da.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/4d048575e7c4f3155e217a5ed629c76f.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3lw9ez",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=14065"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 50024,
+      "title": "男人有一百种定义，但不是这种",
+      "slogan": "想喝我家的啤酒，先看你够不够格！",
+      "description": "在墨西哥，每三个女性就有两个遭受暴力对待，其实家庭暴力不分性别，受害者往往选择忍气吞声。看着受害人蜷曲着身子、恐惧的眼神，让人觉得好心疼。当地啤酒品牌挺身而出，带头反击施暴者。有了社会大众的关注和支持，更能预防暴力，鼓励受害者不再保持沉默。",
+      "provider": {
+        "name": "YouTube",
+        "alias": "youtube",
+        "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+      },
+      "category": "广告",
+      "author": {
+        "id": 619,
+        "icon": "http://img.kaiyanapp.com/56cb65d09db5649407c77c9c1b6d31b9.jpeg?imageMogr2/quality/60/format/jpg",
+        "name": "广告裁判",
+        "description": "我們只需要好廣告。",
+        "link": "",
+        "latestReleaseTime": 1505880419000,
+        "videoNum": 226,
+        "adTrack": null,
+        "follow": {
+          "itemType": "author",
+          "itemId": 619,
+          "followed": false
+        },
+        "shield": {
+          "itemType": "author",
+          "itemId": 619,
+          "shielded": false
+        },
+        "approvedNotReadyVideoCount": 0,
+        "ifPgc": true
+      },
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 67,
+      "releaseTime": 1505610001000,
+      "library": "DAILY",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=normal&source=qcloud",
+              "size": 4192330
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=normal&source=ucloud",
+              "size": 4192330
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=high&source=qcloud",
+              "size": 6412209
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=high&source=ucloud",
+              "size": 6412209
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=50024&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 516,
+        "shareCount": 273,
+        "replyCount": 15
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        {
+          "id": 16,
+          "name": "广告",
+          "actionUrl": "eyepetizer://tag/16/?title=%E5%B9%BF%E5%91%8A",
+          "adTrack": null
+        },
+        {
+          "id": 40,
+          "name": "公益",
+          "actionUrl": "eyepetizer://tag/40/?title=%E5%85%AC%E7%9B%8A",
+          "adTrack": null
+        },
+        {
+          "id": 118,
+          "name": "虐心",
+          "actionUrl": "eyepetizer://tag/118/?title=%E8%99%90%E5%BF%83",
+          "adTrack": null
+        },
+        {
+          "id": 588,
+          "name": "暗黑",
+          "actionUrl": "eyepetizer://tag/588/?title=%E6%9A%97%E9%BB%91",
+          "adTrack": null
+        }
+      ],
+      "type": "NORMAL",
+      "titlePgc": null,
+      "descriptionPgc": null,
+      "remark": "",
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505610001000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "在墨西哥，每三个女性就有两个遭受暴力对待，其实家庭暴力不分性别，受害者往往选择忍气吞声。看着受害人蜷曲着身子、恐惧的眼神，让人觉得好心疼。当地啤酒品牌挺身而出，带头反击施暴者。有了社会大众的关注和支持，更能预防暴力，鼓励受害者不再保持沉默。",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/a07d6d4e19ed8cdb9c0d8d1aa2af522a.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/a07d6d4e19ed8cdb9c0d8d1aa2af522a.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/61881711f0dac8a6e44accf7efde8f91.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3ob2ok",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=50024"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 49962,
+      "title": "感官愉悦：亚由美的艺伎风钢管舞",
+      "slogan": "看表演艺术家演绎神秘与热烈",
+      "description": "艺伎是日本传统文化的重要标志，流传至今也一直被要求接受各种传统表演项目的训练。不过钢管舞艺术家 Ayumi LaNoire 带来的会是东西方、古典与现代，神秘婉约与直观的美相结合的表演。From Ayumi LaNoire",
+      "provider": {
+        "name": "Vimeo",
+        "alias": "vimeo",
+        "icon": "http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"
+      },
+      "category": "音乐",
+      "author": null,
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 210,
+      "releaseTime": 1505610003000,
+      "library": "DAILY",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=normal&source=qcloud",
+              "size": 12948268
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=normal&source=ucloud",
+              "size": 12948268
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=high&source=qcloud",
+              "size": 21525549
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=high&source=ucloud",
+              "size": 21525549
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=49962&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 306,
+        "shareCount": 140,
+        "replyCount": 12
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        {
+          "id": 202,
+          "name": "唯美",
+          "actionUrl": "eyepetizer://tag/202/?title=%E5%94%AF%E7%BE%8E",
+          "adTrack": null
+        },
+        {
+          "id": 206,
+          "name": "舞蹈",
+          "actionUrl": "eyepetizer://tag/206/?title=%E8%88%9E%E8%B9%88",
+          "adTrack": null
+        },
+        {
+          "id": 350,
+          "name": "日本",
+          "actionUrl": "eyepetizer://tag/350/?title=%E6%97%A5%E6%9C%AC",
+          "adTrack": null
+        },
+        {
+          "id": 204,
+          "name": "精致",
+          "actionUrl": "eyepetizer://tag/204/?title=%E7%B2%BE%E8%87%B4",
+          "adTrack": null
+        }
+      ],
+      "type": "NORMAL",
+      "titlePgc": null,
+      "descriptionPgc": null,
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505610003000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "艺伎是日本传统文化的重要标志，流传至今也一直被要求接受各种传统表演项目的训练。不过钢管舞艺术家 Ayumi LaNoire 带来的会是东西方、古典与现代，神秘婉约与直观的美相结合的表演。From Ayumi LaNoire",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/4cc45dc19d61d1ac244dfa357c2049a5.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/4cc45dc19d61d1ac244dfa357c2049a5.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/ff5dce569b2edc8a3c5f63d9c92a6a17.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3ob1s0",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=49962"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 52586,
+      "title": "吉隆坡的大厦与天空",
+      "slogan": null,
+      "description": "吉隆坡2017年延时摄影。",
+      "provider": {
+        "name": "定制来源",
+        "alias": "CustomSrc",
+        "icon": ""
+      },
+      "category": "旅行",
+      "author": {
+        "id": 1313,
+        "icon": "http://img.kaiyanapp.com/385d659e77af15fa4be37fe638c75917.jpeg?imageMogr2/quality/60/format/jpg",
+        "name": "旅行视频精选",
+        "description": "在这个世界上的很多地方都有着美丽的景色，我们用相机用镜头记录下这一切。",
+        "link": "",
+        "latestReleaseTime": 1505988486000,
+        "videoNum": 85,
+        "adTrack": null,
+        "follow": {
+          "itemType": "author",
+          "itemId": 1313,
+          "followed": false
+        },
+        "shield": {
+          "itemType": "author",
+          "itemId": 1313,
+          "shielded": false
+        },
+        "approvedNotReadyVideoCount": 0,
+        "ifPgc": true
+      },
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 121,
+      "releaseTime": 1505988486000,
+      "library": "DEFAULT",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=normal&source=qcloud",
+              "size": 10184604
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=normal&source=ucloud",
+              "size": 10184604
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=high&source=qcloud",
+              "size": 14712554
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=high&source=ucloud",
+              "size": 14712554
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52586&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 0,
+        "shareCount": 0,
+        "replyCount": 0
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        
+      ],
+      "type": "NORMAL",
+      "titlePgc": "吉隆坡的大厦与天空",
+      "descriptionPgc": "吉隆坡2017年延时摄影。",
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505988486000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/76b5f2ddb4b822a2644b6b64ddca7759.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/76b5f2ddb4b822a2644b6b64ddca7759.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/17b153da0bb875b4b09229eaba982e08.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3ocr38",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=52586"
+    },
+    {
+      "dataType": "VideoBeanForClientV1",
+      "id": 52569,
+      "title": "漫游缅甸大金塔",
+      "slogan": null,
+      "description": "大金塔是最令人印象深刻的缅甸佛教圣地。据说这座塔有2600年历史，但历史学家和考古学家考证它建于第六至第十世纪。它曾多次遭到地震破坏，后来又重建并抬高，达到目前的高度99米/ 325英尺。视频记录了日出清晨和傍晚夕阳美景宝塔及周围寺庙、佛塔、神龛。",
+      "provider": {
+        "name": "定制来源",
+        "alias": "CustomSrc",
+        "icon": ""
+      },
+      "category": "旅行",
+      "author": {
+        "id": 605,
+        "icon": "http://img.kaiyanapp.com/32aeafbb240126d628e44db9e4830e58.jpeg?imageMogr2/quality/60/format/jpg",
+        "name": "Amazing Places on Our Planet",
+        "description": "一同去领略地球上最惊人、最奇丽的景色",
+        "link": "",
+        "latestReleaseTime": 1505988369000,
+        "videoNum": 76,
+        "adTrack": null,
+        "follow": {
+          "itemType": "author",
+          "itemId": 605,
+          "followed": false
+        },
+        "shield": {
+          "itemType": "author",
+          "itemId": 605,
+          "shielded": false
+        },
+        "approvedNotReadyVideoCount": 0,
+        "ifPgc": true
+      },
+      "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=default&source=qcloud",
+      "thumbPlayUrl": null,
+      "duration": 343,
+      "releaseTime": 1505988369000,
+      "library": "DEFAULT",
+      "playInfo": [
+        {
+          "height": 480,
+          "width": 854,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=normal&source=qcloud",
+              "size": 46576672
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=normal&source=ucloud",
+              "size": 46576672
+            }
+          ],
+          "name": "标清",
+          "type": "normal",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=normal&source=qcloud"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "urlList": [
+            {
+              "name": "qcloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=high&source=qcloud",
+              "size": 74069838
+            },
+            {
+              "name": "ucloud",
+              "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=high&source=ucloud",
+              "size": 74069838
+            }
+          ],
+          "name": "高清",
+          "type": "high",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=52569&editionType=high&source=qcloud"
+        }
+      ],
+      "consumption": {
+        "collectionCount": 0,
+        "shareCount": 0,
+        "replyCount": 0
+      },
+      "campaign": null,
+      "waterMarks": null,
+      "adTrack": null,
+      "tags": [
+        
+      ],
+      "type": "NORMAL",
+      "titlePgc": "漫游缅甸大金塔",
+      "descriptionPgc": "大金塔是最令人印象深刻的缅甸佛教圣地。据说这座塔有2600年历史，但历史学家和考古学家考证它建于第六至第十世纪。它曾多次遭到地震破坏，后来又重建并抬高，达到目前的高度99米/ 325英尺。视频记录了日出清晨和傍晚夕阳美景宝塔及周围寺庙、佛塔、神龛。",
+      "remark": null,
+      "idx": 0,
+      "shareAdTrack": null,
+      "favoriteAdTrack": null,
+      "webAdTrack": null,
+      "date": 1505988369000,
+      "promotion": null,
+      "label": null,
+      "labelList": [
+        
+      ],
+      "descriptionEditor": "",
+      "collected": false,
+      "played": false,
+      "subtitles": [
+        
+      ],
+      "lastViewTime": null,
+      "playlists": null,
+      "coverForFeed": "http://img.kaiyanapp.com/0db6de224b8e65a68cc50ff40d2df6ba.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForDetail": "http://img.kaiyanapp.com/0db6de224b8e65a68cc50ff40d2df6ba.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverBlurred": "http://img.kaiyanapp.com/7c099e34d3191250501c50e3ce7654ad.jpeg?imageMogr2/quality/60/format/jpg",
+      "coverForSharing": null,
+      "webUrlForWeibo": "http://wandou.im/3ocr2a",
+      "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=52569"
+    }
+  ],
+  "count": 10,
+  "total": 0,
+  "nextPageUrl": null
+}

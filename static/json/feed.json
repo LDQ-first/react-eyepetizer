@@ -1,0 +1,711 @@
+{
+  "dailyList": [
+    {
+      "date": 1505955600000,
+      "total": 5,
+      "videoList": [
+        {
+          "dataType": "VideoBeanForClientV1",
+          "id": 51644,
+          "title": "超高速摄像记录磁铁神奇瞬间",
+          "slogan": "高速摄影磁铁可以这样玩！",
+          "description": "磁铁互相吸引小学的时候就玩厌了，但在超高速摄像记录后再进行观察，就令人有了期待感，加上彩粉效果也是意外的惊艳！From Beyond Slow Motion BTS",
+          "provider": {
+            "name": "YouTube",
+            "alias": "youtube",
+            "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+          },
+          "category": "创意",
+          "author": null,
+          "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=default&source=qcloud",
+          "thumbPlayUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl/1505916167269_979e6ea1.mp4?vid=51644&source=qcloud",
+          "duration": 259,
+          "releaseTime": 1505955600000,
+          "library": "DAILY",
+          "playInfo": [
+            {
+              "height": 480,
+              "width": 854,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=normal&source=qcloud",
+                  "size": 23208896
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=normal&source=ucloud",
+                  "size": 23208896
+                }
+              ],
+              "name": "标清",
+              "type": "normal",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=normal&source=qcloud"
+            },
+            {
+              "height": 720,
+              "width": 1280,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=high&source=qcloud",
+                  "size": 40035420
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=high&source=ucloud",
+                  "size": 40035420
+                }
+              ],
+              "name": "高清",
+              "type": "high",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51644&editionType=high&source=qcloud"
+            }
+          ],
+          "consumption": {
+            "collectionCount": 579,
+            "shareCount": 324,
+            "replyCount": 9
+          },
+          "campaign": null,
+          "waterMarks": null,
+          "adTrack": null,
+          "tags": [
+            {
+              "id": 24,
+              "name": "记录",
+              "actionUrl": "eyepetizer://tag/24/?title=%E8%AE%B0%E5%BD%95",
+              "adTrack": null
+            },
+            {
+              "id": 654,
+              "name": "超高速摄像",
+              "actionUrl": "eyepetizer://tag/654/?title=%E8%B6%85%E9%AB%98%E9%80%9F%E6%91%84%E5%83%8F",
+              "adTrack": null
+            },
+            {
+              "id": 514,
+              "name": "城会玩",
+              "actionUrl": "eyepetizer://tag/514/?title=%E5%9F%8E%E4%BC%9A%E7%8E%A9",
+              "adTrack": null
+            },
+            {
+              "id": 486,
+              "name": "惊艳",
+              "actionUrl": "eyepetizer://tag/486/?title=%E6%83%8A%E8%89%B3",
+              "adTrack": null
+            }
+          ],
+          "type": "NORMAL",
+          "titlePgc": null,
+          "descriptionPgc": null,
+          "remark": "http://weibo.com/1747927334/F0lWTqwEB?type=co",
+          "idx": 0,
+          "shareAdTrack": null,
+          "favoriteAdTrack": null,
+          "webAdTrack": null,
+          "date": 1505955600000,
+          "promotion": null,
+          "label": null,
+          "labelList": [
+            
+          ],
+          "descriptionEditor": "磁铁互相吸引小学的时候就玩厌了，但在超高速摄像记录后再进行观察，就令人有了期待感，加上彩粉效果也是意外的惊艳！From Beyond Slow Motion BTS",
+          "collected": false,
+          "played": false,
+          "subtitles": [
+            
+          ],
+          "lastViewTime": null,
+          "playlists": null,
+          "coverForFeed": "http://img.kaiyanapp.com/ed5a034571f098d75bc685bf844d6437.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForDetail": "http://img.kaiyanapp.com/ed5a034571f098d75bc685bf844d6437.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverBlurred": "http://img.kaiyanapp.com/b9d24f89218336f5334d240448e331ed.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForSharing": null,
+          "webUrlForWeibo": "http://wandou.im/3ocbee",
+          "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=51644"
+        },
+        {
+          "dataType": "VideoBeanForClientV1",
+          "id": 51149,
+          "title": "温馨美好的友谊如果有了错愕结局",
+          "slogan": "猫对老鼠都能产生依赖，更何况他们？",
+          "description": "唯美画面的铺陈，让我们沉迷于这对跨越物种的友谊——超萌的喵星人和小黄鸡相伴相守，在外面玩耍到忘了时间，于是……From Dreamies Treats-UK",
+          "provider": {
+            "name": "YouTube",
+            "alias": "youtube",
+            "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+          },
+          "category": "萌宠",
+          "author": null,
+          "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=default&source=qcloud",
+          "thumbPlayUrl": null,
+          "duration": 60,
+          "releaseTime": 1505955601000,
+          "library": "DAILY",
+          "playInfo": [
+            {
+              "height": 480,
+              "width": 854,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=normal&source=qcloud",
+                  "size": 6094986
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=normal&source=ucloud",
+                  "size": 6094986
+                }
+              ],
+              "name": "标清",
+              "type": "normal",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=normal&source=qcloud"
+            },
+            {
+              "height": 720,
+              "width": 1280,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=high&source=qcloud",
+                  "size": 9516141
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=high&source=ucloud",
+                  "size": 9516141
+                }
+              ],
+              "name": "高清",
+              "type": "high",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51149&editionType=high&source=qcloud"
+            }
+          ],
+          "consumption": {
+            "collectionCount": 165,
+            "shareCount": 315,
+            "replyCount": 9
+          },
+          "campaign": null,
+          "waterMarks": null,
+          "adTrack": null,
+          "tags": [
+            {
+              "id": 32,
+              "name": "萌宠",
+              "actionUrl": "eyepetizer://tag/32/?title=%E8%90%8C%E5%AE%A0",
+              "adTrack": null
+            },
+            {
+              "id": 16,
+              "name": "广告",
+              "actionUrl": "eyepetizer://tag/16/?title=%E5%B9%BF%E5%91%8A",
+              "adTrack": null
+            },
+            {
+              "id": 538,
+              "name": "喵星人",
+              "actionUrl": "eyepetizer://tag/538/?title=%E5%96%B5%E6%98%9F%E4%BA%BA",
+              "adTrack": null
+            },
+            {
+              "id": 134,
+              "name": "反转",
+              "actionUrl": "eyepetizer://tag/134/?title=%E5%8F%8D%E8%BD%AC",
+              "adTrack": null
+            },
+            {
+              "id": 518,
+              "name": "诡异",
+              "actionUrl": "eyepetizer://tag/518/?title=%E8%AF%A1%E5%BC%82",
+              "adTrack": null
+            },
+            {
+              "id": 118,
+              "name": "虐心",
+              "actionUrl": "eyepetizer://tag/118/?title=%E8%99%90%E5%BF%83",
+              "adTrack": null
+            }
+          ],
+          "type": "NORMAL",
+          "titlePgc": null,
+          "descriptionPgc": null,
+          "remark": null,
+          "idx": 0,
+          "shareAdTrack": null,
+          "favoriteAdTrack": null,
+          "webAdTrack": null,
+          "date": 1505955600000,
+          "promotion": null,
+          "label": null,
+          "labelList": [
+            
+          ],
+          "descriptionEditor": "唯美画面的铺陈，让我们沉迷于这对跨越物种的友谊——超萌的喵星人和小黄鸡相伴相守，在外面玩耍到忘了时间，于是……From Dreamies Treats-UK",
+          "collected": false,
+          "played": false,
+          "subtitles": [
+            
+          ],
+          "lastViewTime": null,
+          "playlists": null,
+          "coverForFeed": "http://img.kaiyanapp.com/0239a2506370360a9d7b988982c63ef3.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForDetail": "http://img.kaiyanapp.com/0239a2506370360a9d7b988982c63ef3.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverBlurred": "http://img.kaiyanapp.com/e7a4c813037ff21b087dfa8e7b301cfe.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForSharing": null,
+          "webUrlForWeibo": "http://wandou.im/3obm32",
+          "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=51149"
+        },
+        {
+          "dataType": "VideoBeanForClientV1",
+          "id": 52217,
+          "title": "本篇内容已被 Jason Paul 封印",
+          "slogan": "跑酷忍者逃脱大战",
+          "description": "飞檐走壁的跑酷小子 Jason Paul 他将穿越回 1572 年的岛国，遭遇像漫画般的激烈追逐逃脱戏法，更是要在跳跃与飞檐走壁的同时躲避武士和忍者的追击。他是否可以成功逃脱呢？",
+          "provider": {
+            "name": "PGC",
+            "alias": "PGC",
+            "icon": ""
+          },
+          "category": "运动",
+          "author": {
+            "id": 136,
+            "icon": "http://img.kaiyanapp.com/2b030357609af2eb99b4618fcd5d1c71.jpeg",
+            "name": "奥地利红牛",
+            "description": "最专业的极限运动集合！",
+            "link": "",
+            "latestReleaseTime": 1505895091000,
+            "videoNum": 73,
+            "adTrack": null,
+            "follow": {
+              "itemType": "author",
+              "itemId": 136,
+              "followed": false
+            },
+            "shield": {
+              "itemType": "author",
+              "itemId": 136,
+              "shielded": false
+            },
+            "approvedNotReadyVideoCount": 0,
+            "ifPgc": true
+          },
+          "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=default&source=qcloud",
+          "thumbPlayUrl": null,
+          "duration": 315,
+          "releaseTime": 1505895091000,
+          "library": "DAILY",
+          "playInfo": [
+            {
+              "height": 480,
+              "width": 854,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=normal&source=qcloud",
+                  "size": 48062919
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=normal&source=ucloud",
+                  "size": 48062919
+                }
+              ],
+              "name": "标清",
+              "type": "normal",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=normal&source=qcloud"
+            },
+            {
+              "height": 720,
+              "width": 1280,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=high&source=qcloud",
+                  "size": 84673816
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=high&source=ucloud",
+                  "size": 84673816
+                }
+              ],
+              "name": "高清",
+              "type": "high",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52217&editionType=high&source=qcloud"
+            }
+          ],
+          "consumption": {
+            "collectionCount": 264,
+            "shareCount": 197,
+            "replyCount": 11
+          },
+          "campaign": null,
+          "waterMarks": null,
+          "adTrack": null,
+          "tags": [
+            {
+              "id": 4,
+              "name": "运动",
+              "actionUrl": "eyepetizer://tag/4/?title=%E8%BF%90%E5%8A%A8",
+              "adTrack": null
+            },
+            {
+              "id": 290,
+              "name": "跑酷",
+              "actionUrl": "eyepetizer://tag/290/?title=%E8%B7%91%E9%85%B7",
+              "adTrack": null
+            },
+            {
+              "id": 606,
+              "name": "cosplay",
+              "actionUrl": "eyepetizer://tag/606/?title=cosplay",
+              "adTrack": null
+            },
+            {
+              "id": 298,
+              "name": "攀爬",
+              "actionUrl": "eyepetizer://tag/298/?title=%E6%94%80%E7%88%AC",
+              "adTrack": null
+            }
+          ],
+          "type": "NORMAL",
+          "titlePgc": "本篇内容已被Jason Paul封印",
+          "descriptionPgc": "飞檐走壁的跑酷小子Jason Paul他将穿越回1572年的岛国，遭遇像漫画般的激烈追逐逃脱戏法，更是要在跳跃与飞檐走壁的同时躲避武士和忍者的追击。他是否可以成功逃脱呢？",
+          "remark": "",
+          "idx": 0,
+          "shareAdTrack": null,
+          "favoriteAdTrack": null,
+          "webAdTrack": null,
+          "date": 1505955600000,
+          "promotion": null,
+          "label": null,
+          "labelList": [
+            
+          ],
+          "descriptionEditor": "飞檐走壁的跑酷小子 Jason Paul 他将穿越回 1572 年的岛国，遭遇像漫画般的激烈追逐逃脱戏法，更是要在跳跃与飞檐走壁的同时躲避武士和忍者的追击。他是否可以成功逃脱呢？",
+          "collected": false,
+          "played": false,
+          "subtitles": [
+            
+          ],
+          "lastViewTime": null,
+          "playlists": null,
+          "coverForFeed": "http://img.kaiyanapp.com/1e6ef6a619458b0516c8f37b94229eed.png?imageMogr2/quality/60/format/jpg",
+          "coverForDetail": "http://img.kaiyanapp.com/1e6ef6a619458b0516c8f37b94229eed.png?imageMogr2/quality/60/format/jpg",
+          "coverBlurred": "http://img.kaiyanapp.com/ea21d57aacd5f2da52d3e5e1273e5bfe.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForSharing": null,
+          "webUrlForWeibo": "http://wandou.im/3oclvx",
+          "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=52217"
+        },
+        {
+          "dataType": "VideoBeanForClientV1",
+          "id": 51977,
+          "title": "「使命召唤：二战」故事预告",
+          "slogan": "回归二战，人潮人海正面交战！",
+          "description": "「Call of Duty®: WWII」最新资料片可以看出 COD 的回归意愿，虽只有欧洲战场，但还是以小见大，从四位英雄角色成员亮相，展示了这几位关键角色在诺曼底登陆前哨的状态，战争的残酷及战友间的同袍情谊。将于 11 月 3 日发售。",
+          "provider": {
+            "name": "YouTube",
+            "alias": "youtube",
+            "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+          },
+          "category": "游戏",
+          "author": {
+            "id": 330,
+            "icon": "http://img.kaiyanapp.com/a77788d2c4a7e823e87ffb3685697ba8.jpeg?imageMogr2/quality/60",
+            "name": "微软 XBOX",
+            "description": "微软 XBOX 最新游戏视频与资讯",
+            "link": "",
+            "latestReleaseTime": 1505964724000,
+            "videoNum": 192,
+            "adTrack": null,
+            "follow": {
+              "itemType": "author",
+              "itemId": 330,
+              "followed": false
+            },
+            "shield": {
+              "itemType": "author",
+              "itemId": 330,
+              "shielded": false
+            },
+            "approvedNotReadyVideoCount": 0,
+            "ifPgc": true
+          },
+          "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=default&source=qcloud",
+          "thumbPlayUrl": "",
+          "duration": 135,
+          "releaseTime": 1505955601000,
+          "library": "DAILY",
+          "playInfo": [
+            {
+              "height": 480,
+              "width": 854,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=normal&source=qcloud",
+                  "size": 13436792
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=normal&source=ucloud",
+                  "size": 13436792
+                }
+              ],
+              "name": "标清",
+              "type": "normal",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=normal&source=qcloud"
+            },
+            {
+              "height": 720,
+              "width": 1280,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=high&source=qcloud",
+                  "size": 24106798
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=high&source=ucloud",
+                  "size": 24106798
+                }
+              ],
+              "name": "高清",
+              "type": "high",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51977&editionType=high&source=qcloud"
+            }
+          ],
+          "consumption": {
+            "collectionCount": 87,
+            "shareCount": 149,
+            "replyCount": 8
+          },
+          "campaign": null,
+          "waterMarks": null,
+          "adTrack": null,
+          "tags": [
+            {
+              "id": 30,
+              "name": "游戏",
+              "actionUrl": "eyepetizer://tag/30/?title=%E6%B8%B8%E6%88%8F",
+              "adTrack": null
+            },
+            {
+              "id": 74,
+              "name": "CG",
+              "actionUrl": "eyepetizer://tag/74/?title=CG",
+              "adTrack": null
+            },
+            {
+              "id": 14,
+              "name": "动画",
+              "actionUrl": "eyepetizer://tag/14/?title=%E5%8A%A8%E7%94%BB",
+              "adTrack": null
+            },
+            {
+              "id": 526,
+              "name": "战争",
+              "actionUrl": "eyepetizer://tag/526/?title=%E6%88%98%E4%BA%89",
+              "adTrack": null
+            },
+            {
+              "id": 118,
+              "name": "虐心",
+              "actionUrl": "eyepetizer://tag/118/?title=%E8%99%90%E5%BF%83",
+              "adTrack": null
+            },
+            {
+              "id": 624,
+              "name": "主机",
+              "actionUrl": "eyepetizer://tag/624/?title=%E4%B8%BB%E6%9C%BA",
+              "adTrack": null
+            },
+            {
+              "id": 630,
+              "name": "FPS",
+              "actionUrl": "eyepetizer://tag/630/?title=FPS",
+              "adTrack": null
+            }
+          ],
+          "type": "NORMAL",
+          "titlePgc": "",
+          "descriptionPgc": "",
+          "remark": null,
+          "idx": 0,
+          "shareAdTrack": null,
+          "favoriteAdTrack": null,
+          "webAdTrack": null,
+          "date": 1505955600000,
+          "promotion": null,
+          "label": null,
+          "labelList": [
+            
+          ],
+          "descriptionEditor": "「Call of Duty®: WWII」最新资料片可以看出 COD 的回归意愿，虽只有欧洲战场，但还是以小见大，从四位英雄角色成员亮相，展示了这几位关键角色在诺曼底登陆前哨的状态，战争的残酷及战友间的同袍情谊。将于 11 月 3 日发售。",
+          "collected": false,
+          "played": false,
+          "subtitles": [
+            
+          ],
+          "lastViewTime": null,
+          "playlists": null,
+          "coverForFeed": "http://img.kaiyanapp.com/8b6a2e6ee389145803fee2c9bd0ca813.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForDetail": "http://img.kaiyanapp.com/8b6a2e6ee389145803fee2c9bd0ca813.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverBlurred": "http://img.kaiyanapp.com/624ca0515f48ba267d4aa902998a1811.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForSharing": null,
+          "webUrlForWeibo": "http://wandou.im/3och8m",
+          "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=51977"
+        },
+        {
+          "dataType": "VideoBeanForClientV1",
+          "id": 52065,
+          "title": "世界长胡子冠军：4 年不剃长 63 厘米",
+          "slogan": "这里有千奇百怪的胡子，他的是最长的",
+          "description": "罗莱是评委席上最引人注目的。一入眼帘的就是他那浓密的胡子，足足将他的上半身遮掩住。只见他自信地走到台前，向台下的观众积极地展示他那蓄了 4 年，63.72 厘米长的胡子。",
+          "provider": {
+            "name": "PGC",
+            "alias": "PGC",
+            "icon": ""
+          },
+          "category": "记录",
+          "author": {
+            "id": 1245,
+            "icon": "http://img.kaiyanapp.com/2514e8c25c340070069d587330d95d12.png?imageMogr2/quality/60/format/jpg",
+            "name": "OhMore北美",
+            "description": "扎根北美的原创短视频：人物记录，美食民宿，户外探险以及北美最in的生活方式，发掘不一样的北美之美。",
+            "link": "",
+            "latestReleaseTime": 1505911585000,
+            "videoNum": 49,
+            "adTrack": null,
+            "follow": {
+              "itemType": "author",
+              "itemId": 1245,
+              "followed": false
+            },
+            "shield": {
+              "itemType": "author",
+              "itemId": 1245,
+              "shielded": false
+            },
+            "approvedNotReadyVideoCount": 0,
+            "ifPgc": true
+          },
+          "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=default&source=qcloud",
+          "thumbPlayUrl": null,
+          "duration": 281,
+          "releaseTime": 1505817308000,
+          "library": "DAILY",
+          "playInfo": [
+            {
+              "height": 480,
+              "width": 854,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=normal&source=qcloud",
+                  "size": 28950108
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=normal&source=ucloud",
+                  "size": 28950108
+                }
+              ],
+              "name": "标清",
+              "type": "normal",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=normal&source=qcloud"
+            },
+            {
+              "height": 720,
+              "width": 1280,
+              "urlList": [
+                {
+                  "name": "qcloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=high&source=qcloud",
+                  "size": 50470138
+                },
+                {
+                  "name": "ucloud",
+                  "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=high&source=ucloud",
+                  "size": 50470138
+                }
+              ],
+              "name": "高清",
+              "type": "high",
+              "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=52065&editionType=high&source=qcloud"
+            }
+          ],
+          "consumption": {
+            "collectionCount": 36,
+            "shareCount": 40,
+            "replyCount": 7
+          },
+          "campaign": null,
+          "waterMarks": null,
+          "adTrack": null,
+          "tags": [
+            {
+              "id": 24,
+              "name": "记录",
+              "actionUrl": "eyepetizer://tag/24/?title=%E8%AE%B0%E5%BD%95",
+              "adTrack": null
+            },
+            {
+              "id": 666,
+              "name": "生活",
+              "actionUrl": "eyepetizer://tag/666/?title=%E7%94%9F%E6%B4%BB",
+              "adTrack": null
+            },
+            {
+              "id": 494,
+              "name": "奇葩",
+              "actionUrl": "eyepetizer://tag/494/?title=%E5%A5%87%E8%91%A9",
+              "adTrack": null
+            },
+            {
+              "id": 598,
+              "name": "访谈",
+              "actionUrl": "eyepetizer://tag/598/?title=%E8%AE%BF%E8%B0%88",
+              "adTrack": null
+            }
+          ],
+          "type": "NORMAL",
+          "titlePgc": "世界长胡子冠军：4年不剃长63厘米",
+          "descriptionPgc": "罗莱是评委席上最引人注目的。一入眼帘的就是他那浓密的胡子，足足将他的上半身遮掩住。只见他自信地走到台前，向台下的观众积极地展示他那蓄了4年，63.72厘米长的胡子。",
+          "remark": "",
+          "idx": 0,
+          "shareAdTrack": null,
+          "favoriteAdTrack": null,
+          "webAdTrack": null,
+          "date": 1505955600000,
+          "promotion": null,
+          "label": null,
+          "labelList": [
+            
+          ],
+          "descriptionEditor": "罗莱是评委席上最引人注目的。一入眼帘的就是他那浓密的胡子，足足将他的上半身遮掩住。只见他自信地走到台前，向台下的观众积极地展示他那蓄了 4 年，63.72 厘米长的胡子。",
+          "collected": false,
+          "played": false,
+          "subtitles": [
+            
+          ],
+          "lastViewTime": null,
+          "playlists": null,
+          "coverForFeed": "http://img.kaiyanapp.com/abe99616717338daaab907938d0196be.png?imageMogr2/quality/60/format/jpg",
+          "coverForDetail": "http://img.kaiyanapp.com/abe99616717338daaab907938d0196be.png?imageMogr2/quality/60/format/jpg",
+          "coverBlurred": "http://img.kaiyanapp.com/53632eb7f50ee0a264f69adf0befef70.jpeg?imageMogr2/quality/60/format/jpg",
+          "coverForSharing": null,
+          "webUrlForWeibo": "http://wandou.im/3ochzw",
+          "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=52065"
+        }
+      ]
+    }
+  ],
+  "nextPageUrl": "http://baobab.kaiyanapp.com/api/v1/feed?date=20170920&num=1",
+  "nextPublishTime": 1506009600000,
+  "newestIssueType": null
+}

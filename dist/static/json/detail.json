@@ -1,0 +1,139 @@
+{
+  "dataType": "VideoBeanForClientV1",
+  "id": 11613,
+  "title": "4K 下的纯净无暇：白云石山冬季",
+  "slogan": "处处都是风景，抬头便是晴天",
+  "description": "短片拍摄于意大利北部阿尔卑斯山区中的白云石山脉（Dolomites），经过常年风化，这里形成了各种突兀奇崛的造型，深受游客喜爱，还在 2009 年被联合国教科文组织列入了世界自然遗产名单。但对于拍摄者来说，高山与严寒也成为了团队与摄影器材的关键考验。From Martin Heck | Timestorm Films",
+  "provider": {
+    "name": "Vimeo",
+    "alias": "vimeo",
+    "icon": "http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"
+  },
+  "category": "旅行",
+  "author": null,
+  "playUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=default&source=qcloud",
+  "thumbPlayUrl": "https://baobab.kaiyanapp.com/api/v1/playUrl/1503652149442_b7c1fe27.mp4?vid=11613&source=qcloud",
+  "duration": 169,
+  "releaseTime": 1504400400000,
+  "library": "DAILY",
+  "playInfo": [
+    {
+      "height": 480,
+      "width": 854,
+      "urlList": [
+        {
+          "name": "qcloud",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=normal&source=qcloud",
+          "size": 12782477
+        },
+        {
+          "name": "ucloud",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=normal&source=ucloud",
+          "size": 12782477
+        }
+      ],
+      "name": "标清",
+      "type": "normal",
+      "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=normal&source=qcloud"
+    },
+    {
+      "height": 720,
+      "width": 1280,
+      "urlList": [
+        {
+          "name": "qcloud",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=high&source=qcloud",
+          "size": 23327043
+        },
+        {
+          "name": "ucloud",
+          "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=high&source=ucloud",
+          "size": 23327043
+        }
+      ],
+      "name": "高清",
+      "type": "high",
+      "url": "https://baobab.kaiyanapp.com/api/v1/playUrl?vid=11613&editionType=high&source=qcloud"
+    }
+  ],
+  "consumption": {
+    "collectionCount": 1513,
+    "shareCount": 993,
+    "replyCount": 23
+  },
+  "campaign": null,
+  "waterMarks": null,
+  "adTrack": null,
+  "tags": [
+    {
+      "id": 10,
+      "name": "旅行",
+      "actionUrl": "eyepetizer://tag/10/?title=%E6%97%85%E8%A1%8C",
+      "adTrack": null
+    },
+    {
+      "id": 78,
+      "name": "延时",
+      "actionUrl": "eyepetizer://tag/78/?title=%E5%BB%B6%E6%97%B6",
+      "adTrack": null
+    },
+    {
+      "id": 200,
+      "name": "酷炫",
+      "actionUrl": "eyepetizer://tag/200/?title=%E9%85%B7%E7%82%AB",
+      "adTrack": null
+    },
+    {
+      "id": 202,
+      "name": "唯美",
+      "actionUrl": "eyepetizer://tag/202/?title=%E5%94%AF%E7%BE%8E",
+      "adTrack": null
+    },
+    {
+      "id": 548,
+      "name": "星空",
+      "actionUrl": "eyepetizer://tag/548/?title=%E6%98%9F%E7%A9%BA",
+      "adTrack": null
+    },
+    {
+      "id": 340,
+      "name": "北欧",
+      "actionUrl": "eyepetizer://tag/340/?title=%E5%8C%97%E6%AC%A7",
+      "adTrack": null
+    },
+    {
+      "id": 370,
+      "name": "欧洲",
+      "actionUrl": "eyepetizer://tag/370/?title=%E6%AC%A7%E6%B4%B2",
+      "adTrack": null
+    }
+  ],
+  "type": "NORMAL",
+  "titlePgc": null,
+  "descriptionPgc": null,
+  "remark": "The first video of my Dolomites time-lapse​ series featuring the beautiful mountains of northern Italy changing over the seasons. Winter is a tough time for shooting in high alpine environments over longer periods. Both for equipment and people. Though it provides a wonderful quiet when all the people return to the valleys for the night and you are the only one left on the mountain.",
+  "idx": 0,
+  "shareAdTrack": null,
+  "favoriteAdTrack": null,
+  "webAdTrack": null,
+  "date": 1504400400000,
+  "promotion": null,
+  "label": null,
+  "labelList": [
+    
+  ],
+  "descriptionEditor": "短片拍摄于意大利北部阿尔卑斯山区中的白云石山脉（Dolomites），经过常年风化，这里形成了各种突兀奇崛的造型，深受游客喜爱，还在 2009 年被联合国教科文组织列入了世界自然遗产名单。但对于拍摄者来说，高山与严寒也成为了团队与摄影器材的关键考验。From Martin Heck | Timestorm Films",
+  "collected": false,
+  "played": false,
+  "subtitles": [
+    
+  ],
+  "lastViewTime": null,
+  "playlists": null,
+  "coverForFeed": "http://img.kaiyanapp.com/f8566d627e70e8e0f53db2386215edf4.jpeg?imageMogr2/quality/60/format/jpg",
+  "coverForDetail": "http://img.kaiyanapp.com/f8566d627e70e8e0f53db2386215edf4.jpeg?imageMogr2/quality/60/format/jpg",
+  "coverBlurred": "http://img.kaiyanapp.com/983f977e0c0a9969a76ab6b3773b5232.jpeg?imageMogr2/quality/60/format/jpg",
+  "coverForSharing": null,
+  "webUrlForWeibo": "http://wandou.im/3hkk4g",
+  "rawWebUrl": "http://www.eyepetizer.net/detail.html?vid=11613"
+}
