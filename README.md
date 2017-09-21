@@ -40,22 +40,22 @@
 
 ### index
 
-![index](https://ldq-first.github.io/react-eyepetizer/static/result/index.gif)  
+![index](https://github.com/LDQ-first/react-eyepetizer/tree/master/static/result/index.gif)  
 
 
 ### hot
 
-![hot](https://ldq-first.github.io/react-eyepetizer/static/result/hot.gif)  
+![hot](https://github.com/LDQ-first/react-eyepetizer/tree/master/static/result/hot.gif)  
 
 
 ### search
 
-![search](https://ldq-first.github.io/react-eyepetizer/static/result/search.gif)  
+![search](https://github.com/LDQ-first/react-eyepetizer/tree/master/static/result/search.gif)  
 
 
 ### detail
 
-![detail](https://ldq-first.github.io/react-eyepetizer/static/result/detail.gif)  
+![detail](https://github.com/LDQ-first/react-eyepetizer/tree/master/static/result/detail.gif)  
 
 
 
