@@ -84,25 +84,6 @@ const VideoAreaDiv = styled.div`
         }
         
      }
-     .end {
-        position: relative;
-        width: 100%;
-        height: 1.6em;
-        text-align: center;
-         &::before, &::after {
-            content: '';
-            border: 2px solid #FFF;
-            position: absolute;
-            top: 50%;
-            width: calc(50% - 70px);
-        }
-        &::before {
-            left: 0;
-        }
-        &::after {
-            right: 0;
-        }
-     }
 
 `
 

@@ -172,21 +172,22 @@ export default injectGlobal`
         position: relative;
         width: 100%;
         padding: 0 10px;
-        margin: 1em 0;
+        margin: 2em 0;
         height: 1.6em;
         text-align: center;
          &::before, &::after {
             content: '';
             border: 2px solid #FFF;
             position: absolute;
-            top: 50%;
+            top: 50%; 
+            border-radius: 1px;
             width: calc(40% - 70px);
         }
         &::before {
-            left: 0;
+            left: 10%;
         }
         &::after {
-            right: 0;
+            right: 10%;
         }
      }
      .textOverflow {
