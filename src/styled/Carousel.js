@@ -23,14 +23,17 @@ const CarouselDiv = styled.div`
        bottom: 55px;
        z-index: 100;
        min-width: 8px;
+       ${mediaQuery(768)} {
+          display: none;
+       }
        ${mediaQuery()} {
           height: 350px;
           bottom: 48px;
        }
-       ${mediaQuery(415)} {
+      /* ${mediaQuery(415)} {
           height: 200px;
           bottom: 43px;
-       }
+       }*/
        &.pre {
            left: 0;
        }
@@ -93,6 +96,10 @@ const CarouselDiv = styled.div`
        width: 75%;
        height: 450px;
        bottom: 30px;
+        ${mediaQuery(768)} {
+          left: 0;
+          width: 100%;
+       }
        ${mediaQuery()} {
           height: 386px;
        }
