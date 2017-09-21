@@ -33,7 +33,7 @@
 
 ## 手机可访问二维码
 
-![React版开眼](https://ldq-first.github.io/react-eyepetizer/static/img/QR/mobile.png)
+![React版开眼](https://ldq-first.github.io/react-eyepetizer/static/img/QR/mobile.jpg)
 
 
 
