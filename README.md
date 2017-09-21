@@ -21,12 +21,14 @@
 * **Reselect**: [ 使用缓存机制优化state ]
 * **Styled-components**: [ CSS in JS ]
 * **Redux-thunk&async/await**: [ redux中间件，处理异步事件 ]
+* **LoaclStorge**: [ 本地存储相关数据 ]
+
+
 
 
 ## 源码
-[GitHub](https://github.com/LDQ-first/react-eyepetizer)
 
-
+> [GitHub](https://github.com/LDQ-first/react-eyepetizer)
 
 
 
