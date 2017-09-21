@@ -20,7 +20,7 @@ const authorDetail = pgcId => `http://baobab.kaiyanapp.com/api/v3/pgc/videos?pgc
 
 
 
-const hot = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/hot?num=150`
+const hot = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/hot?num=120`
 
 const category = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/category?num=100`
 
@@ -38,8 +38,21 @@ const historical = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api
 
 
 
+//untapped api
+const specialTopics = `http://baobab.kaiyanapp.com/api/v3/specialTopics`
+
+const lightTopics = `http://baobab.kaiyanapp.com/api/v3/lightTopics/20`
+
+const categoryId = `http://baobab.kaiyanapp.com/api/v3/videos?categoryId=26`
 
 
+
+
+
+/*
+?udid=3aab4c0bab4d49f4ba4ebc3399f1a5493a38f77b&vc=144&deviceModel=Nexus%205
+
+*/
 
 
 
