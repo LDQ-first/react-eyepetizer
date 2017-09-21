@@ -72,7 +72,7 @@ class Author extends Component {
        
         return (
             <AuthorDiv >
-                <AuthorInfo authorInfo={authors.authorInfo}/>
+                <AuthorInfo authorInfo={authors.authorInfo} _this={this}/>
                 <VideoArea authorVideo={authors.authorVideo} _this={this}/>
                 <ReturnIndex/>
                 <GoToTop />

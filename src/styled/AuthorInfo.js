@@ -5,6 +5,7 @@ import {eyeApi} from '../api/api.js'
 const AuthorInfoDiv = styled.div`
      color: #FFF;
      padding: 1em;
+     cursor: pointer;
      ${mediaQuery(768)}  {
          padding: 0.5em;
      }

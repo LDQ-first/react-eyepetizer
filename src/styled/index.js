@@ -190,6 +190,7 @@ export default injectGlobal`
         }
      }
      .textOverflow {
+         text-align: left;
          overflow: hidden;
          white-space: nowrap;
          text-overflow: ellipsis;
