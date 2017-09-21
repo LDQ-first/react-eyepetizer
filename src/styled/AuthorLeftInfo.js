@@ -4,7 +4,7 @@ import {eyeApi} from '../api/api.js'
 
 const AuthorLeftInfoDiv = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 15px;
     margin: 1em 0;
@@ -23,16 +23,17 @@ const AuthorLeftInfoDiv = styled.div`
         }
     }
     .message {
-        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         width: calc(100% - 170px);
+        ${mediaQuery(768)} {
+           width: calc(100% - 70px);
+        }
         .name {
             font-size: 14px;
             width: 100%;
-           /* word-break: break-word;*/
         }
         .lastTime {
             font-size: 12px;
@@ -41,7 +42,6 @@ const AuthorLeftInfoDiv = styled.div`
             font-size: 14px;
             margin: 0;
             width: 100%;
-           /* word-break: break-word;*/
         }
     }
     .videoNum {

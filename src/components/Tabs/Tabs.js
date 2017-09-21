@@ -36,7 +36,7 @@ export default class Tabs extends Component {
         let type = ''
         switch(value) {
             case 0: 
-                type = 'hot'
+                type = 'hot'             
                 break
             case 1:
                 type = 'category'
@@ -45,6 +45,7 @@ export default class Tabs extends Component {
                 type = 'pgca'
                 break
         }
+         document.body.scrollTop = 0
         _this.switchRoute(`${find}/${type}`)
     }
 

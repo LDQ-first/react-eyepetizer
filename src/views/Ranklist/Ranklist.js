@@ -72,9 +72,10 @@ class Ranklist extends Component {
                 type = 'month'
                 break
             case 2:
-                type = 'all'
+                type = 'all'    
                 break
         }
+        document.body.scrollTop = 0
         this.switchRoute(`${ranklist}/${type}`)
      
     }
