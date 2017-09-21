@@ -42,26 +42,31 @@
 
 <a href="https://ldq-first.github.io/react-eyepetizer/static/result/index.gif">index</a>
 
-![index](https://ldq-first.github.io/react-eyepetizer/static/result/index.jpg)
+![index](https://ldq-first.github.io/react-eyepetizer/static/result/shortcut/index.jpg)
+
 
 
 <a href="https://ldq-first.github.io/react-eyepetizer/static/result/hot.gif">hot</a>
 
-![hot](https://ldq-first.github.io/react-eyepetizer/static/result/hot.jpg)
+![hot](https://ldq-first.github.io/react-eyepetizer/static/result/shortcut/hot.jpg)
 
 
 <a href="https://ldq-first.github.io/react-eyepetizer/static/result/search.gif">search</a>
 
-![search](https://ldq-first.github.io/react-eyepetizer/static/result/search.jpg)
+![search](https://ldq-first.github.io/react-eyepetizer/static/result/shortcut/search.jpg)
 
 
 
 <a href="https://ldq-first.github.io/react-eyepetizer/static/result/detail.gif">detail</a>
 
-![detail](https://ldq-first.github.io/react-eyepetizer/static/result/detail.jpg)
+![detail](https://ldq-first.github.io/react-eyepetizer/static/result/shortcut/detail.jpg)
 
 
 > [更多效果图](https://github.com/LDQ-first/react-eyepetizer/tree/master/static/result)
+
+
+
+![top](https://ldq-first.github.io/react-eyepetizer/static/result/top.gif)
 
 
 
