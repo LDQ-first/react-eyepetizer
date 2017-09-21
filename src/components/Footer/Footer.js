@@ -11,7 +11,7 @@ export default class Footer extends Component {
         super(props)
         this.state = {
             isShowQR: false,
-            date: new Date().getFullYear() === 2016 ? 2017 : `2017 ~ ${new Date().getFullYear()}`
+            date: new Date().getFullYear() === 2017 ? 2017 : `2017 ~ ${new Date().getFullYear()}`
         }
     }
 

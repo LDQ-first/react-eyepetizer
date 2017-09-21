@@ -25,6 +25,7 @@ const FooterDiv = styled.div`
         text-align: center;
         letter-spacing: 2px;
         .githubRepUrl {
+            color: #03a9f4;
             .icon {
                 width: 30px;
                 height: 30px;
