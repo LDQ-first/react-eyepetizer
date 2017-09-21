@@ -22,7 +22,6 @@ import {
 
 import axios from 'axios'
 import {eyeApi} from '../../api/api.js' 
-import fetchJsonp from 'fetch-jsonp'
 
 
 //index

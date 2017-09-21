@@ -1,7 +1,5 @@
 import { combineReducers } from 'redux-immutable'
 import eye from './reducer/eye.js'
-
-import test from './reducer/test'
 import { LOCATION_CHANGE } from 'react-router-redux'
 import { fromJS } from 'immutable'
 
@@ -26,7 +24,6 @@ const routeReducer = (state = routeInitialState, action) => {
 export default combineReducers({
     route: routeReducer,
     global: combineReducers({
-      test,
       eye
     })
 })
