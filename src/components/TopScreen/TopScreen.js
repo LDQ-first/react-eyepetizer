@@ -6,6 +6,8 @@ import {eyeApi} from '../../api/api.js'
 import classNames from 'classnames'
 import ActionSearch from 'material-ui/svg-icons/action/search'
 import {searchArea} from '../../router/link.js'
+import FontIcon from 'material-ui/FontIcon'
+import FlatButton from 'material-ui/FlatButton'
 
 
 export default class TopScreen extends Component {
@@ -89,7 +91,13 @@ export default class TopScreen extends Component {
 
         return (
             <TopScreenDiv>
-                
+                <a className="github"
+                  href="https://github.com/LDQ-first/react-eyepetizer"  target="_blank" 
+                  rel="noopener noreferrer">
+                    <svg className="icon" aria-hidden="true">
+                        <use xlinkHref="#icon-github"></use>
+                    </svg>
+                </a>
                 <div className="menu">
                     <IconButton className="wechat" touch={true}
                     style={{

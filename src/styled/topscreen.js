@@ -15,6 +15,21 @@ const TopScreenDiv = styled.div`
         background: rgba(0, 0, 0, 0.4);
         z-index: -10;
     }
+    .github {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 1;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-center: center;
+        .icon {
+            width: 30px;
+            height: 30px;
+        }
+    }
     .menu {
         position: absolute;
         right: 10px;
