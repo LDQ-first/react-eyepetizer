@@ -92,9 +92,9 @@ export default class Carousel extends Component {
     end(e) {
         e.stopPropagation()
         if(this.distance < -20) {
-             this._toggleContent('pre')
-         } if(this.distance > 20) {
              this._toggleContent('next')
+         } if(this.distance > 20) {
+             this._toggleContent('pre')
          }
     }
 
@@ -138,8 +138,8 @@ export default class Carousel extends Component {
                       
                       
                     >
-                        <h3 className="title">{list.title}</h3>
-                        <div className="meta"># {list.category} / {formatDuration(list.duration)}</div>
+                        <h3 className="title textOverflow">{list.title}</h3>
+                        <div className="meta textOverflow"># {list.category} / {formatDuration(list.duration)}</div>
                     </li>
                 )
             })

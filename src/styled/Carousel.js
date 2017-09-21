@@ -5,22 +5,22 @@ import {eyeApi} from '../api/api.js'
 const CarouselDiv = styled.div`
    position: relative;
    width: 100%;
-   height: 570px;
+   height: 520px;
    overflow: hidden;
    color: #FFF;
    background: #5EACEC;
    ${mediaQuery()} {
-      height: 506px;
+      height: 526px;
    }
    ${mediaQuery(415)} {
-       height: 346px;
+       height: 366px;
    }
    .controlBtn {
        width: 12.5%;
        height: 400px;
        background: rgba(0 ,0, 0, 0.2);
        position: absolute;
-       bottom: 125px;
+       bottom: 145px;
        z-index: 100;
        min-width: 8px;
        ${mediaQuery(768)} {
@@ -28,7 +28,7 @@ const CarouselDiv = styled.div`
        }
        ${mediaQuery()} {
           height: 350px;
-          bottom: 118px;
+          bottom: 138px;
        }
       /* ${mediaQuery(415)} {
           height: 200px;
@@ -49,14 +49,14 @@ const CarouselDiv = styled.div`
    .itemLists {
        position: absolute;
        height: 400px;
-       bottom: 125px;
+       bottom: 145px;
        ${mediaQuery()} {
           height: 350px;
-          bottom: 118px;
+          bottom: 138px;
        }
        ${mediaQuery(415)} {
           height: 200px;
-          bottom: 113px;
+          bottom: 133px;
        }
        .itemList {
            float: left;
@@ -95,7 +95,7 @@ const CarouselDiv = styled.div`
        left: 12.5%;
        width: 75%;
        height: 450px;
-       bottom: 100px;
+       bottom: 120px;
         ${mediaQuery(768)} {
           left: 0;
           width: 100%;
@@ -208,16 +208,22 @@ const CarouselDiv = styled.div`
            
            .title {
              position: absolute;
-             bottom: -40px;
+             bottom: -50px;
              z-index: 11;
              font-weight: bold;
              font-size: 16px;
+             padding: 0 10px;
+             width: 100%;
+             text-align: center;
            }
            .meta {
               position: absolute;
-              bottom: -60px;
+              bottom: -80px;
               z-index: 11;
               font-weight: bold;
+              padding: 0 10px;
+              width: 100%;
+              text-align: center;
            }
       }
    }

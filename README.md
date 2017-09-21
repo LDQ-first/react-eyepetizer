@@ -36,6 +36,17 @@
 ![React版开眼](https://ldq-first.github.io/react-eyepetizer/static/img/QR/mobile.png)
 
 
+## 效果图
+
+![index](https://github.com/LDQ-first/react-eyepetizer/static/result/index.gif)
+![hot](https://github.com/LDQ-first/react-eyepetizer/static/result/hot.gif)
+![search](https://github.com/LDQ-first/react-eyepetizer/static/result/search.gif)
+![detail](https://github.com/LDQ-first/react-eyepetizer/static/result/detail.gif)
+
+
+> [更多](https://github.com/LDQ-first/react-eyepetizer/static/result/)
+
+
 
 ## 项目结构
 
