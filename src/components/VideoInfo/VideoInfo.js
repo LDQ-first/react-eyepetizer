@@ -20,9 +20,27 @@ export default class VideoInfo extends Component {
         }
     }
 
+     constructor (props) {
+        super(props)
+        this.state = {
+           paddingTop: 0
+        }
+    }
+
+    
+    componentDidMount() {
+        const {paddingTop} = this.state
+
+        this.setState({
+            paddingTop: this._videoMeta.offsetHeight
+        })
+
+    }
+    
 
     render() {
        const {itemList, _this} = this.props
+       const {paddingTop} = this.state
 
 
        let consumption = null
@@ -35,12 +53,15 @@ export default class VideoInfo extends Component {
                shareCount: <SocialShare className="list-icon"/>
             }
             
+
            for(let key in itemList.consumption ) {
                newConsumption.push({
                    num: itemList.consumption[key],
                    icon: icons[key]
                })
            }
+
+           
 
            consumption = newConsumption.map((item, index) => {
                return (
@@ -63,8 +84,8 @@ export default class VideoInfo extends Component {
 
 
         return (
-            <VideoInfoDiv>
-               <div className="video-meta">
+            <VideoInfoDiv paddingTop={paddingTop}>
+               <div className="video-meta" ref={meta => this._videoMeta = meta}>
                    <h1 className="title">{itemList.title}</h1>
                    <h2 className="meta">{itemList.category} / {formatDuration(itemList.duration)}</h2>
                    <p className="description">{itemList.description}</p>

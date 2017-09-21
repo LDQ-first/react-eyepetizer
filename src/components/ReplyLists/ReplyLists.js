@@ -73,8 +73,8 @@ export default class ReplyLists extends Component {
 
 
         return (
-            <ReplyListsDiv>
-                <header className="header">
+            <ReplyListsDiv >
+                <header className="header" id="comment">
                     <h2 className="title">评论</h2>
                 </header>
                 { 

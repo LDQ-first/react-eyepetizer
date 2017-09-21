@@ -135,7 +135,7 @@ export default injectGlobal`
     }
     .detail {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: 600px;
         overflow: hidden;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }

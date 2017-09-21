@@ -37,7 +37,7 @@ class Detail extends Component {
      constructor (props) {
         super(props)
         this.state = {
-           
+           paddingTop: 0
         }
     }
     
@@ -114,20 +114,37 @@ class Detail extends Component {
         getDetailData(id)
     }
 
+    _setPaddingTop (h) {
+        const {paddingTop} = this.state
+
+        this.setState({
+            paddingTop: h
+        })
+    }
+
+
+    componentDidMount() {
+        
+    }
+    
+
     render() {
        
-        const {match, videoLists, replyLists, details} = this.props
+        const {match, location, videoLists, replyLists, details} = this.props
         const {itemList} = this.state
         const {videoList} = videoLists
         const {replyList} = replyLists
         const {detail} = details
-
+        const {paddingTop} = this.state
        
        
         return (
-            <div className="detail">
-                <Video itemList={itemList}/>
-                <VideoInfo itemList={itemList} _this={this}/>
+            <div className="detail" 
+                style={{
+                    paddingTop: `${paddingTop}`
+                }}>
+                <Video itemList={itemList} _this={this}/>
+                <VideoInfo itemList={itemList} _this={this} location={location} />
                 <RelatedVideo videoList={videoList} detail={detail} _this={this}/>
                 <ReplyLists replyList={replyList}/>
                 { itemList.tags.length ? <Tags tags={itemList.tags} /> : null}

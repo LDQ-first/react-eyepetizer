@@ -3,10 +3,15 @@ import {mediaQuery} from './index.js'
 import {eyeApi} from '../api/api.js' 
 
 const VideoDiv = styled.div`
+     position: fixed;
+     top: 0;
+     width: 100%;
+     max-width: 600px;
+     z-index: 1000;
      .video-wrap {
         overflow: hidden;
         position: relative;
-        width: 100%;
+        width: 100%; 
      }
      .video {
         position: absolute;

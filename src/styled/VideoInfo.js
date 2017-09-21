@@ -5,24 +5,46 @@ import {eyeApi} from '../api/api.js'
 const VideoInfoDiv = styled.div`
     color: #FFF;
     background: rgba(0,0,0,.2);
+    padding-top: ${props => props.paddingTop}px;
    .video-meta {
-       padding: 15px 15px 8px 15px;
+       padding: 8px 15px;
+       position: fixed;
+       margin-top: -${props => props.paddingTop}px;
+        width: 100%;
+        max-width: 600px;
+        z-index: 1000;
+        background: #5EACEC;
        .title {
-           font-size: 20px;
+           font-size: 18px;
            margin: 0;
-           margin-bottom: 7px;
+           margin-bottom: 4px;
+           ${mediaQuery()} {
+               font-size: 16px;
+           }
+           ${mediaQuery(768)} {
+               font-size: 14px;
+           }
        }
        .meta {
            font-size: 1em;
            display: inline-block;
-           padding-top: 8px;
+           padding-top: 4px;
            border-top: 1px solid #FFF;
            margin: 0;
-           margin-bottom: 12px;
+           margin-bottom: 6px;
+           ${mediaQuery()} {
+               font-size: 0.8em;
+           }
+           ${mediaQuery(768)} {
+               font-size: 0.6em;
+           }
        }
        .description {
-           margin-bottom: 11px;
+           margin: 4px 0;
            opacity: 0.85;
+            ${mediaQuery(768)} {
+               font-size: 12px;
+           }
        }
    }
    .consumptions {

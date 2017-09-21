@@ -27,6 +27,7 @@ export default class Video extends Component {
     }
 
     _setVideoWrap () {
+        const {_this} = this.props
         if(this.videoWrap) {
             const vww = this.videoWrap.offsetWidth
             const ww = window.innerWidth
@@ -34,6 +35,7 @@ export default class Video extends Component {
             this.setState({
                 vwh
             })
+            _this._setPaddingTop(vwh)
         }
     }
     
@@ -47,11 +49,11 @@ export default class Video extends Component {
     
 
     render() {
-       const {itemList} = this.props
+       const {itemList, _this} = this.props
        const {vwh, play} = this.state
 
         return (
-            <VideoDiv>
+            <VideoDiv >
                <div className="video-wrap"  style={{  height: `${vwh}` }}
                     ref={videoWrap => this.videoWrap = videoWrap}>
                    <video className="video" controls src={itemList.playUrl} 
@@ -67,6 +69,7 @@ export default class Video extends Component {
                     }} onClick={() => {this._playVideo()}}>
                     </button>
                </div>
+               
             </VideoDiv>
         )
     }
