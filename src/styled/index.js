@@ -165,7 +165,7 @@ export default injectGlobal`
     .follow {
         padding-top: 50px;
         padding-bottom: 70px;
-        
+        color: #FFF;
     }
     .end {
         color: #FFF;
