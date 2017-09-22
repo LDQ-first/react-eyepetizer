@@ -4,7 +4,7 @@ const index = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/t
 
 const related = id => `https://baobab.kaiyanapp.com/api/v1/video/related/${id}?num=10`
 
-const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id}&num=200`
+const replies = id => `https://baobab.kaiyanapp.com/api/v1/replies/video?id=${id}&num=300`
 
 const detail = id => `https://baobab.kaiyanapp.com/api/v1/video/${id}`
 
@@ -24,7 +24,7 @@ const hot = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/dis
 
 const category = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/discovery/category?num=100`
 
-const pgcs = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/pgcs/all?num=200`
+const pgcs = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/pgcs/all?num=300`
 
 const follow = `https://bird.ioliu.cn/v2?url=http://baobab.kaiyanapp.com/api/v4/tabs/follow`
 

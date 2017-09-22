@@ -7,13 +7,13 @@ const VideoInfoDiv = styled.div`
     background: rgba(0,0,0,.2);
    /* padding-top: ${props => props.paddingTop}px;*/
    .video-meta {
-       padding: 8px 15px;
+       padding: 15px;
       /* position: fixed;
        margin-top: -${props => props.paddingTop}px;*/
         /* z-index: 1000;*/
        /* background: #5EACEC;*/
         width: 100%;
-        max-width: 600px;
+        max-width: 700px;
        .title {
            font-size: 18px;
            margin: 0;
@@ -26,24 +26,18 @@ const VideoInfoDiv = styled.div`
            }
        }
        .meta {
-           font-size: 1em;
+           font-size: 0.8em;
            display: inline-block;
            padding-top: 4px;
            border-top: 1px solid #FFF;
            margin: 0;
            margin-bottom: 6px;
-           ${mediaQuery()} {
-               font-size: 0.8em;
-           }
-           ${mediaQuery(768)} {
-               font-size: 0.6em;
-           }
        }
        .description {
            margin: 4px 0;
            opacity: 0.85;
             ${mediaQuery(768)} {
-               font-size: 12px;
+               font-size: 14px;
            }
        }
    }

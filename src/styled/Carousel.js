@@ -5,10 +5,9 @@ import {eyeApi} from '../api/api.js'
 const CarouselDiv = styled.div`
    position: relative;
    width: 100%;
-   height: 520px;
+   height: 600px;
    overflow: hidden;
    color: #FFF;
-   background: #5EACEC;
    ${mediaQuery()} {
       height: 526px;
    }
@@ -108,7 +107,7 @@ const CarouselDiv = styled.div`
        }
        &:hover {
            &::before {
-            z-index: -1;
+            z-index: -10;
             background: transparent;
           }
        }
@@ -121,6 +120,10 @@ const CarouselDiv = styled.div`
             transition: background .6s;  
             z-index: 10; 
             background: rgba(0, 0, 0, 0.4);
+            ${mediaQuery(768)} {
+                z-index: -10;
+                background: transparent;
+            }
         }
        .activeItemList {
            position: relative;
@@ -169,7 +172,7 @@ const CarouselDiv = styled.div`
                 height: 50%;
                 border: none;
                 z-index: -10;
-                animation: showShadow 0.5s ease-in-out 1s forwards;
+                animation: showShadow 0.5s ease-in-out 0.6s forwards;
                 ${mediaQuery(1500)} {
                    bottom: 16px;
                 }

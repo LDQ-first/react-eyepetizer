@@ -30,6 +30,7 @@ export default injectGlobal`
                       "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", 
                       "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei",
                       SimSun, sans-serif !important;
+        letter-spacing: 1px;
     }
     ::-webkit-scrollbar {
         width: 0.25em;
@@ -131,7 +132,7 @@ export default injectGlobal`
     }
     .detail {
         margin: 0 auto;
-        max-width: 600px;
+        max-width: 700px;
         overflow: hidden;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }

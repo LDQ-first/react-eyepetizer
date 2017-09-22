@@ -22,12 +22,14 @@ const TopScreenDiv = styled.div`
         z-index: 1;
         width: 36px;
         height: 36px;
+        line-height: 36px;
         display: flex;
         justify-content: center;
-        align-center: center;
+        align-items: center;
         .icon {
             width: 30px;
             height: 30px;
+            opacity: 0.8;
         }
     }
     .menu {
@@ -35,11 +37,12 @@ const TopScreenDiv = styled.div`
         right: 10px;
         top: 10px;
         z-index: 1;
+        height: 36px;
         button {
             height: 36px;
             margin: 0 8px;
             transition: opacity .6s;
-            opacity: .7;
+            opacity: 0.8;
             padding: 0;
             width: 36px;
         }

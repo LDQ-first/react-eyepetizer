@@ -29,17 +29,23 @@ export default class Carousel extends Component {
         }
     }
 
+    
+    componentDidMount() {
+        
+        window.addEventListener('resize', () => {
+            const {activeIndex} = this.state
+            this._setContent(activeIndex)
+        })
+    }
+    
+
 
     _setContent(index) {
         const {itemList} = this.props
-        const {activeIndex, left} = this.state
-        const width = this.itemList.offsetWidth
+        const {activeIndex} = this.state
+        const width = this.itemList ? this.itemList.offsetWidth : 0
 
-
-
-        if(index === activeIndex) {
-            return
-        } else if(index === itemList.length - 1) {
+       if(index === itemList.length - 1) {
             this.setState({
                 activeIndex: index ,
                 left: - (itemList.length - 2) * width
@@ -157,11 +163,19 @@ export default class Carousel extends Component {
              <button href="javascript:;" className="controlBtn pre" onClick={() => {this._toggleContent('pre')}}>
                 <HardwareKeyboardArrowLeft className="controlBtn-icon"/>
              </button>
-            { itemList ? <ul className="itemLists" style={{left: `${left}`, width: `calc(50% * ${itemList.length + 2} )`}}>
-                {itemLists[itemLists.length - 1] }
-                {itemLists }
-                {itemLists[0] }
-             </ul> : null }
+            { 
+                itemList 
+                ? <ul className="itemLists" 
+                    style={{
+                        left: `${left}`, 
+                        width: `calc(50% * ${itemList.length + 2} )`
+                    }}>
+                    {itemLists[itemLists.length - 1] }
+                    {itemLists }
+                    {itemLists[0] }
+                  </ul> 
+                  : null 
+            }
              <ul className="activeItemLists" 
                  onTouchStart={(e) => {this.start(e)}}
                  onTouchMove={(e) => {this.move(e)}}

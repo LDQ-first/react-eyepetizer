@@ -6,7 +6,7 @@ const VideoDiv = styled.div`
      position: fixed;
      top: 0;
      width: 100%;
-     max-width: 600px;
+     max-width: 700px;
      z-index: 1000;
      background: #5EACEC;
      .video-wrap {

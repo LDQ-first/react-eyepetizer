@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import TopScreenDiv from '../../styled/topscreen.js'
+import TopScreenDiv from '../../styled/Topscreen.js'
 import IconButton from 'material-ui/IconButton'
 import ShowQRCode from '../showQRCode/showQRCode.js'
 import {eyeApi} from '../../api/api.js' 
