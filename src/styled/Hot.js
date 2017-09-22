@@ -16,6 +16,9 @@ const HotDiv = styled.div`
             display: flex;
             justify-content: center;
             padding: 10px 0;
+            ${mediaQuery(1200)} {
+               justify-content: flex-start;
+            }
             .img-wrap {
                 margin: 0 10px;
                 width: calc(50% - 50px);
