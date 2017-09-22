@@ -15,7 +15,7 @@ const ShowQRCodeDiv = styled.div`
         align-items: center;
     }
     .qr {
-        margin-bottom: 150px;
+        margin-bottom: 120px;
         padding-bottom: 20px;
         background: #fff;
         text-align: center;

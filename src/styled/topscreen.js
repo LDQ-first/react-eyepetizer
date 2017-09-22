@@ -27,8 +27,8 @@ const TopScreenDiv = styled.div`
         justify-content: center;
         align-items: center;
         .icon {
-            width: 30px;
-            height: 30px;
+            width: 24px;
+            height: 24px;
             opacity: 0.8;
         }
     }
@@ -44,8 +44,8 @@ const TopScreenDiv = styled.div`
         justify-content: center;
         align-items: center;
         .icon {
-            width: 30px;
-            height: 30px;
+            width: 24px;
+            height: 24px;
             opacity: 0.8;
         }
     }
