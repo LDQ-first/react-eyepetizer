@@ -4,7 +4,6 @@ import {eyeApi} from '../api/api.js'
 
 const VideoInfoDiv = styled.div`
     color: #FFF;
-    background: rgba(0,0,0,.2);
    /* padding-top: ${props => props.paddingTop}px;*/
    .video-meta {
        padding: 15px;

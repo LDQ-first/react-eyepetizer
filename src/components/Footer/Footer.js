@@ -54,7 +54,7 @@ export default class Footer extends Component {
                     <a className="githubRepUrl" href="https://github.com/LDQ-first/react-eyepetizer" target="_blank" 
                     rel="noopener noreferrer">
                         <svg className="icon" aria-hidden="true">
-                            <use xlinkHref="#icon-github1"></use>
+                            <use xlinkHref="#icon-github"></use>
                         </svg>
                     </a> 
                 </p>

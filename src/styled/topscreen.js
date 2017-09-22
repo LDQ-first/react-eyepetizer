@@ -32,6 +32,23 @@ const TopScreenDiv = styled.div`
             opacity: 0.8;
         }
     }
+     .qrBtn {
+        position: absolute;
+        left: 56px;
+        top: 10px;
+        z-index: 1;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon {
+            width: 30px;
+            height: 30px;
+            opacity: 0.8;
+        }
+    }
     .menu {
         position: absolute;
         right: 10px;

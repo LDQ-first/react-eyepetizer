@@ -8,6 +8,7 @@ import ActionSearch from 'material-ui/svg-icons/action/search'
 import {searchArea} from '../../router/link.js'
 import FontIcon from 'material-ui/FontIcon'
 import FlatButton from 'material-ui/FlatButton'
+import mobile from '../../../static/img/QR/mobile.png'
 
 
 export default class TopScreen extends Component {
@@ -22,7 +23,8 @@ export default class TopScreen extends Component {
         super(props)
         this.state = {
             isShowQR: false,
-            imgIndex: 0
+            imgIndex: 0,
+            msg: ''
         }
     }
 
@@ -34,10 +36,11 @@ export default class TopScreen extends Component {
     
 
 
-    _showQRCode(QRCodeUrl) {
+    _showQRCode(QRCodeUrl, msg) {
         this.setState({
             isShowQR: true,
-            QRCodeUrl
+            QRCodeUrl,
+            msg
         })
     }
 
@@ -77,7 +80,7 @@ export default class TopScreen extends Component {
 
 
     render() {
-        const {QRCodeUrl, isShowQR, imgIndex} = this.state
+        const {QRCodeUrl, isShowQR, imgIndex, msg} = this.state
         const {contact, home, imglists, author} = eyeApi
         const {_this } = this.props
 
@@ -95,9 +98,15 @@ export default class TopScreen extends Component {
                   href="https://github.com/LDQ-first/react-eyepetizer"  target="_blank" 
                   rel="noopener noreferrer">
                     <svg className="icon" aria-hidden="true">
-                        <use xlinkHref="#icon-github"></use>
+                        <use xlinkHref="#icon-icongithub"></use>
                     </svg>
                 </a>
+                <button className="qrBtn" 
+                    onClick={() => {this._showQRCode(mobile)}}>
+                    <svg className="icon" aria-hidden="true">
+                        <use xlinkHref="#icon-QRCode"></use>
+                    </svg>
+                </button>
                 <div className="menu">
                     <IconButton className="wechat" touch={true}
                     style={{
@@ -107,7 +116,7 @@ export default class TopScreen extends Component {
                         margin: '0 0.5rem',
                         background: `url(${eyeApi.spriteShare}) no-repeat 0 -26px/36px`
                     }}
-                    onClick={() => {this._showQRCode(contact.wechat)}}>
+                    onClick={() => {this._showQRCode(contact.wechat, '关注「开眼」微信公众号')}}>
                     </IconButton>
                     <a href={contact.weibo} target="_blank">
                         <IconButton 
@@ -172,7 +181,7 @@ export default class TopScreen extends Component {
                 </div>
                 {
                     isShowQR 
-                    ? <ShowQRCode  QRCodeUrl={QRCodeUrl || ''} _this={this}/> 
+                    ? <ShowQRCode  QRCodeUrl={QRCodeUrl || ''} _this={this} msg={msg}/> 
                     : null
                 }
             </TopScreenDiv>

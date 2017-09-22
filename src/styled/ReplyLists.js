@@ -5,7 +5,6 @@ import {eyeApi} from '../api/api.js'
 const ReplyListsDiv = styled.div`
      color: #FFF;
      padding-top: 2em;
-     background: rgba(0, 0, 0, 0.2);
      .header {    
          text-align: center;
          .title {

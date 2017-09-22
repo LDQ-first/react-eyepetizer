@@ -7,13 +7,14 @@ export default class showQRCode extends Component {
     static get propTypes() { 
         return { 
             QRCodeUrl: PropTypes.string.isRequired,
-            _this: PropTypes.object.isRequired
+            _this: PropTypes.object.isRequired,
+            msg: PropTypes.string,
         }
     }
 
 
     render() {
-        const {QRCodeUrl, _this} = this.props
+        const {QRCodeUrl, _this, msg} = this.props
 
         return (
             <ShowQRCodeDiv>
@@ -21,9 +22,9 @@ export default class showQRCode extends Component {
                     ref={shade => this.shade = shade}>
                     <div className="qr" >
                         <img className="qrImg" src={QRCodeUrl} />
-                        <div>
+                        <div className="qrMsg">
                             <p className="noMargin">扫描二维码</p>
-                            <p className="noMargin">关注「开眼」微信公众号</p>
+                            <p className="noMargin">{msg}</p>
                         </div>
                     </div>
                </div>

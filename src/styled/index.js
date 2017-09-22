@@ -135,6 +135,8 @@ export default injectGlobal`
         max-width: 700px;
         overflow: hidden;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+        background: rgba(0,0,0,.2);
+        padding-bottom: 50px;
     }
     .searchArea {
         

@@ -5,7 +5,6 @@ import {eyeApi} from '../api/api.js'
 const RelatedVideoDiv = styled.div`
      color: #FFF;
     .video-lists {
-        background: rgba(0, 0, 0, 0.2);
         padding: 15px 30px;
         .video-list {
             width: 100%;
