@@ -24,6 +24,9 @@ const VideoHorizontalDiv = styled.div`
                 cursor: pointer;
                 height: 150px;
                 margin-bottom: 10px;
+                ${mediaQuery()} {
+                    height: 120px;
+                }
             }
             .videoDes {
                 .name {
