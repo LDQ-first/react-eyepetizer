@@ -20,11 +20,15 @@ export default class VideoHorizontal extends Component {
         const videoLists = itemList.map((item, index) => {
             return (
                 <li key={index} className="video" >
-                    <img src={item.videoImg} className="videoImg" 
-                    onClick={() => {_this.switchRoute(`${detail}/${item.id}`, item)}}/>
+                    <div className="videoImg" 
+                    style = {{
+                        background: `url(${item.videoImg}) no-repeat center/cover`
+                    }}
+                    onClick={() => {_this.switchRoute(`${detail}/${item.id}`, item)}}>
+                    </div>
                     <div className="videoDes">
-                        <h3 className="name">{item.title}</h3>
-                        <div className="meta"># {item.category} / {formatDuration(item.duration)}</div>
+                        <h3 className="name textOverflow">{item.title}</h3>
+                        <div className="meta textOverflow"># {item.category} / {formatDuration(item.duration)}</div>
                     </div>
                 </li>
             )

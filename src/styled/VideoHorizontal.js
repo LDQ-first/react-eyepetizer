@@ -14,12 +14,16 @@ const VideoHorizontalDiv = styled.div`
             max-width: 400px;
             min-width: 200px;
             font-size: 14px;
+            display: flex;
+            flex-direction: column;
             + .video  {
                 margin-left: 10px;
             }
             .videoImg {
                 width: 100%;
                 cursor: pointer;
+                height: 150px;
+                margin-bottom: 10px;
             }
             .videoDes {
                 .name {

@@ -9,7 +9,8 @@ export default class GoToTop extends Component {
 
     _gotoTop () {
         const timer = setInterval(() => {
-            if(document.body.scrollTop === 0) {
+            if(document.body.scrollTop < 200) {
+                document.body.scrollTop = 0
                 clearInterval(timer)
             }
             else {

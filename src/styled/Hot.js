@@ -14,7 +14,7 @@ const HotDiv = styled.div`
         .imgs {
             overflow-x: auto;
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             padding: 10px 0;
             .img-wrap {
                 margin: 0 10px;
