@@ -67,7 +67,7 @@ const CarouselDiv = styled.div`
            justify-content: center;
            align-items: center;
            box-shadow: 0 0px 4px rgba(0, 0, 0, 0.8);
-           
+           transform: translateZ(0);
            ${mediaQuery()} {
                 height: 350px;
             }
