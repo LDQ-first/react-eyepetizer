@@ -75,7 +75,8 @@ const CarouselDiv = styled.div`
                height: 200px;
            }
            &.hide {
-               visibility: hidden;
+               /*visibility: hidden;*/
+               opacity: 0;
                height: 0;
            }
            
