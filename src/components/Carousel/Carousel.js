@@ -44,6 +44,16 @@ export default class Carousel extends Component {
         const {itemList} = this.props
         const {activeIndex} = this.state
         const width = this.itemList ? this.itemList.offsetWidth : 0
+        if(index > activeIndex ) {
+            this.setState({
+                dir: 'next'
+            })
+        } else  if(index < activeIndex ) {
+            this.setState({
+                dir: 'pre'
+            })
+        }
+
 
        if(index === itemList.length - 1) {
             this.setState({

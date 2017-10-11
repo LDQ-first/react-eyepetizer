@@ -37,7 +37,7 @@ class Home extends Component {
     componentWillMount() {
         const {getIndexData} = this.props
         getIndexData()
-        document.addEventListener('scroll', () => {
+        document.body.addEventListener('scroll', () => {
             this._isShowNav()
         })
     }

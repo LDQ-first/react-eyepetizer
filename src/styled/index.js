@@ -18,6 +18,7 @@ export default injectGlobal`
         height: 100%;
     }
     body {
+        overflow-y: auto;
         height: 100%;
         line-height: 1.6;
         min-width: 320px;
