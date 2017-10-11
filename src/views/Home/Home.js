@@ -37,9 +37,10 @@ class Home extends Component {
     componentWillMount() {
         const {getIndexData} = this.props
         getIndexData()
-        document.body.addEventListener('scroll', () => {
+        /*document.body.addEventListener('scroll', () => {
+            console.log('scroll')
             this._isShowNav()
-        })
+        })*/
     }
 
     
@@ -49,8 +50,8 @@ class Home extends Component {
         history.push(path)
     }
 
-    _isShowNav () {
-        
+    /*_isShowNav () {
+        console.log(document.body.scrollTop)
         if(document.body.scrollTop > window.innerHeight) {
             this.setState({
                 isShow: true
@@ -60,7 +61,7 @@ class Home extends Component {
                 isShow: false
             })
         }
-    }
+    }*/
 
 
     render() {
@@ -75,7 +76,7 @@ class Home extends Component {
                 <VideoLists date={date} itemList={itemList}/>
                 <GoToFeed _this={this}/>
                 <Download />
-                <Navigation history={history} isShow={isShow}/>
+                <Navigation history={history}/>
                 <Footer />
             </div>
         )

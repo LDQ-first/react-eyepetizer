@@ -4,6 +4,9 @@ import {eyeApi} from '../api/api.js'
 
 const VideoListsDiv = styled.div`
     text-align: center;
+    position: relative;
+    z-index: 500;
+    background: linear-gradient(80deg, #00aeff, #3369e7);
     .date {
         background: #FFF;
         font-family: Lobster,cursive;

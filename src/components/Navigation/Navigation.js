@@ -54,11 +54,7 @@ export default class Navigation extends Component {
 
 
         return (
-            <NavigationDiv 
-                style={{
-                        display: isShow ? `block` : `none`
-                    }}
-                >
+            <NavigationDiv >
                 <Paper zDepth={1} >
                     <BottomNavigation selectedIndex={selectedIndex}>
                         <BottomNavigationItem

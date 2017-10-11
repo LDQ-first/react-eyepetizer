@@ -7,6 +7,7 @@ const TopScreenDiv = styled.div`
     min-height: 100%;
     position: relative;
     overflow: hidden;
+    z-index: 500;
     ::before {
         content: '';
         position: absolute;
