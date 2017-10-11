@@ -3,7 +3,7 @@
 > React全家桶开发开源的开眼SPA    
 > 实现了首页，发现，关注，搜索，热门，分类，作者，排行榜，往期精选，播放视频详情，查看评论, 查看作者详情等功能
 
-> [预览地址](http://ldq-first.github.io/react-eyepetizer/dist/#/)
+> [预览地址](http://ldqblog.me/react-eyepetizer/dist/#/)
 
 
 ## 技术栈
