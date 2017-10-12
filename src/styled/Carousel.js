@@ -216,6 +216,8 @@ const CarouselDiv = styled.div`
            
            .title {
              position: absolute;
+             left: 50%;
+            transform: translateX(-50%);
              bottom: -50px;
              z-index: 11;
              font-weight: bold;
@@ -226,6 +228,8 @@ const CarouselDiv = styled.div`
            }
            .meta {
               position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
               bottom: -80px;
               z-index: 11;
               font-weight: bold;

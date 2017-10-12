@@ -123,10 +123,9 @@ const TopScreenDiv = styled.div`
         }
     }
     .content {
-        
-        /*display: flex;
+        display: flex;
         justify-content: center;
-        align-items: center;*/
+        align-items: center;
         .logo {
             background: url(${eyeApi.sprite}) no-repeat ;
             background-size: 642px;
