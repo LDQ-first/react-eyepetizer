@@ -123,9 +123,10 @@ const TopScreenDiv = styled.div`
         }
     }
     .content {
-        display: flex;
+        
+        /*display: flex;
         justify-content: center;
-        align-center: center;
+        align-items: center;*/
         .logo {
             background: url(${eyeApi.sprite}) no-repeat ;
             background-size: 642px;
@@ -134,6 +135,8 @@ const TopScreenDiv = styled.div`
             width: 180px;
             position: absolute;
             top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
             ${mediaQuery()} {
                 background-position: 0 81.02435%;
                 background-size: 342.4px;
@@ -149,6 +152,8 @@ const TopScreenDiv = styled.div`
             height: 54px;
             position: absolute;
             top: 48%;
+            left: 50%;
+            transform: translateX(-50%);
             width: 351px;
             ${mediaQuery()} {
                 background-position: 0 55.5773%;
@@ -162,6 +167,8 @@ const TopScreenDiv = styled.div`
             font-size: 0;
             height: 52px;
             top: 64%;
+            left: 50%;
+            transform: translateX(-50%);
             .btn {
                 height: 52px;
                 margin: 0 14px;
@@ -198,6 +205,8 @@ const TopScreenDiv = styled.div`
             height: 52px;
             margin-top: 120px;
             top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
             .audit {
                 height: 53px;
                 margin: 0 14px;

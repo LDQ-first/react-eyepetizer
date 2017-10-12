@@ -254,7 +254,7 @@ const CarouselDiv = styled.div`
           transition: all 0.5s ease-in-out;
           cursor: pointer;
           &.active {
-              background: #3399FF;
+              background: #FF734A;
               width: 30px;
           }
        }
