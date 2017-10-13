@@ -12,7 +12,7 @@
 * **React-router 4.2**: [ 配置路由，组件切换, 按需加载 ]
 * **ES6/7**: [ JS版本 ]
 * **Webpack**: [ 模块化处理，编译打包 ]
-* **material-ui**: [ UI框架 ]
+* **Material-UI**: [ UI框架 ]
 * **Axios**: [ 基于Promise处理HTTP请求 ]
 * **Classnames**: [ 处理类名 ]
 * **Moment**: [ 处理时间显示 ]
